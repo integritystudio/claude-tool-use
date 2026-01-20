@@ -1,6 +1,7 @@
 node_modules/
 test-results/
 playwright-report/
+logs/
 
 # Claude history data (generated/copied)
 -Users-*/
