@@ -1,7 +1,7 @@
 /**
  * Repository file structure data
  * Auto-generated from directory contents
- * Generated: 2026-01-20T21:40:06.579Z
+ * Generated: 2026-01-20T23:20:50.585Z
  */
 const fileStructure = {
   "name": "claude-tool-use",
@@ -301,7 +301,7 @@ const fileStructure = {
           "ext": "txt"
         }
       ],
-      "truncated": 825
+      "truncated": 826
     },
     {
       "name": "file-history",
@@ -30458,6 +30458,19783 @@ const fileStructure = {
             }
           ],
           "truncated": 2
+        }
+      ]
+    },
+    {
+      "name": "logs",
+      "type": "folder",
+      "children": [
+        {
+          "name": "mcp",
+          "type": "folder",
+          "children": [
+            {
+              "name": "log_analyzer_mcp_server.log",
+              "type": "file",
+              "size": 931,
+              "ext": "log",
+              "preview": "LogAnalyzerMCP | 2026-01-20 16:52:13,229 | File logging configured for: /Users/alyshialedlie/claude-..."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "mcp-packages",
+      "type": "folder",
+      "children": [
+        {
+          "name": "__pycache__",
+          "type": "folder",
+          "children": [
+            {
+              "name": "typing_extensions.cpython-313.pyc",
+              "type": "file",
+              "size": 162889,
+              "ext": "pyc"
+            }
+          ]
+        },
+        {
+          "name": "_yaml",
+          "type": "folder",
+          "children": [
+            {
+              "name": "__pycache__",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "__init__.cpython-313.pyc",
+                  "type": "file",
+                  "size": 897,
+                  "ext": "pyc"
+                }
+              ]
+            },
+            {
+              "name": "__init__.py",
+              "type": "file",
+              "size": 1402,
+              "ext": "py",
+              "preview": "# This is a stub package designed to roughly emulate the _yaml\n# extension module, which previously ..."
+            }
+          ]
+        },
+        {
+          "name": "annotated_types",
+          "type": "folder",
+          "children": [
+            {
+              "name": "__pycache__",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "__init__.cpython-313.pyc",
+                  "type": "file",
+                  "size": 18938,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "test_cases.cpython-313.pyc",
+                  "type": "file",
+                  "size": 13306,
+                  "ext": "pyc"
+                }
+              ]
+            },
+            {
+              "name": "__init__.py",
+              "type": "file",
+              "size": 13819,
+              "ext": "py"
+            },
+            {
+              "name": "py.typed",
+              "type": "file",
+              "size": 0,
+              "ext": "typed"
+            },
+            {
+              "name": "test_cases.py",
+              "type": "file",
+              "size": 6421,
+              "ext": "py"
+            }
+          ]
+        },
+        {
+          "name": "annotated_types-0.7.0.dist-info",
+          "type": "folder",
+          "children": [
+            {
+              "name": "licenses",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "LICENSE",
+                  "type": "file",
+                  "size": 1083,
+                  "ext": "file",
+                  "preview": "The MIT License (MIT)\n\nCopyright (c) 2022 the contributors\n\nPermission is hereby granted, free of ch..."
+                }
+              ]
+            },
+            {
+              "name": "INSTALLER",
+              "type": "file",
+              "size": 4,
+              "ext": "file"
+            },
+            {
+              "name": "METADATA",
+              "type": "file",
+              "size": 15046,
+              "ext": "file"
+            },
+            {
+              "name": "RECORD",
+              "type": "file",
+              "size": 802,
+              "ext": "file",
+              "preview": "annotated_types-0.7.0.dist-info/INSTALLER,sha256=zuuue4knoyJ-UwPPXg8fezS7VCrXJQrAP7zeNuwvFQg,4\r\nanno..."
+            },
+            {
+              "name": "WHEEL",
+              "type": "file",
+              "size": 87,
+              "ext": "file",
+              "preview": "Wheel-Version: 1.0\nGenerator: hatchling 1.24.2\nRoot-Is-Purelib: true\nTag: py3-none-any\n"
+            }
+          ]
+        },
+        {
+          "name": "anyio",
+          "type": "folder",
+          "children": [
+            {
+              "name": "__pycache__",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "__init__.cpython-313.pyc",
+                  "type": "file",
+                  "size": 4667,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "from_thread.cpython-313.pyc",
+                  "type": "file",
+                  "size": 25487,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "functools.cpython-313.pyc",
+                  "type": "file",
+                  "size": 15862,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "lowlevel.cpython-313.pyc",
+                  "type": "file",
+                  "size": 8020,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "pytest_plugin.cpython-313.pyc",
+                  "type": "file",
+                  "size": 14702,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "to_interpreter.cpython-313.pyc",
+                  "type": "file",
+                  "size": 10457,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "to_process.cpython-313.pyc",
+                  "type": "file",
+                  "size": 12136,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "to_thread.cpython-313.pyc",
+                  "type": "file",
+                  "size": 3108,
+                  "ext": "pyc"
+                }
+              ]
+            },
+            {
+              "name": "_backends",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "__pycache__",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "__init__.cpython-313.pyc",
+                      "type": "file",
+                      "size": 212,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "_asyncio.cpython-313.pyc",
+                      "type": "file",
+                      "size": 142601,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "_trio.cpython-313.pyc",
+                      "type": "file",
+                      "size": 73166,
+                      "ext": "pyc"
+                    }
+                  ]
+                },
+                {
+                  "name": "__init__.py",
+                  "type": "file",
+                  "size": 0,
+                  "ext": "py"
+                },
+                {
+                  "name": "_asyncio.py",
+                  "type": "file",
+                  "size": 98863,
+                  "ext": "py"
+                },
+                {
+                  "name": "_trio.py",
+                  "type": "file",
+                  "size": 41456,
+                  "ext": "py"
+                }
+              ]
+            },
+            {
+              "name": "_core",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "__pycache__",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "__init__.cpython-313.pyc",
+                      "type": "file",
+                      "size": 208,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "_asyncio_selector_thread.cpython-313.pyc",
+                      "type": "file",
+                      "size": 8656,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "_contextmanagers.cpython-313.pyc",
+                      "type": "file",
+                      "size": 9087,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "_eventloop.cpython-313.pyc",
+                      "type": "file",
+                      "size": 8139,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "_exceptions.cpython-313.pyc",
+                      "type": "file",
+                      "size": 7675,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "_fileio.cpython-313.pyc",
+                      "type": "file",
+                      "size": 43289,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "_resources.cpython-313.pyc",
+                      "type": "file",
+                      "size": 944,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "_signals.cpython-313.pyc",
+                      "type": "file",
+                      "size": 1359,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "_sockets.cpython-313.pyc",
+                      "type": "file",
+                      "size": 40128,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "_streams.cpython-313.pyc",
+                      "type": "file",
+                      "size": 2396,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "_subprocesses.cpython-313.pyc",
+                      "type": "file",
+                      "size": 9467,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "_synchronization.cpython-313.pyc",
+                      "type": "file",
+                      "size": 32975,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "_tasks.cpython-313.pyc",
+                      "type": "file",
+                      "size": 7529,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "_tempfile.cpython-313.pyc",
+                      "type": "file",
+                      "size": 27924,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "_testing.cpython-313.pyc",
+                      "type": "file",
+                      "size": 3822,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "_typedattr.cpython-313.pyc",
+                      "type": "file",
+                      "size": 3798,
+                      "ext": "pyc"
+                    }
+                  ]
+                },
+                {
+                  "name": "__init__.py",
+                  "type": "file",
+                  "size": 0,
+                  "ext": "py"
+                },
+                {
+                  "name": "_asyncio_selector_thread.py",
+                  "type": "file",
+                  "size": 5626,
+                  "ext": "py"
+                },
+                {
+                  "name": "_contextmanagers.py",
+                  "type": "file",
+                  "size": 7215,
+                  "ext": "py"
+                },
+                {
+                  "name": "_eventloop.py",
+                  "type": "file",
+                  "size": 6448,
+                  "ext": "py"
+                },
+                {
+                  "name": "_exceptions.py",
+                  "type": "file",
+                  "size": 4407,
+                  "ext": "py"
+                },
+                {
+                  "name": "_fileio.py",
+                  "type": "file",
+                  "size": 25731,
+                  "ext": "py"
+                },
+                {
+                  "name": "_resources.py",
+                  "type": "file",
+                  "size": 435,
+                  "ext": "py",
+                  "preview": "from __future__ import annotations\n\nfrom ..abc import AsyncResource\nfrom ._tasks import CancelScope\n..."
+                },
+                {
+                  "name": "_signals.py",
+                  "type": "file",
+                  "size": 1016,
+                  "ext": "py",
+                  "preview": "from __future__ import annotations\n\nfrom collections.abc import AsyncIterator\nfrom contextlib import..."
+                },
+                {
+                  "name": "_sockets.py",
+                  "type": "file",
+                  "size": 34977,
+                  "ext": "py"
+                },
+                {
+                  "name": "_streams.py",
+                  "type": "file",
+                  "size": 1806,
+                  "ext": "py",
+                  "preview": "from __future__ import annotations\n\nimport math\nfrom typing import TypeVar\nfrom warnings import warn..."
+                },
+                {
+                  "name": "_subprocesses.py",
+                  "type": "file",
+                  "size": 8047,
+                  "ext": "py"
+                },
+                {
+                  "name": "_synchronization.py",
+                  "type": "file",
+                  "size": 20869,
+                  "ext": "py"
+                },
+                {
+                  "name": "_tasks.py",
+                  "type": "file",
+                  "size": 5435,
+                  "ext": "py"
+                },
+                {
+                  "name": "_tempfile.py",
+                  "type": "file",
+                  "size": 19697,
+                  "ext": "py"
+                },
+                {
+                  "name": "_testing.py",
+                  "type": "file",
+                  "size": 2340,
+                  "ext": "py"
+                },
+                {
+                  "name": "_typedattr.py",
+                  "type": "file",
+                  "size": 2508,
+                  "ext": "py"
+                }
+              ]
+            },
+            {
+              "name": "abc",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "__pycache__",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "__init__.cpython-313.pyc",
+                      "type": "file",
+                      "size": 2402,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "_eventloop.cpython-313.pyc",
+                      "type": "file",
+                      "size": 16438,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "_resources.cpython-313.pyc",
+                      "type": "file",
+                      "size": 1689,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "_sockets.cpython-313.pyc",
+                      "type": "file",
+                      "size": 18011,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "_streams.cpython-313.pyc",
+                      "type": "file",
+                      "size": 9790,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "_subprocesses.cpython-313.pyc",
+                      "type": "file",
+                      "size": 3178,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "_tasks.cpython-313.pyc",
+                      "type": "file",
+                      "size": 4997,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "_testing.cpython-313.pyc",
+                      "type": "file",
+                      "size": 2793,
+                      "ext": "pyc"
+                    }
+                  ]
+                },
+                {
+                  "name": "__init__.py",
+                  "type": "file",
+                  "size": 2869,
+                  "ext": "py"
+                },
+                {
+                  "name": "_eventloop.py",
+                  "type": "file",
+                  "size": 10749,
+                  "ext": "py"
+                },
+                {
+                  "name": "_resources.py",
+                  "type": "file",
+                  "size": 783,
+                  "ext": "py",
+                  "preview": "from __future__ import annotations\n\nfrom abc import ABCMeta, abstractmethod\nfrom types import Traceb..."
+                },
+                {
+                  "name": "_sockets.py",
+                  "type": "file",
+                  "size": 13258,
+                  "ext": "py"
+                },
+                {
+                  "name": "_streams.py",
+                  "type": "file",
+                  "size": 7640,
+                  "ext": "py"
+                },
+                {
+                  "name": "_subprocesses.py",
+                  "type": "file",
+                  "size": 2067,
+                  "ext": "py"
+                },
+                {
+                  "name": "_tasks.py",
+                  "type": "file",
+                  "size": 3721,
+                  "ext": "py"
+                },
+                {
+                  "name": "_testing.py",
+                  "type": "file",
+                  "size": 1821,
+                  "ext": "py",
+                  "preview": "from __future__ import annotations\n\nimport types\nfrom abc import ABCMeta, abstractmethod\nfrom collec..."
+                }
+              ]
+            },
+            {
+              "name": "streams",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "__pycache__",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "__init__.cpython-313.pyc",
+                      "type": "file",
+                      "size": 210,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "buffered.cpython-313.pyc",
+                      "type": "file",
+                      "size": 9035,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "file.cpython-313.pyc",
+                      "type": "file",
+                      "size": 7501,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "memory.cpython-313.pyc",
+                      "type": "file",
+                      "size": 14952,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "stapled.cpython-313.pyc",
+                      "type": "file",
+                      "size": 7620,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "text.cpython-313.pyc",
+                      "type": "file",
+                      "size": 9328,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "tls.cpython-313.pyc",
+                      "type": "file",
+                      "size": 20117,
+                      "ext": "pyc"
+                    }
+                  ]
+                },
+                {
+                  "name": "__init__.py",
+                  "type": "file",
+                  "size": 0,
+                  "ext": "py"
+                },
+                {
+                  "name": "buffered.py",
+                  "type": "file",
+                  "size": 6263,
+                  "ext": "py"
+                },
+                {
+                  "name": "file.py",
+                  "type": "file",
+                  "size": 4470,
+                  "ext": "py"
+                },
+                {
+                  "name": "memory.py",
+                  "type": "file",
+                  "size": 10740,
+                  "ext": "py"
+                },
+                {
+                  "name": "stapled.py",
+                  "type": "file",
+                  "size": 4390,
+                  "ext": "py"
+                },
+                {
+                  "name": "text.py",
+                  "type": "file",
+                  "size": 5765,
+                  "ext": "py"
+                },
+                {
+                  "name": "tls.py",
+                  "type": "file",
+                  "size": 15368,
+                  "ext": "py"
+                }
+              ]
+            },
+            {
+              "name": "__init__.py",
+              "type": "file",
+              "size": 6170,
+              "ext": "py"
+            },
+            {
+              "name": "from_thread.py",
+              "type": "file",
+              "size": 19141,
+              "ext": "py"
+            },
+            {
+              "name": "functools.py",
+              "type": "file",
+              "size": 10973,
+              "ext": "py"
+            },
+            {
+              "name": "lowlevel.py",
+              "type": "file",
+              "size": 5158,
+              "ext": "py"
+            },
+            {
+              "name": "py.typed",
+              "type": "file",
+              "size": 0,
+              "ext": "typed"
+            },
+            {
+              "name": "pytest_plugin.py",
+              "type": "file",
+              "size": 10244,
+              "ext": "py"
+            },
+            {
+              "name": "to_interpreter.py",
+              "type": "file",
+              "size": 7100,
+              "ext": "py"
+            },
+            {
+              "name": "to_process.py",
+              "type": "file",
+              "size": 9798,
+              "ext": "py"
+            },
+            {
+              "name": "to_thread.py",
+              "type": "file",
+              "size": 2687,
+              "ext": "py"
+            }
+          ]
+        },
+        {
+          "name": "anyio-4.12.1.dist-info",
+          "type": "folder",
+          "children": [
+            {
+              "name": "licenses",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "LICENSE",
+                  "type": "file",
+                  "size": 1081,
+                  "ext": "file",
+                  "preview": "The MIT License (MIT)\n\nCopyright (c) 2018 Alex Grönholm\n\nPermission is hereby granted, free of charg..."
+                }
+              ]
+            },
+            {
+              "name": "entry_points.txt",
+              "type": "file",
+              "size": 39,
+              "ext": "txt",
+              "preview": "[pytest11]\nanyio = anyio.pytest_plugin\n"
+            },
+            {
+              "name": "INSTALLER",
+              "type": "file",
+              "size": 4,
+              "ext": "file"
+            },
+            {
+              "name": "METADATA",
+              "type": "file",
+              "size": 4277,
+              "ext": "file"
+            },
+            {
+              "name": "RECORD",
+              "type": "file",
+              "size": 6257,
+              "ext": "file"
+            },
+            {
+              "name": "top_level.txt",
+              "type": "file",
+              "size": 6,
+              "ext": "txt"
+            },
+            {
+              "name": "WHEEL",
+              "type": "file",
+              "size": 91,
+              "ext": "file",
+              "preview": "Wheel-Version: 1.0\nGenerator: setuptools (80.9.0)\nRoot-Is-Purelib: true\nTag: py3-none-any\n\n"
+            }
+          ]
+        },
+        {
+          "name": "attr",
+          "type": "folder",
+          "children": [
+            {
+              "name": "__pycache__",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "__init__.cpython-313.pyc",
+                  "type": "file",
+                  "size": 2692,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_cmp.cpython-313.pyc",
+                  "type": "file",
+                  "size": 5014,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_compat.cpython-313.pyc",
+                  "type": "file",
+                  "size": 3701,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_config.cpython-313.pyc",
+                  "type": "file",
+                  "size": 1107,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_funcs.cpython-313.pyc",
+                  "type": "file",
+                  "size": 13762,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_make.cpython-313.pyc",
+                  "type": "file",
+                  "size": 107105,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_next_gen.cpython-313.pyc",
+                  "type": "file",
+                  "size": 24871,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_version_info.cpython-313.pyc",
+                  "type": "file",
+                  "size": 3364,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "converters.cpython-313.pyc",
+                  "type": "file",
+                  "size": 4494,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "exceptions.cpython-313.pyc",
+                  "type": "file",
+                  "size": 3697,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "filters.cpython-313.pyc",
+                  "type": "file",
+                  "size": 3001,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "setters.cpython-313.pyc",
+                  "type": "file",
+                  "size": 1907,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "validators.cpython-313.pyc",
+                  "type": "file",
+                  "size": 27194,
+                  "ext": "pyc"
+                }
+              ]
+            },
+            {
+              "name": "__init__.py",
+              "type": "file",
+              "size": 2057,
+              "ext": "py"
+            },
+            {
+              "name": "__init__.pyi",
+              "type": "file",
+              "size": 11309,
+              "ext": "pyi"
+            },
+            {
+              "name": "_cmp.py",
+              "type": "file",
+              "size": 4117,
+              "ext": "py"
+            },
+            {
+              "name": "_cmp.pyi",
+              "type": "file",
+              "size": 368,
+              "ext": "pyi"
+            },
+            {
+              "name": "_compat.py",
+              "type": "file",
+              "size": 2829,
+              "ext": "py"
+            },
+            {
+              "name": "_config.py",
+              "type": "file",
+              "size": 843,
+              "ext": "py",
+              "preview": "# SPDX-License-Identifier: MIT\n\n__all__ = [\"get_run_validators\", \"set_run_validators\"]\n\n_run_validat..."
+            },
+            {
+              "name": "_funcs.py",
+              "type": "file",
+              "size": 16479,
+              "ext": "py"
+            },
+            {
+              "name": "_make.py",
+              "type": "file",
+              "size": 104141,
+              "ext": "py"
+            },
+            {
+              "name": "_next_gen.py",
+              "type": "file",
+              "size": 26274,
+              "ext": "py"
+            },
+            {
+              "name": "_typing_compat.pyi",
+              "type": "file",
+              "size": 469,
+              "ext": "pyi"
+            },
+            {
+              "name": "_version_info.py",
+              "type": "file",
+              "size": 2222,
+              "ext": "py"
+            },
+            {
+              "name": "_version_info.pyi",
+              "type": "file",
+              "size": 209,
+              "ext": "pyi"
+            },
+            {
+              "name": "converters.py",
+              "type": "file",
+              "size": 3861,
+              "ext": "py"
+            },
+            {
+              "name": "converters.pyi",
+              "type": "file",
+              "size": 643,
+              "ext": "pyi"
+            },
+            {
+              "name": "exceptions.py",
+              "type": "file",
+              "size": 1977,
+              "ext": "py",
+              "preview": "# SPDX-License-Identifier: MIT\n\nfrom __future__ import annotations\n\nfrom typing import ClassVar\n\n\ncl..."
+            },
+            {
+              "name": "exceptions.pyi",
+              "type": "file",
+              "size": 539,
+              "ext": "pyi"
+            },
+            {
+              "name": "filters.py",
+              "type": "file",
+              "size": 1795,
+              "ext": "py",
+              "preview": "# SPDX-License-Identifier: MIT\n\n\"\"\"\nCommonly useful filters for `attrs.asdict` and `attrs.astuple`.\n..."
+            },
+            {
+              "name": "filters.pyi",
+              "type": "file",
+              "size": 208,
+              "ext": "pyi"
+            },
+            {
+              "name": "py.typed",
+              "type": "file",
+              "size": 0,
+              "ext": "typed"
+            },
+            {
+              "name": "setters.py",
+              "type": "file",
+              "size": 1617,
+              "ext": "py",
+              "preview": "# SPDX-License-Identifier: MIT\n\n\"\"\"\nCommonly used hooks for on_setattr.\n\"\"\"\n\nfrom . import _config\nf..."
+            }
+          ],
+          "truncated": 3
+        },
+        {
+          "name": "attrs",
+          "type": "folder",
+          "children": [
+            {
+              "name": "__pycache__",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "__init__.cpython-313.pyc",
+                  "type": "file",
+                  "size": 1235,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "converters.cpython-313.pyc",
+                  "type": "file",
+                  "size": 243,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "exceptions.cpython-313.pyc",
+                  "type": "file",
+                  "size": 243,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "filters.cpython-313.pyc",
+                  "type": "file",
+                  "size": 237,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "setters.cpython-313.pyc",
+                  "type": "file",
+                  "size": 237,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "validators.cpython-313.pyc",
+                  "type": "file",
+                  "size": 243,
+                  "ext": "pyc"
+                }
+              ]
+            },
+            {
+              "name": "__init__.py",
+              "type": "file",
+              "size": 1183,
+              "ext": "py",
+              "preview": "# SPDX-License-Identifier: MIT\n\nfrom attr import (\n    NOTHING,\n    Attribute,\n    AttrsInstance,\n  ..."
+            },
+            {
+              "name": "__init__.pyi",
+              "type": "file",
+              "size": 9416,
+              "ext": "pyi"
+            },
+            {
+              "name": "converters.py",
+              "type": "file",
+              "size": 76,
+              "ext": "py",
+              "preview": "# SPDX-License-Identifier: MIT\n\nfrom attr.converters import *  # noqa: F403\n"
+            },
+            {
+              "name": "exceptions.py",
+              "type": "file",
+              "size": 76,
+              "ext": "py",
+              "preview": "# SPDX-License-Identifier: MIT\n\nfrom attr.exceptions import *  # noqa: F403\n"
+            },
+            {
+              "name": "filters.py",
+              "type": "file",
+              "size": 73,
+              "ext": "py",
+              "preview": "# SPDX-License-Identifier: MIT\n\nfrom attr.filters import *  # noqa: F403\n"
+            },
+            {
+              "name": "py.typed",
+              "type": "file",
+              "size": 0,
+              "ext": "typed"
+            },
+            {
+              "name": "setters.py",
+              "type": "file",
+              "size": 73,
+              "ext": "py",
+              "preview": "# SPDX-License-Identifier: MIT\n\nfrom attr.setters import *  # noqa: F403\n"
+            },
+            {
+              "name": "validators.py",
+              "type": "file",
+              "size": 76,
+              "ext": "py",
+              "preview": "# SPDX-License-Identifier: MIT\n\nfrom attr.validators import *  # noqa: F403\n"
+            }
+          ]
+        },
+        {
+          "name": "attrs-25.4.0.dist-info",
+          "type": "folder",
+          "children": [
+            {
+              "name": "licenses",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "LICENSE",
+                  "type": "file",
+                  "size": 1109,
+                  "ext": "file",
+                  "preview": "The MIT License (MIT)\n\nCopyright (c) 2015 Hynek Schlawack and the attrs contributors\n\nPermission is ..."
+                }
+              ]
+            },
+            {
+              "name": "INSTALLER",
+              "type": "file",
+              "size": 4,
+              "ext": "file"
+            },
+            {
+              "name": "METADATA",
+              "type": "file",
+              "size": 10473,
+              "ext": "file"
+            },
+            {
+              "name": "RECORD",
+              "type": "file",
+              "size": 3557,
+              "ext": "file"
+            },
+            {
+              "name": "WHEEL",
+              "type": "file",
+              "size": 87,
+              "ext": "file",
+              "preview": "Wheel-Version: 1.0\nGenerator: hatchling 1.27.0\nRoot-Is-Purelib: true\nTag: py3-none-any\n"
+            }
+          ]
+        },
+        {
+          "name": "bin",
+          "type": "folder",
+          "children": [
+            {
+              "name": "dotenv",
+              "type": "file",
+              "size": 242,
+              "ext": "file",
+              "preview": "#!/Users/alyshialedlie/code-env/python/pyenv/versions/3.13.7/bin/python3.13\nimport sys\nfrom dotenv._..."
+            },
+            {
+              "name": "httpx",
+              "type": "file",
+              "size": 234,
+              "ext": "file",
+              "preview": "#!/Users/alyshialedlie/code-env/python/pyenv/versions/3.13.7/bin/python3.13\nimport sys\nfrom httpx im..."
+            },
+            {
+              "name": "jsonschema",
+              "type": "file",
+              "size": 243,
+              "ext": "file",
+              "preview": "#!/Users/alyshialedlie/code-env/python/pyenv/versions/3.13.7/bin/python3.13\nimport sys\nfrom jsonsche..."
+            },
+            {
+              "name": "markdown-it",
+              "type": "file",
+              "size": 250,
+              "ext": "file",
+              "preview": "#!/Users/alyshialedlie/code-env/python/pyenv/versions/3.13.7/bin/python3.13\nimport sys\nfrom markdown..."
+            },
+            {
+              "name": "mcp",
+              "type": "file",
+              "size": 234,
+              "ext": "file",
+              "preview": "#!/Users/alyshialedlie/code-env/python/pyenv/versions/3.13.7/bin/python3.13\nimport sys\nfrom mcp.cli ..."
+            },
+            {
+              "name": "normalizer",
+              "type": "file",
+              "size": 263,
+              "ext": "file",
+              "preview": "#!/Users/alyshialedlie/code-env/python/pyenv/versions/3.13.7/bin/python3.13\nimport sys\nfrom charset_..."
+            },
+            {
+              "name": "pygmentize",
+              "type": "file",
+              "size": 245,
+              "ext": "file",
+              "preview": "#!/Users/alyshialedlie/code-env/python/pyenv/versions/3.13.7/bin/python3.13\nimport sys\nfrom pygments..."
+            },
+            {
+              "name": "token-audit",
+              "type": "file",
+              "size": 244,
+              "ext": "file",
+              "preview": "#!/Users/alyshialedlie/code-env/python/pyenv/versions/3.13.7/bin/python3.13\nimport sys\nfrom token_au..."
+            },
+            {
+              "name": "token-audit-server",
+              "type": "file",
+              "size": 264,
+              "ext": "file",
+              "preview": "#!/Users/alyshialedlie/code-env/python/pyenv/versions/3.13.7/bin/python3.13\nimport sys\nfrom token_au..."
+            },
+            {
+              "name": "uvicorn",
+              "type": "file",
+              "size": 241,
+              "ext": "file",
+              "preview": "#!/Users/alyshialedlie/code-env/python/pyenv/versions/3.13.7/bin/python3.13\nimport sys\nfrom uvicorn...."
+            }
+          ]
+        },
+        {
+          "name": "certifi",
+          "type": "folder",
+          "children": [
+            {
+              "name": "__pycache__",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "__init__.cpython-313.pyc",
+                  "type": "file",
+                  "size": 331,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "__main__.cpython-313.pyc",
+                  "type": "file",
+                  "size": 648,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "core.cpython-313.pyc",
+                  "type": "file",
+                  "size": 2086,
+                  "ext": "pyc"
+                }
+              ]
+            },
+            {
+              "name": "__init__.py",
+              "type": "file",
+              "size": 94,
+              "ext": "py",
+              "preview": "from .core import contents, where\n\n__all__ = [\"contents\", \"where\"]\n__version__ = \"2026.01.04\"\n"
+            },
+            {
+              "name": "__main__.py",
+              "type": "file",
+              "size": 243,
+              "ext": "py",
+              "preview": "import argparse\n\nfrom certifi import contents, where\n\nparser = argparse.ArgumentParser()\nparser.add_..."
+            },
+            {
+              "name": "cacert.pem",
+              "type": "file",
+              "size": 270954,
+              "ext": "pem"
+            },
+            {
+              "name": "core.py",
+              "type": "file",
+              "size": 3394,
+              "ext": "py"
+            },
+            {
+              "name": "py.typed",
+              "type": "file",
+              "size": 0,
+              "ext": "typed"
+            }
+          ]
+        },
+        {
+          "name": "certifi-2026.1.4.dist-info",
+          "type": "folder",
+          "children": [
+            {
+              "name": "licenses",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "LICENSE",
+                  "type": "file",
+                  "size": 989,
+                  "ext": "file",
+                  "preview": "This package contains a modified version of ca-bundle.crt:\n\nca-bundle.crt -- Bundle of CA Root Certi..."
+                }
+              ]
+            },
+            {
+              "name": "INSTALLER",
+              "type": "file",
+              "size": 4,
+              "ext": "file"
+            },
+            {
+              "name": "METADATA",
+              "type": "file",
+              "size": 2473,
+              "ext": "file"
+            },
+            {
+              "name": "RECORD",
+              "type": "file",
+              "size": 1017,
+              "ext": "file",
+              "preview": "certifi-2026.1.4.dist-info/INSTALLER,sha256=zuuue4knoyJ-UwPPXg8fezS7VCrXJQrAP7zeNuwvFQg,4\r\ncertifi-2..."
+            },
+            {
+              "name": "top_level.txt",
+              "type": "file",
+              "size": 8,
+              "ext": "txt"
+            },
+            {
+              "name": "WHEEL",
+              "type": "file",
+              "size": 91,
+              "ext": "file",
+              "preview": "Wheel-Version: 1.0\nGenerator: setuptools (80.9.0)\nRoot-Is-Purelib: true\nTag: py3-none-any\n\n"
+            }
+          ]
+        },
+        {
+          "name": "cffi",
+          "type": "folder",
+          "children": [
+            {
+              "name": "__pycache__",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "__init__.cpython-313.pyc",
+                  "type": "file",
+                  "size": 569,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_imp_emulation.cpython-313.pyc",
+                  "type": "file",
+                  "size": 3941,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_shimmed_dist_utils.cpython-313.pyc",
+                  "type": "file",
+                  "size": 2117,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "api.cpython-313.pyc",
+                  "type": "file",
+                  "size": 50014,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "backend_ctypes.cpython-313.pyc",
+                  "type": "file",
+                  "size": 64527,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "cffi_opcode.cpython-313.pyc",
+                  "type": "file",
+                  "size": 6960,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "commontypes.cpython-313.pyc",
+                  "type": "file",
+                  "size": 3139,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "cparser.cpython-313.pyc",
+                  "type": "file",
+                  "size": 48120,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "error.cpython-313.pyc",
+                  "type": "file",
+                  "size": 2052,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "ffiplatform.cpython-313.pyc",
+                  "type": "file",
+                  "size": 5931,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "lock.cpython-313.pyc",
+                  "type": "file",
+                  "size": 547,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "model.cpython-313.pyc",
+                  "type": "file",
+                  "size": 30911,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "pkgconfig.cpython-313.pyc",
+                  "type": "file",
+                  "size": 6535,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "recompiler.cpython-313.pyc",
+                  "type": "file",
+                  "size": 82854,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "setuptools_ext.cpython-313.pyc",
+                  "type": "file",
+                  "size": 11559,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "vengine_cpy.cpython-313.pyc",
+                  "type": "file",
+                  "size": 51645,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "vengine_gen.cpython-313.pyc",
+                  "type": "file",
+                  "size": 34597,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "verifier.cpython-313.pyc",
+                  "type": "file",
+                  "size": 16793,
+                  "ext": "pyc"
+                }
+              ]
+            },
+            {
+              "name": "__init__.py",
+              "type": "file",
+              "size": 511,
+              "ext": "py",
+              "preview": "__all__ = ['FFI', 'VerificationError', 'VerificationMissing', 'CDefError',\n           'FFIError']\n\nf..."
+            },
+            {
+              "name": "_cffi_errors.h",
+              "type": "file",
+              "size": 3908,
+              "ext": "h"
+            },
+            {
+              "name": "_cffi_include.h",
+              "type": "file",
+              "size": 15055,
+              "ext": "h"
+            },
+            {
+              "name": "_embedding.h",
+              "type": "file",
+              "size": 18786,
+              "ext": "h"
+            },
+            {
+              "name": "_imp_emulation.py",
+              "type": "file",
+              "size": 2960,
+              "ext": "py"
+            },
+            {
+              "name": "_shimmed_dist_utils.py",
+              "type": "file",
+              "size": 2230,
+              "ext": "py"
+            },
+            {
+              "name": "api.py",
+              "type": "file",
+              "size": 42169,
+              "ext": "py"
+            },
+            {
+              "name": "backend_ctypes.py",
+              "type": "file",
+              "size": 42454,
+              "ext": "py"
+            },
+            {
+              "name": "cffi_opcode.py",
+              "type": "file",
+              "size": 5731,
+              "ext": "py"
+            },
+            {
+              "name": "commontypes.py",
+              "type": "file",
+              "size": 2805,
+              "ext": "py"
+            },
+            {
+              "name": "cparser.py",
+              "type": "file",
+              "size": 44790,
+              "ext": "py"
+            },
+            {
+              "name": "error.py",
+              "type": "file",
+              "size": 877,
+              "ext": "py",
+              "preview": "\nclass FFIError(Exception):\n    __module__ = 'cffi'\n\nclass CDefError(Exception):\n    __module__ = 'c..."
+            },
+            {
+              "name": "ffiplatform.py",
+              "type": "file",
+              "size": 3584,
+              "ext": "py"
+            },
+            {
+              "name": "lock.py",
+              "type": "file",
+              "size": 747,
+              "ext": "py",
+              "preview": "import sys\n\nif sys.version_info < (3,):\n    try:\n        from thread import allocate_lock\n    except..."
+            },
+            {
+              "name": "model.py",
+              "type": "file",
+              "size": 21797,
+              "ext": "py"
+            },
+            {
+              "name": "parse_c_type.h",
+              "type": "file",
+              "size": 5976,
+              "ext": "h"
+            },
+            {
+              "name": "pkgconfig.py",
+              "type": "file",
+              "size": 4374,
+              "ext": "py"
+            },
+            {
+              "name": "recompiler.py",
+              "type": "file",
+              "size": 65509,
+              "ext": "py"
+            },
+            {
+              "name": "setuptools_ext.py",
+              "type": "file",
+              "size": 9411,
+              "ext": "py"
+            },
+            {
+              "name": "vengine_cpy.py",
+              "type": "file",
+              "size": 43881,
+              "ext": "py"
+            }
+          ],
+          "truncated": 2
+        },
+        {
+          "name": "cffi-2.0.0.dist-info",
+          "type": "folder",
+          "children": [
+            {
+              "name": "licenses",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "AUTHORS",
+                  "type": "file",
+                  "size": 208,
+                  "ext": "file",
+                  "preview": "This package has been mostly done by Armin Rigo with help from\nMaciej Fijałkowski. The idea is heavi..."
+                },
+                {
+                  "name": "LICENSE",
+                  "type": "file",
+                  "size": 1123,
+                  "ext": "file",
+                  "preview": "\nExcept when otherwise stated (look for LICENSE files in directories or\ninformation at the beginning..."
+                }
+              ]
+            },
+            {
+              "name": "entry_points.txt",
+              "type": "file",
+              "size": 75,
+              "ext": "txt",
+              "preview": "[distutils.setup_keywords]\ncffi_modules = cffi.setuptools_ext:cffi_modules\n"
+            },
+            {
+              "name": "INSTALLER",
+              "type": "file",
+              "size": 4,
+              "ext": "file"
+            },
+            {
+              "name": "METADATA",
+              "type": "file",
+              "size": 2559,
+              "ext": "file"
+            },
+            {
+              "name": "RECORD",
+              "type": "file",
+              "size": 3271,
+              "ext": "file"
+            },
+            {
+              "name": "top_level.txt",
+              "type": "file",
+              "size": 19,
+              "ext": "txt",
+              "preview": "_cffi_backend\ncffi\n"
+            },
+            {
+              "name": "WHEEL",
+              "type": "file",
+              "size": 136,
+              "ext": "file",
+              "preview": "Wheel-Version: 1.0\nGenerator: setuptools (80.9.0)\nRoot-Is-Purelib: false\nTag: cp313-cp313-macosx_11_..."
+            }
+          ]
+        },
+        {
+          "name": "charset_normalizer",
+          "type": "folder",
+          "children": [
+            {
+              "name": "__pycache__",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "__init__.cpython-313.pyc",
+                  "type": "file",
+                  "size": 1792,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "__main__.cpython-313.pyc",
+                  "type": "file",
+                  "size": 374,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "api.cpython-313.pyc",
+                  "type": "file",
+                  "size": 18753,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "cd.cpython-313.pyc",
+                  "type": "file",
+                  "size": 13413,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "constant.cpython-313.pyc",
+                  "type": "file",
+                  "size": 40837,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "legacy.cpython-313.pyc",
+                  "type": "file",
+                  "size": 3141,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "md.cpython-313.pyc",
+                  "type": "file",
+                  "size": 25454,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "models.cpython-313.pyc",
+                  "type": "file",
+                  "size": 17318,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "utils.cpython-313.pyc",
+                  "type": "file",
+                  "size": 14073,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "version.cpython-313.pyc",
+                  "type": "file",
+                  "size": 399,
+                  "ext": "pyc"
+                }
+              ]
+            },
+            {
+              "name": "cli",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "__pycache__",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "__init__.cpython-313.pyc",
+                      "type": "file",
+                      "size": 360,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "__main__.cpython-313.pyc",
+                      "type": "file",
+                      "size": 14537,
+                      "ext": "pyc"
+                    }
+                  ]
+                },
+                {
+                  "name": "__init__.py",
+                  "type": "file",
+                  "size": 136,
+                  "ext": "py",
+                  "preview": "from __future__ import annotations\n\nfrom .__main__ import cli_detect, query_yes_no\n\n__all__ = (\n    ..."
+                },
+                {
+                  "name": "__main__.py",
+                  "type": "file",
+                  "size": 12646,
+                  "ext": "py"
+                }
+              ]
+            },
+            {
+              "name": "__init__.py",
+              "type": "file",
+              "size": 1590,
+              "ext": "py",
+              "preview": "\"\"\"\nCharset-Normalizer\n~~~~~~~~~~~~~~\nThe Real First Universal Charset Detector.\nA library that help..."
+            },
+            {
+              "name": "__main__.py",
+              "type": "file",
+              "size": 109,
+              "ext": "py",
+              "preview": "from __future__ import annotations\n\nfrom .cli import cli_detect\n\nif __name__ == \"__main__\":\n    cli_..."
+            },
+            {
+              "name": "api.py",
+              "type": "file",
+              "size": 22668,
+              "ext": "py"
+            },
+            {
+              "name": "cd.py",
+              "type": "file",
+              "size": 12522,
+              "ext": "py"
+            },
+            {
+              "name": "constant.py",
+              "type": "file",
+              "size": 42713,
+              "ext": "py"
+            },
+            {
+              "name": "legacy.py",
+              "type": "file",
+              "size": 2731,
+              "ext": "py"
+            },
+            {
+              "name": "md__mypyc.cpython-313-darwin.so",
+              "type": "file",
+              "size": 502424,
+              "ext": "so"
+            },
+            {
+              "name": "md.cpython-313-darwin.so",
+              "type": "file",
+              "size": 66592,
+              "ext": "so"
+            },
+            {
+              "name": "md.py",
+              "type": "file",
+              "size": 20145,
+              "ext": "py"
+            },
+            {
+              "name": "models.py",
+              "type": "file",
+              "size": 12394,
+              "ext": "py"
+            },
+            {
+              "name": "py.typed",
+              "type": "file",
+              "size": 0,
+              "ext": "typed"
+            },
+            {
+              "name": "utils.py",
+              "type": "file",
+              "size": 12170,
+              "ext": "py"
+            },
+            {
+              "name": "version.py",
+              "type": "file",
+              "size": 115,
+              "ext": "py",
+              "preview": "\"\"\"\nExpose version\n\"\"\"\n\nfrom __future__ import annotations\n\n__version__ = \"3.4.4\"\nVERSION = __versio..."
+            }
+          ]
+        },
+        {
+          "name": "charset_normalizer-3.4.4.dist-info",
+          "type": "folder",
+          "children": [
+            {
+              "name": "licenses",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "LICENSE",
+                  "type": "file",
+                  "size": 1071,
+                  "ext": "file",
+                  "preview": "MIT License\n\nCopyright (c) 2025 TAHRI Ahmed R.\n\nPermission is hereby granted, free of charge, to any..."
+                }
+              ]
+            },
+            {
+              "name": "entry_points.txt",
+              "type": "file",
+              "size": 65,
+              "ext": "txt",
+              "preview": "[console_scripts]\nnormalizer = charset_normalizer.cli:cli_detect\n"
+            },
+            {
+              "name": "INSTALLER",
+              "type": "file",
+              "size": 4,
+              "ext": "file"
+            },
+            {
+              "name": "METADATA",
+              "type": "file",
+              "size": 37303,
+              "ext": "file"
+            },
+            {
+              "name": "RECORD",
+              "type": "file",
+              "size": 2768,
+              "ext": "file"
+            },
+            {
+              "name": "top_level.txt",
+              "type": "file",
+              "size": 19,
+              "ext": "txt",
+              "preview": "charset_normalizer\n"
+            },
+            {
+              "name": "WHEEL",
+              "type": "file",
+              "size": 142,
+              "ext": "file",
+              "preview": "Wheel-Version: 1.0\nGenerator: setuptools (80.9.0)\nRoot-Is-Purelib: false\nTag: cp313-cp313-macosx_10_..."
+            }
+          ]
+        },
+        {
+          "name": "click",
+          "type": "folder",
+          "children": [
+            {
+              "name": "__pycache__",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "__init__.cpython-313.pyc",
+                  "type": "file",
+                  "size": 4074,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_compat.cpython-313.pyc",
+                  "type": "file",
+                  "size": 24774,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_termui_impl.cpython-313.pyc",
+                  "type": "file",
+                  "size": 32585,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_textwrap.cpython-313.pyc",
+                  "type": "file",
+                  "size": 2493,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_utils.cpython-313.pyc",
+                  "type": "file",
+                  "size": 1264,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_winconsole.cpython-313.pyc",
+                  "type": "file",
+                  "size": 12091,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "core.cpython-313.pyc",
+                  "type": "file",
+                  "size": 132897,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "decorators.cpython-313.pyc",
+                  "type": "file",
+                  "size": 22013,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "exceptions.cpython-313.pyc",
+                  "type": "file",
+                  "size": 15096,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "formatting.cpython-313.pyc",
+                  "type": "file",
+                  "size": 13578,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "globals.cpython-313.pyc",
+                  "type": "file",
+                  "size": 2971,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "parser.cpython-313.pyc",
+                  "type": "file",
+                  "size": 20701,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "shell_completion.cpython-313.pyc",
+                  "type": "file",
+                  "size": 23285,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "termui.cpython-313.pyc",
+                  "type": "file",
+                  "size": 33909,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "testing.cpython-313.pyc",
+                  "type": "file",
+                  "size": 27205,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "types.cpython-313.pyc",
+                  "type": "file",
+                  "size": 50188,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "utils.cpython-313.pyc",
+                  "type": "file",
+                  "size": 24760,
+                  "ext": "pyc"
+                }
+              ]
+            },
+            {
+              "name": "__init__.py",
+              "type": "file",
+              "size": 4473,
+              "ext": "py"
+            },
+            {
+              "name": "_compat.py",
+              "type": "file",
+              "size": 18693,
+              "ext": "py"
+            },
+            {
+              "name": "_termui_impl.py",
+              "type": "file",
+              "size": 27093,
+              "ext": "py"
+            },
+            {
+              "name": "_textwrap.py",
+              "type": "file",
+              "size": 1400,
+              "ext": "py",
+              "preview": "from __future__ import annotations\n\nimport collections.abc as cabc\nimport textwrap\nfrom contextlib i..."
+            },
+            {
+              "name": "_utils.py",
+              "type": "file",
+              "size": 943,
+              "ext": "py",
+              "preview": "from __future__ import annotations\n\nimport enum\nimport typing as t\n\n\nclass Sentinel(enum.Enum):\n    ..."
+            },
+            {
+              "name": "_winconsole.py",
+              "type": "file",
+              "size": 8465,
+              "ext": "py"
+            },
+            {
+              "name": "core.py",
+              "type": "file",
+              "size": 132105,
+              "ext": "py"
+            },
+            {
+              "name": "decorators.py",
+              "type": "file",
+              "size": 18461,
+              "ext": "py"
+            },
+            {
+              "name": "exceptions.py",
+              "type": "file",
+              "size": 9954,
+              "ext": "py"
+            },
+            {
+              "name": "formatting.py",
+              "type": "file",
+              "size": 9730,
+              "ext": "py"
+            },
+            {
+              "name": "globals.py",
+              "type": "file",
+              "size": 1923,
+              "ext": "py",
+              "preview": "from __future__ import annotations\n\nimport typing as t\nfrom threading import local\n\nif t.TYPE_CHECKI..."
+            },
+            {
+              "name": "parser.py",
+              "type": "file",
+              "size": 19010,
+              "ext": "py"
+            },
+            {
+              "name": "py.typed",
+              "type": "file",
+              "size": 0,
+              "ext": "typed"
+            },
+            {
+              "name": "shell_completion.py",
+              "type": "file",
+              "size": 20994,
+              "ext": "py"
+            },
+            {
+              "name": "termui.py",
+              "type": "file",
+              "size": 31037,
+              "ext": "py"
+            },
+            {
+              "name": "testing.py",
+              "type": "file",
+              "size": 19102,
+              "ext": "py"
+            },
+            {
+              "name": "types.py",
+              "type": "file",
+              "size": 39927,
+              "ext": "py"
+            },
+            {
+              "name": "utils.py",
+              "type": "file",
+              "size": 20257,
+              "ext": "py"
+            }
+          ]
+        },
+        {
+          "name": "click-8.3.1.dist-info",
+          "type": "folder",
+          "children": [
+            {
+              "name": "licenses",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "LICENSE.txt",
+                  "type": "file",
+                  "size": 1475,
+                  "ext": "txt",
+                  "preview": "Copyright 2014 Pallets\n\nRedistribution and use in source and binary forms, with or without\nmodificat..."
+                }
+              ]
+            },
+            {
+              "name": "INSTALLER",
+              "type": "file",
+              "size": 4,
+              "ext": "file"
+            },
+            {
+              "name": "METADATA",
+              "type": "file",
+              "size": 2621,
+              "ext": "file"
+            },
+            {
+              "name": "RECORD",
+              "type": "file",
+              "size": 2531,
+              "ext": "file"
+            },
+            {
+              "name": "WHEEL",
+              "type": "file",
+              "size": 82,
+              "ext": "file",
+              "preview": "Wheel-Version: 1.0\nGenerator: flit 3.12.0\nRoot-Is-Purelib: true\nTag: py3-none-any\n"
+            }
+          ]
+        },
+        {
+          "name": "cryptography",
+          "type": "folder",
+          "children": [
+            {
+              "name": "__pycache__",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "__about__.cpython-313.pyc",
+                  "type": "file",
+                  "size": 481,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "__init__.cpython-313.pyc",
+                  "type": "file",
+                  "size": 391,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "exceptions.cpython-313.pyc",
+                  "type": "file",
+                  "size": 2615,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "fernet.cpython-313.pyc",
+                  "type": "file",
+                  "size": 11317,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "utils.cpython-313.pyc",
+                  "type": "file",
+                  "size": 6847,
+                  "ext": "pyc"
+                }
+              ]
+            },
+            {
+              "name": "hazmat",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "__pycache__",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "__init__.cpython-313.pyc",
+                      "type": "file",
+                      "size": 272,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "_oid.cpython-313.pyc",
+                      "type": "file",
+                      "size": 21410,
+                      "ext": "pyc"
+                    }
+                  ]
+                },
+                {
+                  "name": "asn1",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "__pycache__",
+                      "type": "folder",
+                      "children": [
+                        {
+                          "name": "__init__.cpython-313.pyc",
+                          "type": "file",
+                          "size": 351,
+                          "ext": "pyc"
+                        },
+                        {
+                          "name": "asn1.cpython-313.pyc",
+                          "type": "file",
+                          "size": 3630,
+                          "ext": "pyc"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "__init__.py",
+                      "type": "file",
+                      "size": 293,
+                      "ext": "py",
+                      "preview": "# This file is dual licensed under the terms of the Apache License, Version\n# 2.0, and the BSD Licen..."
+                    },
+                    {
+                      "name": "asn1.py",
+                      "type": "file",
+                      "size": 3860,
+                      "ext": "py"
+                    }
+                  ]
+                },
+                {
+                  "name": "backends",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "__pycache__",
+                      "type": "folder",
+                      "children": [
+                        {
+                          "name": "__init__.cpython-313.pyc",
+                          "type": "file",
+                          "size": 524,
+                          "ext": "pyc"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "openssl",
+                      "type": "folder",
+                      "children": [
+                        {
+                          "name": "__pycache__",
+                          "type": "folder",
+                          "children": [
+                            {
+                              "name": "__init__.cpython-313.pyc",
+                              "type": "file",
+                              "size": 388,
+                              "ext": "pyc"
+                            },
+                            {
+                              "name": "backend.cpython-313.pyc",
+                              "type": "file",
+                              "size": 14208,
+                              "ext": "pyc"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "__init__.py",
+                          "type": "file",
+                          "size": 305,
+                          "ext": "py",
+                          "preview": "# This file is dual licensed under the terms of the Apache License, Version\n# 2.0, and the BSD Licen..."
+                        },
+                        {
+                          "name": "backend.py",
+                          "type": "file",
+                          "size": 10215,
+                          "ext": "py"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "__init__.py",
+                      "type": "file",
+                      "size": 361,
+                      "ext": "py",
+                      "preview": "# This file is dual licensed under the terms of the Apache License, Version\n# 2.0, and the BSD Licen..."
+                    }
+                  ]
+                },
+                {
+                  "name": "bindings",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "__pycache__",
+                      "type": "folder",
+                      "children": [
+                        {
+                          "name": "__init__.cpython-313.pyc",
+                          "type": "file",
+                          "size": 225,
+                          "ext": "pyc"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "_rust",
+                      "type": "folder",
+                      "children": [
+                        {
+                          "name": "openssl",
+                          "type": "folder",
+                          "children": [
+                            {
+                              "name": "__init__.pyi",
+                              "type": "file",
+                              "size": 1522,
+                              "ext": "pyi"
+                            },
+                            {
+                              "name": "aead.pyi",
+                              "type": "file",
+                              "size": 2688,
+                              "ext": "pyi"
+                            },
+                            {
+                              "name": "ciphers.pyi",
+                              "type": "file",
+                              "size": 1315,
+                              "ext": "pyi"
+                            },
+                            {
+                              "name": "cmac.pyi",
+                              "type": "file",
+                              "size": 564,
+                              "ext": "pyi"
+                            },
+                            {
+                              "name": "dh.pyi",
+                              "type": "file",
+                              "size": 1564,
+                              "ext": "pyi"
+                            },
+                            {
+                              "name": "dsa.pyi",
+                              "type": "file",
+                              "size": 1299,
+                              "ext": "pyi"
+                            },
+                            {
+                              "name": "ec.pyi",
+                              "type": "file",
+                              "size": 1691,
+                              "ext": "pyi"
+                            },
+                            {
+                              "name": "ed25519.pyi",
+                              "type": "file",
+                              "size": 532,
+                              "ext": "pyi"
+                            },
+                            {
+                              "name": "ed448.pyi",
+                              "type": "file",
+                              "size": 514,
+                              "ext": "pyi"
+                            },
+                            {
+                              "name": "hashes.pyi",
+                              "type": "file",
+                              "size": 984,
+                              "ext": "pyi"
+                            },
+                            {
+                              "name": "hmac.pyi",
+                              "type": "file",
+                              "size": 702,
+                              "ext": "pyi"
+                            },
+                            {
+                              "name": "kdf.pyi",
+                              "type": "file",
+                              "size": 2029,
+                              "ext": "pyi"
+                            },
+                            {
+                              "name": "keys.pyi",
+                              "type": "file",
+                              "size": 912,
+                              "ext": "pyi"
+                            },
+                            {
+                              "name": "poly1305.pyi",
+                              "type": "file",
+                              "size": 585,
+                              "ext": "pyi"
+                            },
+                            {
+                              "name": "rsa.pyi",
+                              "type": "file",
+                              "size": 1364,
+                              "ext": "pyi"
+                            },
+                            {
+                              "name": "x25519.pyi",
+                              "type": "file",
+                              "size": 523,
+                              "ext": "pyi"
+                            },
+                            {
+                              "name": "x448.pyi",
+                              "type": "file",
+                              "size": 505,
+                              "ext": "pyi"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "__init__.pyi",
+                          "type": "file",
+                          "size": 1257,
+                          "ext": "pyi"
+                        },
+                        {
+                          "name": "_openssl.pyi",
+                          "type": "file",
+                          "size": 230,
+                          "ext": "pyi"
+                        },
+                        {
+                          "name": "asn1.pyi",
+                          "type": "file",
+                          "size": 354,
+                          "ext": "pyi"
+                        },
+                        {
+                          "name": "declarative_asn1.pyi",
+                          "type": "file",
+                          "size": 892,
+                          "ext": "pyi"
+                        },
+                        {
+                          "name": "exceptions.pyi",
+                          "type": "file",
+                          "size": 640,
+                          "ext": "pyi"
+                        },
+                        {
+                          "name": "ocsp.pyi",
+                          "type": "file",
+                          "size": 4020,
+                          "ext": "pyi"
+                        },
+                        {
+                          "name": "pkcs12.pyi",
+                          "type": "file",
+                          "size": 1605,
+                          "ext": "pyi"
+                        },
+                        {
+                          "name": "pkcs7.pyi",
+                          "type": "file",
+                          "size": 1601,
+                          "ext": "pyi"
+                        },
+                        {
+                          "name": "test_support.pyi",
+                          "type": "file",
+                          "size": 757,
+                          "ext": "pyi"
+                        },
+                        {
+                          "name": "x509.pyi",
+                          "type": "file",
+                          "size": 9784,
+                          "ext": "pyi"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "openssl",
+                      "type": "folder",
+                      "children": [
+                        {
+                          "name": "__pycache__",
+                          "type": "folder",
+                          "children": [
+                            {
+                              "name": "__init__.cpython-313.pyc",
+                              "type": "file",
+                              "size": 233,
+                              "ext": "pyc"
+                            },
+                            {
+                              "name": "_conditional.cpython-313.pyc",
+                              "type": "file",
+                              "size": 5851,
+                              "ext": "pyc"
+                            },
+                            {
+                              "name": "binding.cpython-313.pyc",
+                              "type": "file",
+                              "size": 5746,
+                              "ext": "pyc"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "__init__.py",
+                          "type": "file",
+                          "size": 180,
+                          "ext": "py",
+                          "preview": "# This file is dual licensed under the terms of the Apache License, Version\n# 2.0, and the BSD Licen..."
+                        },
+                        {
+                          "name": "_conditional.py",
+                          "type": "file",
+                          "size": 5791,
+                          "ext": "py"
+                        },
+                        {
+                          "name": "binding.py",
+                          "type": "file",
+                          "size": 4610,
+                          "ext": "py"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "__init__.py",
+                      "type": "file",
+                      "size": 180,
+                      "ext": "py",
+                      "preview": "# This file is dual licensed under the terms of the Apache License, Version\n# 2.0, and the BSD Licen..."
+                    },
+                    {
+                      "name": "_rust.abi3.so",
+                      "type": "file",
+                      "size": 21422080,
+                      "ext": "so"
+                    }
+                  ]
+                },
+                {
+                  "name": "decrepit",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "__pycache__",
+                      "type": "folder",
+                      "children": [
+                        {
+                          "name": "__init__.cpython-313.pyc",
+                          "type": "file",
+                          "size": 276,
+                          "ext": "pyc"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "ciphers",
+                      "type": "folder",
+                      "children": [
+                        {
+                          "name": "__pycache__",
+                          "type": "folder",
+                          "children": [
+                            {
+                              "name": "__init__.cpython-313.pyc",
+                              "type": "file",
+                              "size": 284,
+                              "ext": "pyc"
+                            },
+                            {
+                              "name": "algorithms.cpython-313.pyc",
+                              "type": "file",
+                              "size": 5038,
+                              "ext": "pyc"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "__init__.py",
+                          "type": "file",
+                          "size": 216,
+                          "ext": "py",
+                          "preview": "# This file is dual licensed under the terms of the Apache License, Version\n# 2.0, and the BSD Licen..."
+                        },
+                        {
+                          "name": "algorithms.py",
+                          "type": "file",
+                          "size": 2595,
+                          "ext": "py"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "__init__.py",
+                      "type": "file",
+                      "size": 216,
+                      "ext": "py",
+                      "preview": "# This file is dual licensed under the terms of the Apache License, Version\n# 2.0, and the BSD Licen..."
+                    }
+                  ]
+                },
+                {
+                  "name": "primitives",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "__pycache__",
+                      "type": "folder",
+                      "children": [
+                        {
+                          "name": "__init__.cpython-313.pyc",
+                          "type": "file",
+                          "size": 227,
+                          "ext": "pyc"
+                        },
+                        {
+                          "name": "_asymmetric.cpython-313.pyc",
+                          "type": "file",
+                          "size": 871,
+                          "ext": "pyc"
+                        },
+                        {
+                          "name": "_cipheralgorithm.cpython-313.pyc",
+                          "type": "file",
+                          "size": 2545,
+                          "ext": "pyc"
+                        },
+                        {
+                          "name": "_serialization.cpython-313.pyc",
+                          "type": "file",
+                          "size": 7395,
+                          "ext": "pyc"
+                        },
+                        {
+                          "name": "cmac.cpython-313.pyc",
+                          "type": "file",
+                          "size": 455,
+                          "ext": "pyc"
+                        },
+                        {
+                          "name": "constant_time.cpython-313.pyc",
+                          "type": "file",
+                          "size": 719,
+                          "ext": "pyc"
+                        },
+                        {
+                          "name": "hashes.cpython-313.pyc",
+                          "type": "file",
+                          "size": 8660,
+                          "ext": "pyc"
+                        },
+                        {
+                          "name": "hmac.cpython-313.pyc",
+                          "type": "file",
+                          "size": 614,
+                          "ext": "pyc"
+                        },
+                        {
+                          "name": "keywrap.cpython-313.pyc",
+                          "type": "file",
+                          "size": 7554,
+                          "ext": "pyc"
+                        },
+                        {
+                          "name": "padding.cpython-313.pyc",
+                          "type": "file",
+                          "size": 3325,
+                          "ext": "pyc"
+                        },
+                        {
+                          "name": "poly1305.cpython-313.pyc",
+                          "type": "file",
+                          "size": 467,
+                          "ext": "pyc"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "asymmetric",
+                      "type": "folder",
+                      "children": [
+                        {
+                          "name": "__pycache__",
+                          "type": "folder",
+                          "children": [
+                            {
+                              "name": "__init__.cpython-313.pyc",
+                              "type": "file",
+                              "size": 238,
+                              "ext": "pyc"
+                            },
+                            {
+                              "name": "dh.cpython-313.pyc",
+                              "type": "file",
+                              "size": 6012,
+                              "ext": "pyc"
+                            },
+                            {
+                              "name": "dsa.cpython-313.pyc",
+                              "type": "file",
+                              "size": 6878,
+                              "ext": "pyc"
+                            },
+                            {
+                              "name": "ec.cpython-313.pyc",
+                              "type": "file",
+                              "size": 18269,
+                              "ext": "pyc"
+                            },
+                            {
+                              "name": "ed25519.cpython-313.pyc",
+                              "type": "file",
+                              "size": 5613,
+                              "ext": "pyc"
+                            },
+                            {
+                              "name": "ed448.cpython-313.pyc",
+                              "type": "file",
+                              "size": 5682,
+                              "ext": "pyc"
+                            },
+                            {
+                              "name": "padding.cpython-313.pyc",
+                              "type": "file",
+                              "size": 5152,
+                              "ext": "pyc"
+                            },
+                            {
+                              "name": "rsa.cpython-313.pyc",
+                              "type": "file",
+                              "size": 10303,
+                              "ext": "pyc"
+                            },
+                            {
+                              "name": "types.cpython-313.pyc",
+                              "type": "file",
+                              "size": 3147,
+                              "ext": "pyc"
+                            },
+                            {
+                              "name": "utils.cpython-313.pyc",
+                              "type": "file",
+                              "size": 1430,
+                              "ext": "pyc"
+                            },
+                            {
+                              "name": "x25519.cpython-313.pyc",
+                              "type": "file",
+                              "size": 5424,
+                              "ext": "pyc"
+                            },
+                            {
+                              "name": "x448.cpython-313.pyc",
+                              "type": "file",
+                              "size": 5491,
+                              "ext": "pyc"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "__init__.py",
+                          "type": "file",
+                          "size": 180,
+                          "ext": "py",
+                          "preview": "# This file is dual licensed under the terms of the Apache License, Version\n# 2.0, and the BSD Licen..."
+                        },
+                        {
+                          "name": "dh.py",
+                          "type": "file",
+                          "size": 3645,
+                          "ext": "py"
+                        },
+                        {
+                          "name": "dsa.py",
+                          "type": "file",
+                          "size": 4213,
+                          "ext": "py"
+                        },
+                        {
+                          "name": "ec.py",
+                          "type": "file",
+                          "size": 12999,
+                          "ext": "py"
+                        },
+                        {
+                          "name": "ed25519.py",
+                          "type": "file",
+                          "size": 3700,
+                          "ext": "py"
+                        },
+                        {
+                          "name": "ed448.py",
+                          "type": "file",
+                          "size": 3729,
+                          "ext": "py"
+                        },
+                        {
+                          "name": "padding.py",
+                          "type": "file",
+                          "size": 2854,
+                          "ext": "py"
+                        },
+                        {
+                          "name": "rsa.py",
+                          "type": "file",
+                          "size": 8303,
+                          "ext": "py"
+                        },
+                        {
+                          "name": "types.py",
+                          "type": "file",
+                          "size": 2996,
+                          "ext": "py"
+                        },
+                        {
+                          "name": "utils.py",
+                          "type": "file",
+                          "size": 790,
+                          "ext": "py",
+                          "preview": "# This file is dual licensed under the terms of the Apache License, Version\n# 2.0, and the BSD Licen..."
+                        },
+                        {
+                          "name": "x25519.py",
+                          "type": "file",
+                          "size": 3613,
+                          "ext": "py"
+                        },
+                        {
+                          "name": "x448.py",
+                          "type": "file",
+                          "size": 3642,
+                          "ext": "py"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "ciphers",
+                      "type": "folder",
+                      "children": [
+                        {
+                          "name": "__pycache__",
+                          "type": "folder",
+                          "children": [
+                            {
+                              "name": "__init__.cpython-313.pyc",
+                              "type": "file",
+                              "size": 666,
+                              "ext": "pyc"
+                            },
+                            {
+                              "name": "aead.cpython-313.pyc",
+                              "type": "file",
+                              "size": 856,
+                              "ext": "pyc"
+                            },
+                            {
+                              "name": "algorithms.cpython-313.pyc",
+                              "type": "file",
+                              "size": 5099,
+                              "ext": "pyc"
+                            },
+                            {
+                              "name": "base.cpython-313.pyc",
+                              "type": "file",
+                              "size": 7107,
+                              "ext": "pyc"
+                            },
+                            {
+                              "name": "modes.cpython-313.pyc",
+                              "type": "file",
+                              "size": 12175,
+                              "ext": "pyc"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "__init__.py",
+                          "type": "file",
+                          "size": 680,
+                          "ext": "py",
+                          "preview": "# This file is dual licensed under the terms of the Apache License, Version\n# 2.0, and the BSD Licen..."
+                        },
+                        {
+                          "name": "aead.py",
+                          "type": "file",
+                          "size": 634,
+                          "ext": "py",
+                          "preview": "# This file is dual licensed under the terms of the Apache License, Version\n# 2.0, and the BSD Licen..."
+                        },
+                        {
+                          "name": "algorithms.py",
+                          "type": "file",
+                          "size": 3407,
+                          "ext": "py"
+                        },
+                        {
+                          "name": "base.py",
+                          "type": "file",
+                          "size": 4253,
+                          "ext": "py"
+                        },
+                        {
+                          "name": "modes.py",
+                          "type": "file",
+                          "size": 8318,
+                          "ext": "py"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "kdf",
+                      "type": "folder",
+                      "children": [
+                        {
+                          "name": "__pycache__",
+                          "type": "folder",
+                          "children": [
+                            {
+                              "name": "__init__.cpython-313.pyc",
+                              "type": "file",
+                              "size": 1282,
+                              "ext": "pyc"
+                            },
+                            {
+                              "name": "argon2.cpython-313.pyc",
+                              "type": "file",
+                              "size": 605,
+                              "ext": "pyc"
+                            },
+                            {
+                              "name": "concatkdf.cpython-313.pyc",
+                              "type": "file",
+                              "size": 5823,
+                              "ext": "pyc"
+                            },
+                            {
+                              "name": "hkdf.cpython-313.pyc",
+                              "type": "file",
+                              "size": 732,
+                              "ext": "pyc"
+                            },
+                            {
+                              "name": "kbkdf.cpython-313.pyc",
+                              "type": "file",
+                              "size": 11851,
+                              "ext": "pyc"
+                            },
+                            {
+                              "name": "pbkdf2.cpython-313.pyc",
+                              "type": "file",
+                              "size": 2861,
+                              "ext": "pyc"
+                            },
+                            {
+                              "name": "scrypt.cpython-313.pyc",
+                              "type": "file",
+                              "size": 691,
+                              "ext": "pyc"
+                            },
+                            {
+                              "name": "x963kdf.cpython-313.pyc",
+                              "type": "file",
+                              "size": 3245,
+                              "ext": "pyc"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "__init__.py",
+                          "type": "file",
+                          "size": 750,
+                          "ext": "py",
+                          "preview": "# This file is dual licensed under the terms of the Apache License, Version\n# 2.0, and the BSD Licen..."
+                        },
+                        {
+                          "name": "argon2.py",
+                          "type": "file",
+                          "size": 460,
+                          "ext": "py",
+                          "preview": "# This file is dual licensed under the terms of the Apache License, Version\n# 2.0, and the BSD Licen..."
+                        },
+                        {
+                          "name": "concatkdf.py",
+                          "type": "file",
+                          "size": 3737,
+                          "ext": "py"
+                        },
+                        {
+                          "name": "hkdf.py",
+                          "type": "file",
+                          "size": 543,
+                          "ext": "py",
+                          "preview": "# This file is dual licensed under the terms of the Apache License, Version\n# 2.0, and the BSD Licen..."
+                        },
+                        {
+                          "name": "kbkdf.py",
+                          "type": "file",
+                          "size": 9165,
+                          "ext": "py"
+                        },
+                        {
+                          "name": "pbkdf2.py",
+                          "type": "file",
+                          "size": 1957,
+                          "ext": "py",
+                          "preview": "# This file is dual licensed under the terms of the Apache License, Version\n# 2.0, and the BSD Licen..."
+                        },
+                        {
+                          "name": "scrypt.py",
+                          "type": "file",
+                          "size": 590,
+                          "ext": "py",
+                          "preview": "# This file is dual licensed under the terms of the Apache License, Version\n# 2.0, and the BSD Licen..."
+                        },
+                        {
+                          "name": "x963kdf.py",
+                          "type": "file",
+                          "size": 1999,
+                          "ext": "py",
+                          "preview": "# This file is dual licensed under the terms of the Apache License, Version\n# 2.0, and the BSD Licen..."
+                        }
+                      ]
+                    },
+                    {
+                      "name": "serialization",
+                      "type": "folder",
+                      "children": [
+                        {
+                          "name": "__pycache__",
+                          "type": "folder",
+                          "children": [
+                            {
+                              "name": "__init__.cpython-313.pyc",
+                              "type": "file",
+                              "size": 1406,
+                              "ext": "pyc"
+                            },
+                            {
+                              "name": "base.cpython-313.pyc",
+                              "type": "file",
+                              "size": 871,
+                              "ext": "pyc"
+                            },
+                            {
+                              "name": "pkcs12.cpython-313.pyc",
+                              "type": "file",
+                              "size": 6881,
+                              "ext": "pyc"
+                            },
+                            {
+                              "name": "pkcs7.cpython-313.pyc",
+                              "type": "file",
+                              "size": 17621,
+                              "ext": "pyc"
+                            },
+                            {
+                              "name": "ssh.cpython-313.pyc",
+                              "type": "file",
+                              "size": 68037,
+                              "ext": "pyc"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "__init__.py",
+                          "type": "file",
+                          "size": 1705,
+                          "ext": "py",
+                          "preview": "# This file is dual licensed under the terms of the Apache License, Version\n# 2.0, and the BSD Licen..."
+                        },
+                        {
+                          "name": "base.py",
+                          "type": "file",
+                          "size": 615,
+                          "ext": "py",
+                          "preview": "# This file is dual licensed under the terms of the Apache License, Version\n# 2.0, and the BSD Licen..."
+                        },
+                        {
+                          "name": "pkcs12.py",
+                          "type": "file",
+                          "size": 5104,
+                          "ext": "py"
+                        },
+                        {
+                          "name": "pkcs7.py",
+                          "type": "file",
+                          "size": 13943,
+                          "ext": "py"
+                        },
+                        {
+                          "name": "ssh.py",
+                          "type": "file",
+                          "size": 53700,
+                          "ext": "py"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "twofactor",
+                      "type": "folder",
+                      "children": [
+                        {
+                          "name": "__pycache__",
+                          "type": "folder",
+                          "children": [
+                            {
+                              "name": "__init__.cpython-313.pyc",
+                              "type": "file",
+                              "size": 538,
+                              "ext": "pyc"
+                            },
+                            {
+                              "name": "hotp.cpython-313.pyc",
+                              "type": "file",
+                              "size": 5308,
+                              "ext": "pyc"
+                            },
+                            {
+                              "name": "totp.cpython-313.pyc",
+                              "type": "file",
+                              "size": 2619,
+                              "ext": "pyc"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "__init__.py",
+                          "type": "file",
+                          "size": 258,
+                          "ext": "py",
+                          "preview": "# This file is dual licensed under the terms of the Apache License, Version\n# 2.0, and the BSD Licen..."
+                        },
+                        {
+                          "name": "hotp.py",
+                          "type": "file",
+                          "size": 3256,
+                          "ext": "py"
+                        },
+                        {
+                          "name": "totp.py",
+                          "type": "file",
+                          "size": 1652,
+                          "ext": "py",
+                          "preview": "# This file is dual licensed under the terms of the Apache License, Version\n# 2.0, and the BSD Licen..."
+                        }
+                      ]
+                    },
+                    {
+                      "name": "__init__.py",
+                      "type": "file",
+                      "size": 180,
+                      "ext": "py",
+                      "preview": "# This file is dual licensed under the terms of the Apache License, Version\n# 2.0, and the BSD Licen..."
+                    },
+                    {
+                      "name": "_asymmetric.py",
+                      "type": "file",
+                      "size": 532,
+                      "ext": "py",
+                      "preview": "# This file is dual licensed under the terms of the Apache License, Version\n# 2.0, and the BSD Licen..."
+                    },
+                    {
+                      "name": "_cipheralgorithm.py",
+                      "type": "file",
+                      "size": 1522,
+                      "ext": "py",
+                      "preview": "# This file is dual licensed under the terms of the Apache License, Version\n# 2.0, and the BSD Licen..."
+                    },
+                    {
+                      "name": "_serialization.py",
+                      "type": "file",
+                      "size": 5123,
+                      "ext": "py"
+                    },
+                    {
+                      "name": "cmac.py",
+                      "type": "file",
+                      "size": 338,
+                      "ext": "py",
+                      "preview": "# This file is dual licensed under the terms of the Apache License, Version\n# 2.0, and the BSD Licen..."
+                    },
+                    {
+                      "name": "constant_time.py",
+                      "type": "file",
+                      "size": 422,
+                      "ext": "py",
+                      "preview": "# This file is dual licensed under the terms of the Apache License, Version\n# 2.0, and the BSD Licen..."
+                    },
+                    {
+                      "name": "hashes.py",
+                      "type": "file",
+                      "size": 5184,
+                      "ext": "py"
+                    },
+                    {
+                      "name": "hmac.py",
+                      "type": "file",
+                      "size": 423,
+                      "ext": "py",
+                      "preview": "# This file is dual licensed under the terms of the Apache License, Version\n# 2.0, and the BSD Licen..."
+                    },
+                    {
+                      "name": "keywrap.py",
+                      "type": "file",
+                      "size": 5650,
+                      "ext": "py"
+                    },
+                    {
+                      "name": "padding.py",
+                      "type": "file",
+                      "size": 1865,
+                      "ext": "py",
+                      "preview": "# This file is dual licensed under the terms of the Apache License, Version\n# 2.0, and the BSD Licen..."
+                    },
+                    {
+                      "name": "poly1305.py",
+                      "type": "file",
+                      "size": 355,
+                      "ext": "py",
+                      "preview": "# This file is dual licensed under the terms of the Apache License, Version\n# 2.0, and the BSD Licen..."
+                    }
+                  ]
+                },
+                {
+                  "name": "__init__.py",
+                  "type": "file",
+                  "size": 455,
+                  "ext": "py",
+                  "preview": "# This file is dual licensed under the terms of the Apache License, Version\n# 2.0, and the BSD Licen..."
+                },
+                {
+                  "name": "_oid.py",
+                  "type": "file",
+                  "size": 17240,
+                  "ext": "py"
+                }
+              ]
+            },
+            {
+              "name": "x509",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "__pycache__",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "__init__.cpython-313.pyc",
+                      "type": "file",
+                      "size": 8469,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "base.cpython-313.pyc",
+                      "type": "file",
+                      "size": 34131,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "certificate_transparency.cpython-313.pyc",
+                      "type": "file",
+                      "size": 1533,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "extensions.cpython-313.pyc",
+                      "type": "file",
+                      "size": 116155,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "general_name.cpython-313.pyc",
+                      "type": "file",
+                      "size": 13646,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "name.cpython-313.pyc",
+                      "type": "file",
+                      "size": 23679,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "ocsp.cpython-313.pyc",
+                      "type": "file",
+                      "size": 15522,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "oid.cpython-313.pyc",
+                      "type": "file",
+                      "size": 788,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "verification.cpython-313.pyc",
+                      "type": "file",
+                      "size": 1034,
+                      "ext": "pyc"
+                    }
+                  ]
+                },
+                {
+                  "name": "__init__.py",
+                  "type": "file",
+                  "size": 8257,
+                  "ext": "py"
+                },
+                {
+                  "name": "base.py",
+                  "type": "file",
+                  "size": 27997,
+                  "ext": "py"
+                },
+                {
+                  "name": "certificate_transparency.py",
+                  "type": "file",
+                  "size": 797,
+                  "ext": "py",
+                  "preview": "# This file is dual licensed under the terms of the Apache License, Version\n# 2.0, and the BSD Licen..."
+                },
+                {
+                  "name": "extensions.py",
+                  "type": "file",
+                  "size": 77724,
+                  "ext": "py"
+                },
+                {
+                  "name": "general_name.py",
+                  "type": "file",
+                  "size": 7836,
+                  "ext": "py"
+                },
+                {
+                  "name": "name.py",
+                  "type": "file",
+                  "size": 15101,
+                  "ext": "py"
+                },
+                {
+                  "name": "ocsp.py",
+                  "type": "file",
+                  "size": 12699,
+                  "ext": "py"
+                },
+                {
+                  "name": "oid.py",
+                  "type": "file",
+                  "size": 931,
+                  "ext": "py",
+                  "preview": "# This file is dual licensed under the terms of the Apache License, Version\n# 2.0, and the BSD Licen..."
+                },
+                {
+                  "name": "verification.py",
+                  "type": "file",
+                  "size": 958,
+                  "ext": "py",
+                  "preview": "# This file is dual licensed under the terms of the Apache License, Version\n# 2.0, and the BSD Licen..."
+                }
+              ]
+            },
+            {
+              "name": "__about__.py",
+              "type": "file",
+              "size": 445,
+              "ext": "py",
+              "preview": "# This file is dual licensed under the terms of the Apache License, Version\n# 2.0, and the BSD Licen..."
+            },
+            {
+              "name": "__init__.py",
+              "type": "file",
+              "size": 364,
+              "ext": "py",
+              "preview": "# This file is dual licensed under the terms of the Apache License, Version\n# 2.0, and the BSD Licen..."
+            },
+            {
+              "name": "exceptions.py",
+              "type": "file",
+              "size": 1087,
+              "ext": "py",
+              "preview": "# This file is dual licensed under the terms of the Apache License, Version\n# 2.0, and the BSD Licen..."
+            },
+            {
+              "name": "fernet.py",
+              "type": "file",
+              "size": 6963,
+              "ext": "py"
+            },
+            {
+              "name": "py.typed",
+              "type": "file",
+              "size": 0,
+              "ext": "typed"
+            },
+            {
+              "name": "utils.py",
+              "type": "file",
+              "size": 4301,
+              "ext": "py"
+            }
+          ]
+        },
+        {
+          "name": "cryptography-46.0.3.dist-info",
+          "type": "folder",
+          "children": [
+            {
+              "name": "licenses",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "LICENSE",
+                  "type": "file",
+                  "size": 197,
+                  "ext": "file",
+                  "preview": "This software is made available under the terms of *either* of the licenses\nfound in LICENSE.APACHE ..."
+                },
+                {
+                  "name": "LICENSE.APACHE",
+                  "type": "file",
+                  "size": 11360,
+                  "ext": "apache"
+                },
+                {
+                  "name": "LICENSE.BSD",
+                  "type": "file",
+                  "size": 1532,
+                  "ext": "bsd"
+                }
+              ]
+            },
+            {
+              "name": "INSTALLER",
+              "type": "file",
+              "size": 4,
+              "ext": "file"
+            },
+            {
+              "name": "METADATA",
+              "type": "file",
+              "size": 5748,
+              "ext": "file"
+            },
+            {
+              "name": "RECORD",
+              "type": "file",
+              "size": 16073,
+              "ext": "file"
+            },
+            {
+              "name": "WHEEL",
+              "type": "file",
+              "size": 108,
+              "ext": "file",
+              "preview": "Wheel-Version: 1.0\nGenerator: maturin (1.9.4)\nRoot-Is-Purelib: false\nTag: cp311-abi3-macosx_10_9_uni..."
+            }
+          ]
+        },
+        {
+          "name": "dateutil",
+          "type": "folder",
+          "children": [
+            {
+              "name": "__pycache__",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "__init__.cpython-313.pyc",
+                  "type": "file",
+                  "size": 1169,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_common.cpython-313.pyc",
+                  "type": "file",
+                  "size": 2011,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_version.cpython-313.pyc",
+                  "type": "file",
+                  "size": 327,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "easter.cpython-313.pyc",
+                  "type": "file",
+                  "size": 2733,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "relativedelta.cpython-313.pyc",
+                  "type": "file",
+                  "size": 28910,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "rrule.cpython-313.pyc",
+                  "type": "file",
+                  "size": 69669,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "tzwin.cpython-313.pyc",
+                  "type": "file",
+                  "size": 230,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "utils.cpython-313.pyc",
+                  "type": "file",
+                  "size": 2464,
+                  "ext": "pyc"
+                }
+              ]
+            },
+            {
+              "name": "parser",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "__pycache__",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "__init__.cpython-313.pyc",
+                      "type": "file",
+                      "size": 2731,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "_parser.cpython-313.pyc",
+                      "type": "file",
+                      "size": 61997,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "isoparser.cpython-313.pyc",
+                      "type": "file",
+                      "size": 14963,
+                      "ext": "pyc"
+                    }
+                  ]
+                },
+                {
+                  "name": "__init__.py",
+                  "type": "file",
+                  "size": 1766,
+                  "ext": "py",
+                  "preview": "# -*- coding: utf-8 -*-\nfrom ._parser import parse, parser, parserinfo, ParserError\nfrom ._parser im..."
+                },
+                {
+                  "name": "_parser.py",
+                  "type": "file",
+                  "size": 58796,
+                  "ext": "py"
+                },
+                {
+                  "name": "isoparser.py",
+                  "type": "file",
+                  "size": 13233,
+                  "ext": "py"
+                }
+              ]
+            },
+            {
+              "name": "tz",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "__pycache__",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "__init__.cpython-313.pyc",
+                      "type": "file",
+                      "size": 788,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "_common.cpython-313.pyc",
+                      "type": "file",
+                      "size": 13797,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "_factories.cpython-313.pyc",
+                      "type": "file",
+                      "size": 4764,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "tz.cpython-313.pyc",
+                      "type": "file",
+                      "size": 66134,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "win.cpython-313.pyc",
+                      "type": "file",
+                      "size": 17396,
+                      "ext": "pyc"
+                    }
+                  ]
+                },
+                {
+                  "name": "__init__.py",
+                  "type": "file",
+                  "size": 444,
+                  "ext": "py",
+                  "preview": "# -*- coding: utf-8 -*-\nfrom .tz import *\nfrom .tz import __doc__\n\n__all__ = [\"tzutc\", \"tzoffset\", \"..."
+                },
+                {
+                  "name": "_common.py",
+                  "type": "file",
+                  "size": 12977,
+                  "ext": "py"
+                },
+                {
+                  "name": "_factories.py",
+                  "type": "file",
+                  "size": 2569,
+                  "ext": "py"
+                },
+                {
+                  "name": "tz.py",
+                  "type": "file",
+                  "size": 62855,
+                  "ext": "py"
+                },
+                {
+                  "name": "win.py",
+                  "type": "file",
+                  "size": 12935,
+                  "ext": "py"
+                }
+              ]
+            },
+            {
+              "name": "zoneinfo",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "__pycache__",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "__init__.cpython-313.pyc",
+                      "type": "file",
+                      "size": 7446,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "rebuild.cpython-313.pyc",
+                      "type": "file",
+                      "size": 3947,
+                      "ext": "pyc"
+                    }
+                  ]
+                },
+                {
+                  "name": "__init__.py",
+                  "type": "file",
+                  "size": 5889,
+                  "ext": "py"
+                },
+                {
+                  "name": "dateutil-zoneinfo.tar.gz",
+                  "type": "file",
+                  "size": 156400,
+                  "ext": "gz"
+                },
+                {
+                  "name": "rebuild.py",
+                  "type": "file",
+                  "size": 2392,
+                  "ext": "py"
+                }
+              ]
+            },
+            {
+              "name": "__init__.py",
+              "type": "file",
+              "size": 620,
+              "ext": "py",
+              "preview": "# -*- coding: utf-8 -*-\nimport sys\n\ntry:\n    from ._version import version as __version__\nexcept Imp..."
+            },
+            {
+              "name": "_common.py",
+              "type": "file",
+              "size": 932,
+              "ext": "py",
+              "preview": "\"\"\"\nCommon code used in multiple modules.\n\"\"\"\n\n\nclass weekday(object):\n    __slots__ = [\"weekday\", \"..."
+            },
+            {
+              "name": "_version.py",
+              "type": "file",
+              "size": 166,
+              "ext": "py",
+              "preview": "# file generated by setuptools_scm\n# don't change, don't track in version control\n__version__ = vers..."
+            },
+            {
+              "name": "easter.py",
+              "type": "file",
+              "size": 2678,
+              "ext": "py"
+            },
+            {
+              "name": "relativedelta.py",
+              "type": "file",
+              "size": 24903,
+              "ext": "py"
+            },
+            {
+              "name": "rrule.py",
+              "type": "file",
+              "size": 66557,
+              "ext": "py"
+            },
+            {
+              "name": "tzwin.py",
+              "type": "file",
+              "size": 59,
+              "ext": "py",
+              "preview": "# tzwin has moved to dateutil.tz.win\nfrom .tz.win import *\n"
+            },
+            {
+              "name": "utils.py",
+              "type": "file",
+              "size": 1965,
+              "ext": "py",
+              "preview": "# -*- coding: utf-8 -*-\n\"\"\"\nThis module offers general convenience and utility functions for dealing..."
+            }
+          ]
+        },
+        {
+          "name": "dotenv",
+          "type": "folder",
+          "children": [
+            {
+              "name": "__pycache__",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "__init__.cpython-313.pyc",
+                  "type": "file",
+                  "size": 1756,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "__main__.cpython-313.pyc",
+                  "type": "file",
+                  "size": 378,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "cli.cpython-313.pyc",
+                  "type": "file",
+                  "size": 10226,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "ipython.cpython-313.pyc",
+                  "type": "file",
+                  "size": 2024,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "main.cpython-313.pyc",
+                  "type": "file",
+                  "size": 18502,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "parser.cpython-313.pyc",
+                  "type": "file",
+                  "size": 10248,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "variables.cpython-313.pyc",
+                  "type": "file",
+                  "size": 5168,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "version.cpython-313.pyc",
+                  "type": "file",
+                  "size": 228,
+                  "ext": "pyc"
+                }
+              ]
+            },
+            {
+              "name": "__init__.py",
+              "type": "file",
+              "size": 1230,
+              "ext": "py",
+              "preview": "from typing import Any, Optional\n\nfrom .main import dotenv_values, find_dotenv, get_key, load_dotenv..."
+            },
+            {
+              "name": "__main__.py",
+              "type": "file",
+              "size": 129,
+              "ext": "py",
+              "preview": "\"\"\"Entry point for cli, enables execution with `python -m dotenv`\"\"\"\n\nfrom .cli import cli\n\nif __nam..."
+            },
+            {
+              "name": "cli.py",
+              "type": "file",
+              "size": 6181,
+              "ext": "py"
+            },
+            {
+              "name": "ipython.py",
+              "type": "file",
+              "size": 1326,
+              "ext": "py",
+              "preview": "from IPython.core.magic import Magics, line_magic, magics_class  # type: ignore\nfrom IPython.core.ma..."
+            },
+            {
+              "name": "main.py",
+              "type": "file",
+              "size": 13392,
+              "ext": "py"
+            },
+            {
+              "name": "parser.py",
+              "type": "file",
+              "size": 5179,
+              "ext": "py"
+            },
+            {
+              "name": "py.typed",
+              "type": "file",
+              "size": 26,
+              "ext": "typed"
+            },
+            {
+              "name": "variables.py",
+              "type": "file",
+              "size": 2348,
+              "ext": "py"
+            },
+            {
+              "name": "version.py",
+              "type": "file",
+              "size": 22,
+              "ext": "py",
+              "preview": "__version__ = \"1.2.1\"\n"
+            }
+          ]
+        },
+        {
+          "name": "filelock",
+          "type": "folder",
+          "children": [
+            {
+              "name": "__pycache__",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "__init__.cpython-313.pyc",
+                  "type": "file",
+                  "size": 1608,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_api.cpython-313.pyc",
+                  "type": "file",
+                  "size": 16467,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_error.cpython-313.pyc",
+                  "type": "file",
+                  "size": 1849,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_soft.cpython-313.pyc",
+                  "type": "file",
+                  "size": 2662,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_unix.cpython-313.pyc",
+                  "type": "file",
+                  "size": 3753,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_util.cpython-313.pyc",
+                  "type": "file",
+                  "size": 2022,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_windows.cpython-313.pyc",
+                  "type": "file",
+                  "size": 4691,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "asyncio.cpython-313.pyc",
+                  "type": "file",
+                  "size": 15549,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "version.cpython-313.pyc",
+                  "type": "file",
+                  "size": 823,
+                  "ext": "pyc"
+                }
+              ]
+            },
+            {
+              "name": "__init__.py",
+              "type": "file",
+              "size": 1769,
+              "ext": "py",
+              "preview": "\"\"\"\nA platform independent file lock that supports the with-statement.\n\n.. autodata:: filelock.__ver..."
+            },
+            {
+              "name": "_api.py",
+              "type": "file",
+              "size": 14545,
+              "ext": "py"
+            },
+            {
+              "name": "_error.py",
+              "type": "file",
+              "size": 787,
+              "ext": "py",
+              "preview": "from __future__ import annotations\n\nfrom typing import Any\n\n\nclass Timeout(TimeoutError):  # noqa: N..."
+            },
+            {
+              "name": "_soft.py",
+              "type": "file",
+              "size": 1737,
+              "ext": "py",
+              "preview": "from __future__ import annotations\n\nimport os\nimport sys\nfrom contextlib import suppress\nfrom errno ..."
+            },
+            {
+              "name": "_unix.py",
+              "type": "file",
+              "size": 2488,
+              "ext": "py"
+            },
+            {
+              "name": "_util.py",
+              "type": "file",
+              "size": 1715,
+              "ext": "py",
+              "preview": "from __future__ import annotations\n\nimport os\nimport stat\nimport sys\nfrom errno import EACCES, EISDI..."
+            },
+            {
+              "name": "_windows.py",
+              "type": "file",
+              "size": 3780,
+              "ext": "py"
+            },
+            {
+              "name": "asyncio.py",
+              "type": "file",
+              "size": 12514,
+              "ext": "py"
+            },
+            {
+              "name": "py.typed",
+              "type": "file",
+              "size": 0,
+              "ext": "typed"
+            },
+            {
+              "name": "version.py",
+              "type": "file",
+              "size": 706,
+              "ext": "py",
+              "preview": "# file generated by setuptools-scm\n# don't change, don't track in version control\n\n__all__ = [\n    \"..."
+            }
+          ]
+        },
+        {
+          "name": "filelock-3.20.3.dist-info",
+          "type": "folder",
+          "children": [
+            {
+              "name": "licenses",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "LICENSE",
+                  "type": "file",
+                  "size": 1210,
+                  "ext": "file",
+                  "preview": "This is free and unencumbered software released into the public domain.\n\nAnyone is free to copy, mod..."
+                }
+              ]
+            },
+            {
+              "name": "INSTALLER",
+              "type": "file",
+              "size": 4,
+              "ext": "file"
+            },
+            {
+              "name": "METADATA",
+              "type": "file",
+              "size": 2110,
+              "ext": "file"
+            },
+            {
+              "name": "RECORD",
+              "type": "file",
+              "size": 1586,
+              "ext": "file",
+              "preview": "filelock-3.20.3.dist-info/INSTALLER,sha256=zuuue4knoyJ-UwPPXg8fezS7VCrXJQrAP7zeNuwvFQg,4\r\nfilelock-3..."
+            },
+            {
+              "name": "WHEEL",
+              "type": "file",
+              "size": 87,
+              "ext": "file",
+              "preview": "Wheel-Version: 1.0\nGenerator: hatchling 1.28.0\nRoot-Is-Purelib: true\nTag: py3-none-any\n"
+            }
+          ]
+        },
+        {
+          "name": "h11",
+          "type": "folder",
+          "children": [
+            {
+              "name": "__pycache__",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "__init__.cpython-313.pyc",
+                  "type": "file",
+                  "size": 1091,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_abnf.cpython-313.pyc",
+                  "type": "file",
+                  "size": 1783,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_connection.cpython-313.pyc",
+                  "type": "file",
+                  "size": 22758,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_events.cpython-313.pyc",
+                  "type": "file",
+                  "size": 13163,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_headers.cpython-313.pyc",
+                  "type": "file",
+                  "size": 8063,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_readers.cpython-313.pyc",
+                  "type": "file",
+                  "size": 9889,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_receivebuffer.cpython-313.pyc",
+                  "type": "file",
+                  "size": 4798,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_state.cpython-313.pyc",
+                  "type": "file",
+                  "size": 8798,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_util.cpython-313.pyc",
+                  "type": "file",
+                  "size": 4861,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_version.cpython-313.pyc",
+                  "type": "file",
+                  "size": 229,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_writers.cpython-313.pyc",
+                  "type": "file",
+                  "size": 6489,
+                  "ext": "pyc"
+                }
+              ]
+            },
+            {
+              "name": "__init__.py",
+              "type": "file",
+              "size": 1507,
+              "ext": "py",
+              "preview": "# A highish-level implementation of the HTTP/1.1 wire protocol (RFC 7230),\n# containing no networkin..."
+            },
+            {
+              "name": "_abnf.py",
+              "type": "file",
+              "size": 4815,
+              "ext": "py"
+            },
+            {
+              "name": "_connection.py",
+              "type": "file",
+              "size": 26863,
+              "ext": "py"
+            },
+            {
+              "name": "_events.py",
+              "type": "file",
+              "size": 11792,
+              "ext": "py"
+            },
+            {
+              "name": "_headers.py",
+              "type": "file",
+              "size": 10412,
+              "ext": "py"
+            },
+            {
+              "name": "_readers.py",
+              "type": "file",
+              "size": 8590,
+              "ext": "py"
+            },
+            {
+              "name": "_receivebuffer.py",
+              "type": "file",
+              "size": 5252,
+              "ext": "py"
+            },
+            {
+              "name": "_state.py",
+              "type": "file",
+              "size": 13231,
+              "ext": "py"
+            },
+            {
+              "name": "_util.py",
+              "type": "file",
+              "size": 4888,
+              "ext": "py"
+            },
+            {
+              "name": "_version.py",
+              "type": "file",
+              "size": 686,
+              "ext": "py",
+              "preview": "# This file must be kept very simple, because it is consumed from several\n# places -- it is imported..."
+            },
+            {
+              "name": "_writers.py",
+              "type": "file",
+              "size": 5081,
+              "ext": "py"
+            },
+            {
+              "name": "py.typed",
+              "type": "file",
+              "size": 7,
+              "ext": "typed"
+            }
+          ]
+        },
+        {
+          "name": "h11-0.16.0.dist-info",
+          "type": "folder",
+          "children": [
+            {
+              "name": "licenses",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "LICENSE.txt",
+                  "type": "file",
+                  "size": 1124,
+                  "ext": "txt",
+                  "preview": "The MIT License (MIT)\n\nCopyright (c) 2016 Nathaniel J. Smith <njs@pobox.com> and other contributors\n..."
+                }
+              ]
+            },
+            {
+              "name": "INSTALLER",
+              "type": "file",
+              "size": 4,
+              "ext": "file"
+            },
+            {
+              "name": "METADATA",
+              "type": "file",
+              "size": 8348,
+              "ext": "file"
+            },
+            {
+              "name": "RECORD",
+              "type": "file",
+              "size": 1830,
+              "ext": "file",
+              "preview": "h11-0.16.0.dist-info/INSTALLER,sha256=zuuue4knoyJ-UwPPXg8fezS7VCrXJQrAP7zeNuwvFQg,4\r\nh11-0.16.0.dist..."
+            },
+            {
+              "name": "top_level.txt",
+              "type": "file",
+              "size": 4,
+              "ext": "txt"
+            },
+            {
+              "name": "WHEEL",
+              "type": "file",
+              "size": 91,
+              "ext": "file",
+              "preview": "Wheel-Version: 1.0\nGenerator: setuptools (78.1.0)\nRoot-Is-Purelib: true\nTag: py3-none-any\n\n"
+            }
+          ]
+        },
+        {
+          "name": "httpcore",
+          "type": "folder",
+          "children": [
+            {
+              "name": "__pycache__",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "__init__.cpython-313.pyc",
+                  "type": "file",
+                  "size": 3281,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_api.cpython-313.pyc",
+                  "type": "file",
+                  "size": 3634,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_exceptions.cpython-313.pyc",
+                  "type": "file",
+                  "size": 3523,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_models.cpython-313.pyc",
+                  "type": "file",
+                  "size": 23308,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_ssl.cpython-313.pyc",
+                  "type": "file",
+                  "size": 632,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_synchronization.cpython-313.pyc",
+                  "type": "file",
+                  "size": 14671,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_trace.cpython-313.pyc",
+                  "type": "file",
+                  "size": 5891,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_utils.cpython-313.pyc",
+                  "type": "file",
+                  "size": 1306,
+                  "ext": "pyc"
+                }
+              ]
+            },
+            {
+              "name": "_async",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "__pycache__",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "__init__.cpython-313.pyc",
+                      "type": "file",
+                      "size": 1723,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "connection_pool.cpython-313.pyc",
+                      "type": "file",
+                      "size": 19696,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "connection.cpython-313.pyc",
+                      "type": "file",
+                      "size": 12007,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "http_proxy.cpython-313.pyc",
+                      "type": "file",
+                      "size": 17901,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "http11.cpython-313.pyc",
+                      "type": "file",
+                      "size": 20527,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "http2.cpython-313.pyc",
+                      "type": "file",
+                      "size": 31664,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "interfaces.cpython-313.pyc",
+                      "type": "file",
+                      "size": 5638,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "socks_proxy.cpython-313.pyc",
+                      "type": "file",
+                      "size": 16925,
+                      "ext": "pyc"
+                    }
+                  ]
+                },
+                {
+                  "name": "__init__.py",
+                  "type": "file",
+                  "size": 1221,
+                  "ext": "py",
+                  "preview": "from .connection import AsyncHTTPConnection\nfrom .connection_pool import AsyncConnectionPool\nfrom .h..."
+                },
+                {
+                  "name": "connection_pool.py",
+                  "type": "file",
+                  "size": 17307,
+                  "ext": "py"
+                },
+                {
+                  "name": "connection.py",
+                  "type": "file",
+                  "size": 8449,
+                  "ext": "py"
+                },
+                {
+                  "name": "http_proxy.py",
+                  "type": "file",
+                  "size": 14701,
+                  "ext": "py"
+                },
+                {
+                  "name": "http11.py",
+                  "type": "file",
+                  "size": 13880,
+                  "ext": "py"
+                },
+                {
+                  "name": "http2.py",
+                  "type": "file",
+                  "size": 23936,
+                  "ext": "py"
+                },
+                {
+                  "name": "interfaces.py",
+                  "type": "file",
+                  "size": 4455,
+                  "ext": "py"
+                },
+                {
+                  "name": "socks_proxy.py",
+                  "type": "file",
+                  "size": 13841,
+                  "ext": "py"
+                }
+              ]
+            },
+            {
+              "name": "_backends",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "__pycache__",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "__init__.cpython-313.pyc",
+                      "type": "file",
+                      "size": 215,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "anyio.cpython-313.pyc",
+                      "type": "file",
+                      "size": 8630,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "auto.cpython-313.pyc",
+                      "type": "file",
+                      "size": 2768,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "base.cpython-313.pyc",
+                      "type": "file",
+                      "size": 5092,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "mock.cpython-313.pyc",
+                      "type": "file",
+                      "size": 7405,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "sync.cpython-313.pyc",
+                      "type": "file",
+                      "size": 11632,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "trio.cpython-313.pyc",
+                      "type": "file",
+                      "size": 9141,
+                      "ext": "pyc"
+                    }
+                  ]
+                },
+                {
+                  "name": "__init__.py",
+                  "type": "file",
+                  "size": 0,
+                  "ext": "py"
+                },
+                {
+                  "name": "anyio.py",
+                  "type": "file",
+                  "size": 5252,
+                  "ext": "py"
+                },
+                {
+                  "name": "auto.py",
+                  "type": "file",
+                  "size": 1662,
+                  "ext": "py",
+                  "preview": "from __future__ import annotations\n\nimport typing\n\nfrom .._synchronization import current_async_libr..."
+                },
+                {
+                  "name": "base.py",
+                  "type": "file",
+                  "size": 3042,
+                  "ext": "py"
+                },
+                {
+                  "name": "mock.py",
+                  "type": "file",
+                  "size": 4077,
+                  "ext": "py"
+                },
+                {
+                  "name": "sync.py",
+                  "type": "file",
+                  "size": 7977,
+                  "ext": "py"
+                },
+                {
+                  "name": "trio.py",
+                  "type": "file",
+                  "size": 5996,
+                  "ext": "py"
+                }
+              ]
+            },
+            {
+              "name": "_sync",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "__pycache__",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "__init__.cpython-313.pyc",
+                      "type": "file",
+                      "size": 1677,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "connection_pool.cpython-313.pyc",
+                      "type": "file",
+                      "size": 18788,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "connection.cpython-313.pyc",
+                      "type": "file",
+                      "size": 10674,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "http_proxy.cpython-313.pyc",
+                      "type": "file",
+                      "size": 17110,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "http11.cpython-313.pyc",
+                      "type": "file",
+                      "size": 18149,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "http2.cpython-313.pyc",
+                      "type": "file",
+                      "size": 27850,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "interfaces.cpython-313.pyc",
+                      "type": "file",
+                      "size": 5190,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "socks_proxy.cpython-313.pyc",
+                      "type": "file",
+                      "size": 15722,
+                      "ext": "pyc"
+                    }
+                  ]
+                },
+                {
+                  "name": "__init__.py",
+                  "type": "file",
+                  "size": 1141,
+                  "ext": "py",
+                  "preview": "from .connection import HTTPConnection\nfrom .connection_pool import ConnectionPool\nfrom .http11 impo..."
+                },
+                {
+                  "name": "connection_pool.py",
+                  "type": "file",
+                  "size": 16955,
+                  "ext": "py"
+                },
+                {
+                  "name": "connection.py",
+                  "type": "file",
+                  "size": 8238,
+                  "ext": "py"
+                },
+                {
+                  "name": "http_proxy.py",
+                  "type": "file",
+                  "size": 14463,
+                  "ext": "py"
+                },
+                {
+                  "name": "http11.py",
+                  "type": "file",
+                  "size": 13476,
+                  "ext": "py"
+                },
+                {
+                  "name": "http2.py",
+                  "type": "file",
+                  "size": 23400,
+                  "ext": "py"
+                },
+                {
+                  "name": "interfaces.py",
+                  "type": "file",
+                  "size": 4344,
+                  "ext": "py"
+                },
+                {
+                  "name": "socks_proxy.py",
+                  "type": "file",
+                  "size": 13614,
+                  "ext": "py"
+                }
+              ]
+            },
+            {
+              "name": "__init__.py",
+              "type": "file",
+              "size": 3445,
+              "ext": "py"
+            },
+            {
+              "name": "_api.py",
+              "type": "file",
+              "size": 3146,
+              "ext": "py"
+            },
+            {
+              "name": "_exceptions.py",
+              "type": "file",
+              "size": 1184,
+              "ext": "py",
+              "preview": "import contextlib\nimport typing\n\nExceptionMapping = typing.Mapping[typing.Type[Exception], typing.Ty..."
+            },
+            {
+              "name": "_models.py",
+              "type": "file",
+              "size": 17623,
+              "ext": "py"
+            },
+            {
+              "name": "_ssl.py",
+              "type": "file",
+              "size": 187,
+              "ext": "py",
+              "preview": "import ssl\n\nimport certifi\n\n\ndef default_ssl_context() -> ssl.SSLContext:\n    context = ssl.create_d..."
+            },
+            {
+              "name": "_synchronization.py",
+              "type": "file",
+              "size": 9434,
+              "ext": "py"
+            },
+            {
+              "name": "_trace.py",
+              "type": "file",
+              "size": 3952,
+              "ext": "py"
+            },
+            {
+              "name": "_utils.py",
+              "type": "file",
+              "size": 1537,
+              "ext": "py",
+              "preview": "from __future__ import annotations\n\nimport select\nimport socket\nimport sys\n\n\ndef is_socket_readable(..."
+            },
+            {
+              "name": "py.typed",
+              "type": "file",
+              "size": 0,
+              "ext": "typed"
+            }
+          ]
+        },
+        {
+          "name": "httpcore-1.0.9.dist-info",
+          "type": "folder",
+          "children": [
+            {
+              "name": "licenses",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "LICENSE.md",
+                  "type": "file",
+                  "size": 1518,
+                  "ext": "md",
+                  "preview": "Copyright © 2020, [Encode OSS Ltd](https://www.encode.io/).\nAll rights reserved.\n\nRedistribution and..."
+                }
+              ]
+            },
+            {
+              "name": "INSTALLER",
+              "type": "file",
+              "size": 4,
+              "ext": "file"
+            },
+            {
+              "name": "METADATA",
+              "type": "file",
+              "size": 21529,
+              "ext": "file"
+            },
+            {
+              "name": "RECORD",
+              "type": "file",
+              "size": 4762,
+              "ext": "file"
+            },
+            {
+              "name": "WHEEL",
+              "type": "file",
+              "size": 87,
+              "ext": "file",
+              "preview": "Wheel-Version: 1.0\nGenerator: hatchling 1.27.0\nRoot-Is-Purelib: true\nTag: py3-none-any\n"
+            }
+          ]
+        },
+        {
+          "name": "httpx",
+          "type": "folder",
+          "children": [
+            {
+              "name": "__pycache__",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "__init__.cpython-313.pyc",
+                  "type": "file",
+                  "size": 2159,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "__version__.cpython-313.pyc",
+                  "type": "file",
+                  "size": 331,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_api.cpython-313.pyc",
+                  "type": "file",
+                  "size": 10062,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_auth.cpython-313.pyc",
+                  "type": "file",
+                  "size": 15641,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_client.cpython-313.pyc",
+                  "type": "file",
+                  "size": 63505,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_config.cpython-313.pyc",
+                  "type": "file",
+                  "size": 11417,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_content.cpython-313.pyc",
+                  "type": "file",
+                  "size": 10771,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_decoders.cpython-313.pyc",
+                  "type": "file",
+                  "size": 17281,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_exceptions.cpython-313.pyc",
+                  "type": "file",
+                  "size": 12380,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_main.cpython-313.pyc",
+                  "type": "file",
+                  "size": 20654,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_models.cpython-313.pyc",
+                  "type": "file",
+                  "size": 58602,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_multipart.cpython-313.pyc",
+                  "type": "file",
+                  "size": 13993,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_status_codes.cpython-313.pyc",
+                  "type": "file",
+                  "size": 7185,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_types.cpython-313.pyc",
+                  "type": "file",
+                  "size": 3920,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_urlparse.cpython-313.pyc",
+                  "type": "file",
+                  "size": 18123,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_urls.cpython-313.pyc",
+                  "type": "file",
+                  "size": 26965,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_utils.cpython-313.pyc",
+                  "type": "file",
+                  "size": 9562,
+                  "ext": "pyc"
+                }
+              ]
+            },
+            {
+              "name": "_transports",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "__pycache__",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "__init__.cpython-313.pyc",
+                      "type": "file",
+                      "size": 460,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "asgi.cpython-313.pyc",
+                      "type": "file",
+                      "size": 7760,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "base.cpython-313.pyc",
+                      "type": "file",
+                      "size": 3800,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "default.cpython-313.pyc",
+                      "type": "file",
+                      "size": 17325,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "mock.cpython-313.pyc",
+                      "type": "file",
+                      "size": 2042,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "wsgi.cpython-313.pyc",
+                      "type": "file",
+                      "size": 6917,
+                      "ext": "pyc"
+                    }
+                  ]
+                },
+                {
+                  "name": "__init__.py",
+                  "type": "file",
+                  "size": 275,
+                  "ext": "py",
+                  "preview": "from .asgi import *\nfrom .base import *\nfrom .default import *\nfrom .mock import *\nfrom .wsgi import..."
+                },
+                {
+                  "name": "asgi.py",
+                  "type": "file",
+                  "size": 5501,
+                  "ext": "py"
+                },
+                {
+                  "name": "base.py",
+                  "type": "file",
+                  "size": 2523,
+                  "ext": "py"
+                },
+                {
+                  "name": "default.py",
+                  "type": "file",
+                  "size": 13983,
+                  "ext": "py"
+                },
+                {
+                  "name": "mock.py",
+                  "type": "file",
+                  "size": 1232,
+                  "ext": "py",
+                  "preview": "from __future__ import annotations\n\nimport typing\n\nfrom .._models import Request, Response\nfrom .bas..."
+                },
+                {
+                  "name": "wsgi.py",
+                  "type": "file",
+                  "size": 4825,
+                  "ext": "py"
+                }
+              ]
+            },
+            {
+              "name": "__init__.py",
+              "type": "file",
+              "size": 2171,
+              "ext": "py"
+            },
+            {
+              "name": "__version__.py",
+              "type": "file",
+              "size": 108,
+              "ext": "py",
+              "preview": "__title__ = \"httpx\"\n__description__ = \"A next generation HTTP client, for Python 3.\"\n__version__ = \"..."
+            },
+            {
+              "name": "_api.py",
+              "type": "file",
+              "size": 11743,
+              "ext": "py"
+            },
+            {
+              "name": "_auth.py",
+              "type": "file",
+              "size": 11891,
+              "ext": "py"
+            },
+            {
+              "name": "_client.py",
+              "type": "file",
+              "size": 65714,
+              "ext": "py"
+            },
+            {
+              "name": "_config.py",
+              "type": "file",
+              "size": 8547,
+              "ext": "py"
+            },
+            {
+              "name": "_content.py",
+              "type": "file",
+              "size": 8161,
+              "ext": "py"
+            },
+            {
+              "name": "_decoders.py",
+              "type": "file",
+              "size": 12041,
+              "ext": "py"
+            },
+            {
+              "name": "_exceptions.py",
+              "type": "file",
+              "size": 8527,
+              "ext": "py"
+            },
+            {
+              "name": "_main.py",
+              "type": "file",
+              "size": 15626,
+              "ext": "py"
+            },
+            {
+              "name": "_models.py",
+              "type": "file",
+              "size": 44700,
+              "ext": "py"
+            },
+            {
+              "name": "_multipart.py",
+              "type": "file",
+              "size": 9843,
+              "ext": "py"
+            },
+            {
+              "name": "_status_codes.py",
+              "type": "file",
+              "size": 5639,
+              "ext": "py"
+            },
+            {
+              "name": "_types.py",
+              "type": "file",
+              "size": 2965,
+              "ext": "py"
+            },
+            {
+              "name": "_urlparse.py",
+              "type": "file",
+              "size": 18546,
+              "ext": "py"
+            },
+            {
+              "name": "_urls.py",
+              "type": "file",
+              "size": 21550,
+              "ext": "py"
+            },
+            {
+              "name": "_utils.py",
+              "type": "file",
+              "size": 8285,
+              "ext": "py"
+            },
+            {
+              "name": "py.typed",
+              "type": "file",
+              "size": 0,
+              "ext": "typed"
+            }
+          ]
+        },
+        {
+          "name": "httpx_sse",
+          "type": "folder",
+          "children": [
+            {
+              "name": "__pycache__",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "__init__.cpython-313.pyc",
+                  "type": "file",
+                  "size": 475,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_api.cpython-313.pyc",
+                  "type": "file",
+                  "size": 5591,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_decoders.cpython-313.pyc",
+                  "type": "file",
+                  "size": 4834,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_exceptions.cpython-313.pyc",
+                  "type": "file",
+                  "size": 506,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_models.cpython-313.pyc",
+                  "type": "file",
+                  "size": 2767,
+                  "ext": "pyc"
+                }
+              ]
+            },
+            {
+              "name": "__init__.py",
+              "type": "file",
+              "size": 282,
+              "ext": "py",
+              "preview": "from ._api import EventSource, aconnect_sse, connect_sse\nfrom ._exceptions import SSEError\nfrom ._mo..."
+            },
+            {
+              "name": "_api.py",
+              "type": "file",
+              "size": 2919,
+              "ext": "py"
+            },
+            {
+              "name": "_decoders.py",
+              "type": "file",
+              "size": 4005,
+              "ext": "py"
+            },
+            {
+              "name": "_exceptions.py",
+              "type": "file",
+              "size": 62,
+              "ext": "py",
+              "preview": "import httpx\n\n\nclass SSEError(httpx.TransportError):\n    pass\n"
+            },
+            {
+              "name": "_models.py",
+              "type": "file",
+              "size": 1221,
+              "ext": "py",
+              "preview": "import json\nfrom typing import Any, Optional\n\n\nclass ServerSentEvent:\n    def __init__(\n        self..."
+            },
+            {
+              "name": "py.typed",
+              "type": "file",
+              "size": 0,
+              "ext": "typed"
+            }
+          ]
+        },
+        {
+          "name": "httpx_sse-0.4.3.dist-info",
+          "type": "folder",
+          "children": [
+            {
+              "name": "licenses",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "LICENSE",
+                  "type": "file",
+                  "size": 1072,
+                  "ext": "file",
+                  "preview": "MIT License\n\nCopyright (c) 2022 Florimond Manca\n\nPermission is hereby granted, free of charge, to an..."
+                }
+              ]
+            },
+            {
+              "name": "INSTALLER",
+              "type": "file",
+              "size": 4,
+              "ext": "file"
+            },
+            {
+              "name": "METADATA",
+              "type": "file",
+              "size": 9671,
+              "ext": "file"
+            },
+            {
+              "name": "RECORD",
+              "type": "file",
+              "size": 1213,
+              "ext": "file",
+              "preview": "httpx_sse-0.4.3.dist-info/INSTALLER,sha256=zuuue4knoyJ-UwPPXg8fezS7VCrXJQrAP7zeNuwvFQg,4\r\nhttpx_sse-..."
+            },
+            {
+              "name": "top_level.txt",
+              "type": "file",
+              "size": 10,
+              "ext": "txt"
+            },
+            {
+              "name": "WHEEL",
+              "type": "file",
+              "size": 91,
+              "ext": "file",
+              "preview": "Wheel-Version: 1.0\nGenerator: setuptools (80.9.0)\nRoot-Is-Purelib: true\nTag: py3-none-any\n\n"
+            }
+          ]
+        },
+        {
+          "name": "httpx-0.28.1.dist-info",
+          "type": "folder",
+          "children": [
+            {
+              "name": "licenses",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "LICENSE.md",
+                  "type": "file",
+                  "size": 1508,
+                  "ext": "md",
+                  "preview": "Copyright © 2019, [Encode OSS Ltd](https://www.encode.io/).\nAll rights reserved.\n\nRedistribution and..."
+                }
+              ]
+            },
+            {
+              "name": "entry_points.txt",
+              "type": "file",
+              "size": 37,
+              "ext": "txt",
+              "preview": "[console_scripts]\nhttpx = httpx:main\n"
+            },
+            {
+              "name": "INSTALLER",
+              "type": "file",
+              "size": 4,
+              "ext": "file"
+            },
+            {
+              "name": "METADATA",
+              "type": "file",
+              "size": 7052,
+              "ext": "file"
+            },
+            {
+              "name": "RECORD",
+              "type": "file",
+              "size": 3519,
+              "ext": "file"
+            },
+            {
+              "name": "WHEEL",
+              "type": "file",
+              "size": 87,
+              "ext": "file",
+              "preview": "Wheel-Version: 1.0\nGenerator: hatchling 1.26.3\nRoot-Is-Purelib: true\nTag: py3-none-any\n"
+            }
+          ]
+        },
+        {
+          "name": "idna",
+          "type": "folder",
+          "children": [
+            {
+              "name": "__pycache__",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "__init__.cpython-313.pyc",
+                  "type": "file",
+                  "size": 899,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "codec.cpython-313.pyc",
+                  "type": "file",
+                  "size": 5323,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "compat.cpython-313.pyc",
+                  "type": "file",
+                  "size": 909,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "core.cpython-313.pyc",
+                  "type": "file",
+                  "size": 16967,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "idnadata.cpython-313.pyc",
+                  "type": "file",
+                  "size": 100928,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "intranges.cpython-313.pyc",
+                  "type": "file",
+                  "size": 2622,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "package_data.cpython-313.pyc",
+                  "type": "file",
+                  "size": 230,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "uts46data.cpython-313.pyc",
+                  "type": "file",
+                  "size": 162026,
+                  "ext": "pyc"
+                }
+              ]
+            },
+            {
+              "name": "__init__.py",
+              "type": "file",
+              "size": 868,
+              "ext": "py",
+              "preview": "from .core import (\n    IDNABidiError,\n    IDNAError,\n    InvalidCodepoint,\n    InvalidCodepointCont..."
+            },
+            {
+              "name": "codec.py",
+              "type": "file",
+              "size": 3438,
+              "ext": "py"
+            },
+            {
+              "name": "compat.py",
+              "type": "file",
+              "size": 316,
+              "ext": "py",
+              "preview": "from typing import Any, Union\n\nfrom .core import decode, encode\n\n\ndef ToASCII(label: str) -> bytes:\n..."
+            },
+            {
+              "name": "core.py",
+              "type": "file",
+              "size": 13246,
+              "ext": "py"
+            },
+            {
+              "name": "idnadata.py",
+              "type": "file",
+              "size": 79623,
+              "ext": "py"
+            },
+            {
+              "name": "intranges.py",
+              "type": "file",
+              "size": 1898,
+              "ext": "py",
+              "preview": "\"\"\"\nGiven a list of integers, made up of (hopefully) a small number of long runs\nof consecutive inte..."
+            },
+            {
+              "name": "package_data.py",
+              "type": "file",
+              "size": 21,
+              "ext": "py",
+              "preview": "__version__ = \"3.11\"\n"
+            },
+            {
+              "name": "py.typed",
+              "type": "file",
+              "size": 0,
+              "ext": "typed"
+            },
+            {
+              "name": "uts46data.py",
+              "type": "file",
+              "size": 243725,
+              "ext": "py"
+            }
+          ]
+        },
+        {
+          "name": "idna-3.11.dist-info",
+          "type": "folder",
+          "children": [
+            {
+              "name": "licenses",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "LICENSE.md",
+                  "type": "file",
+                  "size": 1541,
+                  "ext": "md",
+                  "preview": "BSD 3-Clause License\n\nCopyright (c) 2013-2025, Kim Davies and contributors.\nAll rights reserved.\n\nRe..."
+                }
+              ]
+            },
+            {
+              "name": "INSTALLER",
+              "type": "file",
+              "size": 4,
+              "ext": "file"
+            },
+            {
+              "name": "METADATA",
+              "type": "file",
+              "size": 8378,
+              "ext": "file"
+            },
+            {
+              "name": "RECORD",
+              "type": "file",
+              "size": 1392,
+              "ext": "file",
+              "preview": "idna-3.11.dist-info/INSTALLER,sha256=zuuue4knoyJ-UwPPXg8fezS7VCrXJQrAP7zeNuwvFQg,4\r\nidna-3.11.dist-i..."
+            },
+            {
+              "name": "WHEEL",
+              "type": "file",
+              "size": 82,
+              "ext": "file",
+              "preview": "Wheel-Version: 1.0\nGenerator: flit 3.12.0\nRoot-Is-Purelib: true\nTag: py3-none-any\n"
+            }
+          ]
+        },
+        {
+          "name": "jsonschema",
+          "type": "folder",
+          "children": [
+            {
+              "name": "__pycache__",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "__init__.cpython-313.pyc",
+                  "type": "file",
+                  "size": 3788,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "__main__.cpython-313.pyc",
+                  "type": "file",
+                  "size": 362,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_format.cpython-313.pyc",
+                  "type": "file",
+                  "size": 18599,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_keywords.cpython-313.pyc",
+                  "type": "file",
+                  "size": 20033,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_legacy_keywords.cpython-313.pyc",
+                  "type": "file",
+                  "size": 17434,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_types.cpython-313.pyc",
+                  "type": "file",
+                  "size": 6918,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_typing.cpython-313.pyc",
+                  "type": "file",
+                  "size": 1403,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_utils.cpython-313.pyc",
+                  "type": "file",
+                  "size": 14436,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "cli.cpython-313.pyc",
+                  "type": "file",
+                  "size": 12271,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "exceptions.cpython-313.pyc",
+                  "type": "file",
+                  "size": 21755,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "protocols.cpython-313.pyc",
+                  "type": "file",
+                  "size": 6320,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "validators.cpython-313.pyc",
+                  "type": "file",
+                  "size": 51831,
+                  "ext": "pyc"
+                }
+              ]
+            },
+            {
+              "name": "benchmarks",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "__pycache__",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "__init__.cpython-313.pyc",
+                      "type": "file",
+                      "size": 298,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "const_vs_enum.cpython-313.pyc",
+                      "type": "file",
+                      "size": 1965,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "contains.cpython-313.pyc",
+                      "type": "file",
+                      "size": 1937,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "import_benchmark.cpython-313.pyc",
+                      "type": "file",
+                      "size": 1380,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "issue232.cpython-313.pyc",
+                      "type": "file",
+                      "size": 913,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "json_schema_test_suite.cpython-313.pyc",
+                      "type": "file",
+                      "size": 664,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "nested_schemas.cpython-313.pyc",
+                      "type": "file",
+                      "size": 2464,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "subcomponents.cpython-313.pyc",
+                      "type": "file",
+                      "size": 2287,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "unused_registry.cpython-313.pyc",
+                      "type": "file",
+                      "size": 1599,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "useless_applicator_schemas.cpython-313.pyc",
+                      "type": "file",
+                      "size": 3584,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "useless_keywords.cpython-313.pyc",
+                      "type": "file",
+                      "size": 2109,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "validator_creation.cpython-313.pyc",
+                      "type": "file",
+                      "size": 590,
+                      "ext": "pyc"
+                    }
+                  ]
+                },
+                {
+                  "name": "issue232",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "issue.json",
+                      "type": "file",
+                      "size": 117105,
+                      "ext": "json"
+                    }
+                  ]
+                },
+                {
+                  "name": "__init__.py",
+                  "type": "file",
+                  "size": 70,
+                  "ext": "py",
+                  "preview": "\"\"\"\nBenchmarks for validation.\n\nThis package is *not* public API.\n\"\"\"\n"
+                },
+                {
+                  "name": "const_vs_enum.py",
+                  "type": "file",
+                  "size": 830,
+                  "ext": "py",
+                  "preview": "\"\"\"\nA benchmark for comparing equivalent validation of `const` and `enum`.\n\"\"\"\n\nfrom pyperf import R..."
+                },
+                {
+                  "name": "contains.py",
+                  "type": "file",
+                  "size": 786,
+                  "ext": "py",
+                  "preview": "\"\"\"\nA benchmark for validation of the `contains` keyword.\n\"\"\"\n\nfrom pyperf import Runner\n\nfrom jsons..."
+                },
+                {
+                  "name": "import_benchmark.py",
+                  "type": "file",
+                  "size": 779,
+                  "ext": "py",
+                  "preview": "\"\"\"\nA benchmark which measures the import time of jsonschema\n\"\"\"\n\nimport subprocess\nimport sys\n\n\ndef..."
+                },
+                {
+                  "name": "issue232.py",
+                  "type": "file",
+                  "size": 521,
+                  "ext": "py",
+                  "preview": "\"\"\"\nA performance benchmark using the example from issue #232.\n\nSee https://github.com/python-jsonsc..."
+                },
+                {
+                  "name": "json_schema_test_suite.py",
+                  "type": "file",
+                  "size": 320,
+                  "ext": "py",
+                  "preview": "\"\"\"\nA performance benchmark using the official test suite.\n\nThis benchmarks jsonschema using every v..."
+                },
+                {
+                  "name": "nested_schemas.py",
+                  "type": "file",
+                  "size": 1892,
+                  "ext": "py",
+                  "preview": "\"\"\"\nValidating highly nested schemas shouldn't cause exponential time blowups.\n\nSee https://github.c..."
+                },
+                {
+                  "name": "subcomponents.py",
+                  "type": "file",
+                  "size": 1113,
+                  "ext": "py",
+                  "preview": "\"\"\"\nA benchmark which tries to compare the possible slow subparts of validation.\n\"\"\"\nfrom referencin..."
+                },
+                {
+                  "name": "unused_registry.py",
+                  "type": "file",
+                  "size": 940,
+                  "ext": "py",
+                  "preview": "\"\"\"\nAn unused schema registry should not cause slower validation.\n\n\"Unused\" here means one where no ..."
+                },
+                {
+                  "name": "useless_applicator_schemas.py",
+                  "type": "file",
+                  "size": 3342,
+                  "ext": "py"
+                },
+                {
+                  "name": "useless_keywords.py",
+                  "type": "file",
+                  "size": 867,
+                  "ext": "py",
+                  "preview": "\"\"\"\nA benchmark for validation of schemas containing lots of useless keywords.\n\nChecks we filter the..."
+                },
+                {
+                  "name": "validator_creation.py",
+                  "type": "file",
+                  "size": 285,
+                  "ext": "py",
+                  "preview": "from pyperf import Runner\n\nfrom jsonschema import Draft202012Validator\n\nschema = {\n    \"type\": \"arra..."
+                }
+              ]
+            },
+            {
+              "name": "tests",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "__pycache__",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "__init__.cpython-313.pyc",
+                      "type": "file",
+                      "size": 213,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "_suite.cpython-313.pyc",
+                      "type": "file",
+                      "size": 13238,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "fuzz_validate.cpython-313.pyc",
+                      "type": "file",
+                      "size": 2324,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "test_cli.cpython-313.pyc",
+                      "type": "file",
+                      "size": 32849,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "test_deprecations.cpython-313.pyc",
+                      "type": "file",
+                      "size": 25011,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "test_exceptions.cpython-313.pyc",
+                      "type": "file",
+                      "size": 32858,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "test_format.cpython-313.pyc",
+                      "type": "file",
+                      "size": 6397,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "test_jsonschema_test_suite.cpython-313.pyc",
+                      "type": "file",
+                      "size": 10476,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "test_types.cpython-313.pyc",
+                      "type": "file",
+                      "size": 11940,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "test_utils.cpython-313.pyc",
+                      "type": "file",
+                      "size": 7946,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "test_validators.cpython-313.pyc",
+                      "type": "file",
+                      "size": 131631,
+                      "ext": "pyc"
+                    }
+                  ]
+                },
+                {
+                  "name": "typing",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "__pycache__",
+                      "type": "folder",
+                      "children": [
+                        {
+                          "name": "__init__.cpython-313.pyc",
+                          "type": "file",
+                          "size": 220,
+                          "ext": "pyc"
+                        },
+                        {
+                          "name": "test_all_concrete_validators_match_protocol.cpython-313.pyc",
+                          "type": "file",
+                          "size": 1020,
+                          "ext": "pyc"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "__init__.py",
+                      "type": "file",
+                      "size": 0,
+                      "ext": "py"
+                    },
+                    {
+                      "name": "test_all_concrete_validators_match_protocol.py",
+                      "type": "file",
+                      "size": 1238,
+                      "ext": "py",
+                      "preview": "\"\"\"\nThis module acts as a test that type checkers will allow each validator\nclass to be assigned to ..."
+                    }
+                  ]
+                },
+                {
+                  "name": "__init__.py",
+                  "type": "file",
+                  "size": 0,
+                  "ext": "py"
+                },
+                {
+                  "name": "_suite.py",
+                  "type": "file",
+                  "size": 8374,
+                  "ext": "py"
+                },
+                {
+                  "name": "fuzz_validate.py",
+                  "type": "file",
+                  "size": 1114,
+                  "ext": "py",
+                  "preview": "\"\"\"\nFuzzing setup for OSS-Fuzz.\n\nSee https://github.com/google/oss-fuzz/tree/master/projects/jsonsch..."
+                },
+                {
+                  "name": "test_cli.py",
+                  "type": "file",
+                  "size": 28544,
+                  "ext": "py"
+                },
+                {
+                  "name": "test_deprecations.py",
+                  "type": "file",
+                  "size": 15754,
+                  "ext": "py"
+                },
+                {
+                  "name": "test_exceptions.py",
+                  "type": "file",
+                  "size": 24301,
+                  "ext": "py"
+                },
+                {
+                  "name": "test_format.py",
+                  "type": "file",
+                  "size": 3188,
+                  "ext": "py"
+                },
+                {
+                  "name": "test_jsonschema_test_suite.py",
+                  "type": "file",
+                  "size": 8461,
+                  "ext": "py"
+                },
+                {
+                  "name": "test_types.py",
+                  "type": "file",
+                  "size": 6977,
+                  "ext": "py"
+                },
+                {
+                  "name": "test_utils.py",
+                  "type": "file",
+                  "size": 4163,
+                  "ext": "py"
+                },
+                {
+                  "name": "test_validators.py",
+                  "type": "file",
+                  "size": 87949,
+                  "ext": "py"
+                }
+              ]
+            },
+            {
+              "name": "__init__.py",
+              "type": "file",
+              "size": 3941,
+              "ext": "py"
+            },
+            {
+              "name": "__main__.py",
+              "type": "file",
+              "size": 115,
+              "ext": "py",
+              "preview": "\"\"\"\nThe jsonschema CLI is now deprecated in favor of check-jsonschema.\n\"\"\"\nfrom jsonschema.cli impor..."
+            },
+            {
+              "name": "_format.py",
+              "type": "file",
+              "size": 15568,
+              "ext": "py"
+            },
+            {
+              "name": "_keywords.py",
+              "type": "file",
+              "size": 14949,
+              "ext": "py"
+            },
+            {
+              "name": "_legacy_keywords.py",
+              "type": "file",
+              "size": 15191,
+              "ext": "py"
+            },
+            {
+              "name": "_types.py",
+              "type": "file",
+              "size": 5456,
+              "ext": "py"
+            },
+            {
+              "name": "_typing.py",
+              "type": "file",
+              "size": 617,
+              "ext": "py",
+              "preview": "\"\"\"\nSome (initially private) typing helpers for jsonschema's types.\n\"\"\"\nfrom collections.abc import ..."
+            },
+            {
+              "name": "_utils.py",
+              "type": "file",
+              "size": 10659,
+              "ext": "py"
+            },
+            {
+              "name": "cli.py",
+              "type": "file",
+              "size": 8445,
+              "ext": "py"
+            },
+            {
+              "name": "exceptions.py",
+              "type": "file",
+              "size": 15256,
+              "ext": "py"
+            },
+            {
+              "name": "protocols.py",
+              "type": "file",
+              "size": 7198,
+              "ext": "py"
+            },
+            {
+              "name": "validators.py",
+              "type": "file",
+              "size": 47159,
+              "ext": "py"
+            }
+          ]
+        },
+        {
+          "name": "jsonschema_specifications",
+          "type": "folder",
+          "children": [
+            {
+              "name": "__pycache__",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "__init__.cpython-313.pyc",
+                  "type": "file",
+                  "size": 577,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_core.cpython-313.pyc",
+                  "type": "file",
+                  "size": 1528,
+                  "ext": "pyc"
+                }
+              ]
+            },
+            {
+              "name": "schemas",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "draft201909",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "vocabularies",
+                      "type": "folder",
+                      "children": [
+                        {
+                          "name": "applicator",
+                          "type": "file",
+                          "size": 1860,
+                          "ext": "file",
+                          "preview": "{\n    \"$schema\": \"https://json-schema.org/draft/2019-09/schema\",\n    \"$id\": \"https://json-schema.org..."
+                        },
+                        {
+                          "name": "content",
+                          "type": "file",
+                          "size": 517,
+                          "ext": "file",
+                          "preview": "{\n    \"$schema\": \"https://json-schema.org/draft/2019-09/schema\",\n    \"$id\": \"https://json-schema.org..."
+                        },
+                        {
+                          "name": "core",
+                          "type": "file",
+                          "size": 1531,
+                          "ext": "file",
+                          "preview": "{\n    \"$schema\": \"https://json-schema.org/draft/2019-09/schema\",\n    \"$id\": \"https://json-schema.org..."
+                        },
+                        {
+                          "name": "format",
+                          "type": "file",
+                          "size": 403,
+                          "ext": "file",
+                          "preview": "{\n    \"$schema\": \"https://json-schema.org/draft/2019-09/schema\",\n    \"$id\": \"https://json-schema.org..."
+                        },
+                        {
+                          "name": "meta-data",
+                          "type": "file",
+                          "size": 892,
+                          "ext": "file",
+                          "preview": "{\n    \"$schema\": \"https://json-schema.org/draft/2019-09/schema\",\n    \"$id\": \"https://json-schema.org..."
+                        },
+                        {
+                          "name": "validation",
+                          "type": "file",
+                          "size": 2834,
+                          "ext": "file"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "metaschema.json",
+                      "type": "file",
+                      "size": 1785,
+                      "ext": "json",
+                      "preview": "{\n    \"$schema\": \"https://json-schema.org/draft/2019-09/schema\",\n    \"$id\": \"https://json-schema.org..."
+                    }
+                  ]
+                },
+                {
+                  "name": "draft202012",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "vocabularies",
+                      "type": "folder",
+                      "children": [
+                        {
+                          "name": "applicator",
+                          "type": "file",
+                          "size": 1659,
+                          "ext": "file",
+                          "preview": "{\n    \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n    \"$id\": \"https://json-schema.org..."
+                        },
+                        {
+                          "name": "content",
+                          "type": "file",
+                          "size": 519,
+                          "ext": "file",
+                          "preview": "{\n    \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n    \"$id\": \"https://json-schema.org..."
+                        },
+                        {
+                          "name": "core",
+                          "type": "file",
+                          "size": 1564,
+                          "ext": "file",
+                          "preview": "{\n    \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n    \"$id\": \"https://json-schema.org..."
+                        },
+                        {
+                          "name": "format-annotation",
+                          "type": "file",
+                          "size": 448,
+                          "ext": "file",
+                          "preview": "{\n    \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n    \"$id\": \"https://json-schema.org..."
+                        },
+                        {
+                          "name": "format-assertion",
+                          "type": "file",
+                          "size": 445,
+                          "ext": "file",
+                          "preview": "{\n    \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n    \"$id\": \"https://json-schema.org..."
+                        },
+                        {
+                          "name": "meta-data",
+                          "type": "file",
+                          "size": 892,
+                          "ext": "file",
+                          "preview": "{\n    \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n    \"$id\": \"https://json-schema.org..."
+                        },
+                        {
+                          "name": "unevaluated",
+                          "type": "file",
+                          "size": 506,
+                          "ext": "file",
+                          "preview": "{\n    \"$schema\": \"https://json-schema.org/draft/2020-12/schema\",\n    \"$id\": \"https://json-schema.org..."
+                        },
+                        {
+                          "name": "validation",
+                          "type": "file",
+                          "size": 2834,
+                          "ext": "file"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "metaschema.json",
+                      "type": "file",
+                      "size": 2452,
+                      "ext": "json"
+                    }
+                  ]
+                },
+                {
+                  "name": "draft3",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "metaschema.json",
+                      "type": "file",
+                      "size": 2600,
+                      "ext": "json"
+                    }
+                  ]
+                },
+                {
+                  "name": "draft4",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "metaschema.json",
+                      "type": "file",
+                      "size": 4357,
+                      "ext": "json"
+                    }
+                  ]
+                },
+                {
+                  "name": "draft6",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "metaschema.json",
+                      "type": "file",
+                      "size": 4437,
+                      "ext": "json"
+                    }
+                  ]
+                },
+                {
+                  "name": "draft7",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "metaschema.json",
+                      "type": "file",
+                      "size": 4819,
+                      "ext": "json"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "tests",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "__pycache__",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "__init__.cpython-313.pyc",
+                      "type": "file",
+                      "size": 228,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "test_jsonschema_specifications.cpython-313.pyc",
+                      "type": "file",
+                      "size": 1974,
+                      "ext": "pyc"
+                    }
+                  ]
+                },
+                {
+                  "name": "__init__.py",
+                  "type": "file",
+                  "size": 0,
+                  "ext": "py"
+                },
+                {
+                  "name": "test_jsonschema_specifications.py",
+                  "type": "file",
+                  "size": 1106,
+                  "ext": "py",
+                  "preview": "from collections.abc import Mapping\nfrom pathlib import Path\n\nimport pytest\n\nfrom jsonschema_specifi..."
+                }
+              ]
+            },
+            {
+              "name": "__init__.py",
+              "type": "file",
+              "size": 386,
+              "ext": "py",
+              "preview": "\"\"\"\nThe JSON Schema meta-schemas and vocabularies, exposed as a Registry.\n\"\"\"\n\nfrom referencing.json..."
+            },
+            {
+              "name": "_core.py",
+              "type": "file",
+              "size": 1140,
+              "ext": "py",
+              "preview": "\"\"\"\nLoad all the JSON Schema specification's official schemas.\n\"\"\"\n\nimport json\n\ntry:\n    from impor..."
+            }
+          ]
+        },
+        {
+          "name": "jsonschema_specifications-2025.9.1.dist-info",
+          "type": "folder",
+          "children": [
+            {
+              "name": "licenses",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "COPYING",
+                  "type": "file",
+                  "size": 1057,
+                  "ext": "file",
+                  "preview": "Copyright (c) 2022 Julian Berman\n\nPermission is hereby granted, free of charge, to any person obtain..."
+                }
+              ]
+            },
+            {
+              "name": "INSTALLER",
+              "type": "file",
+              "size": 4,
+              "ext": "file"
+            },
+            {
+              "name": "METADATA",
+              "type": "file",
+              "size": 2907,
+              "ext": "file"
+            },
+            {
+              "name": "RECORD",
+              "type": "file",
+              "size": 3656,
+              "ext": "file"
+            },
+            {
+              "name": "WHEEL",
+              "type": "file",
+              "size": 87,
+              "ext": "file",
+              "preview": "Wheel-Version: 1.0\nGenerator: hatchling 1.27.0\nRoot-Is-Purelib: true\nTag: py3-none-any\n"
+            }
+          ]
+        },
+        {
+          "name": "jsonschema-4.26.0.dist-info",
+          "type": "folder",
+          "children": [
+            {
+              "name": "licenses",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "COPYING",
+                  "type": "file",
+                  "size": 1057,
+                  "ext": "file",
+                  "preview": "Copyright (c) 2013 Julian Berman\n\nPermission is hereby granted, free of charge, to any person obtain..."
+                }
+              ]
+            },
+            {
+              "name": "entry_points.txt",
+              "type": "file",
+              "size": 51,
+              "ext": "txt",
+              "preview": "[console_scripts]\njsonschema = jsonschema.cli:main\n"
+            },
+            {
+              "name": "INSTALLER",
+              "type": "file",
+              "size": 4,
+              "ext": "file"
+            },
+            {
+              "name": "METADATA",
+              "type": "file",
+              "size": 7592,
+              "ext": "file"
+            },
+            {
+              "name": "RECORD",
+              "type": "file",
+              "size": 6320,
+              "ext": "file"
+            },
+            {
+              "name": "WHEEL",
+              "type": "file",
+              "size": 87,
+              "ext": "file",
+              "preview": "Wheel-Version: 1.0\nGenerator: hatchling 1.28.0\nRoot-Is-Purelib: true\nTag: py3-none-any\n"
+            }
+          ]
+        },
+        {
+          "name": "jwt",
+          "type": "folder",
+          "children": [
+            {
+              "name": "__pycache__",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "__init__.cpython-313.pyc",
+                  "type": "file",
+                  "size": 1663,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "algorithms.cpython-313.pyc",
+                  "type": "file",
+                  "size": 34983,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "api_jwk.cpython-313.pyc",
+                  "type": "file",
+                  "size": 7007,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "api_jws.cpython-313.pyc",
+                  "type": "file",
+                  "size": 13830,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "api_jwt.cpython-313.pyc",
+                  "type": "file",
+                  "size": 15144,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "exceptions.cpython-313.pyc",
+                  "type": "file",
+                  "size": 4013,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "help.cpython-313.pyc",
+                  "type": "file",
+                  "size": 2235,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "jwk_set_cache.cpython-313.pyc",
+                  "type": "file",
+                  "size": 1871,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "jwks_client.cpython-313.pyc",
+                  "type": "file",
+                  "size": 5832,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "types.cpython-313.pyc",
+                  "type": "file",
+                  "size": 354,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "utils.cpython-313.pyc",
+                  "type": "file",
+                  "size": 5655,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "warnings.cpython-313.pyc",
+                  "type": "file",
+                  "size": 467,
+                  "ext": "pyc"
+                }
+              ]
+            },
+            {
+              "name": "__init__.py",
+              "type": "file",
+              "size": 1711,
+              "ext": "py",
+              "preview": "from .api_jwk import PyJWK, PyJWKSet\nfrom .api_jws import (\n    PyJWS,\n    get_algorithm_by_name,\n  ..."
+            },
+            {
+              "name": "algorithms.py",
+              "type": "file",
+              "size": 30409,
+              "ext": "py"
+            },
+            {
+              "name": "api_jwk.py",
+              "type": "file",
+              "size": 4451,
+              "ext": "py"
+            },
+            {
+              "name": "api_jws.py",
+              "type": "file",
+              "size": 11762,
+              "ext": "py"
+            },
+            {
+              "name": "api_jwt.py",
+              "type": "file",
+              "size": 14512,
+              "ext": "py"
+            },
+            {
+              "name": "exceptions.py",
+              "type": "file",
+              "size": 1211,
+              "ext": "py",
+              "preview": "class PyJWTError(Exception):\n    \"\"\"\n    Base class for all exceptions\n    \"\"\"\n\n    pass\n\n\nclass Inv..."
+            },
+            {
+              "name": "help.py",
+              "type": "file",
+              "size": 1808,
+              "ext": "py",
+              "preview": "import json\nimport platform\nimport sys\nfrom typing import Dict\n\nfrom . import __version__ as pyjwt_v..."
+            },
+            {
+              "name": "jwk_set_cache.py",
+              "type": "file",
+              "size": 959,
+              "ext": "py",
+              "preview": "import time\nfrom typing import Optional\n\nfrom .api_jwk import PyJWKSet, PyJWTSetWithTimestamp\n\n\nclas..."
+            },
+            {
+              "name": "jwks_client.py",
+              "type": "file",
+              "size": 4259,
+              "ext": "py"
+            },
+            {
+              "name": "py.typed",
+              "type": "file",
+              "size": 0,
+              "ext": "typed"
+            },
+            {
+              "name": "types.py",
+              "type": "file",
+              "size": 99,
+              "ext": "py",
+              "preview": "from typing import Any, Callable, Dict\n\nJWKDict = Dict[str, Any]\n\nHashlibHash = Callable[..., Any]\n"
+            },
+            {
+              "name": "utils.py",
+              "type": "file",
+              "size": 3640,
+              "ext": "py"
+            },
+            {
+              "name": "warnings.py",
+              "type": "file",
+              "size": 59,
+              "ext": "py",
+              "preview": "class RemovedInPyjwt3Warning(DeprecationWarning):\n    pass\n"
+            }
+          ]
+        },
+        {
+          "name": "log_analyzer_client",
+          "type": "folder",
+          "children": [
+            {
+              "name": "__pycache__",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "__init__.cpython-313.pyc",
+                  "type": "file",
+                  "size": 216,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "cli.cpython-313.pyc",
+                  "type": "file",
+                  "size": 11175,
+                  "ext": "pyc"
+                }
+              ]
+            },
+            {
+              "name": "__init__.py",
+              "type": "file",
+              "size": 38,
+              "ext": "py",
+              "preview": "# src/log_analyzer_client/__init__.py\n"
+            },
+            {
+              "name": "cli.py",
+              "type": "file",
+              "size": 9765,
+              "ext": "py"
+            },
+            {
+              "name": "py.typed",
+              "type": "file",
+              "size": 65,
+              "ext": "typed"
+            }
+          ]
+        },
+        {
+          "name": "log_analyzer_mcp",
+          "type": "folder",
+          "children": [
+            {
+              "name": "__pycache__",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "__init__.cpython-313.pyc",
+                  "type": "file",
+                  "size": 239,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "log_analyzer_mcp_server.cpython-313.pyc",
+                  "type": "file",
+                  "size": 36100,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "test_log_parser.cpython-313.pyc",
+                  "type": "file",
+                  "size": 8112,
+                  "ext": "pyc"
+                }
+              ]
+            },
+            {
+              "name": "common",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "__pycache__",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "__init__.cpython-313.pyc",
+                      "type": "file",
+                      "size": 220,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "config_loader.cpython-313.pyc",
+                      "type": "file",
+                      "size": 7109,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "logger_setup.cpython-313.pyc",
+                      "type": "file",
+                      "size": 18943,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "utils.cpython-313.pyc",
+                      "type": "file",
+                      "size": 1445,
+                      "ext": "pyc"
+                    }
+                  ]
+                },
+                {
+                  "name": "__init__.py",
+                  "type": "file",
+                  "size": 330,
+                  "ext": "py",
+                  "preview": "# src/log_analyzer_mcp/common/__init__.py\n\n# This file makes Python treat the directory as a package..."
+                },
+                {
+                  "name": "config_loader.py",
+                  "type": "file",
+                  "size": 4908,
+                  "ext": "py"
+                },
+                {
+                  "name": "logger_setup.py",
+                  "type": "file",
+                  "size": 20195,
+                  "ext": "py"
+                },
+                {
+                  "name": "utils.py",
+                  "type": "file",
+                  "size": 1519,
+                  "ext": "py",
+                  "preview": "\"\"\"Common utility functions.\"\"\"\n\nfrom typing import Any, Dict, List, Optional\n\n\ndef build_filter_cri..."
+                }
+              ]
+            },
+            {
+              "name": "core",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "__pycache__",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "__init__.cpython-313.pyc",
+                      "type": "file",
+                      "size": 218,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "analysis_engine.cpython-313.pyc",
+                      "type": "file",
+                      "size": 24127,
+                      "ext": "pyc"
+                    }
+                  ]
+                },
+                {
+                  "name": "__init__.py",
+                  "type": "file",
+                  "size": 40,
+                  "ext": "py",
+                  "preview": "# src/log_analyzer_mcp/core/__init__.py\n"
+                },
+                {
+                  "name": "analysis_engine.py",
+                  "type": "file",
+                  "size": 29206,
+                  "ext": "py"
+                }
+              ]
+            },
+            {
+              "name": "__init__.py",
+              "type": "file",
+              "size": 284,
+              "ext": "py",
+              "preview": "__version__ = \"0.1.1\"\n\n# This file makes Python treat the directory as a package.\n# It can also be u..."
+            },
+            {
+              "name": "log_analyzer_mcp_server.py",
+              "type": "file",
+              "size": 37631,
+              "ext": "py"
+            },
+            {
+              "name": "py.typed",
+              "type": "file",
+              "size": 65,
+              "ext": "typed"
+            },
+            {
+              "name": "test_log_parser.py",
+              "type": "file",
+              "size": 9707,
+              "ext": "py"
+            }
+          ]
+        },
+        {
+          "name": "log_analyzer_mcp-0.1.8.dist-info",
+          "type": "folder",
+          "children": [
+            {
+              "name": "licenses",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "LICENSE.md",
+                  "type": "file",
+                  "size": 2201,
+                  "ext": "md"
+                }
+              ]
+            },
+            {
+              "name": "entry_points.txt",
+              "type": "file",
+              "size": 126,
+              "ext": "txt",
+              "preview": "[console_scripts]\nlog-analyzer = log_analyzer_client.cli:cli\nlog-analyzer-mcp = log_analyzer_mcp.log..."
+            },
+            {
+              "name": "INSTALLER",
+              "type": "file",
+              "size": 4,
+              "ext": "file"
+            },
+            {
+              "name": "METADATA",
+              "type": "file",
+              "size": 14180,
+              "ext": "file"
+            },
+            {
+              "name": "RECORD",
+              "type": "file",
+              "size": 2692,
+              "ext": "file"
+            },
+            {
+              "name": "REQUESTED",
+              "type": "file",
+              "size": 0,
+              "ext": "file"
+            },
+            {
+              "name": "WHEEL",
+              "type": "file",
+              "size": 87,
+              "ext": "file",
+              "preview": "Wheel-Version: 1.0\nGenerator: hatchling 1.27.0\nRoot-Is-Purelib: true\nTag: py3-none-any\n"
+            }
+          ]
+        },
+        {
+          "name": "loguru",
+          "type": "folder",
+          "children": [
+            {
+              "name": "__pycache__",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "__init__.cpython-313.pyc",
+                  "type": "file",
+                  "size": 1039,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_asyncio_loop.cpython-313.pyc",
+                  "type": "file",
+                  "size": 1280,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_better_exceptions.cpython-313.pyc",
+                  "type": "file",
+                  "size": 25370,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_colorama.cpython-313.pyc",
+                  "type": "file",
+                  "size": 2973,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_colorizer.cpython-313.pyc",
+                  "type": "file",
+                  "size": 20443,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_contextvars.cpython-313.pyc",
+                  "type": "file",
+                  "size": 655,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_ctime_functions.cpython-313.pyc",
+                  "type": "file",
+                  "size": 3144,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_datetime.cpython-313.pyc",
+                  "type": "file",
+                  "size": 11717,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_defaults.cpython-313.pyc",
+                  "type": "file",
+                  "size": 3456,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_error_interceptor.cpython-313.pyc",
+                  "type": "file",
+                  "size": 2174,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_file_sink.cpython-313.pyc",
+                  "type": "file",
+                  "size": 22090,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_filters.cpython-313.pyc",
+                  "type": "file",
+                  "size": 1039,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_get_frame.cpython-313.pyc",
+                  "type": "file",
+                  "size": 1007,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_handler.cpython-313.pyc",
+                  "type": "file",
+                  "size": 15448,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_locks_machinery.cpython-313.pyc",
+                  "type": "file",
+                  "size": 1879,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_logger.cpython-313.pyc",
+                  "type": "file",
+                  "size": 97629,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_recattrs.cpython-313.pyc",
+                  "type": "file",
+                  "size": 4694,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_simple_sinks.cpython-313.pyc",
+                  "type": "file",
+                  "size": 7306,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_string_parsers.cpython-313.pyc",
+                  "type": "file",
+                  "size": 8153,
+                  "ext": "pyc"
+                }
+              ]
+            },
+            {
+              "name": "__init__.py",
+              "type": "file",
+              "size": 627,
+              "ext": "py",
+              "preview": "\"\"\"\nThe Loguru library provides a pre-instanced logger to facilitate dealing with logging in Python...."
+            },
+            {
+              "name": "__init__.pyi",
+              "type": "file",
+              "size": 11658,
+              "ext": "pyi"
+            },
+            {
+              "name": "_asyncio_loop.py",
+              "type": "file",
+              "size": 597,
+              "ext": "py",
+              "preview": "import asyncio\nimport sys\n\n\ndef load_loop_functions():\n    if sys.version_info >= (3, 7):\n\n        d..."
+            },
+            {
+              "name": "_better_exceptions.py",
+              "type": "file",
+              "size": 21516,
+              "ext": "py"
+            },
+            {
+              "name": "_colorama.py",
+              "type": "file",
+              "size": 1735,
+              "ext": "py",
+              "preview": "import builtins\nimport os\nimport sys\n\n\ndef should_colorize(stream):\n    if stream is None:\n        r..."
+            },
+            {
+              "name": "_colorizer.py",
+              "type": "file",
+              "size": 14930,
+              "ext": "py"
+            },
+            {
+              "name": "_contextvars.py",
+              "type": "file",
+              "size": 321,
+              "ext": "py",
+              "preview": "import sys\n\n\ndef load_contextvar_class():\n    if sys.version_info >= (3, 7):\n        from contextvar..."
+            },
+            {
+              "name": "_ctime_functions.py",
+              "type": "file",
+              "size": 1527,
+              "ext": "py",
+              "preview": "import os\n\n\ndef load_ctime_functions():\n    if os.name == \"nt\":\n        import win32_setctime\n\n     ..."
+            },
+            {
+              "name": "_datetime.py",
+              "type": "file",
+              "size": 5380,
+              "ext": "py"
+            },
+            {
+              "name": "_defaults.py",
+              "type": "file",
+              "size": 3007,
+              "ext": "py"
+            },
+            {
+              "name": "_error_interceptor.py",
+              "type": "file",
+              "size": 1107,
+              "ext": "py",
+              "preview": "import sys\nimport traceback\n\n\nclass ErrorInterceptor:\n    def __init__(self, should_catch, handler_i..."
+            },
+            {
+              "name": "_file_sink.py",
+              "type": "file",
+              "size": 14404,
+              "ext": "py"
+            },
+            {
+              "name": "_filters.py",
+              "type": "file",
+              "size": 618,
+              "ext": "py",
+              "preview": "def filter_none(record):\n    return record[\"name\"] is not None\n\n\ndef filter_by_name(record, parent, ..."
+            },
+            {
+              "name": "_get_frame.py",
+              "type": "file",
+              "size": 458,
+              "ext": "py",
+              "preview": "import sys\nfrom sys import exc_info\n\n\ndef get_frame_fallback(n):\n    try:\n        raise Exception\n  ..."
+            },
+            {
+              "name": "_handler.py",
+              "type": "file",
+              "size": 12634,
+              "ext": "py"
+            },
+            {
+              "name": "_locks_machinery.py",
+              "type": "file",
+              "size": 1307,
+              "ext": "py",
+              "preview": "import os\nimport threading\nimport weakref\n\nif not hasattr(os, \"register_at_fork\"):\n\n    def create_l..."
+            },
+            {
+              "name": "_logger.py",
+              "type": "file",
+              "size": 97856,
+              "ext": "py"
+            },
+            {
+              "name": "_recattrs.py",
+              "type": "file",
+              "size": 2884,
+              "ext": "py"
+            },
+            {
+              "name": "_simple_sinks.py",
+              "type": "file",
+              "size": 3818,
+              "ext": "py"
+            },
+            {
+              "name": "_string_parsers.py",
+              "type": "file",
+              "size": 4811,
+              "ext": "py"
+            }
+          ],
+          "truncated": 1
+        },
+        {
+          "name": "loguru-0.7.3.dist-info",
+          "type": "folder",
+          "children": [
+            {
+              "name": "INSTALLER",
+              "type": "file",
+              "size": 4,
+              "ext": "file"
+            },
+            {
+              "name": "METADATA",
+              "type": "file",
+              "size": 22596,
+              "ext": "file"
+            },
+            {
+              "name": "RECORD",
+              "type": "file",
+              "size": 2911,
+              "ext": "file"
+            },
+            {
+              "name": "WHEEL",
+              "type": "file",
+              "size": 82,
+              "ext": "file",
+              "preview": "Wheel-Version: 1.0\nGenerator: flit 3.10.1\nRoot-Is-Purelib: true\nTag: py3-none-any\n"
+            }
+          ]
+        },
+        {
+          "name": "markdown_it",
+          "type": "folder",
+          "children": [
+            {
+              "name": "__pycache__",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "__init__.cpython-313.pyc",
+                  "type": "file",
+                  "size": 343,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_compat.cpython-313.pyc",
+                  "type": "file",
+                  "size": 256,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_punycode.cpython-313.pyc",
+                  "type": "file",
+                  "size": 2671,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "main.cpython-313.pyc",
+                  "type": "file",
+                  "size": 16705,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "parser_block.cpython-313.pyc",
+                  "type": "file",
+                  "size": 4194,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "parser_core.cpython-313.pyc",
+                  "type": "file",
+                  "size": 1901,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "parser_inline.cpython-313.pyc",
+                  "type": "file",
+                  "size": 5459,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "renderer.cpython-313.pyc",
+                  "type": "file",
+                  "size": 11891,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "ruler.cpython-313.pyc",
+                  "type": "file",
+                  "size": 12236,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "token.cpython-313.pyc",
+                  "type": "file",
+                  "size": 7823,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "tree.cpython-313.pyc",
+                  "type": "file",
+                  "size": 15575,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "utils.cpython-313.pyc",
+                  "type": "file",
+                  "size": 8488,
+                  "ext": "pyc"
+                }
+              ]
+            },
+            {
+              "name": "cli",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "__pycache__",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "__init__.cpython-313.pyc",
+                      "type": "file",
+                      "size": 212,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "parse.cpython-313.pyc",
+                      "type": "file",
+                      "size": 4449,
+                      "ext": "pyc"
+                    }
+                  ]
+                },
+                {
+                  "name": "__init__.py",
+                  "type": "file",
+                  "size": 0,
+                  "ext": "py"
+                },
+                {
+                  "name": "parse.py",
+                  "type": "file",
+                  "size": 2881,
+                  "ext": "py"
+                }
+              ]
+            },
+            {
+              "name": "common",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "__pycache__",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "__init__.cpython-313.pyc",
+                      "type": "file",
+                      "size": 215,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "entities.cpython-313.pyc",
+                      "type": "file",
+                      "size": 583,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "html_blocks.cpython-313.pyc",
+                      "type": "file",
+                      "size": 799,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "html_re.cpython-313.pyc",
+                      "type": "file",
+                      "size": 1351,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "normalize_url.cpython-313.pyc",
+                      "type": "file",
+                      "size": 3352,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "utils.cpython-313.pyc",
+                      "type": "file",
+                      "size": 8226,
+                      "ext": "pyc"
+                    }
+                  ]
+                },
+                {
+                  "name": "__init__.py",
+                  "type": "file",
+                  "size": 0,
+                  "ext": "py"
+                },
+                {
+                  "name": "entities.py",
+                  "type": "file",
+                  "size": 157,
+                  "ext": "py",
+                  "preview": "\"\"\"HTML5 entities map: { name -> characters }.\"\"\"\n\nimport html.entities\n\nentities = {name.rstrip(\";\"..."
+                },
+                {
+                  "name": "html_blocks.py",
+                  "type": "file",
+                  "size": 986,
+                  "ext": "py",
+                  "preview": "\"\"\"List of valid html blocks names, according to commonmark spec\nhttp://jgm.github.io/CommonMark/spe..."
+                },
+                {
+                  "name": "html_re.py",
+                  "type": "file",
+                  "size": 926,
+                  "ext": "py",
+                  "preview": "\"\"\"Regexps to match html elements\"\"\"\n\nimport re\n\nattr_name = \"[a-zA-Z_:][a-zA-Z0-9:._-]*\"\n\nunquoted ..."
+                },
+                {
+                  "name": "normalize_url.py",
+                  "type": "file",
+                  "size": 2568,
+                  "ext": "py"
+                },
+                {
+                  "name": "utils.py",
+                  "type": "file",
+                  "size": 8734,
+                  "ext": "py"
+                }
+              ]
+            },
+            {
+              "name": "helpers",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "__pycache__",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "__init__.cpython-313.pyc",
+                      "type": "file",
+                      "size": 478,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "parse_link_destination.cpython-313.pyc",
+                      "type": "file",
+                      "size": 2198,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "parse_link_label.cpython-313.pyc",
+                      "type": "file",
+                      "size": 1474,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "parse_link_title.cpython-313.pyc",
+                      "type": "file",
+                      "size": 2466,
+                      "ext": "pyc"
+                    }
+                  ]
+                },
+                {
+                  "name": "__init__.py",
+                  "type": "file",
+                  "size": 253,
+                  "ext": "py",
+                  "preview": "\"\"\"Functions for parsing Links\"\"\"\n\n__all__ = (\"parseLinkDestination\", \"parseLinkLabel\", \"parseLinkTi..."
+                },
+                {
+                  "name": "parse_link_destination.py",
+                  "type": "file",
+                  "size": 1906,
+                  "ext": "py",
+                  "preview": "\"\"\"\nParse link destination\n\"\"\"\n\nfrom ..common.utils import charCodeAt, unescapeAll\n\n\nclass _Result:\n..."
+                },
+                {
+                  "name": "parse_link_label.py",
+                  "type": "file",
+                  "size": 1037,
+                  "ext": "py",
+                  "preview": "\"\"\"\nParse link label\n\nthis function assumes that first character (\"[\") already matches\nreturns the e..."
+                },
+                {
+                  "name": "parse_link_title.py",
+                  "type": "file",
+                  "size": 2273,
+                  "ext": "py"
+                }
+              ]
+            },
+            {
+              "name": "presets",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "__pycache__",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "__init__.cpython-313.pyc",
+                      "type": "file",
+                      "size": 1673,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "commonmark.cpython-313.pyc",
+                      "type": "file",
+                      "size": 1178,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "default.cpython-313.pyc",
+                      "type": "file",
+                      "size": 694,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "zero.cpython-313.pyc",
+                      "type": "file",
+                      "size": 955,
+                      "ext": "pyc"
+                    }
+                  ]
+                },
+                {
+                  "name": "__init__.py",
+                  "type": "file",
+                  "size": 970,
+                  "ext": "py",
+                  "preview": "__all__ = (\"commonmark\", \"default\", \"gfm_like\", \"js_default\", \"zero\")\n\nfrom ..utils import PresetTyp..."
+                },
+                {
+                  "name": "commonmark.py",
+                  "type": "file",
+                  "size": 2869,
+                  "ext": "py"
+                },
+                {
+                  "name": "default.py",
+                  "type": "file",
+                  "size": 1811,
+                  "ext": "py",
+                  "preview": "\"\"\"markdown-it default options.\"\"\"\n\nfrom ..utils import PresetType\n\n\ndef make() -> PresetType:\n    r..."
+                },
+                {
+                  "name": "zero.py",
+                  "type": "file",
+                  "size": 2113,
+                  "ext": "py"
+                }
+              ]
+            },
+            {
+              "name": "rules_block",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "__pycache__",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "__init__.cpython-313.pyc",
+                      "type": "file",
+                      "size": 702,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "blockquote.cpython-313.pyc",
+                      "type": "file",
+                      "size": 7051,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "code.cpython-313.pyc",
+                      "type": "file",
+                      "size": 1418,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "fence.cpython-313.pyc",
+                      "type": "file",
+                      "size": 2561,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "heading.cpython-313.pyc",
+                      "type": "file",
+                      "size": 2675,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "hr.cpython-313.pyc",
+                      "type": "file",
+                      "size": 1797,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "html_block.cpython-313.pyc",
+                      "type": "file",
+                      "size": 3667,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "lheading.cpython-313.pyc",
+                      "type": "file",
+                      "size": 2997,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "list.cpython-313.pyc",
+                      "type": "file",
+                      "size": 8257,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "paragraph.cpython-313.pyc",
+                      "type": "file",
+                      "size": 2202,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "reference.cpython-313.pyc",
+                      "type": "file",
+                      "size": 6342,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "state_block.cpython-313.pyc",
+                      "type": "file",
+                      "size": 9414,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "table.cpython-313.pyc",
+                      "type": "file",
+                      "size": 7575,
+                      "ext": "pyc"
+                    }
+                  ]
+                },
+                {
+                  "name": "__init__.py",
+                  "type": "file",
+                  "size": 553,
+                  "ext": "py",
+                  "preview": "__all__ = (\n    \"StateBlock\",\n    \"blockquote\",\n    \"code\",\n    \"fence\",\n    \"heading\",\n    \"hr\",\n  ..."
+                },
+                {
+                  "name": "blockquote.py",
+                  "type": "file",
+                  "size": 8887,
+                  "ext": "py"
+                },
+                {
+                  "name": "code.py",
+                  "type": "file",
+                  "size": 860,
+                  "ext": "py",
+                  "preview": "\"\"\"Code block (4 spaces padded).\"\"\"\n\nimport logging\n\nfrom .state_block import StateBlock\n\nLOGGER = l..."
+                },
+                {
+                  "name": "fence.py",
+                  "type": "file",
+                  "size": 2537,
+                  "ext": "py"
+                },
+                {
+                  "name": "heading.py",
+                  "type": "file",
+                  "size": 1745,
+                  "ext": "py",
+                  "preview": "\"\"\"Atex heading (#, ##, ...)\"\"\"\n\nfrom __future__ import annotations\n\nimport logging\n\nfrom ..common.u..."
+                },
+                {
+                  "name": "hr.py",
+                  "type": "file",
+                  "size": 1227,
+                  "ext": "py",
+                  "preview": "\"\"\"Horizontal rule\n\nAt least 3 of these characters on a line * - _\n\"\"\"\n\nimport logging\n\nfrom ..commo..."
+                },
+                {
+                  "name": "html_block.py",
+                  "type": "file",
+                  "size": 2721,
+                  "ext": "py"
+                },
+                {
+                  "name": "lheading.py",
+                  "type": "file",
+                  "size": 2625,
+                  "ext": "py"
+                },
+                {
+                  "name": "list.py",
+                  "type": "file",
+                  "size": 9668,
+                  "ext": "py"
+                },
+                {
+                  "name": "paragraph.py",
+                  "type": "file",
+                  "size": 1819,
+                  "ext": "py",
+                  "preview": "\"\"\"Paragraph.\"\"\"\n\nimport logging\n\nfrom .state_block import StateBlock\n\nLOGGER = logging.getLogger(__..."
+                },
+                {
+                  "name": "reference.py",
+                  "type": "file",
+                  "size": 6983,
+                  "ext": "py"
+                },
+                {
+                  "name": "state_block.py",
+                  "type": "file",
+                  "size": 8422,
+                  "ext": "py"
+                },
+                {
+                  "name": "table.py",
+                  "type": "file",
+                  "size": 7682,
+                  "ext": "py"
+                }
+              ]
+            },
+            {
+              "name": "rules_core",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "__pycache__",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "__init__.cpython-313.pyc",
+                      "type": "file",
+                      "size": 566,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "block.cpython-313.pyc",
+                      "type": "file",
+                      "size": 1010,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "inline.cpython-313.pyc",
+                      "type": "file",
+                      "size": 849,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "linkify.cpython-313.pyc",
+                      "type": "file",
+                      "size": 5539,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "normalize.cpython-313.pyc",
+                      "type": "file",
+                      "size": 820,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "replacements.cpython-313.pyc",
+                      "type": "file",
+                      "size": 5020,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "smartquotes.cpython-313.pyc",
+                      "type": "file",
+                      "size": 6464,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "state_core.cpython-313.pyc",
+                      "type": "file",
+                      "size": 1205,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "text_join.cpython-313.pyc",
+                      "type": "file",
+                      "size": 1519,
+                      "ext": "pyc"
+                    }
+                  ]
+                },
+                {
+                  "name": "__init__.py",
+                  "type": "file",
+                  "size": 394,
+                  "ext": "py",
+                  "preview": "__all__ = (\n    \"StateCore\",\n    \"block\",\n    \"inline\",\n    \"linkify\",\n    \"normalize\",\n    \"replace..."
+                },
+                {
+                  "name": "block.py",
+                  "type": "file",
+                  "size": 372,
+                  "ext": "py",
+                  "preview": "from ..token import Token\nfrom .state_core import StateCore\n\n\ndef block(state: StateCore) -> None:\n ..."
+                },
+                {
+                  "name": "inline.py",
+                  "type": "file",
+                  "size": 325,
+                  "ext": "py",
+                  "preview": "from .state_core import StateCore\n\n\ndef inline(state: StateCore) -> None:\n    \"\"\"Parse inlines\"\"\"\n  ..."
+                },
+                {
+                  "name": "linkify.py",
+                  "type": "file",
+                  "size": 5141,
+                  "ext": "py"
+                },
+                {
+                  "name": "normalize.py",
+                  "type": "file",
+                  "size": 403,
+                  "ext": "py",
+                  "preview": "\"\"\"Normalize input string.\"\"\"\n\nimport re\n\nfrom .state_core import StateCore\n\n# https://spec.commonma..."
+                },
+                {
+                  "name": "replacements.py",
+                  "type": "file",
+                  "size": 3471,
+                  "ext": "py"
+                },
+                {
+                  "name": "smartquotes.py",
+                  "type": "file",
+                  "size": 7443,
+                  "ext": "py"
+                },
+                {
+                  "name": "state_core.py",
+                  "type": "file",
+                  "size": 570,
+                  "ext": "py",
+                  "preview": "from __future__ import annotations\n\nfrom typing import TYPE_CHECKING\n\nfrom ..ruler import StateBase\n..."
+                },
+                {
+                  "name": "text_join.py",
+                  "type": "file",
+                  "size": 1173,
+                  "ext": "py",
+                  "preview": "\"\"\"Join raw text tokens with the rest of the text\n\nThis is set as a separate rule to provide an oppo..."
+                }
+              ]
+            },
+            {
+              "name": "rules_inline",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "__pycache__",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "__init__.cpython-313.pyc",
+                      "type": "file",
+                      "size": 833,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "autolink.cpython-313.pyc",
+                      "type": "file",
+                      "size": 2847,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "backticks.cpython-313.pyc",
+                      "type": "file",
+                      "size": 2631,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "balance_pairs.cpython-313.pyc",
+                      "type": "file",
+                      "size": 3344,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "emphasis.cpython-313.pyc",
+                      "type": "file",
+                      "size": 3997,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "entity.cpython-313.pyc",
+                      "type": "file",
+                      "size": 2552,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "escape.cpython-313.pyc",
+                      "type": "file",
+                      "size": 1945,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "fragments_join.cpython-313.pyc",
+                      "type": "file",
+                      "size": 1934,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "html_inline.cpython-313.pyc",
+                      "type": "file",
+                      "size": 2097,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "image.cpython-313.pyc",
+                      "type": "file",
+                      "size": 4317,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "link.cpython-313.pyc",
+                      "type": "file",
+                      "size": 4152,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "linkify.cpython-313.pyc",
+                      "type": "file",
+                      "size": 2828,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "newline.cpython-313.pyc",
+                      "type": "file",
+                      "size": 1846,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "state_inline.cpython-313.pyc",
+                      "type": "file",
+                      "size": 6260,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "strikethrough.cpython-313.pyc",
+                      "type": "file",
+                      "size": 4272,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "text.cpython-313.pyc",
+                      "type": "file",
+                      "size": 1551,
+                      "ext": "pyc"
+                    }
+                  ]
+                },
+                {
+                  "name": "__init__.py",
+                  "type": "file",
+                  "size": 696,
+                  "ext": "py",
+                  "preview": "__all__ = (\n    \"StateInline\",\n    \"autolink\",\n    \"backtick\",\n    \"emphasis\",\n    \"entity\",\n    \"es..."
+                },
+                {
+                  "name": "autolink.py",
+                  "type": "file",
+                  "size": 2065,
+                  "ext": "py"
+                },
+                {
+                  "name": "backticks.py",
+                  "type": "file",
+                  "size": 2037,
+                  "ext": "py",
+                  "preview": "# Parse backticks\nimport re\n\nfrom .state_inline import StateInline\n\nregex = re.compile(\"^ (.+) $\")\n\n..."
+                },
+                {
+                  "name": "balance_pairs.py",
+                  "type": "file",
+                  "size": 4852,
+                  "ext": "py"
+                },
+                {
+                  "name": "emphasis.py",
+                  "type": "file",
+                  "size": 3123,
+                  "ext": "py"
+                },
+                {
+                  "name": "entity.py",
+                  "type": "file",
+                  "size": 1651,
+                  "ext": "py",
+                  "preview": "# Process html entity - &#123;, &#xAF;, &quot;, ...\nimport re\n\nfrom ..common.entities import entitie..."
+                },
+                {
+                  "name": "escape.py",
+                  "type": "file",
+                  "size": 1659,
+                  "ext": "py",
+                  "preview": "\"\"\"\nProcess escaped chars and hardbreaks\n\"\"\"\n\nfrom ..common.utils import isStrSpace\nfrom .state_inli..."
+                },
+                {
+                  "name": "fragments_join.py",
+                  "type": "file",
+                  "size": 1493,
+                  "ext": "py",
+                  "preview": "from .state_inline import StateInline\n\n\ndef fragments_join(state: StateInline) -> None:\n    \"\"\"\n    ..."
+                },
+                {
+                  "name": "html_inline.py",
+                  "type": "file",
+                  "size": 1130,
+                  "ext": "py",
+                  "preview": "# Process html tags\nfrom ..common.html_re import HTML_TAG_RE\nfrom ..common.utils import isLinkClose,..."
+                },
+                {
+                  "name": "image.py",
+                  "type": "file",
+                  "size": 4141,
+                  "ext": "py"
+                },
+                {
+                  "name": "link.py",
+                  "type": "file",
+                  "size": 4258,
+                  "ext": "py"
+                },
+                {
+                  "name": "linkify.py",
+                  "type": "file",
+                  "size": 1706,
+                  "ext": "py",
+                  "preview": "\"\"\"Process links like https://example.org/\"\"\"\n\nimport re\n\nfrom .state_inline import StateInline\n\n# R..."
+                },
+                {
+                  "name": "newline.py",
+                  "type": "file",
+                  "size": 1297,
+                  "ext": "py",
+                  "preview": "\"\"\"Proceess '\\n'.\"\"\"\n\nfrom ..common.utils import charStrAt, isStrSpace\nfrom .state_inline import Sta..."
+                },
+                {
+                  "name": "state_inline.py",
+                  "type": "file",
+                  "size": 5003,
+                  "ext": "py"
+                },
+                {
+                  "name": "strikethrough.py",
+                  "type": "file",
+                  "size": 3214,
+                  "ext": "py"
+                },
+                {
+                  "name": "text.py",
+                  "type": "file",
+                  "size": 1119,
+                  "ext": "py",
+                  "preview": "import functools\nimport re\n\n# Skip text characters for text token, place those to pending buffer\n# a..."
+                }
+              ]
+            },
+            {
+              "name": "__init__.py",
+              "type": "file",
+              "size": 114,
+              "ext": "py",
+              "preview": "\"\"\"A Python port of Markdown-It\"\"\"\n\n__all__ = (\"MarkdownIt\",)\n__version__ = \"4.0.0\"\n\nfrom .main impo..."
+            },
+            {
+              "name": "_compat.py",
+              "type": "file",
+              "size": 35,
+              "ext": "py",
+              "preview": "from __future__ import annotations\n"
+            },
+            {
+              "name": "_punycode.py",
+              "type": "file",
+              "size": 2373,
+              "ext": "py"
+            },
+            {
+              "name": "main.py",
+              "type": "file",
+              "size": 12732,
+              "ext": "py"
+            },
+            {
+              "name": "parser_block.py",
+              "type": "file",
+              "size": 3939,
+              "ext": "py"
+            },
+            {
+              "name": "parser_core.py",
+              "type": "file",
+              "size": 1016,
+              "ext": "py",
+              "preview": "\"\"\"\n* class Core\n*\n* Top-level rules executor. Glues block/inline parsers and does intermediate\n* tr..."
+            },
+            {
+              "name": "parser_inline.py",
+              "type": "file",
+              "size": 5024,
+              "ext": "py"
+            },
+            {
+              "name": "port.yaml",
+              "type": "file",
+              "size": 2447,
+              "ext": "yaml"
+            },
+            {
+              "name": "py.typed",
+              "type": "file",
+              "size": 26,
+              "ext": "typed"
+            },
+            {
+              "name": "renderer.py",
+              "type": "file",
+              "size": 9947,
+              "ext": "py"
+            },
+            {
+              "name": "ruler.py",
+              "type": "file",
+              "size": 9142,
+              "ext": "py"
+            },
+            {
+              "name": "token.py",
+              "type": "file",
+              "size": 6381,
+              "ext": "py"
+            },
+            {
+              "name": "tree.py",
+              "type": "file",
+              "size": 11111,
+              "ext": "py"
+            },
+            {
+              "name": "utils.py",
+              "type": "file",
+              "size": 5687,
+              "ext": "py"
+            }
+          ]
+        },
+        {
+          "name": "markdown_it_py-4.0.0.dist-info",
+          "type": "folder",
+          "children": [
+            {
+              "name": "licenses",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "LICENSE",
+                  "type": "file",
+                  "size": 1078,
+                  "ext": "file",
+                  "preview": "MIT License\n\nCopyright (c) 2020 ExecutableBookProject\n\nPermission is hereby granted, free of charge,..."
+                },
+                {
+                  "name": "LICENSE.markdown-it",
+                  "type": "file",
+                  "size": 1073,
+                  "ext": "markdown-it"
+                }
+              ]
+            },
+            {
+              "name": "entry_points.txt",
+              "type": "file",
+              "size": 58,
+              "ext": "txt",
+              "preview": "[console_scripts]\nmarkdown-it=markdown_it.cli.parse:main\n\n"
+            },
+            {
+              "name": "INSTALLER",
+              "type": "file",
+              "size": 4,
+              "ext": "file"
+            },
+            {
+              "name": "METADATA",
+              "type": "file",
+              "size": 7288,
+              "ext": "file"
+            },
+            {
+              "name": "RECORD",
+              "type": "file",
+              "size": 10841,
+              "ext": "file"
+            },
+            {
+              "name": "WHEEL",
+              "type": "file",
+              "size": 82,
+              "ext": "file",
+              "preview": "Wheel-Version: 1.0\nGenerator: flit 3.12.0\nRoot-Is-Purelib: true\nTag: py3-none-any\n"
+            }
+          ]
+        },
+        {
+          "name": "mcp",
+          "type": "folder",
+          "children": [
+            {
+              "name": "__pycache__",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "__init__.cpython-313.pyc",
+                  "type": "file",
+                  "size": 2617,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "types.cpython-313.pyc",
+                  "type": "file",
+                  "size": 69456,
+                  "ext": "pyc"
+                }
+              ]
+            },
+            {
+              "name": "cli",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "__pycache__",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "__init__.cpython-313.pyc",
+                      "type": "file",
+                      "size": 342,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "claude.cpython-313.pyc",
+                      "type": "file",
+                      "size": 5755,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "cli.cpython-313.pyc",
+                      "type": "file",
+                      "size": 17228,
+                      "ext": "pyc"
+                    }
+                  ]
+                },
+                {
+                  "name": "__init__.py",
+                  "type": "file",
+                  "size": 107,
+                  "ext": "py",
+                  "preview": "\"\"\"FastMCP CLI package.\"\"\"\n\nfrom .cli import app\n\nif __name__ == \"__main__\":  # pragma: no cover\n   ..."
+                },
+                {
+                  "name": "claude.py",
+                  "type": "file",
+                  "size": 5086,
+                  "ext": "py"
+                },
+                {
+                  "name": "cli.py",
+                  "type": "file",
+                  "size": 15179,
+                  "ext": "py"
+                }
+              ]
+            },
+            {
+              "name": "client",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "__pycache__",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "__init__.cpython-313.pyc",
+                      "type": "file",
+                      "size": 207,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "__main__.cpython-313.pyc",
+                      "type": "file",
+                      "size": 4714,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "session_group.cpython-313.pyc",
+                      "type": "file",
+                      "size": 20178,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "session.cpython-313.pyc",
+                      "type": "file",
+                      "size": 31584,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "sse.cpython-313.pyc",
+                      "type": "file",
+                      "size": 9734,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "streamable_http.cpython-313.pyc",
+                      "type": "file",
+                      "size": 34317,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "websocket.cpython-313.pyc",
+                      "type": "file",
+                      "size": 4570,
+                      "ext": "pyc"
+                    }
+                  ]
+                },
+                {
+                  "name": "auth",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "__pycache__",
+                      "type": "folder",
+                      "children": [
+                        {
+                          "name": "__init__.cpython-313.pyc",
+                          "type": "file",
+                          "size": 667,
+                          "ext": "pyc"
+                        },
+                        {
+                          "name": "exceptions.cpython-313.pyc",
+                          "type": "file",
+                          "size": 944,
+                          "ext": "pyc"
+                        },
+                        {
+                          "name": "oauth2.cpython-313.pyc",
+                          "type": "file",
+                          "size": 32205,
+                          "ext": "pyc"
+                        },
+                        {
+                          "name": "utils.cpython-313.pyc",
+                          "type": "file",
+                          "size": 12819,
+                          "ext": "pyc"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "extensions",
+                      "type": "folder",
+                      "children": [
+                        {
+                          "name": "__pycache__",
+                          "type": "folder",
+                          "children": [
+                            {
+                              "name": "__init__.cpython-313.pyc",
+                              "type": "file",
+                              "size": 223,
+                              "ext": "pyc"
+                            },
+                            {
+                              "name": "client_credentials.cpython-313.pyc",
+                              "type": "file",
+                              "size": 23219,
+                              "ext": "pyc"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "__init__.py",
+                          "type": "file",
+                          "size": 0,
+                          "ext": "py"
+                        },
+                        {
+                          "name": "client_credentials.py",
+                          "type": "file",
+                          "size": 20897,
+                          "ext": "py"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "__init__.py",
+                      "type": "file",
+                      "size": 488,
+                      "ext": "py",
+                      "preview": "\"\"\"\nOAuth2 Authentication implementation for HTTPX.\n\nImplements authorization code flow with PKCE an..."
+                    },
+                    {
+                      "name": "exceptions.py",
+                      "type": "file",
+                      "size": 264,
+                      "ext": "py",
+                      "preview": "class OAuthFlowError(Exception):\n    \"\"\"Base exception for OAuth flow errors.\"\"\"\n\n\nclass OAuthTokenE..."
+                    },
+                    {
+                      "name": "oauth2.py",
+                      "type": "file",
+                      "size": 27638,
+                      "ext": "py"
+                    },
+                    {
+                      "name": "utils.py",
+                      "type": "file",
+                      "size": 12069,
+                      "ext": "py"
+                    }
+                  ]
+                },
+                {
+                  "name": "experimental",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "__pycache__",
+                      "type": "folder",
+                      "children": [
+                        {
+                          "name": "__init__.cpython-313.pyc",
+                          "type": "file",
+                          "size": 454,
+                          "ext": "pyc"
+                        },
+                        {
+                          "name": "task_handlers.cpython-313.pyc",
+                          "type": "file",
+                          "size": 14764,
+                          "ext": "pyc"
+                        },
+                        {
+                          "name": "tasks.cpython-313.pyc",
+                          "type": "file",
+                          "size": 8640,
+                          "ext": "pyc"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "__init__.py",
+                      "type": "file",
+                      "size": 219,
+                      "ext": "py",
+                      "preview": "\"\"\"\nExperimental client features.\n\nWARNING: These APIs are experimental and may change without notic..."
+                    },
+                    {
+                      "name": "task_handlers.py",
+                      "type": "file",
+                      "size": 10791,
+                      "ext": "py"
+                    },
+                    {
+                      "name": "tasks.py",
+                      "type": "file",
+                      "size": 7055,
+                      "ext": "py"
+                    }
+                  ]
+                },
+                {
+                  "name": "stdio",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "__pycache__",
+                      "type": "folder",
+                      "children": [
+                        {
+                          "name": "__init__.cpython-313.pyc",
+                          "type": "file",
+                          "size": 12416,
+                          "ext": "pyc"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "__init__.py",
+                      "type": "file",
+                      "size": 9403,
+                      "ext": "py"
+                    }
+                  ]
+                },
+                {
+                  "name": "__init__.py",
+                  "type": "file",
+                  "size": 0,
+                  "ext": "py"
+                },
+                {
+                  "name": "__main__.py",
+                  "type": "file",
+                  "size": 2588,
+                  "ext": "py"
+                },
+                {
+                  "name": "session_group.py",
+                  "type": "file",
+                  "size": 17423,
+                  "ext": "py"
+                },
+                {
+                  "name": "session.py",
+                  "type": "file",
+                  "size": 23495,
+                  "ext": "py"
+                },
+                {
+                  "name": "sse.py",
+                  "type": "file",
+                  "size": 8257,
+                  "ext": "py"
+                },
+                {
+                  "name": "streamable_http.py",
+                  "type": "file",
+                  "size": 28324,
+                  "ext": "py"
+                },
+                {
+                  "name": "websocket.py",
+                  "type": "file",
+                  "size": 3486,
+                  "ext": "py"
+                }
+              ]
+            },
+            {
+              "name": "os",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "__pycache__",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "__init__.cpython-313.pyc",
+                      "type": "file",
+                      "size": 254,
+                      "ext": "pyc"
+                    }
+                  ]
+                },
+                {
+                  "name": "posix",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "__pycache__",
+                      "type": "folder",
+                      "children": [
+                        {
+                          "name": "__init__.cpython-313.pyc",
+                          "type": "file",
+                          "size": 257,
+                          "ext": "pyc"
+                        },
+                        {
+                          "name": "utilities.cpython-313.pyc",
+                          "type": "file",
+                          "size": 3203,
+                          "ext": "pyc"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "__init__.py",
+                      "type": "file",
+                      "size": 40,
+                      "ext": "py",
+                      "preview": "\"\"\"POSIX-specific utilities for MCP.\"\"\"\n"
+                    },
+                    {
+                      "name": "utilities.py",
+                      "type": "file",
+                      "size": 1930,
+                      "ext": "py",
+                      "preview": "\"\"\"\nPOSIX-specific functionality for stdio client operations.\n\"\"\"\n\nimport logging\nimport os\nimport s..."
+                    }
+                  ]
+                },
+                {
+                  "name": "win32",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "__pycache__",
+                      "type": "folder",
+                      "children": [
+                        {
+                          "name": "__init__.cpython-313.pyc",
+                          "type": "file",
+                          "size": 259,
+                          "ext": "pyc"
+                        },
+                        {
+                          "name": "utilities.cpython-313.pyc",
+                          "type": "file",
+                          "size": 14225,
+                          "ext": "pyc"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "__init__.py",
+                      "type": "file",
+                      "size": 42,
+                      "ext": "py",
+                      "preview": "\"\"\"Windows-specific utilities for MCP.\"\"\"\n"
+                    },
+                    {
+                      "name": "utilities.py",
+                      "type": "file",
+                      "size": 10808,
+                      "ext": "py"
+                    }
+                  ]
+                },
+                {
+                  "name": "__init__.py",
+                  "type": "file",
+                  "size": 43,
+                  "ext": "py",
+                  "preview": "\"\"\"Platform-specific utilities for MCP.\"\"\"\n"
+                }
+              ]
+            },
+            {
+              "name": "server",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "__pycache__",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "__init__.cpython-313.pyc",
+                      "type": "file",
+                      "size": 416,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "__main__.cpython-313.pyc",
+                      "type": "file",
+                      "size": 2778,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "elicitation.cpython-313.pyc",
+                      "type": "file",
+                      "size": 8057,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "models.cpython-313.pyc",
+                      "type": "file",
+                      "size": 971,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "session.cpython-313.pyc",
+                      "type": "file",
+                      "size": 31065,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "sse.cpython-313.pyc",
+                      "type": "file",
+                      "size": 13155,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "stdio.cpython-313.pyc",
+                      "type": "file",
+                      "size": 5019,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "streamable_http_manager.cpython-313.pyc",
+                      "type": "file",
+                      "size": 13587,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "streamable_http.cpython-313.pyc",
+                      "type": "file",
+                      "size": 50685,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "transport_security.cpython-313.pyc",
+                      "type": "file",
+                      "size": 5557,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "validation.cpython-313.pyc",
+                      "type": "file",
+                      "size": 4624,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "websocket.cpython-313.pyc",
+                      "type": "file",
+                      "size": 4186,
+                      "ext": "pyc"
+                    }
+                  ]
+                },
+                {
+                  "name": "auth",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "__pycache__",
+                      "type": "folder",
+                      "children": [
+                        {
+                          "name": "__init__.cpython-313.pyc",
+                          "type": "file",
+                          "size": 273,
+                          "ext": "pyc"
+                        },
+                        {
+                          "name": "errors.cpython-313.pyc",
+                          "type": "file",
+                          "size": 1081,
+                          "ext": "pyc"
+                        },
+                        {
+                          "name": "json_response.cpython-313.pyc",
+                          "type": "file",
+                          "size": 882,
+                          "ext": "pyc"
+                        },
+                        {
+                          "name": "provider.cpython-313.pyc",
+                          "type": "file",
+                          "size": 12638,
+                          "ext": "pyc"
+                        },
+                        {
+                          "name": "routes.cpython-313.pyc",
+                          "type": "file",
+                          "size": 8598,
+                          "ext": "pyc"
+                        },
+                        {
+                          "name": "settings.cpython-313.pyc",
+                          "type": "file",
+                          "size": 1928,
+                          "ext": "pyc"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "handlers",
+                      "type": "folder",
+                      "children": [
+                        {
+                          "name": "__pycache__",
+                          "type": "folder",
+                          "children": [
+                            {
+                              "name": "__init__.cpython-313.pyc",
+                              "type": "file",
+                              "size": 289,
+                              "ext": "pyc"
+                            },
+                            {
+                              "name": "authorize.cpython-313.pyc",
+                              "type": "file",
+                              "size": 8523,
+                              "ext": "pyc"
+                            },
+                            {
+                              "name": "metadata.cpython-313.pyc",
+                              "type": "file",
+                              "size": 1666,
+                              "ext": "pyc"
+                            },
+                            {
+                              "name": "register.cpython-313.pyc",
+                              "type": "file",
+                              "size": 6018,
+                              "ext": "pyc"
+                            },
+                            {
+                              "name": "revoke.cpython-313.pyc",
+                              "type": "file",
+                              "size": 4128,
+                              "ext": "pyc"
+                            },
+                            {
+                              "name": "token.cpython-313.pyc",
+                              "type": "file",
+                              "size": 9510,
+                              "ext": "pyc"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "__init__.py",
+                          "type": "file",
+                          "size": 58,
+                          "ext": "py",
+                          "preview": "\"\"\"\nRequest handlers for MCP authorization endpoints.\n\"\"\"\n"
+                        },
+                        {
+                          "name": "authorize.py",
+                          "type": "file",
+                          "size": 9728,
+                          "ext": "py"
+                        },
+                        {
+                          "name": "metadata.py",
+                          "type": "file",
+                          "size": 853,
+                          "ext": "py",
+                          "preview": "from dataclasses import dataclass\n\nfrom starlette.requests import Request\nfrom starlette.responses i..."
+                        },
+                        {
+                          "name": "register.py",
+                          "type": "file",
+                          "size": 5928,
+                          "ext": "py"
+                        },
+                        {
+                          "name": "revoke.py",
+                          "type": "file",
+                          "size": 3113,
+                          "ext": "py"
+                        },
+                        {
+                          "name": "token.py",
+                          "type": "file",
+                          "size": 10223,
+                          "ext": "py"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "middleware",
+                      "type": "folder",
+                      "children": [
+                        {
+                          "name": "__pycache__",
+                          "type": "folder",
+                          "children": [
+                            {
+                              "name": "__init__.cpython-313.pyc",
+                              "type": "file",
+                              "size": 275,
+                              "ext": "pyc"
+                            },
+                            {
+                              "name": "auth_context.cpython-313.pyc",
+                              "type": "file",
+                              "size": 2630,
+                              "ext": "pyc"
+                            },
+                            {
+                              "name": "bearer_auth.cpython-313.pyc",
+                              "type": "file",
+                              "size": 6617,
+                              "ext": "pyc"
+                            },
+                            {
+                              "name": "client_auth.cpython-313.pyc",
+                              "type": "file",
+                              "size": 5273,
+                              "ext": "pyc"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "__init__.py",
+                          "type": "file",
+                          "size": 42,
+                          "ext": "py",
+                          "preview": "\"\"\"\nMiddleware for MCP authorization.\n\"\"\"\n"
+                        },
+                        {
+                          "name": "auth_context.py",
+                          "type": "file",
+                          "size": 1696,
+                          "ext": "py",
+                          "preview": "import contextvars\n\nfrom starlette.types import ASGIApp, Receive, Scope, Send\n\nfrom mcp.server.auth...."
+                        },
+                        {
+                          "name": "bearer_auth.py",
+                          "type": "file",
+                          "size": 4423,
+                          "ext": "py"
+                        },
+                        {
+                          "name": "client_auth.py",
+                          "type": "file",
+                          "size": 4723,
+                          "ext": "py"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "__init__.py",
+                      "type": "file",
+                      "size": 51,
+                      "ext": "py",
+                      "preview": "\"\"\"\nMCP OAuth server authorization components.\n\"\"\"\n"
+                    },
+                    {
+                      "name": "errors.py",
+                      "type": "file",
+                      "size": 224,
+                      "ext": "py",
+                      "preview": "from pydantic import ValidationError\n\n\ndef stringify_pydantic_error(validation_error: ValidationErro..."
+                    },
+                    {
+                      "name": "json_response.py",
+                      "type": "file",
+                      "size": 377,
+                      "ext": "py",
+                      "preview": "from typing import Any\n\nfrom starlette.responses import JSONResponse\n\n\nclass PydanticJSONResponse(JS..."
+                    },
+                    {
+                      "name": "provider.py",
+                      "type": "file",
+                      "size": 9846,
+                      "ext": "py"
+                    },
+                    {
+                      "name": "routes.py",
+                      "type": "file",
+                      "size": 9131,
+                      "ext": "py"
+                    },
+                    {
+                      "name": "settings.py",
+                      "type": "file",
+                      "size": 1031,
+                      "ext": "py",
+                      "preview": "from pydantic import AnyHttpUrl, BaseModel, Field\n\n\nclass ClientRegistrationOptions(BaseModel):\n    ..."
+                    }
+                  ]
+                },
+                {
+                  "name": "experimental",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "__pycache__",
+                      "type": "folder",
+                      "children": [
+                        {
+                          "name": "__init__.cpython-313.pyc",
+                          "type": "file",
+                          "size": 606,
+                          "ext": "pyc"
+                        },
+                        {
+                          "name": "request_context.cpython-313.pyc",
+                          "type": "file",
+                          "size": 9665,
+                          "ext": "pyc"
+                        },
+                        {
+                          "name": "session_features.cpython-313.pyc",
+                          "type": "file",
+                          "size": 9879,
+                          "ext": "pyc"
+                        },
+                        {
+                          "name": "task_context.cpython-313.pyc",
+                          "type": "file",
+                          "size": 24588,
+                          "ext": "pyc"
+                        },
+                        {
+                          "name": "task_result_handler.cpython-313.pyc",
+                          "type": "file",
+                          "size": 10035,
+                          "ext": "pyc"
+                        },
+                        {
+                          "name": "task_support.cpython-313.pyc",
+                          "type": "file",
+                          "size": 4936,
+                          "ext": "pyc"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "__init__.py",
+                      "type": "file",
+                      "size": 373,
+                      "ext": "py",
+                      "preview": "\"\"\"\nServer-side experimental features.\n\nWARNING: These APIs are experimental and may change without ..."
+                    },
+                    {
+                      "name": "request_context.py",
+                      "type": "file",
+                      "size": 8448,
+                      "ext": "py"
+                    },
+                    {
+                      "name": "session_features.py",
+                      "type": "file",
+                      "size": 7870,
+                      "ext": "py"
+                    },
+                    {
+                      "name": "task_context.py",
+                      "type": "file",
+                      "size": 23021,
+                      "ext": "py"
+                    },
+                    {
+                      "name": "task_result_handler.py",
+                      "type": "file",
+                      "size": 8379,
+                      "ext": "py"
+                    },
+                    {
+                      "name": "task_support.py",
+                      "type": "file",
+                      "size": 3691,
+                      "ext": "py"
+                    }
+                  ]
+                },
+                {
+                  "name": "fastmcp",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "__pycache__",
+                      "type": "folder",
+                      "children": [
+                        {
+                          "name": "__init__.cpython-313.pyc",
+                          "type": "file",
+                          "size": 594,
+                          "ext": "pyc"
+                        },
+                        {
+                          "name": "exceptions.cpython-313.pyc",
+                          "type": "file",
+                          "size": 1380,
+                          "ext": "pyc"
+                        },
+                        {
+                          "name": "server.cpython-313.pyc",
+                          "type": "file",
+                          "size": 55664,
+                          "ext": "pyc"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "prompts",
+                      "type": "folder",
+                      "children": [
+                        {
+                          "name": "__pycache__",
+                          "type": "folder",
+                          "children": [
+                            {
+                              "name": "__init__.cpython-313.pyc",
+                              "type": "file",
+                              "size": 344,
+                              "ext": "pyc"
+                            },
+                            {
+                              "name": "base.cpython-313.pyc",
+                              "type": "file",
+                              "size": 8901,
+                              "ext": "pyc"
+                            },
+                            {
+                              "name": "manager.cpython-313.pyc",
+                              "type": "file",
+                              "size": 3133,
+                              "ext": "pyc"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "__init__.py",
+                          "type": "file",
+                          "size": 99,
+                          "ext": "py",
+                          "preview": "from .base import Prompt\nfrom .manager import PromptManager\n\n__all__ = [\"Prompt\", \"PromptManager\"]\n"
+                        },
+                        {
+                          "name": "base.py",
+                          "type": "file",
+                          "size": 7088,
+                          "ext": "py"
+                        },
+                        {
+                          "name": "manager.py",
+                          "type": "file",
+                          "size": 1835,
+                          "ext": "py",
+                          "preview": "\"\"\"Prompt management functionality.\"\"\"\n\nfrom __future__ import annotations\n\nfrom typing import TYPE_..."
+                        }
+                      ]
+                    },
+                    {
+                      "name": "resources",
+                      "type": "folder",
+                      "children": [
+                        {
+                          "name": "__pycache__",
+                          "type": "folder",
+                          "children": [
+                            {
+                              "name": "__init__.cpython-313.pyc",
+                              "type": "file",
+                              "size": 620,
+                              "ext": "pyc"
+                            },
+                            {
+                              "name": "base.cpython-313.pyc",
+                              "type": "file",
+                              "size": 2775,
+                              "ext": "pyc"
+                            },
+                            {
+                              "name": "resource_manager.cpython-313.pyc",
+                              "type": "file",
+                              "size": 5574,
+                              "ext": "pyc"
+                            },
+                            {
+                              "name": "templates.cpython-313.pyc",
+                              "type": "file",
+                              "size": 5772,
+                              "ext": "pyc"
+                            },
+                            {
+                              "name": "types.cpython-313.pyc",
+                              "type": "file",
+                              "size": 11837,
+                              "ext": "pyc"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "__init__.py",
+                          "type": "file",
+                          "size": 464,
+                          "ext": "py",
+                          "preview": "from .base import Resource\nfrom .resource_manager import ResourceManager\nfrom .templates import Reso..."
+                        },
+                        {
+                          "name": "base.py",
+                          "type": "file",
+                          "size": 1742,
+                          "ext": "py",
+                          "preview": "\"\"\"Base classes and interfaces for FastMCP resources.\"\"\"\n\nimport abc\nfrom typing import Annotated\n\nf..."
+                        },
+                        {
+                          "name": "resource_manager.py",
+                          "type": "file",
+                          "size": 3940,
+                          "ext": "py"
+                        },
+                        {
+                          "name": "templates.py",
+                          "type": "file",
+                          "size": 4734,
+                          "ext": "py"
+                        },
+                        {
+                          "name": "types.py",
+                          "type": "file",
+                          "size": 7147,
+                          "ext": "py"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "tools",
+                      "type": "folder",
+                      "children": [
+                        {
+                          "name": "__pycache__",
+                          "type": "folder",
+                          "children": [
+                            {
+                              "name": "__init__.cpython-313.pyc",
+                              "type": "file",
+                              "size": 343,
+                              "ext": "pyc"
+                            },
+                            {
+                              "name": "base.cpython-313.pyc",
+                              "type": "file",
+                              "size": 5983,
+                              "ext": "pyc"
+                            },
+                            {
+                              "name": "tool_manager.cpython-313.pyc",
+                              "type": "file",
+                              "size": 4472,
+                              "ext": "pyc"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "__init__.py",
+                          "type": "file",
+                          "size": 96,
+                          "ext": "py",
+                          "preview": "from .base import Tool\nfrom .tool_manager import ToolManager\n\n__all__ = [\"Tool\", \"ToolManager\"]\n"
+                        },
+                        {
+                          "name": "base.py",
+                          "type": "file",
+                          "size": 4740,
+                          "ext": "py"
+                        },
+                        {
+                          "name": "tool_manager.py",
+                          "type": "file",
+                          "size": 2972,
+                          "ext": "py"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "utilities",
+                      "type": "folder",
+                      "children": [
+                        {
+                          "name": "__pycache__",
+                          "type": "folder",
+                          "children": [
+                            {
+                              "name": "__init__.cpython-313.pyc",
+                              "type": "file",
+                              "size": 264,
+                              "ext": "pyc"
+                            },
+                            {
+                              "name": "context_injection.cpython-313.pyc",
+                              "type": "file",
+                              "size": 2400,
+                              "ext": "pyc"
+                            },
+                            {
+                              "name": "func_metadata.cpython-313.pyc",
+                              "type": "file",
+                              "size": 21794,
+                              "ext": "pyc"
+                            },
+                            {
+                              "name": "logging.cpython-313.pyc",
+                              "type": "file",
+                              "size": 1629,
+                              "ext": "pyc"
+                            },
+                            {
+                              "name": "types.cpython-313.pyc",
+                              "type": "file",
+                              "size": 5097,
+                              "ext": "pyc"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "__init__.py",
+                          "type": "file",
+                          "size": 31,
+                          "ext": "py",
+                          "preview": "\"\"\"FastMCP utility modules.\"\"\"\n"
+                        },
+                        {
+                          "name": "context_injection.py",
+                          "type": "file",
+                          "size": 2028,
+                          "ext": "py",
+                          "preview": "\"\"\"Context injection utilities for FastMCP.\"\"\"\n\nfrom __future__ import annotations\n\nimport inspect\ni..."
+                        },
+                        {
+                          "name": "func_metadata.py",
+                          "type": "file",
+                          "size": 22121,
+                          "ext": "py"
+                        },
+                        {
+                          "name": "logging.py",
+                          "type": "file",
+                          "size": 1063,
+                          "ext": "py",
+                          "preview": "\"\"\"Logging utilities for FastMCP.\"\"\"\n\nimport logging\nfrom typing import Literal\n\n\ndef get_logger(nam..."
+                        },
+                        {
+                          "name": "types.py",
+                          "type": "file",
+                          "size": 3546,
+                          "ext": "py"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "__init__.py",
+                      "type": "file",
+                      "size": 297,
+                      "ext": "py",
+                      "preview": "\"\"\"FastMCP - A more ergonomic interface for MCP servers.\"\"\"\n\nfrom importlib.metadata import version\n..."
+                    },
+                    {
+                      "name": "exceptions.py",
+                      "type": "file",
+                      "size": 435,
+                      "ext": "py",
+                      "preview": "\"\"\"Custom exceptions for FastMCP.\"\"\"\n\n\nclass FastMCPError(Exception):\n    \"\"\"Base error for FastMCP...."
+                    },
+                    {
+                      "name": "server.py",
+                      "type": "file",
+                      "size": 52442,
+                      "ext": "py"
+                    }
+                  ]
+                },
+                {
+                  "name": "lowlevel",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "__pycache__",
+                      "type": "folder",
+                      "children": [
+                        {
+                          "name": "__init__.cpython-313.pyc",
+                          "type": "file",
+                          "size": 324,
+                          "ext": "pyc"
+                        },
+                        {
+                          "name": "experimental.cpython-313.pyc",
+                          "type": "file",
+                          "size": 13438,
+                          "ext": "pyc"
+                        },
+                        {
+                          "name": "func_inspection.cpython-313.pyc",
+                          "type": "file",
+                          "size": 3545,
+                          "ext": "pyc"
+                        },
+                        {
+                          "name": "helper_types.cpython-313.pyc",
+                          "type": "file",
+                          "size": 711,
+                          "ext": "pyc"
+                        },
+                        {
+                          "name": "server.cpython-313.pyc",
+                          "type": "file",
+                          "size": 39993,
+                          "ext": "pyc"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "__init__.py",
+                      "type": "file",
+                      "size": 93,
+                      "ext": "py",
+                      "preview": "from .server import NotificationOptions, Server\n\n__all__ = [\"Server\", \"NotificationOptions\"]\n"
+                    },
+                    {
+                      "name": "experimental.py",
+                      "type": "file",
+                      "size": 10545,
+                      "ext": "py"
+                    },
+                    {
+                      "name": "func_inspection.py",
+                      "type": "file",
+                      "size": 2466,
+                      "ext": "py"
+                    },
+                    {
+                      "name": "helper_types.py",
+                      "type": "file",
+                      "size": 189,
+                      "ext": "py",
+                      "preview": "from dataclasses import dataclass\n\n\n@dataclass\nclass ReadResourceContents:\n    \"\"\"Contents returned ..."
+                    },
+                    {
+                      "name": "server.py",
+                      "type": "file",
+                      "size": 33047,
+                      "ext": "py"
+                    }
+                  ]
+                },
+                {
+                  "name": "__init__.py",
+                  "type": "file",
+                  "size": 202,
+                  "ext": "py",
+                  "preview": "from .fastmcp import FastMCP\nfrom .lowlevel import NotificationOptions, Server\nfrom .models import I..."
+                },
+                {
+                  "name": "__main__.py",
+                  "type": "file",
+                  "size": 1328,
+                  "ext": "py",
+                  "preview": "import importlib.metadata\nimport logging\nimport sys\n\nimport anyio\n\nfrom mcp.server.models import Ini..."
+                },
+                {
+                  "name": "elicitation.py",
+                  "type": "file",
+                  "size": 6917,
+                  "ext": "py"
+                },
+                {
+                  "name": "models.py",
+                  "type": "file",
+                  "size": 422,
+                  "ext": "py",
+                  "preview": "\"\"\"\nThis module provides simpler types to use with the server for managing prompts\nand tools.\n\"\"\"\n\nf..."
+                },
+                {
+                  "name": "session.py",
+                  "type": "file",
+                  "size": 27555,
+                  "ext": "py"
+                },
+                {
+                  "name": "sse.py",
+                  "type": "file",
+                  "size": 10826,
+                  "ext": "py"
+                },
+                {
+                  "name": "stdio.py",
+                  "type": "file",
+                  "size": 3358,
+                  "ext": "py"
+                },
+                {
+                  "name": "streamable_http_manager.py",
+                  "type": "file",
+                  "size": 11624,
+                  "ext": "py"
+                },
+                {
+                  "name": "streamable_http.py",
+                  "type": "file",
+                  "size": 46836,
+                  "ext": "py"
+                },
+                {
+                  "name": "transport_security.py",
+                  "type": "file",
+                  "size": 4938,
+                  "ext": "py"
+                },
+                {
+                  "name": "validation.py",
+                  "type": "file",
+                  "size": 3633,
+                  "ext": "py"
+                },
+                {
+                  "name": "websocket.py",
+                  "type": "file",
+                  "size": 2352,
+                  "ext": "py"
+                }
+              ]
+            },
+            {
+              "name": "shared",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "__pycache__",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "__init__.cpython-313.pyc",
+                      "type": "file",
+                      "size": 207,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "_httpx_utils.cpython-313.pyc",
+                      "type": "file",
+                      "size": 3335,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "auth_utils.cpython-313.pyc",
+                      "type": "file",
+                      "size": 3427,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "auth.cpython-313.pyc",
+                      "type": "file",
+                      "size": 8725,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "context.cpython-313.pyc",
+                      "type": "file",
+                      "size": 1548,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "exceptions.cpython-313.pyc",
+                      "type": "file",
+                      "size": 3971,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "memory.cpython-313.pyc",
+                      "type": "file",
+                      "size": 5558,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "message.cpython-313.pyc",
+                      "type": "file",
+                      "size": 2242,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "metadata_utils.cpython-313.pyc",
+                      "type": "file",
+                      "size": 2134,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "progress.cpython-313.pyc",
+                      "type": "file",
+                      "size": 2901,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "response_router.cpython-313.pyc",
+                      "type": "file",
+                      "size": 2568,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "session.cpython-313.pyc",
+                      "type": "file",
+                      "size": 27174,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "tool_name_validation.cpython-313.pyc",
+                      "type": "file",
+                      "size": 5825,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "version.cpython-313.pyc",
+                      "type": "file",
+                      "size": 419,
+                      "ext": "pyc"
+                    }
+                  ]
+                },
+                {
+                  "name": "experimental",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "__pycache__",
+                      "type": "folder",
+                      "children": [
+                        {
+                          "name": "__init__.cpython-313.pyc",
+                          "type": "file",
+                          "size": 439,
+                          "ext": "pyc"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "tasks",
+                      "type": "folder",
+                      "children": [
+                        {
+                          "name": "__pycache__",
+                          "type": "folder",
+                          "children": [
+                            {
+                              "name": "__init__.cpython-313.pyc",
+                              "type": "file",
+                              "size": 672,
+                              "ext": "pyc"
+                            },
+                            {
+                              "name": "capabilities.cpython-313.pyc",
+                              "type": "file",
+                              "size": 4299,
+                              "ext": "pyc"
+                            },
+                            {
+                              "name": "context.cpython-313.pyc",
+                              "type": "file",
+                              "size": 4423,
+                              "ext": "pyc"
+                            },
+                            {
+                              "name": "helpers.cpython-313.pyc",
+                              "type": "file",
+                              "size": 6163,
+                              "ext": "pyc"
+                            },
+                            {
+                              "name": "in_memory_task_store.cpython-313.pyc",
+                              "type": "file",
+                              "size": 10976,
+                              "ext": "pyc"
+                            },
+                            {
+                              "name": "message_queue.cpython-313.pyc",
+                              "type": "file",
+                              "size": 9990,
+                              "ext": "pyc"
+                            },
+                            {
+                              "name": "polling.cpython-313.pyc",
+                              "type": "file",
+                              "size": 1903,
+                              "ext": "pyc"
+                            },
+                            {
+                              "name": "resolver.cpython-313.pyc",
+                              "type": "file",
+                              "size": 3094,
+                              "ext": "pyc"
+                            },
+                            {
+                              "name": "store.cpython-313.pyc",
+                              "type": "file",
+                              "size": 4714,
+                              "ext": "pyc"
+                            }
+                          ]
+                        },
+                        {
+                          "name": "__init__.py",
+                          "type": "file",
+                          "size": 433,
+                          "ext": "py",
+                          "preview": "\"\"\"\nPure task state management for MCP.\n\nWARNING: These APIs are experimental and may change without..."
+                        },
+                        {
+                          "name": "capabilities.py",
+                          "type": "file",
+                          "size": 3571,
+                          "ext": "py"
+                        },
+                        {
+                          "name": "context.py",
+                          "type": "file",
+                          "size": 2875,
+                          "ext": "py"
+                        },
+                        {
+                          "name": "helpers.py",
+                          "type": "file",
+                          "size": 5517,
+                          "ext": "py"
+                        },
+                        {
+                          "name": "in_memory_task_store.py",
+                          "type": "file",
+                          "size": 7558,
+                          "ext": "py"
+                        },
+                        {
+                          "name": "message_queue.py",
+                          "type": "file",
+                          "size": 7436,
+                          "ext": "py"
+                        },
+                        {
+                          "name": "polling.py",
+                          "type": "file",
+                          "size": 1369,
+                          "ext": "py",
+                          "preview": "\"\"\"\nShared polling utilities for task operations.\n\nThis module provides generic polling logic that w..."
+                        },
+                        {
+                          "name": "resolver.py",
+                          "type": "file",
+                          "size": 1801,
+                          "ext": "py",
+                          "preview": "\"\"\"\nResolver - An anyio-compatible future-like object for async result passing.\n\nThis provides a sim..."
+                        },
+                        {
+                          "name": "store.py",
+                          "type": "file",
+                          "size": 3808,
+                          "ext": "py"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "__init__.py",
+                      "type": "file",
+                      "size": 209,
+                      "ext": "py",
+                      "preview": "\"\"\"\nPure experimental MCP features (no server dependencies).\n\nWARNING: These APIs are experimental a..."
+                    }
+                  ]
+                },
+                {
+                  "name": "__init__.py",
+                  "type": "file",
+                  "size": 0,
+                  "ext": "py"
+                },
+                {
+                  "name": "_httpx_utils.py",
+                  "type": "file",
+                  "size": 2906,
+                  "ext": "py"
+                },
+                {
+                  "name": "auth_utils.py",
+                  "type": "file",
+                  "size": 3006,
+                  "ext": "py"
+                },
+                {
+                  "name": "auth.py",
+                  "type": "file",
+                  "size": 6446,
+                  "ext": "py"
+                },
+                {
+                  "name": "context.py",
+                  "type": "file",
+                  "size": 1188,
+                  "ext": "py",
+                  "preview": "\"\"\"\nRequest context for MCP handlers.\n\"\"\"\n\nfrom dataclasses import dataclass, field\nfrom typing impo..."
+                },
+                {
+                  "name": "exceptions.py",
+                  "type": "file",
+                  "size": 2433,
+                  "ext": "py"
+                },
+                {
+                  "name": "memory.py",
+                  "type": "file",
+                  "size": 3951,
+                  "ext": "py"
+                },
+                {
+                  "name": "message.py",
+                  "type": "file",
+                  "size": 1550,
+                  "ext": "py",
+                  "preview": "\"\"\"\nMessage wrapper with metadata support.\n\nThis module defines a wrapper type that combines JSONRPC..."
+                },
+                {
+                  "name": "metadata_utils.py",
+                  "type": "file",
+                  "size": 1712,
+                  "ext": "py",
+                  "preview": "\"\"\"Utility functions for working with metadata in MCP types.\n\nThese utilities are primarily intended..."
+                },
+                {
+                  "name": "progress.py",
+                  "type": "file",
+                  "size": 1756,
+                  "ext": "py",
+                  "preview": "from collections.abc import Generator\nfrom contextlib import contextmanager\nfrom dataclasses import ..."
+                },
+                {
+                  "name": "response_router.py",
+                  "type": "file",
+                  "size": 2043,
+                  "ext": "py",
+                  "preview": "\"\"\"\nResponseRouter - Protocol for pluggable response routing.\n\nThis module defines a protocol for ro..."
+                },
+                {
+                  "name": "session.py",
+                  "type": "file",
+                  "size": 24086,
+                  "ext": "py"
+                },
+                {
+                  "name": "tool_name_validation.py",
+                  "type": "file",
+                  "size": 4531,
+                  "ext": "py"
+                },
+                {
+                  "name": "version.py",
+                  "type": "file",
+                  "size": 156,
+                  "ext": "py",
+                  "preview": "from mcp.types import LATEST_PROTOCOL_VERSION\n\nSUPPORTED_PROTOCOL_VERSIONS: list[str] = [\"2024-11-05..."
+                }
+              ]
+            },
+            {
+              "name": "__init__.py",
+              "type": "file",
+              "size": 3224,
+              "ext": "py"
+            },
+            {
+              "name": "py.typed",
+              "type": "file",
+              "size": 0,
+              "ext": "typed"
+            },
+            {
+              "name": "types.py",
+              "type": "file",
+              "size": 64908,
+              "ext": "py"
+            }
+          ]
+        },
+        {
+          "name": "mcp-1.25.0.dist-info",
+          "type": "folder",
+          "children": [
+            {
+              "name": "licenses",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "LICENSE",
+                  "type": "file",
+                  "size": 1071,
+                  "ext": "file",
+                  "preview": "MIT License\n\nCopyright (c) 2024 Anthropic, PBC\n\nPermission is hereby granted, free of charge, to any..."
+                }
+              ]
+            },
+            {
+              "name": "entry_points.txt",
+              "type": "file",
+              "size": 42,
+              "ext": "txt",
+              "preview": "[console_scripts]\nmcp = mcp.cli:app [cli]\n"
+            },
+            {
+              "name": "INSTALLER",
+              "type": "file",
+              "size": 4,
+              "ext": "file"
+            },
+            {
+              "name": "METADATA",
+              "type": "file",
+              "size": 89485,
+              "ext": "file"
+            },
+            {
+              "name": "RECORD",
+              "type": "file",
+              "size": 16847,
+              "ext": "file"
+            },
+            {
+              "name": "WHEEL",
+              "type": "file",
+              "size": 87,
+              "ext": "file",
+              "preview": "Wheel-Version: 1.0\nGenerator: hatchling 1.28.0\nRoot-Is-Purelib: true\nTag: py3-none-any\n"
+            }
+          ]
+        },
+        {
+          "name": "mdurl",
+          "type": "folder",
+          "children": [
+            {
+              "name": "__pycache__",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "__init__.cpython-313.pyc",
+                  "type": "file",
+                  "size": 664,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_decode.cpython-313.pyc",
+                  "type": "file",
+                  "size": 3819,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_encode.cpython-313.pyc",
+                  "type": "file",
+                  "size": 2926,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_format.cpython-313.pyc",
+                  "type": "file",
+                  "size": 1306,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_parse.cpython-313.pyc",
+                  "type": "file",
+                  "size": 7709,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_url.cpython-313.pyc",
+                  "type": "file",
+                  "size": 745,
+                  "ext": "pyc"
+                }
+              ]
+            },
+            {
+              "name": "__init__.py",
+              "type": "file",
+              "size": 547,
+              "ext": "py",
+              "preview": "__all__ = (\n    \"decode\",\n    \"DECODE_DEFAULT_CHARS\",\n    \"DECODE_COMPONENT_CHARS\",\n    \"encode\",\n  ..."
+            },
+            {
+              "name": "_decode.py",
+              "type": "file",
+              "size": 3004,
+              "ext": "py"
+            },
+            {
+              "name": "_encode.py",
+              "type": "file",
+              "size": 2602,
+              "ext": "py"
+            },
+            {
+              "name": "_format.py",
+              "type": "file",
+              "size": 626,
+              "ext": "py",
+              "preview": "from __future__ import annotations\n\nfrom typing import TYPE_CHECKING\n\nif TYPE_CHECKING:\n    from mdu..."
+            },
+            {
+              "name": "_parse.py",
+              "type": "file",
+              "size": 11374,
+              "ext": "py"
+            },
+            {
+              "name": "_url.py",
+              "type": "file",
+              "size": 284,
+              "ext": "py",
+              "preview": "from __future__ import annotations\n\nfrom typing import NamedTuple\n\n\nclass URL(NamedTuple):\n    proto..."
+            },
+            {
+              "name": "py.typed",
+              "type": "file",
+              "size": 26,
+              "ext": "typed"
+            }
+          ]
+        },
+        {
+          "name": "mdurl-0.1.2.dist-info",
+          "type": "folder",
+          "children": [
+            {
+              "name": "INSTALLER",
+              "type": "file",
+              "size": 4,
+              "ext": "file"
+            },
+            {
+              "name": "LICENSE",
+              "type": "file",
+              "size": 2338,
+              "ext": "file"
+            },
+            {
+              "name": "METADATA",
+              "type": "file",
+              "size": 1638,
+              "ext": "file",
+              "preview": "Metadata-Version: 2.1\nName: mdurl\nVersion: 0.1.2\nSummary: Markdown URL utilities\nKeywords: markdown,..."
+            },
+            {
+              "name": "RECORD",
+              "type": "file",
+              "size": 1152,
+              "ext": "file",
+              "preview": "mdurl-0.1.2.dist-info/INSTALLER,sha256=zuuue4knoyJ-UwPPXg8fezS7VCrXJQrAP7zeNuwvFQg,4\r\nmdurl-0.1.2.di..."
+            },
+            {
+              "name": "WHEEL",
+              "type": "file",
+              "size": 81,
+              "ext": "file",
+              "preview": "Wheel-Version: 1.0\nGenerator: flit 3.7.1\nRoot-Is-Purelib: true\nTag: py3-none-any\n"
+            }
+          ]
+        },
+        {
+          "name": "multipart",
+          "type": "folder",
+          "children": [
+            {
+              "name": "__pycache__",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "__init__.cpython-313.pyc",
+                  "type": "file",
+                  "size": 1463,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "decoders.cpython-313.pyc",
+                  "type": "file",
+                  "size": 253,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "exceptions.cpython-313.pyc",
+                  "type": "file",
+                  "size": 257,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "multipart.cpython-313.pyc",
+                  "type": "file",
+                  "size": 255,
+                  "ext": "pyc"
+                }
+              ]
+            },
+            {
+              "name": "__init__.py",
+              "type": "file",
+              "size": 935,
+              "ext": "py",
+              "preview": "# This only works if using a file system, other loaders not implemented.\n\nimport importlib.util\nimpo..."
+            },
+            {
+              "name": "decoders.py",
+              "type": "file",
+              "size": 40,
+              "ext": "py",
+              "preview": "from python_multipart.decoders import *\n"
+            },
+            {
+              "name": "exceptions.py",
+              "type": "file",
+              "size": 42,
+              "ext": "py",
+              "preview": "from python_multipart.exceptions import *\n"
+            },
+            {
+              "name": "multipart.py",
+              "type": "file",
+              "size": 41,
+              "ext": "py",
+              "preview": "from python_multipart.multipart import *\n"
+            }
+          ]
+        },
+        {
+          "name": "pycparser",
+          "type": "folder",
+          "children": [
+            {
+              "name": "__pycache__",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "__init__.cpython-313.pyc",
+                  "type": "file",
+                  "size": 2821,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_ast_gen.cpython-313.pyc",
+                  "type": "file",
+                  "size": 12681,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_build_tables.cpython-313.pyc",
+                  "type": "file",
+                  "size": 798,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "ast_transforms.cpython-313.pyc",
+                  "type": "file",
+                  "size": 5336,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "c_ast.cpython-313.pyc",
+                  "type": "file",
+                  "size": 51445,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "c_generator.cpython-313.pyc",
+                  "type": "file",
+                  "size": 30370,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "c_lexer.cpython-313.pyc",
+                  "type": "file",
+                  "size": 18149,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "c_parser.cpython-313.pyc",
+                  "type": "file",
+                  "size": 82614,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "lextab.cpython-313.pyc",
+                  "type": "file",
+                  "size": 6999,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "plyparser.cpython-313.pyc",
+                  "type": "file",
+                  "size": 6082,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "yacctab.cpython-313.pyc",
+                  "type": "file",
+                  "size": 192215,
+                  "ext": "pyc"
+                }
+              ]
+            },
+            {
+              "name": "ply",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "__pycache__",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "__init__.cpython-313.pyc",
+                      "type": "file",
+                      "size": 273,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "cpp.cpython-313.pyc",
+                      "type": "file",
+                      "size": 33133,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "ctokens.cpython-313.pyc",
+                      "type": "file",
+                      "size": 2485,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "lex.cpython-313.pyc",
+                      "type": "file",
+                      "size": 42483,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "yacc.cpython-313.pyc",
+                      "type": "file",
+                      "size": 103717,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "ygen.cpython-313.pyc",
+                      "type": "file",
+                      "size": 3057,
+                      "ext": "pyc"
+                    }
+                  ]
+                },
+                {
+                  "name": "__init__.py",
+                  "type": "file",
+                  "size": 102,
+                  "ext": "py",
+                  "preview": "# PLY package\n# Author: David Beazley (dave@dabeaz.com)\n\n__version__ = '3.9'\n__all__ = ['lex','yacc'..."
+                },
+                {
+                  "name": "cpp.py",
+                  "type": "file",
+                  "size": 33282,
+                  "ext": "py"
+                },
+                {
+                  "name": "ctokens.py",
+                  "type": "file",
+                  "size": 3177,
+                  "ext": "py"
+                },
+                {
+                  "name": "lex.py",
+                  "type": "file",
+                  "size": 42926,
+                  "ext": "py"
+                },
+                {
+                  "name": "yacc.py",
+                  "type": "file",
+                  "size": 137323,
+                  "ext": "py"
+                },
+                {
+                  "name": "ygen.py",
+                  "type": "file",
+                  "size": 2251,
+                  "ext": "py"
+                }
+              ]
+            },
+            {
+              "name": "__init__.py",
+              "type": "file",
+              "size": 2918,
+              "ext": "py"
+            },
+            {
+              "name": "_ast_gen.py",
+              "type": "file",
+              "size": 10555,
+              "ext": "py"
+            },
+            {
+              "name": "_build_tables.py",
+              "type": "file",
+              "size": 1087,
+              "ext": "py",
+              "preview": "#-----------------------------------------------------------------\n# pycparser: _build_tables.py\n#\n#..."
+            },
+            {
+              "name": "_c_ast.cfg",
+              "type": "file",
+              "size": 4255,
+              "ext": "cfg"
+            },
+            {
+              "name": "ast_transforms.py",
+              "type": "file",
+              "size": 5691,
+              "ext": "py"
+            },
+            {
+              "name": "c_ast.py",
+              "type": "file",
+              "size": 31445,
+              "ext": "py"
+            },
+            {
+              "name": "c_generator.py",
+              "type": "file",
+              "size": 17790,
+              "ext": "py"
+            },
+            {
+              "name": "c_lexer.py",
+              "type": "file",
+              "size": 17728,
+              "ext": "py"
+            },
+            {
+              "name": "c_parser.py",
+              "type": "file",
+              "size": 75462,
+              "ext": "py"
+            },
+            {
+              "name": "lextab.py",
+              "type": "file",
+              "size": 8776,
+              "ext": "py"
+            },
+            {
+              "name": "plyparser.py",
+              "type": "file",
+              "size": 4875,
+              "ext": "py"
+            },
+            {
+              "name": "yacctab.py",
+              "type": "file",
+              "size": 213007,
+              "ext": "py"
+            }
+          ]
+        },
+        {
+          "name": "pycparser-2.23.dist-info",
+          "type": "folder",
+          "children": [
+            {
+              "name": "INSTALLER",
+              "type": "file",
+              "size": 4,
+              "ext": "file"
+            },
+            {
+              "name": "LICENSE",
+              "type": "file",
+              "size": 1543,
+              "ext": "file",
+              "preview": "pycparser -- A C parser in Python\n\nCopyright (c) 2008-2022, Eli Bendersky\nAll rights reserved.\n\nRedi..."
+            },
+            {
+              "name": "METADATA",
+              "type": "file",
+              "size": 993,
+              "ext": "file",
+              "preview": "Metadata-Version: 2.1\nName: pycparser\nVersion: 2.23\nSummary: C parser in Python\nHome-page: https://g..."
+            },
+            {
+              "name": "RECORD",
+              "type": "file",
+              "size": 2791,
+              "ext": "file"
+            },
+            {
+              "name": "top_level.txt",
+              "type": "file",
+              "size": 10,
+              "ext": "txt"
+            },
+            {
+              "name": "WHEEL",
+              "type": "file",
+              "size": 92,
+              "ext": "file",
+              "preview": "Wheel-Version: 1.0\nGenerator: bdist_wheel (0.42.0)\nRoot-Is-Purelib: true\nTag: py3-none-any\n\n"
+            }
+          ]
+        },
+        {
+          "name": "pydantic",
+          "type": "folder",
+          "children": [
+            {
+              "name": "__pycache__",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "__init__.cpython-313.pyc",
+                  "type": "file",
+                  "size": 14435,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_migration.cpython-313.pyc",
+                  "type": "file",
+                  "size": 11010,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "alias_generators.cpython-313.pyc",
+                  "type": "file",
+                  "size": 3221,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "aliases.cpython-313.pyc",
+                  "type": "file",
+                  "size": 6572,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "annotated_handlers.cpython-313.pyc",
+                  "type": "file",
+                  "size": 5246,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "class_validators.cpython-313.pyc",
+                  "type": "file",
+                  "size": 390,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "color.cpython-313.pyc",
+                  "type": "file",
+                  "size": 29826,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "config.cpython-313.pyc",
+                  "type": "file",
+                  "size": 7525,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "dataclasses.cpython-313.pyc",
+                  "type": "file",
+                  "size": 17331,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "datetime_parse.cpython-313.pyc",
+                  "type": "file",
+                  "size": 390,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "decorator.cpython-313.pyc",
+                  "type": "file",
+                  "size": 380,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "env_settings.cpython-313.pyc",
+                  "type": "file",
+                  "size": 386,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "error_wrappers.cpython-313.pyc",
+                  "type": "file",
+                  "size": 390,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "errors.cpython-313.pyc",
+                  "type": "file",
+                  "size": 7748,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "fields.cpython-313.pyc",
+                  "type": "file",
+                  "size": 71988,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "functional_serializers.cpython-313.pyc",
+                  "type": "file",
+                  "size": 17453,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "functional_validators.cpython-313.pyc",
+                  "type": "file",
+                  "size": 34069,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "generics.cpython-313.pyc",
+                  "type": "file",
+                  "size": 378,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "json_schema.cpython-313.pyc",
+                  "type": "file",
+                  "size": 118054,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "json.cpython-313.pyc",
+                  "type": "file",
+                  "size": 370,
+                  "ext": "pyc"
+                }
+              ],
+              "truncated": 15
+            },
+            {
+              "name": "_internal",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "__pycache__",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "__init__.cpython-313.pyc",
+                      "type": "file",
+                      "size": 215,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "_config.cpython-313.pyc",
+                      "type": "file",
+                      "size": 15838,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "_core_metadata.cpython-313.pyc",
+                      "type": "file",
+                      "size": 4701,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "_core_utils.cpython-313.pyc",
+                      "type": "file",
+                      "size": 7892,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "_dataclasses.cpython-313.pyc",
+                      "type": "file",
+                      "size": 13256,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "_decorators_v1.cpython-313.pyc",
+                      "type": "file",
+                      "size": 8848,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "_decorators.cpython-313.pyc",
+                      "type": "file",
+                      "size": 36639,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "_discriminated_union.cpython-313.pyc",
+                      "type": "file",
+                      "size": 20807,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "_docs_extraction.cpython-313.pyc",
+                      "type": "file",
+                      "size": 5549,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "_fields.cpython-313.pyc",
+                      "type": "file",
+                      "size": 24733,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "_forward_ref.cpython-313.pyc",
+                      "type": "file",
+                      "size": 1360,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "_generate_schema.cpython-313.pyc",
+                      "type": "file",
+                      "size": 131848,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "_generics.cpython-313.pyc",
+                      "type": "file",
+                      "size": 24447,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "_git.cpython-313.pyc",
+                      "type": "file",
+                      "size": 1538,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "_import_utils.cpython-313.pyc",
+                      "type": "file",
+                      "size": 857,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "_internal_dataclass.cpython-313.pyc",
+                      "type": "file",
+                      "size": 366,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "_known_annotated_metadata.cpython-313.pyc",
+                      "type": "file",
+                      "size": 14319,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "_mock_val_ser.cpython-313.pyc",
+                      "type": "file",
+                      "size": 10973,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "_model_construction.cpython-313.pyc",
+                      "type": "file",
+                      "size": 35395,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "_namespace_utils.cpython-313.pyc",
+                      "type": "file",
+                      "size": 12163,
+                      "ext": "pyc"
+                    }
+                  ],
+                  "truncated": 9
+                },
+                {
+                  "name": "__init__.py",
+                  "type": "file",
+                  "size": 0,
+                  "ext": "py"
+                },
+                {
+                  "name": "_config.py",
+                  "type": "file",
+                  "size": 14674,
+                  "ext": "py"
+                },
+                {
+                  "name": "_core_metadata.py",
+                  "type": "file",
+                  "size": 5162,
+                  "ext": "py"
+                },
+                {
+                  "name": "_core_utils.py",
+                  "type": "file",
+                  "size": 6487,
+                  "ext": "py"
+                },
+                {
+                  "name": "_dataclasses.py",
+                  "type": "file",
+                  "size": 13158,
+                  "ext": "py"
+                },
+                {
+                  "name": "_decorators_v1.py",
+                  "type": "file",
+                  "size": 6185,
+                  "ext": "py"
+                },
+                {
+                  "name": "_decorators.py",
+                  "type": "file",
+                  "size": 33529,
+                  "ext": "py"
+                },
+                {
+                  "name": "_discriminated_union.py",
+                  "type": "file",
+                  "size": 25478,
+                  "ext": "py"
+                },
+                {
+                  "name": "_docs_extraction.py",
+                  "type": "file",
+                  "size": 4127,
+                  "ext": "py"
+                },
+                {
+                  "name": "_fields.py",
+                  "type": "file",
+                  "size": 28093,
+                  "ext": "py"
+                },
+                {
+                  "name": "_forward_ref.py",
+                  "type": "file",
+                  "size": 611,
+                  "ext": "py",
+                  "preview": "from __future__ import annotations as _annotations\n\nfrom dataclasses import dataclass\nfrom typing im..."
+                },
+                {
+                  "name": "_generate_schema.py",
+                  "type": "file",
+                  "size": 132665,
+                  "ext": "py"
+                },
+                {
+                  "name": "_generics.py",
+                  "type": "file",
+                  "size": 23822,
+                  "ext": "py"
+                },
+                {
+                  "name": "_git.py",
+                  "type": "file",
+                  "size": 809,
+                  "ext": "py",
+                  "preview": "\"\"\"Git utilities, adopted from mypy's git utilities (https://github.com/python/mypy/blob/master/mypy..."
+                },
+                {
+                  "name": "_import_utils.py",
+                  "type": "file",
+                  "size": 402,
+                  "ext": "py",
+                  "preview": "from functools import cache\nfrom typing import TYPE_CHECKING\n\nif TYPE_CHECKING:\n    from pydantic im..."
+                },
+                {
+                  "name": "_internal_dataclass.py",
+                  "type": "file",
+                  "size": 144,
+                  "ext": "py",
+                  "preview": "import sys\n\n# `slots` is available on Python >= 3.10\nif sys.version_info >= (3, 10):\n    slots_true ..."
+                },
+                {
+                  "name": "_known_annotated_metadata.py",
+                  "type": "file",
+                  "size": 16765,
+                  "ext": "py"
+                },
+                {
+                  "name": "_mock_val_ser.py",
+                  "type": "file",
+                  "size": 8885,
+                  "ext": "py"
+                },
+                {
+                  "name": "_model_construction.py",
+                  "type": "file",
+                  "size": 37783,
+                  "ext": "py"
+                },
+                {
+                  "name": "_namespace_utils.py",
+                  "type": "file",
+                  "size": 12878,
+                  "ext": "py"
+                }
+              ],
+              "truncated": 9
+            },
+            {
+              "name": "deprecated",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "__pycache__",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "__init__.cpython-313.pyc",
+                      "type": "file",
+                      "size": 216,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "class_validators.cpython-313.pyc",
+                      "type": "file",
+                      "size": 11859,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "config.cpython-313.pyc",
+                      "type": "file",
+                      "size": 4239,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "copy_internals.cpython-313.pyc",
+                      "type": "file",
+                      "size": 9158,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "decorator.cpython-313.pyc",
+                      "type": "file",
+                      "size": 14317,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "json.cpython-313.pyc",
+                      "type": "file",
+                      "size": 6185,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "parse.cpython-313.pyc",
+                      "type": "file",
+                      "size": 3567,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "tools.cpython-313.pyc",
+                      "type": "file",
+                      "size": 3537,
+                      "ext": "pyc"
+                    }
+                  ]
+                },
+                {
+                  "name": "__init__.py",
+                  "type": "file",
+                  "size": 0,
+                  "ext": "py"
+                },
+                {
+                  "name": "class_validators.py",
+                  "type": "file",
+                  "size": 10273,
+                  "ext": "py"
+                },
+                {
+                  "name": "config.py",
+                  "type": "file",
+                  "size": 2663,
+                  "ext": "py"
+                },
+                {
+                  "name": "copy_internals.py",
+                  "type": "file",
+                  "size": 7618,
+                  "ext": "py"
+                },
+                {
+                  "name": "decorator.py",
+                  "type": "file",
+                  "size": 10845,
+                  "ext": "py"
+                },
+                {
+                  "name": "json.py",
+                  "type": "file",
+                  "size": 4657,
+                  "ext": "py"
+                },
+                {
+                  "name": "parse.py",
+                  "type": "file",
+                  "size": 2511,
+                  "ext": "py"
+                },
+                {
+                  "name": "tools.py",
+                  "type": "file",
+                  "size": 3330,
+                  "ext": "py"
+                }
+              ]
+            },
+            {
+              "name": "experimental",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "__pycache__",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "__init__.cpython-313.pyc",
+                      "type": "file",
+                      "size": 330,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "arguments_schema.cpython-313.pyc",
+                      "type": "file",
+                      "size": 2366,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "missing_sentinel.cpython-313.pyc",
+                      "type": "file",
+                      "size": 371,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "pipeline.cpython-313.pyc",
+                      "type": "file",
+                      "size": 35437,
+                      "ext": "pyc"
+                    }
+                  ]
+                },
+                {
+                  "name": "__init__.py",
+                  "type": "file",
+                  "size": 104,
+                  "ext": "py",
+                  "preview": "\"\"\"The \"experimental\" module of pydantic contains potential new features that are subject to change...."
+                },
+                {
+                  "name": "arguments_schema.py",
+                  "type": "file",
+                  "size": 1866,
+                  "ext": "py",
+                  "preview": "\"\"\"Experimental module exposing a function to generate a core schema that validates callable argumen..."
+                },
+                {
+                  "name": "missing_sentinel.py",
+                  "type": "file",
+                  "size": 127,
+                  "ext": "py",
+                  "preview": "\"\"\"Experimental module exposing a function a `MISSING` sentinel.\"\"\"\n\nfrom pydantic_core import MISSI..."
+                },
+                {
+                  "name": "pipeline.py",
+                  "type": "file",
+                  "size": 23582,
+                  "ext": "py"
+                }
+              ]
+            },
+            {
+              "name": "plugin",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "__pycache__",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "__init__.cpython-313.pyc",
+                      "type": "file",
+                      "size": 8743,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "_loader.cpython-313.pyc",
+                      "type": "file",
+                      "size": 2501,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "_schema_validator.cpython-313.pyc",
+                      "type": "file",
+                      "size": 7019,
+                      "ext": "pyc"
+                    }
+                  ]
+                },
+                {
+                  "name": "__init__.py",
+                  "type": "file",
+                  "size": 7333,
+                  "ext": "py"
+                },
+                {
+                  "name": "_loader.py",
+                  "type": "file",
+                  "size": 2210,
+                  "ext": "py"
+                },
+                {
+                  "name": "_schema_validator.py",
+                  "type": "file",
+                  "size": 5267,
+                  "ext": "py"
+                }
+              ]
+            },
+            {
+              "name": "v1",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "__pycache__",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "__init__.cpython-313.pyc",
+                      "type": "file",
+                      "size": 2531,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "_hypothesis_plugin.cpython-313.pyc",
+                      "type": "file",
+                      "size": 20523,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "annotated_types.cpython-313.pyc",
+                      "type": "file",
+                      "size": 3954,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "class_validators.cpython-313.pyc",
+                      "type": "file",
+                      "size": 19337,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "color.cpython-313.pyc",
+                      "type": "file",
+                      "size": 25676,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "config.cpython-313.pyc",
+                      "type": "file",
+                      "size": 8643,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "dataclasses.cpython-313.pyc",
+                      "type": "file",
+                      "size": 23051,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "datetime_parse.cpython-313.pyc",
+                      "type": "file",
+                      "size": 10588,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "decorator.cpython-313.pyc",
+                      "type": "file",
+                      "size": 14306,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "env_settings.cpython-313.pyc",
+                      "type": "file",
+                      "size": 18220,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "error_wrappers.cpython-313.pyc",
+                      "type": "file",
+                      "size": 9266,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "errors.cpython-313.pyc",
+                      "type": "file",
+                      "size": 31533,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "fields.cpython-313.pyc",
+                      "type": "file",
+                      "size": 58258,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "generics.cpython-313.pyc",
+                      "type": "file",
+                      "size": 17167,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "json.cpython-313.pyc",
+                      "type": "file",
+                      "size": 5217,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "main.cpython-313.pyc",
+                      "type": "file",
+                      "size": 49499,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "mypy.cpython-313.pyc",
+                      "type": "file",
+                      "size": 47168,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "networks.cpython-313.pyc",
+                      "type": "file",
+                      "size": 30391,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "parse.cpython-313.pyc",
+                      "type": "file",
+                      "size": 2921,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "schema.cpython-313.pyc",
+                      "type": "file",
+                      "size": 48751,
+                      "ext": "pyc"
+                    }
+                  ],
+                  "truncated": 6
+                },
+                {
+                  "name": "__init__.py",
+                  "type": "file",
+                  "size": 3164,
+                  "ext": "py"
+                },
+                {
+                  "name": "_hypothesis_plugin.py",
+                  "type": "file",
+                  "size": 14847,
+                  "ext": "py"
+                },
+                {
+                  "name": "annotated_types.py",
+                  "type": "file",
+                  "size": 3157,
+                  "ext": "py"
+                },
+                {
+                  "name": "class_validators.py",
+                  "type": "file",
+                  "size": 14672,
+                  "ext": "py"
+                },
+                {
+                  "name": "color.py",
+                  "type": "file",
+                  "size": 16844,
+                  "ext": "py"
+                },
+                {
+                  "name": "config.py",
+                  "type": "file",
+                  "size": 6532,
+                  "ext": "py"
+                },
+                {
+                  "name": "dataclasses.py",
+                  "type": "file",
+                  "size": 18172,
+                  "ext": "py"
+                },
+                {
+                  "name": "datetime_parse.py",
+                  "type": "file",
+                  "size": 7724,
+                  "ext": "py"
+                },
+                {
+                  "name": "decorator.py",
+                  "type": "file",
+                  "size": 10339,
+                  "ext": "py"
+                },
+                {
+                  "name": "env_settings.py",
+                  "type": "file",
+                  "size": 14105,
+                  "ext": "py"
+                },
+                {
+                  "name": "error_wrappers.py",
+                  "type": "file",
+                  "size": 5196,
+                  "ext": "py"
+                },
+                {
+                  "name": "errors.py",
+                  "type": "file",
+                  "size": 17726,
+                  "ext": "py"
+                },
+                {
+                  "name": "fields.py",
+                  "type": "file",
+                  "size": 50649,
+                  "ext": "py"
+                },
+                {
+                  "name": "generics.py",
+                  "type": "file",
+                  "size": 17871,
+                  "ext": "py"
+                },
+                {
+                  "name": "json.py",
+                  "type": "file",
+                  "size": 3390,
+                  "ext": "py"
+                },
+                {
+                  "name": "main.py",
+                  "type": "file",
+                  "size": 44824,
+                  "ext": "py"
+                },
+                {
+                  "name": "mypy.py",
+                  "type": "file",
+                  "size": 38860,
+                  "ext": "py"
+                },
+                {
+                  "name": "networks.py",
+                  "type": "file",
+                  "size": 22124,
+                  "ext": "py"
+                },
+                {
+                  "name": "parse.py",
+                  "type": "file",
+                  "size": 1821,
+                  "ext": "py",
+                  "preview": "import json\nimport pickle\nfrom enum import Enum\nfrom pathlib import Path\nfrom typing import Any, Cal..."
+                },
+                {
+                  "name": "py.typed",
+                  "type": "file",
+                  "size": 0,
+                  "ext": "typed"
+                }
+              ],
+              "truncated": 7
+            },
+            {
+              "name": "__init__.py",
+              "type": "file",
+              "size": 15812,
+              "ext": "py"
+            },
+            {
+              "name": "_migration.py",
+              "type": "file",
+              "size": 12160,
+              "ext": "py"
+            },
+            {
+              "name": "alias_generators.py",
+              "type": "file",
+              "size": 2124,
+              "ext": "py"
+            },
+            {
+              "name": "aliases.py",
+              "type": "file",
+              "size": 4937,
+              "ext": "py"
+            },
+            {
+              "name": "annotated_handlers.py",
+              "type": "file",
+              "size": 4407,
+              "ext": "py"
+            },
+            {
+              "name": "class_validators.py",
+              "type": "file",
+              "size": 148,
+              "ext": "py",
+              "preview": "\"\"\"`class_validators` module is a backport module from V1.\"\"\"\n\nfrom ._migration import getattr_migra..."
+            },
+            {
+              "name": "color.py",
+              "type": "file",
+              "size": 21481,
+              "ext": "py"
+            },
+            {
+              "name": "config.py",
+              "type": "file",
+              "size": 44267,
+              "ext": "py"
+            },
+            {
+              "name": "dataclasses.py",
+              "type": "file",
+              "size": 18936,
+              "ext": "py"
+            },
+            {
+              "name": "datetime_parse.py",
+              "type": "file",
+              "size": 150,
+              "ext": "py",
+              "preview": "\"\"\"The `datetime_parse` module is a backport module from V1.\"\"\"\n\nfrom ._migration import getattr_mig..."
+            },
+            {
+              "name": "decorator.py",
+              "type": "file",
+              "size": 145,
+              "ext": "py",
+              "preview": "\"\"\"The `decorator` module is a backport module from V1.\"\"\"\n\nfrom ._migration import getattr_migratio..."
+            },
+            {
+              "name": "env_settings.py",
+              "type": "file",
+              "size": 148,
+              "ext": "py",
+              "preview": "\"\"\"The `env_settings` module is a backport module from V1.\"\"\"\n\nfrom ._migration import getattr_migra..."
+            },
+            {
+              "name": "error_wrappers.py",
+              "type": "file",
+              "size": 150,
+              "ext": "py",
+              "preview": "\"\"\"The `error_wrappers` module is a backport module from V1.\"\"\"\n\nfrom ._migration import getattr_mig..."
+            },
+            {
+              "name": "errors.py",
+              "type": "file",
+              "size": 6002,
+              "ext": "py"
+            },
+            {
+              "name": "fields.py",
+              "type": "file",
+              "size": 79194,
+              "ext": "py"
+            },
+            {
+              "name": "functional_serializers.py",
+              "type": "file",
+              "size": 17151,
+              "ext": "py"
+            },
+            {
+              "name": "functional_validators.py",
+              "type": "file",
+              "size": 31839,
+              "ext": "py"
+            },
+            {
+              "name": "generics.py",
+              "type": "file",
+              "size": 144,
+              "ext": "py",
+              "preview": "\"\"\"The `generics` module is a backport module from V1.\"\"\"\n\nfrom ._migration import getattr_migration..."
+            },
+            {
+              "name": "json_schema.py",
+              "type": "file",
+              "size": 123653,
+              "ext": "py"
+            },
+            {
+              "name": "json.py",
+              "type": "file",
+              "size": 140,
+              "ext": "py",
+              "preview": "\"\"\"The `json` module is a backport module from V1.\"\"\"\n\nfrom ._migration import getattr_migration\n\n__..."
+            }
+          ],
+          "truncated": 16
+        },
+        {
+          "name": "pydantic_core",
+          "type": "folder",
+          "children": [
+            {
+              "name": "__pycache__",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "__init__.cpython-313.pyc",
+                  "type": "file",
+                  "size": 3281,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "core_schema.cpython-313.pyc",
+                  "type": "file",
+                  "size": 150711,
+                  "ext": "pyc"
+                }
+              ]
+            },
+            {
+              "name": "__init__.py",
+              "type": "file",
+              "size": 5115,
+              "ext": "py"
+            },
+            {
+              "name": "_pydantic_core.cpython-313-darwin.so",
+              "type": "file",
+              "size": 4220048,
+              "ext": "so"
+            },
+            {
+              "name": "_pydantic_core.pyi",
+              "type": "file",
+              "size": 44927,
+              "ext": "pyi"
+            },
+            {
+              "name": "core_schema.py",
+              "type": "file",
+              "size": 154730,
+              "ext": "py"
+            },
+            {
+              "name": "py.typed",
+              "type": "file",
+              "size": 0,
+              "ext": "typed"
+            }
+          ]
+        },
+        {
+          "name": "pydantic_core-2.41.5.dist-info",
+          "type": "folder",
+          "children": [
+            {
+              "name": "licenses",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "LICENSE",
+                  "type": "file",
+                  "size": 1080,
+                  "ext": "file",
+                  "preview": "The MIT License (MIT)\n\nCopyright (c) 2022 Samuel Colvin\n\nPermission is hereby granted, free of charg..."
+                }
+              ]
+            },
+            {
+              "name": "INSTALLER",
+              "type": "file",
+              "size": 4,
+              "ext": "file"
+            },
+            {
+              "name": "METADATA",
+              "type": "file",
+              "size": 7277,
+              "ext": "file"
+            },
+            {
+              "name": "RECORD",
+              "type": "file",
+              "size": 992,
+              "ext": "file",
+              "preview": "pydantic_core-2.41.5.dist-info/INSTALLER,sha256=zuuue4knoyJ-UwPPXg8fezS7VCrXJQrAP7zeNuwvFQg,4\r\npydan..."
+            },
+            {
+              "name": "WHEEL",
+              "type": "file",
+              "size": 104,
+              "ext": "file",
+              "preview": "Wheel-Version: 1.0\nGenerator: maturin (1.9.6)\nRoot-Is-Purelib: false\nTag: cp313-cp313-macosx_11_0_ar..."
+            }
+          ]
+        },
+        {
+          "name": "pydantic_settings",
+          "type": "folder",
+          "children": [
+            {
+              "name": "__pycache__",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "__init__.cpython-313.pyc",
+                  "type": "file",
+                  "size": 1420,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "exceptions.cpython-313.pyc",
+                  "type": "file",
+                  "size": 526,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "main.cpython-313.pyc",
+                  "type": "file",
+                  "size": 28509,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "utils.cpython-313.pyc",
+                  "type": "file",
+                  "size": 1834,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "version.cpython-313.pyc",
+                  "type": "file",
+                  "size": 236,
+                  "ext": "pyc"
+                }
+              ]
+            },
+            {
+              "name": "sources",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "__pycache__",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "__init__.cpython-313.pyc",
+                      "type": "file",
+                      "size": 1950,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "base.cpython-313.pyc",
+                      "type": "file",
+                      "size": 24739,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "types.cpython-313.pyc",
+                      "type": "file",
+                      "size": 2555,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "utils.cpython-313.pyc",
+                      "type": "file",
+                      "size": 10792,
+                      "ext": "pyc"
+                    }
+                  ]
+                },
+                {
+                  "name": "providers",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "__pycache__",
+                      "type": "folder",
+                      "children": [
+                        {
+                          "name": "__init__.cpython-313.pyc",
+                          "type": "file",
+                          "size": 1199,
+                          "ext": "pyc"
+                        },
+                        {
+                          "name": "aws.cpython-313.pyc",
+                          "type": "file",
+                          "size": 3397,
+                          "ext": "pyc"
+                        },
+                        {
+                          "name": "azure.cpython-313.pyc",
+                          "type": "file",
+                          "size": 7761,
+                          "ext": "pyc"
+                        },
+                        {
+                          "name": "cli.cpython-313.pyc",
+                          "type": "file",
+                          "size": 71901,
+                          "ext": "pyc"
+                        },
+                        {
+                          "name": "dotenv.cpython-313.pyc",
+                          "type": "file",
+                          "size": 7190,
+                          "ext": "pyc"
+                        },
+                        {
+                          "name": "env.cpython-313.pyc",
+                          "type": "file",
+                          "size": 12517,
+                          "ext": "pyc"
+                        },
+                        {
+                          "name": "gcp.cpython-313.pyc",
+                          "type": "file",
+                          "size": 7349,
+                          "ext": "pyc"
+                        },
+                        {
+                          "name": "json.cpython-313.pyc",
+                          "type": "file",
+                          "size": 2593,
+                          "ext": "pyc"
+                        },
+                        {
+                          "name": "nested_secrets.cpython-313.pyc",
+                          "type": "file",
+                          "size": 8251,
+                          "ext": "pyc"
+                        },
+                        {
+                          "name": "pyproject.cpython-313.pyc",
+                          "type": "file",
+                          "size": 3149,
+                          "ext": "pyc"
+                        },
+                        {
+                          "name": "secrets.cpython-313.pyc",
+                          "type": "file",
+                          "size": 5831,
+                          "ext": "pyc"
+                        },
+                        {
+                          "name": "toml.cpython-313.pyc",
+                          "type": "file",
+                          "size": 3169,
+                          "ext": "pyc"
+                        },
+                        {
+                          "name": "yaml.cpython-313.pyc",
+                          "type": "file",
+                          "size": 3573,
+                          "ext": "pyc"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "__init__.py",
+                      "type": "file",
+                      "size": 1205,
+                      "ext": "py",
+                      "preview": "\"\"\"Package containing individual source implementations.\"\"\"\n\nfrom .aws import AWSSecretsManagerSetti..."
+                    },
+                    {
+                      "name": "aws.py",
+                      "type": "file",
+                      "size": 2536,
+                      "ext": "py"
+                    },
+                    {
+                      "name": "azure.py",
+                      "type": "file",
+                      "size": 4988,
+                      "ext": "py"
+                    },
+                    {
+                      "name": "cli.py",
+                      "type": "file",
+                      "size": 63290,
+                      "ext": "py"
+                    },
+                    {
+                      "name": "dotenv.py",
+                      "type": "file",
+                      "size": 5956,
+                      "ext": "py"
+                    },
+                    {
+                      "name": "env.py",
+                      "type": "file",
+                      "size": 11758,
+                      "ext": "py"
+                    },
+                    {
+                      "name": "gcp.py",
+                      "type": "file",
+                      "size": 5628,
+                      "ext": "py"
+                    },
+                    {
+                      "name": "json.py",
+                      "type": "file",
+                      "size": 1436,
+                      "ext": "py",
+                      "preview": "\"\"\"JSON file settings source.\"\"\"\n\nfrom __future__ import annotations as _annotations\n\nimport json\nfr..."
+                    },
+                    {
+                      "name": "nested_secrets.py",
+                      "type": "file",
+                      "size": 6622,
+                      "ext": "py"
+                    },
+                    {
+                      "name": "pyproject.py",
+                      "type": "file",
+                      "size": 2052,
+                      "ext": "py"
+                    },
+                    {
+                      "name": "secrets.py",
+                      "type": "file",
+                      "size": 4303,
+                      "ext": "py"
+                    },
+                    {
+                      "name": "toml.py",
+                      "type": "file",
+                      "size": 1827,
+                      "ext": "py",
+                      "preview": "\"\"\"TOML file settings source.\"\"\"\n\nfrom __future__ import annotations as _annotations\n\nimport sys\nfro..."
+                    },
+                    {
+                      "name": "yaml.py",
+                      "type": "file",
+                      "size": 2305,
+                      "ext": "py"
+                    }
+                  ]
+                },
+                {
+                  "name": "__init__.py",
+                  "type": "file",
+                  "size": 2153,
+                  "ext": "py"
+                },
+                {
+                  "name": "base.py",
+                  "type": "file",
+                  "size": 21985,
+                  "ext": "py"
+                },
+                {
+                  "name": "types.py",
+                  "type": "file",
+                  "size": 1478,
+                  "ext": "py",
+                  "preview": "\"\"\"Type definitions for pydantic-settings sources.\"\"\"\n\nfrom __future__ import annotations as _annota..."
+                },
+                {
+                  "name": "utils.py",
+                  "type": "file",
+                  "size": 7867,
+                  "ext": "py"
+                }
+              ]
+            },
+            {
+              "name": "__init__.py",
+              "type": "file",
+              "size": 1631,
+              "ext": "py",
+              "preview": "from .exceptions import SettingsError\nfrom .main import BaseSettings, CliApp, SettingsConfigDict\nfro..."
+            },
+            {
+              "name": "exceptions.py",
+              "type": "file",
+              "size": 97,
+              "ext": "py",
+              "preview": "class SettingsError(ValueError):\n    \"\"\"Base exception for settings-related errors.\"\"\"\n\n    pass\n"
+            },
+            {
+              "name": "main.py",
+              "type": "file",
+              "size": 33800,
+              "ext": "py"
+            },
+            {
+              "name": "py.typed",
+              "type": "file",
+              "size": 0,
+              "ext": "typed"
+            },
+            {
+              "name": "utils.py",
+              "type": "file",
+              "size": 1271,
+              "ext": "py",
+              "preview": "import types\nfrom pathlib import Path\nfrom typing import Any, _GenericAlias, get_origin  # type: ign..."
+            },
+            {
+              "name": "version.py",
+              "type": "file",
+              "size": 19,
+              "ext": "py",
+              "preview": "VERSION = '2.12.0'\n"
+            }
+          ]
+        },
+        {
+          "name": "pydantic_settings-2.12.0.dist-info",
+          "type": "folder",
+          "children": [
+            {
+              "name": "licenses",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "LICENSE",
+                  "type": "file",
+                  "size": 1103,
+                  "ext": "file",
+                  "preview": "The MIT License (MIT)\n\nCopyright (c) 2022 Samuel Colvin and other contributors\n\nPermission is hereby..."
+                }
+              ]
+            },
+            {
+              "name": "INSTALLER",
+              "type": "file",
+              "size": 4,
+              "ext": "file"
+            },
+            {
+              "name": "METADATA",
+              "type": "file",
+              "size": 3395,
+              "ext": "file"
+            },
+            {
+              "name": "RECORD",
+              "type": "file",
+              "size": 4159,
+              "ext": "file"
+            },
+            {
+              "name": "WHEEL",
+              "type": "file",
+              "size": 87,
+              "ext": "file",
+              "preview": "Wheel-Version: 1.0\nGenerator: hatchling 1.27.0\nRoot-Is-Purelib: true\nTag: py3-none-any\n"
+            }
+          ]
+        },
+        {
+          "name": "pydantic-2.12.5.dist-info",
+          "type": "folder",
+          "children": [
+            {
+              "name": "licenses",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "LICENSE",
+                  "type": "file",
+                  "size": 1129,
+                  "ext": "file",
+                  "preview": "The MIT License (MIT)\n\nCopyright (c) 2017 to present Pydantic Services Inc. and individual contribut..."
+                }
+              ]
+            },
+            {
+              "name": "INSTALLER",
+              "type": "file",
+              "size": 4,
+              "ext": "file"
+            },
+            {
+              "name": "METADATA",
+              "type": "file",
+              "size": 90587,
+              "ext": "file"
+            },
+            {
+              "name": "RECORD",
+              "type": "file",
+              "size": 15455,
+              "ext": "file"
+            },
+            {
+              "name": "WHEEL",
+              "type": "file",
+              "size": 87,
+              "ext": "file",
+              "preview": "Wheel-Version: 1.0\nGenerator: hatchling 1.27.0\nRoot-Is-Purelib: true\nTag: py3-none-any\n"
+            }
+          ]
+        },
+        {
+          "name": "pygments",
+          "type": "folder",
+          "children": [
+            {
+              "name": "__pycache__",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "__init__.cpython-313.pyc",
+                  "type": "file",
+                  "size": 3422,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "__main__.cpython-313.pyc",
+                  "type": "file",
+                  "size": 775,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "cmdline.cpython-313.pyc",
+                  "type": "file",
+                  "size": 27009,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "console.cpython-313.pyc",
+                  "type": "file",
+                  "size": 2614,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "filter.cpython-313.pyc",
+                  "type": "file",
+                  "size": 3240,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "formatter.cpython-313.pyc",
+                  "type": "file",
+                  "size": 4547,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "lexer.cpython-313.pyc",
+                  "type": "file",
+                  "size": 38808,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "modeline.cpython-313.pyc",
+                  "type": "file",
+                  "size": 1587,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "plugin.cpython-313.pyc",
+                  "type": "file",
+                  "size": 2561,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "regexopt.cpython-313.pyc",
+                  "type": "file",
+                  "size": 4118,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "scanner.cpython-313.pyc",
+                  "type": "file",
+                  "size": 4697,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "sphinxext.cpython-313.pyc",
+                  "type": "file",
+                  "size": 12224,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "style.cpython-313.pyc",
+                  "type": "file",
+                  "size": 6941,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "token.cpython-313.pyc",
+                  "type": "file",
+                  "size": 8257,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "unistring.cpython-313.pyc",
+                  "type": "file",
+                  "size": 33039,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "util.cpython-313.pyc",
+                  "type": "file",
+                  "size": 14187,
+                  "ext": "pyc"
+                }
+              ]
+            },
+            {
+              "name": "filters",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "__pycache__",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "__init__.cpython-313.pyc",
+                      "type": "file",
+                      "size": 37935,
+                      "ext": "pyc"
+                    }
+                  ]
+                },
+                {
+                  "name": "__init__.py",
+                  "type": "file",
+                  "size": 40344,
+                  "ext": "py"
+                }
+              ]
+            },
+            {
+              "name": "formatters",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "__pycache__",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "__init__.cpython-313.pyc",
+                      "type": "file",
+                      "size": 6904,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "_mapping.cpython-313.pyc",
+                      "type": "file",
+                      "size": 4229,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "bbcode.cpython-313.pyc",
+                      "type": "file",
+                      "size": 4274,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "groff.cpython-313.pyc",
+                      "type": "file",
+                      "size": 7426,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "html.cpython-313.pyc",
+                      "type": "file",
+                      "size": 41410,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "img.cpython-313.pyc",
+                      "type": "file",
+                      "size": 28520,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "irc.cpython-313.pyc",
+                      "type": "file",
+                      "size": 6097,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "latex.cpython-313.pyc",
+                      "type": "file",
+                      "size": 20351,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "other.cpython-313.pyc",
+                      "type": "file",
+                      "size": 6921,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "pangomarkup.cpython-313.pyc",
+                      "type": "file",
+                      "size": 3034,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "rtf.cpython-313.pyc",
+                      "type": "file",
+                      "size": 13848,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "svg.cpython-313.pyc",
+                      "type": "file",
+                      "size": 9151,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "terminal.cpython-313.pyc",
+                      "type": "file",
+                      "size": 5865,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "terminal256.cpython-313.pyc",
+                      "type": "file",
+                      "size": 15501,
+                      "ext": "pyc"
+                    }
+                  ]
+                },
+                {
+                  "name": "__init__.py",
+                  "type": "file",
+                  "size": 5349,
+                  "ext": "py"
+                },
+                {
+                  "name": "_mapping.py",
+                  "type": "file",
+                  "size": 4176,
+                  "ext": "py"
+                },
+                {
+                  "name": "bbcode.py",
+                  "type": "file",
+                  "size": 3296,
+                  "ext": "py"
+                },
+                {
+                  "name": "groff.py",
+                  "type": "file",
+                  "size": 5082,
+                  "ext": "py"
+                },
+                {
+                  "name": "html.py",
+                  "type": "file",
+                  "size": 35953,
+                  "ext": "py"
+                },
+                {
+                  "name": "img.py",
+                  "type": "file",
+                  "size": 23301,
+                  "ext": "py"
+                },
+                {
+                  "name": "irc.py",
+                  "type": "file",
+                  "size": 4945,
+                  "ext": "py"
+                },
+                {
+                  "name": "latex.py",
+                  "type": "file",
+                  "size": 19258,
+                  "ext": "py"
+                },
+                {
+                  "name": "other.py",
+                  "type": "file",
+                  "size": 4986,
+                  "ext": "py"
+                },
+                {
+                  "name": "pangomarkup.py",
+                  "type": "file",
+                  "size": 2206,
+                  "ext": "py"
+                },
+                {
+                  "name": "rtf.py",
+                  "type": "file",
+                  "size": 11921,
+                  "ext": "py"
+                },
+                {
+                  "name": "svg.py",
+                  "type": "file",
+                  "size": 7138,
+                  "ext": "py"
+                },
+                {
+                  "name": "terminal.py",
+                  "type": "file",
+                  "size": 4626,
+                  "ext": "py"
+                },
+                {
+                  "name": "terminal256.py",
+                  "type": "file",
+                  "size": 11717,
+                  "ext": "py"
+                }
+              ]
+            },
+            {
+              "name": "lexers",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "__pycache__",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "__init__.cpython-313.pyc",
+                      "type": "file",
+                      "size": 14720,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "_ada_builtins.cpython-313.pyc",
+                      "type": "file",
+                      "size": 1239,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "_asy_builtins.cpython-313.pyc",
+                      "type": "file",
+                      "size": 17616,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "_cl_builtins.cpython-313.pyc",
+                      "type": "file",
+                      "size": 11668,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "_cocoa_builtins.cpython-313.pyc",
+                      "type": "file",
+                      "size": 97582,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "_csound_builtins.cpython-313.pyc",
+                      "type": "file",
+                      "size": 16384,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "_css_builtins.cpython-313.pyc",
+                      "type": "file",
+                      "size": 9389,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "_googlesql_builtins.cpython-313.pyc",
+                      "type": "file",
+                      "size": 10827,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "_julia_builtins.cpython-313.pyc",
+                      "type": "file",
+                      "size": 8254,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "_lasso_builtins.cpython-313.pyc",
+                      "type": "file",
+                      "size": 76732,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "_lilypond_builtins.cpython-313.pyc",
+                      "type": "file",
+                      "size": 88410,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "_lua_builtins.cpython-313.pyc",
+                      "type": "file",
+                      "size": 8402,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "_luau_builtins.cpython-313.pyc",
+                      "type": "file",
+                      "size": 1053,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "_mapping.cpython-313.pyc",
+                      "type": "file",
+                      "size": 66975,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "_mql_builtins.cpython-313.pyc",
+                      "type": "file",
+                      "size": 18013,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "_mysql_builtins.cpython-313.pyc",
+                      "type": "file",
+                      "size": 19564,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "_openedge_builtins.cpython-313.pyc",
+                      "type": "file",
+                      "size": 34095,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "_php_builtins.cpython-313.pyc",
+                      "type": "file",
+                      "size": 65588,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "_postgres_builtins.cpython-313.pyc",
+                      "type": "file",
+                      "size": 11358,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "_qlik_builtins.cpython-313.pyc",
+                      "type": "file",
+                      "size": 6380,
+                      "ext": "pyc"
+                    }
+                  ],
+                  "truncated": 239
+                },
+                {
+                  "name": "__init__.py",
+                  "type": "file",
+                  "size": 12067,
+                  "ext": "py"
+                },
+                {
+                  "name": "_ada_builtins.py",
+                  "type": "file",
+                  "size": 1543,
+                  "ext": "py",
+                  "preview": "\"\"\"\n    pygments.lexers._ada_builtins\n    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\n    Ada builtins.\n\n    :cop..."
+                },
+                {
+                  "name": "_asy_builtins.py",
+                  "type": "file",
+                  "size": 27287,
+                  "ext": "py"
+                },
+                {
+                  "name": "_cl_builtins.py",
+                  "type": "file",
+                  "size": 13994,
+                  "ext": "py"
+                },
+                {
+                  "name": "_cocoa_builtins.py",
+                  "type": "file",
+                  "size": 105173,
+                  "ext": "py"
+                },
+                {
+                  "name": "_csound_builtins.py",
+                  "type": "file",
+                  "size": 18414,
+                  "ext": "py"
+                },
+                {
+                  "name": "_css_builtins.py",
+                  "type": "file",
+                  "size": 12446,
+                  "ext": "py"
+                },
+                {
+                  "name": "_googlesql_builtins.py",
+                  "type": "file",
+                  "size": 16132,
+                  "ext": "py"
+                },
+                {
+                  "name": "_julia_builtins.py",
+                  "type": "file",
+                  "size": 11883,
+                  "ext": "py"
+                },
+                {
+                  "name": "_lasso_builtins.py",
+                  "type": "file",
+                  "size": 134510,
+                  "ext": "py"
+                },
+                {
+                  "name": "_lilypond_builtins.py",
+                  "type": "file",
+                  "size": 108094,
+                  "ext": "py"
+                },
+                {
+                  "name": "_lua_builtins.py",
+                  "type": "file",
+                  "size": 8108,
+                  "ext": "py"
+                },
+                {
+                  "name": "_luau_builtins.py",
+                  "type": "file",
+                  "size": 955,
+                  "ext": "py",
+                  "preview": "\"\"\"\n    pygments.lexers._luau_builtins\n    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n\n    Includes the builtins..."
+                },
+                {
+                  "name": "_mapping.py",
+                  "type": "file",
+                  "size": 70438,
+                  "ext": "py"
+                },
+                {
+                  "name": "_mql_builtins.py",
+                  "type": "file",
+                  "size": 24713,
+                  "ext": "py"
+                },
+                {
+                  "name": "_mysql_builtins.py",
+                  "type": "file",
+                  "size": 25838,
+                  "ext": "py"
+                },
+                {
+                  "name": "_openedge_builtins.py",
+                  "type": "file",
+                  "size": 49398,
+                  "ext": "py"
+                },
+                {
+                  "name": "_php_builtins.py",
+                  "type": "file",
+                  "size": 107922,
+                  "ext": "py"
+                },
+                {
+                  "name": "_postgres_builtins.py",
+                  "type": "file",
+                  "size": 13343,
+                  "ext": "py"
+                },
+                {
+                  "name": "_qlik_builtins.py",
+                  "type": "file",
+                  "size": 12595,
+                  "ext": "py"
+                }
+              ],
+              "truncated": 239
+            },
+            {
+              "name": "styles",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "__pycache__",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "__init__.cpython-313.pyc",
+                      "type": "file",
+                      "size": 2619,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "_mapping.cpython-313.pyc",
+                      "type": "file",
+                      "size": 3662,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "abap.cpython-313.pyc",
+                      "type": "file",
+                      "size": 1135,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "algol_nu.cpython-313.pyc",
+                      "type": "file",
+                      "size": 2610,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "algol.cpython-313.pyc",
+                      "type": "file",
+                      "size": 2595,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "arduino.cpython-313.pyc",
+                      "type": "file",
+                      "size": 4317,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "autumn.cpython-313.pyc",
+                      "type": "file",
+                      "size": 2903,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "borland.cpython-313.pyc",
+                      "type": "file",
+                      "size": 2272,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "bw.cpython-313.pyc",
+                      "type": "file",
+                      "size": 1957,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "coffee.cpython-313.pyc",
+                      "type": "file",
+                      "size": 3493,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "colorful.cpython-313.pyc",
+                      "type": "file",
+                      "size": 3761,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "default.cpython-313.pyc",
+                      "type": "file",
+                      "size": 3263,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "dracula.cpython-313.pyc",
+                      "type": "file",
+                      "size": 3076,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "emacs.cpython-313.pyc",
+                      "type": "file",
+                      "size": 3303,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "friendly_grayscale.cpython-313.pyc",
+                      "type": "file",
+                      "size": 3593,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "friendly.cpython-313.pyc",
+                      "type": "file",
+                      "size": 3399,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "fruity.cpython-313.pyc",
+                      "type": "file",
+                      "size": 1978,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "gh_dark.cpython-313.pyc",
+                      "type": "file",
+                      "size": 4063,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "gruvbox.cpython-313.pyc",
+                      "type": "file",
+                      "size": 4428,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "igor.cpython-313.pyc",
+                      "type": "file",
+                      "size": 1172,
+                      "ext": "pyc"
+                    }
+                  ],
+                  "truncated": 28
+                },
+                {
+                  "name": "__init__.py",
+                  "type": "file",
+                  "size": 2006,
+                  "ext": "py",
+                  "preview": "\"\"\"\n    pygments.styles\n    ~~~~~~~~~~~~~~~\n\n    Contains built-in styles.\n\n    :copyright: Copyrigh..."
+                },
+                {
+                  "name": "_mapping.py",
+                  "type": "file",
+                  "size": 3312,
+                  "ext": "py"
+                },
+                {
+                  "name": "abap.py",
+                  "type": "file",
+                  "size": 749,
+                  "ext": "py",
+                  "preview": "\"\"\"\n    pygments.styles.abap\n    ~~~~~~~~~~~~~~~~~~~~\n\n    ABAP workbench like style.\n\n    :copyrigh..."
+                },
+                {
+                  "name": "algol_nu.py",
+                  "type": "file",
+                  "size": 2283,
+                  "ext": "py"
+                },
+                {
+                  "name": "algol.py",
+                  "type": "file",
+                  "size": 2262,
+                  "ext": "py"
+                },
+                {
+                  "name": "arduino.py",
+                  "type": "file",
+                  "size": 4557,
+                  "ext": "py"
+                },
+                {
+                  "name": "autumn.py",
+                  "type": "file",
+                  "size": 2195,
+                  "ext": "py"
+                },
+                {
+                  "name": "borland.py",
+                  "type": "file",
+                  "size": 1611,
+                  "ext": "py",
+                  "preview": "\"\"\"\n    pygments.styles.borland\n    ~~~~~~~~~~~~~~~~~~~~~~~\n\n    Style similar to the style used in ..."
+                },
+                {
+                  "name": "bw.py",
+                  "type": "file",
+                  "size": 1406,
+                  "ext": "py",
+                  "preview": "\"\"\"\n    pygments.styles.bw\n    ~~~~~~~~~~~~~~~~~~\n\n    Simple black/white only style.\n\n    :copyrigh..."
+                },
+                {
+                  "name": "coffee.py",
+                  "type": "file",
+                  "size": 2308,
+                  "ext": "py"
+                },
+                {
+                  "name": "colorful.py",
+                  "type": "file",
+                  "size": 2832,
+                  "ext": "py"
+                },
+                {
+                  "name": "default.py",
+                  "type": "file",
+                  "size": 2588,
+                  "ext": "py"
+                },
+                {
+                  "name": "dracula.py",
+                  "type": "file",
+                  "size": 2182,
+                  "ext": "py"
+                },
+                {
+                  "name": "emacs.py",
+                  "type": "file",
+                  "size": 2535,
+                  "ext": "py"
+                },
+                {
+                  "name": "friendly_grayscale.py",
+                  "type": "file",
+                  "size": 2828,
+                  "ext": "py"
+                },
+                {
+                  "name": "friendly.py",
+                  "type": "file",
+                  "size": 2604,
+                  "ext": "py"
+                },
+                {
+                  "name": "fruity.py",
+                  "type": "file",
+                  "size": 1324,
+                  "ext": "py",
+                  "preview": "\"\"\"\n    pygments.styles.fruity\n    ~~~~~~~~~~~~~~~~~~~~~~\n\n    pygments version of my \"fruity\" vim t..."
+                },
+                {
+                  "name": "gh_dark.py",
+                  "type": "file",
+                  "size": 3590,
+                  "ext": "py"
+                },
+                {
+                  "name": "gruvbox.py",
+                  "type": "file",
+                  "size": 3387,
+                  "ext": "py"
+                },
+                {
+                  "name": "igor.py",
+                  "type": "file",
+                  "size": 737,
+                  "ext": "py",
+                  "preview": "\"\"\"\n    pygments.styles.igor\n    ~~~~~~~~~~~~~~~~~~~~\n\n    Igor Pro default style.\n\n    :copyright: ..."
+                }
+              ],
+              "truncated": 28
+            },
+            {
+              "name": "__init__.py",
+              "type": "file",
+              "size": 2959,
+              "ext": "py"
+            },
+            {
+              "name": "__main__.py",
+              "type": "file",
+              "size": 348,
+              "ext": "py",
+              "preview": "\"\"\"\n    pygments.__main__\n    ~~~~~~~~~~~~~~~~~\n\n    Main entry point for ``python -m pygments``.\n\n ..."
+            },
+            {
+              "name": "cmdline.py",
+              "type": "file",
+              "size": 23536,
+              "ext": "py"
+            },
+            {
+              "name": "console.py",
+              "type": "file",
+              "size": 1718,
+              "ext": "py",
+              "preview": "\"\"\"\n    pygments.console\n    ~~~~~~~~~~~~~~~~\n\n    Format colored console output.\n\n    :copyright: C..."
+            },
+            {
+              "name": "filter.py",
+              "type": "file",
+              "size": 1910,
+              "ext": "py",
+              "preview": "\"\"\"\n    pygments.filter\n    ~~~~~~~~~~~~~~~\n\n    Module that implements the default filter.\n\n    :co..."
+            },
+            {
+              "name": "formatter.py",
+              "type": "file",
+              "size": 4366,
+              "ext": "py"
+            },
+            {
+              "name": "lexer.py",
+              "type": "file",
+              "size": 35109,
+              "ext": "py"
+            },
+            {
+              "name": "modeline.py",
+              "type": "file",
+              "size": 1005,
+              "ext": "py",
+              "preview": "\"\"\"\n    pygments.modeline\n    ~~~~~~~~~~~~~~~~~\n\n    A simple modeline parser (based on pymodeline)...."
+            },
+            {
+              "name": "plugin.py",
+              "type": "file",
+              "size": 1891,
+              "ext": "py",
+              "preview": "\"\"\"\n    pygments.plugin\n    ~~~~~~~~~~~~~~~\n\n    Pygments plugin interface.\n\n    lexer plugins::\n\n  ..."
+            },
+            {
+              "name": "regexopt.py",
+              "type": "file",
+              "size": 3072,
+              "ext": "py"
+            },
+            {
+              "name": "scanner.py",
+              "type": "file",
+              "size": 3092,
+              "ext": "py"
+            },
+            {
+              "name": "sphinxext.py",
+              "type": "file",
+              "size": 7898,
+              "ext": "py"
+            },
+            {
+              "name": "style.py",
+              "type": "file",
+              "size": 6408,
+              "ext": "py"
+            },
+            {
+              "name": "token.py",
+              "type": "file",
+              "size": 6226,
+              "ext": "py"
+            },
+            {
+              "name": "unistring.py",
+              "type": "file",
+              "size": 63208,
+              "ext": "py"
+            },
+            {
+              "name": "util.py",
+              "type": "file",
+              "size": 10031,
+              "ext": "py"
+            }
+          ]
+        },
+        {
+          "name": "pygments-2.19.2.dist-info",
+          "type": "folder",
+          "children": [
+            {
+              "name": "licenses",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "AUTHORS",
+                  "type": "file",
+                  "size": 10824,
+                  "ext": "file"
+                },
+                {
+                  "name": "LICENSE",
+                  "type": "file",
+                  "size": 1331,
+                  "ext": "file",
+                  "preview": "Copyright (c) 2006-2022 by the respective authors (see AUTHORS file).\nAll rights reserved.\n\nRedistri..."
+                }
+              ]
+            },
+            {
+              "name": "entry_points.txt",
+              "type": "file",
+              "size": 53,
+              "ext": "txt",
+              "preview": "[console_scripts]\npygmentize = pygments.cmdline:main\n"
+            },
+            {
+              "name": "INSTALLER",
+              "type": "file",
+              "size": 4,
+              "ext": "file"
+            },
+            {
+              "name": "METADATA",
+              "type": "file",
+              "size": 2512,
+              "ext": "file"
+            },
+            {
+              "name": "RECORD",
+              "type": "file",
+              "size": 47425,
+              "ext": "file"
+            },
+            {
+              "name": "WHEEL",
+              "type": "file",
+              "size": 87,
+              "ext": "file",
+              "preview": "Wheel-Version: 1.0\nGenerator: hatchling 1.27.0\nRoot-Is-Purelib: true\nTag: py3-none-any\n"
+            }
+          ]
+        },
+        {
+          "name": "PyJWT-2.10.1.dist-info",
+          "type": "folder",
+          "children": [
+            {
+              "name": "AUTHORS.rst",
+              "type": "file",
+              "size": 322,
+              "ext": "rst"
+            },
+            {
+              "name": "INSTALLER",
+              "type": "file",
+              "size": 4,
+              "ext": "file"
+            },
+            {
+              "name": "LICENSE",
+              "type": "file",
+              "size": 1085,
+              "ext": "file",
+              "preview": "The MIT License (MIT)\n\nCopyright (c) 2015-2022 José Padilla\n\nPermission is hereby granted, free of c..."
+            },
+            {
+              "name": "METADATA",
+              "type": "file",
+              "size": 3990,
+              "ext": "file"
+            },
+            {
+              "name": "RECORD",
+              "type": "file",
+              "size": 2030,
+              "ext": "file",
+              "preview": "PyJWT-2.10.1.dist-info/AUTHORS.rst,sha256=klzkNGECnu2_VY7At89_xLBF3vUSDruXk3xwgUBxzwc,322\r\nPyJWT-2.1..."
+            },
+            {
+              "name": "top_level.txt",
+              "type": "file",
+              "size": 4,
+              "ext": "txt"
+            },
+            {
+              "name": "WHEEL",
+              "type": "file",
+              "size": 91,
+              "ext": "file",
+              "preview": "Wheel-Version: 1.0\nGenerator: setuptools (75.6.0)\nRoot-Is-Purelib: true\nTag: py3-none-any\n\n"
+            }
+          ]
+        },
+        {
+          "name": "python_dateutil-2.9.0.post0.dist-info",
+          "type": "folder",
+          "children": [
+            {
+              "name": "INSTALLER",
+              "type": "file",
+              "size": 4,
+              "ext": "file"
+            },
+            {
+              "name": "LICENSE",
+              "type": "file",
+              "size": 2889,
+              "ext": "file"
+            },
+            {
+              "name": "METADATA",
+              "type": "file",
+              "size": 8354,
+              "ext": "file"
+            },
+            {
+              "name": "RECORD",
+              "type": "file",
+              "size": 3125,
+              "ext": "file"
+            },
+            {
+              "name": "top_level.txt",
+              "type": "file",
+              "size": 9,
+              "ext": "txt"
+            },
+            {
+              "name": "WHEEL",
+              "type": "file",
+              "size": 110,
+              "ext": "file",
+              "preview": "Wheel-Version: 1.0\nGenerator: bdist_wheel (0.42.0)\nRoot-Is-Purelib: true\nTag: py2-none-any\nTag: py3-..."
+            },
+            {
+              "name": "zip-safe",
+              "type": "file",
+              "size": 1,
+              "ext": "file"
+            }
+          ]
+        },
+        {
+          "name": "python_dotenv-1.2.1.dist-info",
+          "type": "folder",
+          "children": [
+            {
+              "name": "licenses",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "LICENSE",
+                  "type": "file",
+                  "size": 1556,
+                  "ext": "file",
+                  "preview": "Copyright (c) 2014, Saurabh Kumar (python-dotenv), 2013, Ted Tieken (django-dotenv-rw), 2013, Jacob ..."
+                }
+              ]
+            },
+            {
+              "name": "entry_points.txt",
+              "type": "file",
+              "size": 47,
+              "ext": "txt",
+              "preview": "[console_scripts]\ndotenv = dotenv.__main__:cli\n"
+            },
+            {
+              "name": "INSTALLER",
+              "type": "file",
+              "size": 4,
+              "ext": "file"
+            },
+            {
+              "name": "METADATA",
+              "type": "file",
+              "size": 25739,
+              "ext": "file"
+            },
+            {
+              "name": "RECORD",
+              "type": "file",
+              "size": 1728,
+              "ext": "file",
+              "preview": "../../bin/dotenv,sha256=GDazekIn60nVrOJd8J3hWH4eIhcFvsf8XudyipAEGNU,242\r\ndotenv/__init__.py,sha256=b..."
+            },
+            {
+              "name": "top_level.txt",
+              "type": "file",
+              "size": 7,
+              "ext": "txt"
+            },
+            {
+              "name": "WHEEL",
+              "type": "file",
+              "size": 91,
+              "ext": "file",
+              "preview": "Wheel-Version: 1.0\nGenerator: setuptools (80.9.0)\nRoot-Is-Purelib: true\nTag: py3-none-any\n\n"
+            }
+          ]
+        },
+        {
+          "name": "python_multipart",
+          "type": "folder",
+          "children": [
+            {
+              "name": "__pycache__",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "__init__.cpython-313.pyc",
+                  "type": "file",
+                  "size": 605,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "decoders.cpython-313.pyc",
+                  "type": "file",
+                  "size": 8252,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "exceptions.cpython-313.pyc",
+                  "type": "file",
+                  "size": 1900,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "multipart.cpython-313.pyc",
+                  "type": "file",
+                  "size": 67547,
+                  "ext": "pyc"
+                }
+              ]
+            },
+            {
+              "name": "__init__.py",
+              "type": "file",
+              "size": 512,
+              "ext": "py",
+              "preview": "# This is the canonical package information.\n__author__ = \"Andrew Dunham\"\n__license__ = \"Apache\"\n__c..."
+            },
+            {
+              "name": "decoders.py",
+              "type": "file",
+              "size": 6676,
+              "ext": "py"
+            },
+            {
+              "name": "exceptions.py",
+              "type": "file",
+              "size": 992,
+              "ext": "py",
+              "preview": "class FormParserError(ValueError):\n    \"\"\"Base error class for our form parser.\"\"\"\n\n\nclass ParseErro..."
+            },
+            {
+              "name": "multipart.py",
+              "type": "file",
+              "size": 76366,
+              "ext": "py"
+            },
+            {
+              "name": "py.typed",
+              "type": "file",
+              "size": 0,
+              "ext": "typed"
+            }
+          ]
+        },
+        {
+          "name": "python_multipart-0.0.21.dist-info",
+          "type": "folder",
+          "children": [
+            {
+              "name": "licenses",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "LICENSE.txt",
+                  "type": "file",
+                  "size": 556,
+                  "ext": "txt",
+                  "preview": "Copyright 2012, Andrew Dunham\n\nLicensed under the Apache License, Version 2.0 (the \"License\");\nyou m..."
+                }
+              ]
+            },
+            {
+              "name": "INSTALLER",
+              "type": "file",
+              "size": 4,
+              "ext": "file"
+            },
+            {
+              "name": "METADATA",
+              "type": "file",
+              "size": 1820,
+              "ext": "file",
+              "preview": "Metadata-Version: 2.4\nName: python-multipart\nVersion: 0.0.21\nSummary: A streaming multipart parser f..."
+            },
+            {
+              "name": "RECORD",
+              "type": "file",
+              "size": 1620,
+              "ext": "file",
+              "preview": "multipart/__init__.py,sha256=_ttxOAFnTN4jeac-_8NeXpaXYYo0PPEIp8Ogo4YFNHE,935\r\nmultipart/__pycache__/..."
+            },
+            {
+              "name": "WHEEL",
+              "type": "file",
+              "size": 87,
+              "ext": "file",
+              "preview": "Wheel-Version: 1.0\nGenerator: hatchling 1.28.0\nRoot-Is-Purelib: true\nTag: py3-none-any\n"
+            }
+          ]
+        },
+        {
+          "name": "pytz",
+          "type": "folder",
+          "children": [
+            {
+              "name": "__pycache__",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "__init__.cpython-313.pyc",
+                  "type": "file",
+                  "size": 30155,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "exceptions.cpython-313.pyc",
+                  "type": "file",
+                  "size": 2372,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "lazy.cpython-313.pyc",
+                  "type": "file",
+                  "size": 7939,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "reference.cpython-313.pyc",
+                  "type": "file",
+                  "size": 5715,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "tzfile.cpython-313.pyc",
+                  "type": "file",
+                  "size": 5344,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "tzinfo.cpython-313.pyc",
+                  "type": "file",
+                  "size": 18071,
+                  "ext": "pyc"
+                }
+              ]
+            },
+            {
+              "name": "zoneinfo",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "Africa",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "Abidjan",
+                      "type": "file",
+                      "size": 148,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0002\u0000\u0000\u0000\b��H\u0001���8\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0004LMT\u0000GMT\u0000TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000..."
+                    },
+                    {
+                      "name": "Accra",
+                      "type": "file",
+                      "size": 148,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0002\u0000\u0000\u0000\b��H\u0001���8\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0004LMT\u0000GMT\u0000TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000..."
+                    },
+                    {
+                      "name": "Addis_Ababa",
+                      "type": "file",
+                      "size": 265,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0005\u0000\u0000\u0000\u0005\u0000\u0000\u0000\u0014�������X�������X�lz�\u0001\u0002\u0001\u0003\u0002\u0000\u0000\"�\u0000\u0000\u0000\u0000#(\u0000\u0004\u0000\u0000*0\u0000\n\u0000\u0000&�\u0000\u000e\u0000\u0000*0\u0000\nL..."
+                    },
+                    {
+                      "name": "Algiers",
+                      "type": "file",
+                      "size": 735,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\b\u0000\u0000\u0000\u0000\u0000\u0000\u0000\"\u0000\u0000\u0000\b\u0000\u0000\u0000\u001a�\u0000\u0000\u0000�`PO�Gx��,p���p��H��p��*�`��\f�.\u0012�zL�5��\u0006p��\u0006p�X����\t..."
+                    },
+                    {
+                      "name": "Asmara",
+                      "type": "file",
+                      "size": 265,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0005\u0000\u0000\u0000\u0005\u0000\u0000\u0000\u0014�������X�������X�lz�\u0001\u0002\u0001\u0003\u0002\u0000\u0000\"�\u0000\u0000\u0000\u0000#(\u0000\u0004\u0000\u0000*0\u0000\n\u0000\u0000&�\u0000\u000e\u0000\u0000*0\u0000\nL..."
+                    },
+                    {
+                      "name": "Asmera",
+                      "type": "file",
+                      "size": 265,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0005\u0000\u0000\u0000\u0005\u0000\u0000\u0000\u0014�������X�������X�lz�\u0001\u0002\u0001\u0003\u0002\u0000\u0000\"�\u0000\u0000\u0000\u0000#(\u0000\u0004\u0000\u0000*0\u0000\n\u0000\u0000&�\u0000\u000e\u0000\u0000*0\u0000\nL..."
+                    },
+                    {
+                      "name": "Bamako",
+                      "type": "file",
+                      "size": 148,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0002\u0000\u0000\u0000\b��H\u0001���8\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0004LMT\u0000GMT\u0000TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000..."
+                    },
+                    {
+                      "name": "Bangui",
+                      "type": "file",
+                      "size": 235,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0004\u0000\u0000\u0000\u0004\u0000\u0000\u0000\u0012��pьP`\u0000��CѡQ�x\u0001\u0000\u0002\u0003\u0000\u0000\u0003/\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0004\u0000\u0000\u0007\b\u0000\b\u0000\u0000\u000e\u0010\u0000\u000eLMT\u0000GMT\u0000+0030\u0000..."
+                    },
+                    {
+                      "name": "Banjul",
+                      "type": "file",
+                      "size": 148,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0002\u0000\u0000\u0000\b��H\u0001���8\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0004LMT\u0000GMT\u0000TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000..."
+                    },
+                    {
+                      "name": "Bissau",
+                      "type": "file",
+                      "size": 194,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0003\u0000\u0000\u0000\u0003\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0002\u0000\u0000\u0000\u0003\u0000\u0000\u0000\f�朐\tga\u0010\u0001\u0002���d\u0000\u0000����\u0000\u0004\u0000\u0000\u0000\u0000\u0000\bLMT\u0000-01\u0000GMT\u0000\u0000\u0001\u0000\u0000\u0001\u0000TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000..."
+                    },
+                    {
+                      "name": "Blantyre",
+                      "type": "file",
+                      "size": 149,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0002\u0000\u0000\u0000\b�B�v\u0001\u0000\u0000\u001e�\u0000\u0000\u0000\u0000\u001c \u0000\u0004LMT\u0000CAT\u0000TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000..."
+                    },
+                    {
+                      "name": "Brazzaville",
+                      "type": "file",
+                      "size": 235,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0004\u0000\u0000\u0000\u0004\u0000\u0000\u0000\u0012��pьP`\u0000��CѡQ�x\u0001\u0000\u0002\u0003\u0000\u0000\u0003/\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0004\u0000\u0000\u0007\b\u0000\b\u0000\u0000\u000e\u0010\u0000\u000eLMT\u0000GMT\u0000+0030\u0000..."
+                    },
+                    {
+                      "name": "Bujumbura",
+                      "type": "file",
+                      "size": 149,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0002\u0000\u0000\u0000\b�B�v\u0001\u0000\u0000\u001e�\u0000\u0000\u0000\u0000\u001c \u0000\u0004LMT\u0000CAT\u0000TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000..."
+                    },
+                    {
+                      "name": "Cairo",
+                      "type": "file",
+                      "size": 2399,
+                      "ext": "file"
+                    },
+                    {
+                      "name": "Casablanca",
+                      "type": "file",
+                      "size": 2429,
+                      "ext": "file"
+                    },
+                    {
+                      "name": "Ceuta",
+                      "type": "file",
+                      "size": 2052,
+                      "ext": "file"
+                    },
+                    {
+                      "name": "Conakry",
+                      "type": "file",
+                      "size": 148,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0002\u0000\u0000\u0000\b��H\u0001���8\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0004LMT\u0000GMT\u0000TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000..."
+                    },
+                    {
+                      "name": "Dakar",
+                      "type": "file",
+                      "size": 148,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0002\u0000\u0000\u0000\b��H\u0001���8\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0004LMT\u0000GMT\u0000TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000..."
+                    },
+                    {
+                      "name": "Dar_es_Salaam",
+                      "type": "file",
+                      "size": 265,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0005\u0000\u0000\u0000\u0005\u0000\u0000\u0000\u0014�������X�������X�lz�\u0001\u0002\u0001\u0003\u0002\u0000\u0000\"�\u0000\u0000\u0000\u0000#(\u0000\u0004\u0000\u0000*0\u0000\n\u0000\u0000&�\u0000\u000e\u0000\u0000*0\u0000\nL..."
+                    },
+                    {
+                      "name": "Djibouti",
+                      "type": "file",
+                      "size": 265,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0005\u0000\u0000\u0000\u0005\u0000\u0000\u0000\u0014�������X�������X�lz�\u0001\u0002\u0001\u0003\u0002\u0000\u0000\"�\u0000\u0000\u0000\u0000#(\u0000\u0004\u0000\u0000*0\u0000\n\u0000\u0000&�\u0000\u000e\u0000\u0000*0\u0000\nL..."
+                    }
+                  ],
+                  "truncated": 34
+                },
+                {
+                  "name": "America",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "Argentina",
+                      "type": "folder",
+                      "children": [
+                        {
+                          "name": "Buenos_Aires",
+                          "type": "file",
+                          "size": 1062,
+                          "ext": "file",
+                          "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000=\u0000\u0000\u0000\u0006\u0000\u0000\u0000\u0014�\u0000\u0000\u0000���0�{R@�\u001aɰ�\u001e�@��p0�\u0017}��������@���0�����x\n���\u0018@�Z���..."
+                        },
+                        {
+                          "name": "Catamarca",
+                          "type": "file",
+                          "size": 1062,
+                          "ext": "file",
+                          "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000=\u0000\u0000\u0000\u0006\u0000\u0000\u0000\u0014�\u0000\u0000\u0000���0�{R@�\u001aɰ�\u001e�@��p0�\u0017}��������@���0�����x\n���\u0018@�Z���..."
+                        },
+                        {
+                          "name": "ComodRivadavia",
+                          "type": "file",
+                          "size": 1062,
+                          "ext": "file",
+                          "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000=\u0000\u0000\u0000\u0006\u0000\u0000\u0000\u0014�\u0000\u0000\u0000���0�{R@�\u001aɰ�\u001e�@��p0�\u0017}��������@���0�����x\n���\u0018@�Z���..."
+                        },
+                        {
+                          "name": "Cordoba",
+                          "type": "file",
+                          "size": 1062,
+                          "ext": "file",
+                          "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000=\u0000\u0000\u0000\u0006\u0000\u0000\u0000\u0014�\u0000\u0000\u0000���0�{R@�\u001aɰ�\u001e�@��p0�\u0017}��������@���0�����x\n���\u0018@�Z���..."
+                        },
+                        {
+                          "name": "Jujuy",
+                          "type": "file",
+                          "size": 1034,
+                          "ext": "file",
+                          "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000;\u0000\u0000\u0000\u0006\u0000\u0000\u0000\u0014�\u0000\u0000\u0000���0�{R@�\u001aɰ�\u001e�@��p0�\u0017}��������@���0�����x\n���\u0018@�Z���..."
+                        },
+                        {
+                          "name": "La_Rioja",
+                          "type": "file",
+                          "size": 1076,
+                          "ext": "file",
+                          "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000>\u0000\u0000\u0000\u0006\u0000\u0000\u0000\u0014�\u0000\u0000\u0000���0�{R@�\u001aɰ�\u001e�@��p0�\u0017}��������@���0�����x\n���\u0018@�Z���..."
+                        },
+                        {
+                          "name": "Mendoza",
+                          "type": "file",
+                          "size": 1062,
+                          "ext": "file",
+                          "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000=\u0000\u0000\u0000\u0006\u0000\u0000\u0000\u0014�\u0000\u0000\u0000���0�{R@�\u001aɰ�\u001e�@��p0�\u0017}��������@���0�����x\n���\u0018@�Z���..."
+                        },
+                        {
+                          "name": "Rio_Gallegos",
+                          "type": "file",
+                          "size": 1062,
+                          "ext": "file",
+                          "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000=\u0000\u0000\u0000\u0006\u0000\u0000\u0000\u0014�\u0000\u0000\u0000���0�{R@�\u001aɰ�\u001e�@��p0�\u0017}��������@���0�����x\n���\u0018@�Z���..."
+                        },
+                        {
+                          "name": "Salta",
+                          "type": "file",
+                          "size": 1034,
+                          "ext": "file",
+                          "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000;\u0000\u0000\u0000\u0006\u0000\u0000\u0000\u0014�\u0000\u0000\u0000���0�{R@�\u001aɰ�\u001e�@��p0�\u0017}��������@���0�����x\n���\u0018@�Z���..."
+                        },
+                        {
+                          "name": "San_Juan",
+                          "type": "file",
+                          "size": 1076,
+                          "ext": "file",
+                          "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000>\u0000\u0000\u0000\u0006\u0000\u0000\u0000\u0014�\u0000\u0000\u0000���0�{R@�\u001aɰ�\u001e�@��p0�\u0017}��������@���0�����x\n���\u0018@�Z���..."
+                        },
+                        {
+                          "name": "San_Luis",
+                          "type": "file",
+                          "size": 1088,
+                          "ext": "file",
+                          "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000>\u0000\u0000\u0000\u0007\u0000\u0000\u0000\u0014�\u0000\u0000\u0000���0�{R@�\u001aɰ�\u001e�@��p0�\u0017}��������@���0�����x\n���\u0018@�Z���..."
+                        },
+                        {
+                          "name": "Tucuman",
+                          "type": "file",
+                          "size": 1090,
+                          "ext": "file",
+                          "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000?\u0000\u0000\u0000\u0006\u0000\u0000\u0000\u0014�\u0000\u0000\u0000���0�{R@�\u001aɰ�\u001e�@��p0�\u0017}��������@���0�����x\n���\u0018@�Z���..."
+                        },
+                        {
+                          "name": "Ushuaia",
+                          "type": "file",
+                          "size": 1062,
+                          "ext": "file",
+                          "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000=\u0000\u0000\u0000\u0006\u0000\u0000\u0000\u0014�\u0000\u0000\u0000���0�{R@�\u001aɰ�\u001e�@��p0�\u0017}��������@���0�����x\n���\u0018@�Z���..."
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Indiana",
+                      "type": "folder",
+                      "children": [
+                        {
+                          "name": "Indianapolis",
+                          "type": "file",
+                          "size": 1682,
+                          "ext": "file",
+                          "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\b\u0000\u0000\u0000\b\u0000\u0000\u0000\u0000\u0000\u0000\u0000c\u0000\u0000\u0000\b\u0000\u0000\u0000\u001c�\u0000\u0000\u0000��,����p��\u000e����p�W\"���Gpˈ���#�p�a\t��u�\u0000�@���U�\u0000� ���..."
+                        },
+                        {
+                          "name": "Knox",
+                          "type": "file",
+                          "size": 2444,
+                          "ext": "file"
+                        },
+                        {
+                          "name": "Marengo",
+                          "type": "file",
+                          "size": 1738,
+                          "ext": "file",
+                          "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\b\u0000\u0000\u0000\b\u0000\u0000\u0000\u0000\u0000\u0000\u0000g\u0000\u0000\u0000\b\u0000\u0000\u0000\u001c�\u0000\u0000\u0000��,����p��\u000e����pˈ���#�p�a\t��ޗ�ݩ�p�~=��I6p�^\u001f��)\u0018p�G<..."
+                        },
+                        {
+                          "name": "Petersburg",
+                          "type": "file",
+                          "size": 1920,
+                          "ext": "file",
+                          "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\b\u0000\u0000\u0000\b\u0000\u0000\u0000\u0000\u0000\u0000\u0000t\u0000\u0000\u0000\b\u0000\u0000\u0000\u001c�\u0000\u0000\u0000��,����p��\u000e����pˈ���#�p�a\t��g=��)\u0018p�G<\u0000�\u00124��'\u001e\u0000��\u0016��..."
+                        },
+                        {
+                          "name": "Tell_City",
+                          "type": "file",
+                          "size": 1700,
+                          "ext": "file",
+                          "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\n\u0000\u0000\u0000\n\u0000\u0000\u0000\u0000\u0000\u0000\u0000b\u0000\u0000\u0000\n\u0000\u0000\u0000\u001c�\u0000\u0000\u0000��,����p��\u000e����pˈ���#�p�a\t��g=��)\u0018p�G<\u0000�\u00124��'\u001e\u0000��\u0016��..."
+                        },
+                        {
+                          "name": "Vevay",
+                          "type": "file",
+                          "size": 1430,
+                          "ext": "file",
+                          "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\b\u0000\u0000\u0000\b\u0000\u0000\u0000\u0000\u0000\u0000\u0000Q\u0000\u0000\u0000\b\u0000\u0000\u0000\u001c�\u0000\u0000\u0000��,����p��\u000e����pˈ���#�p�a\t��~=���\u001c�����\u0000���\u0001���\u0002w��\u0003..."
+                        },
+                        {
+                          "name": "Vincennes",
+                          "type": "file",
+                          "size": 1710,
+                          "ext": "file",
+                          "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\b\u0000\u0000\u0000\b\u0000\u0000\u0000\u0000\u0000\u0000\u0000e\u0000\u0000\u0000\b\u0000\u0000\u0000\u001c�\u0000\u0000\u0000��,����p��\u000e����pˈ���#�p�a\t��u�\u0000�@����[��iTp�~=��I6p�..."
+                        },
+                        {
+                          "name": "Winamac",
+                          "type": "file",
+                          "size": 1794,
+                          "ext": "file",
+                          "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\b\u0000\u0000\u0000\b\u0000\u0000\u0000\u0000\u0000\u0000\u0000k\u0000\u0000\u0000\b\u0000\u0000\u0000\u001c�\u0000\u0000\u0000��,����p��\u000e����pˈ���#�p�a\t��u�\u0000�@���U�\u0000� ���5�\u0000�\u0000���..."
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Kentucky",
+                      "type": "folder",
+                      "children": [
+                        {
+                          "name": "Louisville",
+                          "type": "file",
+                          "size": 2788,
+                          "ext": "file"
+                        },
+                        {
+                          "name": "Monticello",
+                          "type": "file",
+                          "size": 2368,
+                          "ext": "file"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "North_Dakota",
+                      "type": "folder",
+                      "children": [
+                        {
+                          "name": "Beulah",
+                          "type": "file",
+                          "size": 2396,
+                          "ext": "file"
+                        },
+                        {
+                          "name": "Center",
+                          "type": "file",
+                          "size": 2396,
+                          "ext": "file"
+                        },
+                        {
+                          "name": "New_Salem",
+                          "type": "file",
+                          "size": 2396,
+                          "ext": "file"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "Adak",
+                      "type": "file",
+                      "size": 2356,
+                      "ext": "file"
+                    },
+                    {
+                      "name": "Anchorage",
+                      "type": "file",
+                      "size": 2371,
+                      "ext": "file"
+                    },
+                    {
+                      "name": "Anguilla",
+                      "type": "file",
+                      "size": 246,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0004\u0000\u0000\u0000\u0004\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0004\u0000\u0000\u0000\u0004\u0000\u0000\u0000\u0010�\u0000\u0000\u0000��2��#�p�`��\u0001\u0003\u0002\u0001���\u0007\u0000\u0000����\u0000\u0004����\u0001\b����\u0001\fLMT\u0000AST\u0000APT\u0000..."
+                    },
+                    {
+                      "name": "Antigua",
+                      "type": "file",
+                      "size": 246,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0004\u0000\u0000\u0000\u0004\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0004\u0000\u0000\u0000\u0004\u0000\u0000\u0000\u0010�\u0000\u0000\u0000��2��#�p�`��\u0001\u0003\u0002\u0001���\u0007\u0000\u0000����\u0000\u0004����\u0001\b����\u0001\fLMT\u0000AST\u0000APT\u0000..."
+                    },
+                    {
+                      "name": "Araguaina",
+                      "type": "file",
+                      "size": 870,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00003\u0000\u0000\u0000\u0003\u0000\u0000\u0000\f��t0�\u000fI��@���40��t �8�0���0�\u0019�ܹY ��\u00150ޛ� �ݚ0�T3 �����\u0005^ �..."
+                    },
+                    {
+                      "name": "Aruba",
+                      "type": "file",
+                      "size": 246,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0004\u0000\u0000\u0000\u0004\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0004\u0000\u0000\u0000\u0004\u0000\u0000\u0000\u0010�\u0000\u0000\u0000��2��#�p�`��\u0001\u0003\u0002\u0001���\u0007\u0000\u0000����\u0000\u0004����\u0001\b����\u0001\fLMT\u0000AST\u0000APT\u0000..."
+                    },
+                    {
+                      "name": "Asuncion",
+                      "type": "file",
+                      "size": 1644,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000h\u0000\u0000\u0000\u0005\u0000\u0000\u0000\u0010�\u0000\u0000\u0000�\u0017��\u0005+�@\u0007��\n�t�\u000b�ʰ\f���\rx�0\u000e�-@\u000fZ1�\u0010t`�\u0011dC�\u0012U�@\u0013FȰ\u00148\u0019..."
+                    },
+                    {
+                      "name": "Atikokan",
+                      "type": "file",
+                      "size": 182,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0002\u0000\u0000\u0000\u0003\u0000\u0000\u0000\f�\u0000\u0000\u0000��a�\u0001\u0002���p\u0000\u0000���\u0018\u0000\u0004����\u0000\bLMT\u0000CMT\u0000EST\u0000TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000..."
+                    },
+                    {
+                      "name": "Atka",
+                      "type": "file",
+                      "size": 2356,
+                      "ext": "file"
+                    },
+                    {
+                      "name": "Bahia",
+                      "type": "file",
+                      "size": 1010,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000=\u0000\u0000\u0000\u0003\u0000\u0000\u0000\f��k\u001c�\u000fI��@���40��t �8�0���0�\u0019�ܹY ��\u00150ޛ� �ݚ0�T3 �����\u0005^ �..."
+                    },
+                    {
+                      "name": "Bahia_Banderas",
+                      "type": "file",
+                      "size": 1100,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0007\u0000\u0000\u0000\u0007\u0000\u0000\u0000\u0000\u0000\u0000\u0000=\u0000\u0000\u0000\u0007\u0000\u0000\u0000\u0014���p��+p�fV`�A=p�\f6`������q`1g�\u00102s\u0016�3Gf\u00104R��5'H\u001062ڀ7\u0007*\u00108..."
+                    },
+                    {
+                      "name": "Barbados",
+                      "type": "file",
+                      "size": 436,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0006\u0000\u0000\u0000\u0006\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u000f\u0000\u0000\u0000\u0006\u0000\u0000\u0000\u0012�@�e����̔����\"��|M�ϛ���ej`\u000e\u0000��\u000e���\u000f�\u0000�\u0010tn�\u0011v��\u0012TP�\u0013_�`\u00140..."
+                    },
+                    {
+                      "name": "Belem",
+                      "type": "file",
+                      "size": 562,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u001d\u0000\u0000\u0000\u0003\u0000\u0000\u0000\f��tt�\u000fI��@���40��t �8�0���0�\u0019�ܹY ��\u00150ޛ� �ݚ0�T3 �����\u0005^ �..."
+                    },
+                    {
+                      "name": "Belize",
+                      "type": "file",
+                      "size": 1614,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0006\u0000\u0000\u0000\u0006\u0000\u0000\u0000\u0000\u0000\u0000\u0000b\u0000\u0000\u0000\u0006\u0000\u0000\u0000\u001a�^ٰ��;�EQء\u001d�.nX�^��\u000ePX�>���2X�'�`��\u0014X�\u0007�`���X���`��\u0012جǤ`..."
+                    },
+                    {
+                      "name": "Blanc-Sablon",
+                      "type": "file",
+                      "size": 246,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0004\u0000\u0000\u0000\u0004\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0004\u0000\u0000\u0000\u0004\u0000\u0000\u0000\u0010�\u0000\u0000\u0000��2��#�p�`��\u0001\u0003\u0002\u0001���\u0007\u0000\u0000����\u0000\u0004����\u0001\b����\u0001\fLMT\u0000AST\u0000APT\u0000..."
+                    },
+                    {
+                      "name": "Boa_Vista",
+                      "type": "file",
+                      "size": 618,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000!\u0000\u0000\u0000\u0003\u0000\u0000\u0000\f���\u000fW��N���B@�ނ0�8�@��\b@�\u0019��ܹg0��#@ޛ�0�ݨ@�TA0��\r��\u0005l0��..."
+                    },
+                    {
+                      "name": "Bogota",
+                      "type": "file",
+                      "size": 232,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0004\u0000\u0000\u0000\u0004\u0000\u0000\u0000\u0010�\u0000\u0000\u0000�XUp*\u0003sP+t�@\u0001\u0003\u0002\u0003����\u0000\u0000����\u0000\u0004����\u0001\b����\u0000\fLMT\u0000BMT\u0000-04\u0000..."
+                    },
+                    {
+                      "name": "Boise",
+                      "type": "file",
+                      "size": 2410,
+                      "ext": "file"
+                    },
+                    {
+                      "name": "Buenos_Aires",
+                      "type": "file",
+                      "size": 1062,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000=\u0000\u0000\u0000\u0006\u0000\u0000\u0000\u0014�\u0000\u0000\u0000���0�{R@�\u001aɰ�\u001e�@��p0�\u0017}��������@���0�����x\n���\u0018@�Z���..."
+                    },
+                    {
+                      "name": "Cambridge_Bay",
+                      "type": "file",
+                      "size": 2254,
+                      "ext": "file"
+                    }
+                  ],
+                  "truncated": 123
+                },
+                {
+                  "name": "Antarctica",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "Casey",
+                      "type": "file",
+                      "size": 423,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0004\u0000\u0000\u0000\u0004\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0011\u0000\u0000\u0000\u0004\u0000\u0000\u0000\f�\u001èJ�\u0006 K���N�� OC͐X\n;�Z�\u000f\u0010[�\u0014@\\�\u001d�]�E0^c�\u0000_x�<`L�PaX�<b,..."
+                    },
+                    {
+                      "name": "Davis",
+                      "type": "file",
+                      "size": 283,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0004\u0000\u0000\u0000\u0004\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0007\u0000\u0000\u0000\u0004\u0000\u0000\u0000\f�@\u0000�G�\u0010�G�\u0000J�\u00140K��@N��0OC��\u0001\u0000\u0001\u0002\u0003\u0002\u0003\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000bp\u0000\u0004\u0000\u0000FP\u0000\b\u0000\u0000bp..."
+                    },
+                    {
+                      "name": "DumontDUrville",
+                      "type": "file",
+                      "size": 172,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0002\u0000\u0000\u0000\b�\u0000\u0000\u0000\u0001\u0000\u0000��\u0000\u0000\u0000\u0000��\u0000\u0004LMT\u0000+10\u0000TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000..."
+                    },
+                    {
+                      "name": "Macquarie",
+                      "type": "file",
+                      "size": 2260,
+                      "ext": "file"
+                    },
+                    {
+                      "name": "Mawson",
+                      "type": "file",
+                      "size": 185,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0002\u0000\u0000\u0000\u0003\u0000\u0000\u0000\f� 2�J�\"@\u0001\u0002\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000T`\u0000\u0004\u0000\u0000FP\u0000\b-00\u0000+06\u0000+05\u0000TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000..."
+                    },
+                    {
+                      "name": "McMurdo",
+                      "type": "file",
+                      "size": 2437,
+                      "ext": "file"
+                    },
+                    {
+                      "name": "Palmer",
+                      "type": "file",
+                      "size": 1404,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\b\u0000\u0000\u0000\b\u0000\u0000\u0000\u0000\u0000\u0000\u0000R\u0000\u0000\u0000\b\u0000\u0000\u0000\u0010���\u0000�柰�\u0013C����0��w@��6���5���S0��R@��50��4@\u0007�J�\b$o�\u00170��\u0018\u0006..."
+                    },
+                    {
+                      "name": "Rothera",
+                      "type": "file",
+                      "size": 150,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0002\u0000\u0000\u0000\b\r\u0002-\u0000\u0001\u0000\u0000\u0000\u0000\u0000\u0000����\u0000\u0004-00\u0000-03\u0000TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000..."
+                    },
+                    {
+                      "name": "South_Pole",
+                      "type": "file",
+                      "size": 2437,
+                      "ext": "file"
+                    },
+                    {
+                      "name": "Syowa",
+                      "type": "file",
+                      "size": 151,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0002\u0000\u0000\u0000\b�\u001b6�\u0001\u0000\u0000+�\u0000\u0000\u0000\u0000*0\u0000\u0004LMT\u0000+03\u0000TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000..."
+                    },
+                    {
+                      "name": "Troll",
+                      "type": "file",
+                      "size": 1148,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0004\u0000\u0000\u0000\u0004\u0000\u0000\u0000\u0000\u0000\u0000\u0000C\u0000\u0000\u0000\u0004\u0000\u0000\u0000\fB\rG\u0000BF\u0005�Cd\u001b\u0010D%�EC�\u0010F\u0005ɐG#�\u0010G��\u0010I\u0003�\u0010I��\u0010J�\u0010K��\u0010L̿�M��\u0010N���..."
+                    },
+                    {
+                      "name": "Vostok",
+                      "type": "file",
+                      "size": 213,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0004\u0000\u0000\u0000\u0003\u0000\u0000\u0000\f�X��-M9\u0010.��\u0000eE0\u0001\u0000\u0001\u0002\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000bp\u0000\u0004\u0000\u0000FP\u0000\b-00\u0000+07\u0000+05\u0000TZif2\u0000..."
+                    }
+                  ]
+                },
+                {
+                  "name": "Arctic",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "Longyearbyen",
+                      "type": "file",
+                      "size": 2298,
+                      "ext": "file"
+                    }
+                  ]
+                },
+                {
+                  "name": "Asia",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "Aden",
+                      "type": "file",
+                      "size": 151,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0002\u0000\u0000\u0000\b�\u001b6�\u0001\u0000\u0000+�\u0000\u0000\u0000\u0000*0\u0000\u0004LMT\u0000+03\u0000TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000..."
+                    },
+                    {
+                      "name": "Almaty",
+                      "type": "file",
+                      "size": 983,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\t\u0000\u0000\u0000\u0000\u0000\u0000\u00004\u0000\u0000\u0000\t\u0000\u0000\u0000\u0010�\u0019{ܵ��0\u0015'}�\u0016\u0018�\u0010\u0017\b� \u0017��\u0018��\u0019�\u0019\u0010\u001a�i�\u001b�v�\u001c�g�\u001d�X�\u001e�I�\u001f|:� l+..."
+                    },
+                    {
+                      "name": "Amman",
+                      "type": "file",
+                      "size": 1433,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0006\u0000\u0000\u0000\u0000\u0000\u0000\u0000W\u0000\u0000\u0000\u0006\u0000\u0000\u0000\u0011����\u0006ry�\u0007\f�P\b$7`\b���\n\u0005j�\n�\u0012P\u000b���\f�u�\r�#`\u000e���\u000f�\u0005`\u0010r��\u001c��`..."
+                    },
+                    {
+                      "name": "Anadyr",
+                      "type": "file",
+                      "size": 1174,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\n\u0000\u0000\u0000\u0000\u0000\u0000\u0000@\u0000\u0000\u0000\n\u0000\u0000\u0000\u0014�\u0019\u001d�����\u0015'\u001b0\u0016\u0018O�\u0017\bN�\u0017��0\u0018�@\u0019�İ\u001a�\u0015@\u001b�\"`\u001c�\u0013`\u001d�\u0004`\u001e��`\u001f{�` k..."
+                    },
+                    {
+                      "name": "Aqtau",
+                      "type": "file",
+                      "size": 969,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\n\u0000\u0000\u0000\u0000\u0000\u0000\u00002\u0000\u0000\u0000\n\u0000\u0000\u0000\u0010�\u0019�ൣ�@\u0016\u0018�0\u0017\b� \u0017��\u0018��\u0019�' \u001a�w�\u001b���\u001c�u�\u001d�f�\u001e�W�\u001f|H� l9�!\\*�..."
+                    },
+                    {
+                      "name": "Aqtobe",
+                      "type": "file",
+                      "size": 997,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u000b\u0000\u0000\u0000\u0000\u0000\u0000\u00003\u0000\u0000\u0000\u000b\u0000\u0000\u0000\u0010�\u0019�h���@\u0015'��\u0016\u0018� \u0017\b� \u0017��\u0018��\u0019�' \u001a�w�\u001b���\u001c�u�\u001d�f�\u001e�W�\u001f|H� l..."
+                    },
+                    {
+                      "name": "Ashgabat",
+                      "type": "file",
+                      "size": 605,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\t\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0019\u0000\u0000\u0000\t\u0000\u0000\u0000\u0010�\u0019�D���@\u0015'��\u0016\u0018� \u0017\b�0\u0017��\u0018��\u0019�' \u001a�w�\u001b���\u001c�u�\u001d�f�\u001e�W�\u001f|H� l..."
+                    },
+                    {
+                      "name": "Ashkhabad",
+                      "type": "file",
+                      "size": 605,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\t\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0019\u0000\u0000\u0000\t\u0000\u0000\u0000\u0010�\u0019�D���@\u0015'��\u0016\u0018� \u0017\b�0\u0017��\u0018��\u0019�' \u001a�w�\u001b���\u001c�u�\u001d�f�\u001e�W�\u001f|H� l..."
+                    },
+                    {
+                      "name": "Atyrau",
+                      "type": "file",
+                      "size": 977,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\n\u0000\u0000\u0000\u0000\u0000\u0000\u00002\u0000\u0000\u0000\n\u0000\u0000\u0000\u0014�\u0019�P��\u000bP\u0016\u0018�0\u0017\b� \u0017��\u0018��\u0019�' \u001a�w�\u001b���\u001c�u�\u001d�f�\u001e�W�\u001f|H� l9�!\\..."
+                    },
+                    {
+                      "name": "Baghdad",
+                      "type": "file",
+                      "size": 969,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0006\u0000\u0000\u0000\u0000\u0000\u0000\u00006\u0000\u0000\u0000\u0006\u0000\u0000\u0000\u0010�\u0000\u0000\u0000�0<�\u00170hP\u0017�\u000f�\u0018�P\u0019�C@\u001a̓�\u001b��@\u001c��P\u001d�t�\u001e�e�\u001f|V� lG�!\\8�\"L..."
+                    },
+                    {
+                      "name": "Bahrain",
+                      "type": "file",
+                      "size": 185,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0002\u0000\u0000\u0000\u0003\u0000\u0000\u0000\f��0\u0004���\u0001\u0002\u0000\u00000P\u0000\u0000\u0000\u00008@\u0000\u0004\u0000\u0000*0\u0000\bLMT\u0000+04\u0000+03\u0000TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000..."
+                    },
+                    {
+                      "name": "Baku",
+                      "type": "file",
+                      "size": 1213,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\n\u0000\u0000\u0000\n\u0000\u0000\u0000\u0000\u0000\u0000\u0000B\u0000\u0000\u0000\n\u0000\u0000\u0000\u0010�\u0019�D��\fP\u0015'��\u0016\u0018�0\u0017\b�@\u0017�\u0001�\u0018�\u0000�\u0019�50\u001a̅�\u001b���\u001c���\u001d�t�\u001e�e�\u001f|V� ..."
+                    },
+                    {
+                      "name": "Bangkok",
+                      "type": "file",
+                      "size": 185,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0002\u0000\u0000\u0000\u0003\u0000\u0000\u0000\f�\u0000\u0000\u0000�jg�\u0001\u0002\u0000\u0000^<\u0000\u0000\u0000\u0000^<\u0000\u0004\u0000\u0000bp\u0000\bLMT\u0000BMT\u0000+07\u0000TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000..."
+                    },
+                    {
+                      "name": "Barnaul",
+                      "type": "file",
+                      "size": 1207,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\n\u0000\u0000\u0000\u0000\u0000\u0000\u0000C\u0000\u0000\u0000\n\u0000\u0000\u0000\u0010��}���� \u0015'o�\u0016\u0018�\u0000\u0017\b�\u0010\u0017�׀\u0018�֐\u0019�\u000b\u0000\u001a�[�\u001b�h�\u001c�Y�\u001d�J�\u001e�;�\u001f|,� l..."
+                    },
+                    {
+                      "name": "Beirut",
+                      "type": "file",
+                      "size": 2154,
+                      "ext": "file"
+                    },
+                    {
+                      "name": "Bishkek",
+                      "type": "file",
+                      "size": 969,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\b\u0000\u0000\u0000\u0000\u0000\u0000\u00004\u0000\u0000\u0000\b\u0000\u0000\u0000\u0010�\u0019~\u0010���0\u0015'}�\u0016\u0018�\u0010\u0017\b� \u0017��\u0018��\u0019�\u0019\u0010\u001a�i�\u001b�v�\u001c�g�\u001d�X�\u001e�I�\u001f|:� l..."
+                    },
+                    {
+                      "name": "Brunei",
+                      "type": "file",
+                      "size": 469,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0012\u0000\u0000\u0000\u0006\u0000\u0000\u0000\u0018��\u0006��gG��{'���\u001bP�]���ՠP�>�\u0000ö��� \u0013�Ř\u0007P�\u0001G\u0000�y:����\u0000�[�����..."
+                    },
+                    {
+                      "name": "Calcutta",
+                      "type": "file",
+                      "size": 285,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0006\u0000\u0000\u0000\u0004\u0000\u0000\u0000\u0012�\u0000\u0000\u0000�����ی(�\u0005q\u0018̕2��t\u0012�\u0001\u0002\u0003\u0002\u0003\u0002\u0000\u0000R�\u0000\u0000\u0000\u0000KF\u0000\u0004\u0000\u0000MX\u0000\b\u0000\u0000[h\u0001\fLMT\u0000..."
+                    },
+                    {
+                      "name": "Chita",
+                      "type": "file",
+                      "size": 1207,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u000b\u0000\u0000\u0000\u0000\u0000\u0000\u0000B\u0000\u0000\u0000\u000b\u0000\u0000\u0000\u0010�������\u0000\u0015'Sp\u0016\u0018��\u0017\b��\u0017��`\u0018�p\u0019���\u001a�?p\u001b�L�\u001c�=�\u001d�.�\u001e�\u001f�\u001f|\u0010� ..."
+                    },
+                    {
+                      "name": "Choibalsan",
+                      "type": "file",
+                      "size": 877,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u00002\u0000\u0000\u0000\u0004\u0000\u0000\u0000\u0010���L\u000f\u000bܐ\u0018�Ȁ\u0019���\u001a�M�\u001b�0p\u001c�/�\u001d�\u0012p\u001e�\u0011�\u001f{�p k�![�p\"KՀ#;�p$+��..."
+                    }
+                  ],
+                  "truncated": 79
+                },
+                {
+                  "name": "Atlantic",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "Azores",
+                      "type": "file",
+                      "size": 3442,
+                      "ext": "file"
+                    },
+                    {
+                      "name": "Bermuda",
+                      "type": "file",
+                      "size": 2396,
+                      "ext": "file"
+                    },
+                    {
+                      "name": "Canary",
+                      "type": "file",
+                      "size": 1897,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0006\u0000\u0000\u0000\u0006\u0000\u0000\u0000\u0000\u0000\u0000\u0000v\u0000\u0000\u0000\u0006\u0000\u0000\u0000\u0011�\u0004\\��A� \u0013M6\u0000\u00143��\u0015#�\u0016\u0013ܐ\u0017\u0003͐\u0017�\u0018㯐\u0019Ӡ�\u001aÑ�\u001b��\u0010\u001c��\u0010\u001d��\u0010\u001e��\u0010\u001f|�\u0010 ..."
+                    },
+                    {
+                      "name": "Cape_Verde",
+                      "type": "file",
+                      "size": 256,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0005\u0000\u0000\u0000\u0005\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0004\u0000\u0000\u0000\u0005\u0000\u0000\u0000\f�檠̕� �t|\u0010\u000b\u0017�@\u0001\u0002\u0003\u0004����\u0000\u0000����\u0000\u0004����\u0001\b����\u0000\u0004����\u0000\bLMT\u0000-02\u0000-..."
+                    },
+                    {
+                      "name": "Faeroe",
+                      "type": "file",
+                      "size": 1815,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0004\u0000\u0000\u0000\u0004\u0000\u0000\u0000\u0000\u0000\u0000\u0000s\u0000\u0000\u0000\u0004\u0000\u0000\u0000\r�m�X\u0015#�\u0016\u0013ܐ\u0017\u0003͐\u0017�\u0018㯐\u0019Ӡ�\u001aÑ�\u001b��\u0010\u001c��\u0010\u001d��\u0010\u001e��\u0010\u001f|�\u0010 lr\u0010!\\c\u0010\"LT\u0010#..."
+                    },
+                    {
+                      "name": "Faroe",
+                      "type": "file",
+                      "size": 1815,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0004\u0000\u0000\u0000\u0004\u0000\u0000\u0000\u0000\u0000\u0000\u0000s\u0000\u0000\u0000\u0004\u0000\u0000\u0000\r�m�X\u0015#�\u0016\u0013ܐ\u0017\u0003͐\u0017�\u0018㯐\u0019Ӡ�\u001aÑ�\u001b��\u0010\u001c��\u0010\u001d��\u0010\u001e��\u0010\u001f|�\u0010 lr\u0010!\\c\u0010\"LT\u0010#..."
+                    },
+                    {
+                      "name": "Jan_Mayen",
+                      "type": "file",
+                      "size": 2298,
+                      "ext": "file"
+                    },
+                    {
+                      "name": "Madeira",
+                      "type": "file",
+                      "size": 3377,
+                      "ext": "file"
+                    },
+                    {
+                      "name": "Reykjavik",
+                      "type": "file",
+                      "size": 148,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0002\u0000\u0000\u0000\b��H\u0001���8\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0004LMT\u0000GMT\u0000TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000..."
+                    },
+                    {
+                      "name": "South_Georgia",
+                      "type": "file",
+                      "size": 150,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0002\u0000\u0000\u0000\b�\u0000\u0000\u0000\u0001����\u0000\u0000����\u0000\u0004LMT\u0000-02\u0000TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000..."
+                    },
+                    {
+                      "name": "St_Helena",
+                      "type": "file",
+                      "size": 148,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0002\u0000\u0000\u0000\b��H\u0001���8\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0004LMT\u0000GMT\u0000TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000..."
+                    },
+                    {
+                      "name": "Stanley",
+                      "type": "file",
+                      "size": 1200,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000F\u0000\u0000\u0000\u0007\u0000\u0000\u0000\u0014�\u0000\u0000\u0000�D_<�OZ��6\u00030�/<��\u0015�0�\u0018Y@��\u0001���;@�����\u001d@˾Ű̷�@�6�0\u0019\u0011�@..."
+                    }
+                  ]
+                },
+                {
+                  "name": "Australia",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "ACT",
+                      "type": "file",
+                      "size": 2190,
+                      "ext": "file"
+                    },
+                    {
+                      "name": "Adelaide",
+                      "type": "file",
+                      "size": 2208,
+                      "ext": "file"
+                    },
+                    {
+                      "name": "Brisbane",
+                      "type": "file",
+                      "size": 419,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0004\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0011\u0000\u0000\u0000\u0004\u0000\u0000\u0000\u000e�\u0000\u0000\u0000�N��/\u0000�T�\u0000��e�̷V�ͧG�Πs\u0000χ)�\u0003p9�\u0004\r\u001c\u0000%I�\u0000%��\u0000')�\u0000'��\u0000)..."
+                    },
+                    {
+                      "name": "Broken_Hill",
+                      "type": "file",
+                      "size": 2229,
+                      "ext": "file"
+                    },
+                    {
+                      "name": "Canberra",
+                      "type": "file",
+                      "size": 2190,
+                      "ext": "file"
+                    },
+                    {
+                      "name": "Currie",
+                      "type": "file",
+                      "size": 2358,
+                      "ext": "file"
+                    },
+                    {
+                      "name": "Darwin",
+                      "type": "file",
+                      "size": 325,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0004\u0000\u0000\u0000\u0000\u0000\u0000\u0000\t\u0000\u0000\u0000\u0004\u0000\u0000\u0000\u000e�\u0000\u0000\u0000�NɈ��6\b�T�\b��l�̷]�ͧN�Πz\bχ0�\u0003\u0001\u0002\u0001\u0002\u0001\u0002\u0001\u0002\u0000\u0000z�\u0000\u0000\u0000\u0000��\u0001\u0004\u0000\u0000��..."
+                    },
+                    {
+                      "name": "Eucla",
+                      "type": "file",
+                      "size": 456,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0004\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0013\u0000\u0000\u0000\u0004\u0000\u0000\u0000\u0010�\u0000\u0000\u0000�N�\u0014��@��TĔ��w\u0014̷h\u0014ͧY\u0014\t\u000f�\u0014\t�\u000e\u0014\u001a\u0001X\u0014\u001a�u\u0014)%R\u0014)���Eq��F\u0005\\..."
+                    },
+                    {
+                      "name": "Hobart",
+                      "type": "file",
+                      "size": 2358,
+                      "ext": "file"
+                    },
+                    {
+                      "name": "LHI",
+                      "type": "file",
+                      "size": 1846,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000s\u0000\u0000\u0000\u0005\u0000\u0000\u0000\u0019�\u0000\u0000\u0000\u0014�f�\u00168@�\u0016�h\u0018!]x\u0018�lh\u001a\u0001?x\u001a�Nh\u001b�!x\u001c�0h\u001d�\u0003x\u001ey�p\u001f��� Ypp!..."
+                    },
+                    {
+                      "name": "Lindeman",
+                      "type": "file",
+                      "size": 475,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0004\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0015\u0000\u0000\u0000\u0004\u0000\u0000\u0000\u000e�\u0000\u0000\u0000�N��/\u0000�T�\u0000��e�̷V�ͧG�Πs\u0000χ)�\u0003p9�\u0004\r\u001c\u0000%I�\u0000%��\u0000')�\u0000'��\u0000)..."
+                    },
+                    {
+                      "name": "Lord_Howe",
+                      "type": "file",
+                      "size": 1846,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000s\u0000\u0000\u0000\u0005\u0000\u0000\u0000\u0019�\u0000\u0000\u0000\u0014�f�\u00168@�\u0016�h\u0018!]x\u0018�lh\u001a\u0001?x\u001a�Nh\u001b�!x\u001c�0h\u001d�\u0003x\u001ey�p\u001f��� Ypp!..."
+                    },
+                    {
+                      "name": "Melbourne",
+                      "type": "file",
+                      "size": 2190,
+                      "ext": "file"
+                    },
+                    {
+                      "name": "North",
+                      "type": "file",
+                      "size": 325,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0004\u0000\u0000\u0000\u0000\u0000\u0000\u0000\t\u0000\u0000\u0000\u0004\u0000\u0000\u0000\u000e�\u0000\u0000\u0000�NɈ��6\b�T�\b��l�̷]�ͧN�Πz\bχ0�\u0003\u0001\u0002\u0001\u0002\u0001\u0002\u0001\u0002\u0000\u0000z�\u0000\u0000\u0000\u0000��\u0001\u0004\u0000\u0000��..."
+                    },
+                    {
+                      "name": "NSW",
+                      "type": "file",
+                      "size": 2190,
+                      "ext": "file"
+                    },
+                    {
+                      "name": "Perth",
+                      "type": "file",
+                      "size": 446,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0004\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0013\u0000\u0000\u0000\u0004\u0000\u0000\u0000\u000e�\u0000\u0000\u0000�Nޠ��K �T� �ǁ�̷r�ͧc�\t\u000f��\t�\u0018�\u001a\u0001b�\u001a��)%\\�)�� Eq� F\u0005g ..."
+                    },
+                    {
+                      "name": "Queensland",
+                      "type": "file",
+                      "size": 419,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0004\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0011\u0000\u0000\u0000\u0004\u0000\u0000\u0000\u000e�\u0000\u0000\u0000�N��/\u0000�T�\u0000��e�̷V�ͧG�Πs\u0000χ)�\u0003p9�\u0004\r\u001c\u0000%I�\u0000%��\u0000')�\u0000'��\u0000)..."
+                    },
+                    {
+                      "name": "South",
+                      "type": "file",
+                      "size": 2208,
+                      "ext": "file"
+                    },
+                    {
+                      "name": "Sydney",
+                      "type": "file",
+                      "size": 2190,
+                      "ext": "file"
+                    },
+                    {
+                      "name": "Tasmania",
+                      "type": "file",
+                      "size": 2358,
+                      "ext": "file"
+                    }
+                  ],
+                  "truncated": 3
+                },
+                {
+                  "name": "Brazil",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "Acre",
+                      "type": "file",
+                      "size": 614,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u001f\u0000\u0000\u0000\u0005\u0000\u0000\u0000\f�����\u000ff\u0000��\\���PP�ސ@�8�P��\u0016P�\u0019��ܹu@��1Pޛ�@�ݶP�TO@��\u001b��\u0005z@..."
+                    },
+                    {
+                      "name": "DeNoronha",
+                      "type": "file",
+                      "size": 702,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000'\u0000\u0000\u0000\u0003\u0000\u0000\u0000\f��ed�\u000f;и�2���& ��f\u0010�8� ��� �\u0019ӠܹK\u0010��\u0007 ޛ�\u0010�݌ �T%\u0010����\u0005P\u0010��..."
+                    },
+                    {
+                      "name": "East",
+                      "type": "file",
+                      "size": 1430,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000[\u0000\u0000\u0000\u0003\u0000\u0000\u0000\f��r��\u000fI��@���40��t �8�0���0�\u0019�ܹY ��\u00150ޛ� �ݚ0�T3 �Z\t0�\u0005^ �..."
+                    },
+                    {
+                      "name": "West",
+                      "type": "file",
+                      "size": 590,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u001f\u0000\u0000\u0000\u0003\u0000\u0000\u0000\f��D�\u000fW��N���B@�ނ0�8�@��\b@�\u0019��ܹg0��#@ޛ�0�ݨ@�TA0��\r��\u0005l0�..."
+                    }
+                  ]
+                },
+                {
+                  "name": "Canada",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "Atlantic",
+                      "type": "file",
+                      "size": 3424,
+                      "ext": "file"
+                    },
+                    {
+                      "name": "Central",
+                      "type": "file",
+                      "size": 2868,
+                      "ext": "file"
+                    },
+                    {
+                      "name": "Eastern",
+                      "type": "file",
+                      "size": 3494,
+                      "ext": "file"
+                    },
+                    {
+                      "name": "Mountain",
+                      "type": "file",
+                      "size": 2332,
+                      "ext": "file"
+                    },
+                    {
+                      "name": "Newfoundland",
+                      "type": "file",
+                      "size": 3655,
+                      "ext": "file"
+                    },
+                    {
+                      "name": "Pacific",
+                      "type": "file",
+                      "size": 2892,
+                      "ext": "file"
+                    },
+                    {
+                      "name": "Saskatchewan",
+                      "type": "file",
+                      "size": 980,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0006\u0000\u0000\u0000\u0006\u0000\u0000\u0000\u0000\u0000\u0000\u00005\u0000\u0000\u0000\u0006\u0000\u0000\u0000\u0018���\u001c������\u0007��eO�0H�E1�\u0010*�%\u0013��\f�\u000e0p�����\u0012p��\u000b`�r\b��a���Q�..."
+                    },
+                    {
+                      "name": "Yukon",
+                      "type": "file",
+                      "size": 1614,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\t\u0000\u0000\u0000\t\u0000\u0000\u0000\u0000\u0000\u0000\u0000]\u0000\u0000\u0000\t\u0000\u0000\u0000%�\u0000\u0000\u0000��˰��#���\f���Ҁˉ(��#�p�a4 �/v��(�\u0010�ń�\u0013ir \u0014YU\u0010\u0015IT \u001697\u0010..."
+                    }
+                  ]
+                },
+                {
+                  "name": "Chile",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "Continental",
+                      "type": "file",
+                      "size": 2515,
+                      "ext": "file"
+                    },
+                    {
+                      "name": "EasterIsland",
+                      "type": "file",
+                      "size": 2219,
+                      "ext": "file"
+                    }
+                  ]
+                },
+                {
+                  "name": "Etc",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "GMT",
+                      "type": "file",
+                      "size": 114,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0004\u0000\u0000\u0000\u0000\u0000\u0000GMT\u0000TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0004\u0000\u0000..."
+                    },
+                    {
+                      "name": "GMT-0",
+                      "type": "file",
+                      "size": 114,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0004\u0000\u0000\u0000\u0000\u0000\u0000GMT\u0000TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0004\u0000\u0000..."
+                    },
+                    {
+                      "name": "GMT-1",
+                      "type": "file",
+                      "size": 117,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0004\u0000\u0000\u000e\u0010\u0000\u0000+01\u0000TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0004\u0000\u0000..."
+                    },
+                    {
+                      "name": "GMT-10",
+                      "type": "file",
+                      "size": 118,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0004\u0000\u0000��\u0000\u0000+10\u0000TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0004\u0000\u0000..."
+                    },
+                    {
+                      "name": "GMT-11",
+                      "type": "file",
+                      "size": 118,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0004\u0000\u0000��\u0000\u0000+11\u0000TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0004\u0000\u0000..."
+                    },
+                    {
+                      "name": "GMT-12",
+                      "type": "file",
+                      "size": 118,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0004\u0000\u0000��\u0000\u0000+12\u0000TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0004\u0000\u0000..."
+                    },
+                    {
+                      "name": "GMT-13",
+                      "type": "file",
+                      "size": 118,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0004\u0000\u0000��\u0000\u0000+13\u0000TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0004\u0000\u0000..."
+                    },
+                    {
+                      "name": "GMT-14",
+                      "type": "file",
+                      "size": 118,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0004\u0000\u0000��\u0000\u0000+14\u0000TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0004\u0000\u0000..."
+                    },
+                    {
+                      "name": "GMT-2",
+                      "type": "file",
+                      "size": 117,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0004\u0000\u0000\u001c \u0000\u0000+02\u0000TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0004\u0000\u0000..."
+                    },
+                    {
+                      "name": "GMT-3",
+                      "type": "file",
+                      "size": 117,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0004\u0000\u0000*0\u0000\u0000+03\u0000TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0004\u0000\u0000..."
+                    },
+                    {
+                      "name": "GMT-4",
+                      "type": "file",
+                      "size": 117,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0004\u0000\u00008@\u0000\u0000+04\u0000TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0004\u0000\u0000..."
+                    },
+                    {
+                      "name": "GMT-5",
+                      "type": "file",
+                      "size": 117,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0004\u0000\u0000FP\u0000\u0000+05\u0000TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0004\u0000\u0000..."
+                    },
+                    {
+                      "name": "GMT-6",
+                      "type": "file",
+                      "size": 117,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0004\u0000\u0000T`\u0000\u0000+06\u0000TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0004\u0000\u0000..."
+                    },
+                    {
+                      "name": "GMT-7",
+                      "type": "file",
+                      "size": 117,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0004\u0000\u0000bp\u0000\u0000+07\u0000TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0004\u0000\u0000..."
+                    },
+                    {
+                      "name": "GMT-8",
+                      "type": "file",
+                      "size": 117,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0004\u0000\u0000p�\u0000\u0000+08\u0000TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0004\u0000\u0000..."
+                    },
+                    {
+                      "name": "GMT-9",
+                      "type": "file",
+                      "size": 117,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0004\u0000\u0000~�\u0000\u0000+09\u0000TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0004\u0000\u0000..."
+                    },
+                    {
+                      "name": "GMT+0",
+                      "type": "file",
+                      "size": 114,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0004\u0000\u0000\u0000\u0000\u0000\u0000GMT\u0000TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0004\u0000\u0000..."
+                    },
+                    {
+                      "name": "GMT+1",
+                      "type": "file",
+                      "size": 116,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0004����\u0000\u0000-01\u0000TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0004��..."
+                    },
+                    {
+                      "name": "GMT+10",
+                      "type": "file",
+                      "size": 117,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0004��s`\u0000\u0000-10\u0000TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0004��..."
+                    },
+                    {
+                      "name": "GMT+11",
+                      "type": "file",
+                      "size": 117,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0004��eP\u0000\u0000-11\u0000TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0004��..."
+                    }
+                  ],
+                  "truncated": 15
+                },
+                {
+                  "name": "Europe",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "Amsterdam",
+                      "type": "file",
+                      "size": 2933,
+                      "ext": "file"
+                    },
+                    {
+                      "name": "Andorra",
+                      "type": "file",
+                      "size": 1742,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0005\u0000\u0000\u0000\u0005\u0000\u0000\u0000\u0000\u0000\u0000\u0000l\u0000\u0000\u0000\u0005\u0000\u0000\u0000\u0011�\u0000\u0000\u0000�A�\u0000\u001c��\u0010\u001d��\u0010\u001e��\u0010\u001f|�\u0010 lr\u0010!\\c\u0010\"LT\u0010#<E\u0010$,6\u0010%\u001c'\u0010&\f\u0018\u0010'\u0005C�..."
+                    },
+                    {
+                      "name": "Astrakhan",
+                      "type": "file",
+                      "size": 1151,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\t\u0000\u0000\u0000\u0000\u0000\u0000\u0000@\u0000\u0000\u0000\t\u0000\u0000\u0000\u0010�\u0018Et��\u000bP\u0015'��\u0016\u0018�0\u0017\b�@\u0017�\u0001�\u0018�\u0000�\u0019�50\u001a̅�\u001b���\u001c���\u001d�t�\u001e�e�\u001f|V� ..."
+                    },
+                    {
+                      "name": "Athens",
+                      "type": "file",
+                      "size": 2262,
+                      "ext": "file"
+                    },
+                    {
+                      "name": "Belfast",
+                      "type": "file",
+                      "size": 3664,
+                      "ext": "file"
+                    },
+                    {
+                      "name": "Belgrade",
+                      "type": "file",
+                      "size": 1920,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0007\u0000\u0000\u0000\u0007\u0000\u0000\u0000\u0000\u0000\u0000\u0000w\u0000\u0000\u0000\u0007\u0000\u0000\u0000\r�\u0000\u0000\u0000�\u00025���K\u0010ͩ\u0017�΢C\u0010ϒ4\u0010Ђ%\u0010ѡ�\u0010�N@�\u0018㯐\u0019Ӡ�\u001aÑ�\u001b��\u0010\u001c��\u0010\u001d��\u0010\u001e��\u0010\u001f..."
+                    },
+                    {
+                      "name": "Berlin",
+                      "type": "file",
+                      "size": 2298,
+                      "ext": "file"
+                    },
+                    {
+                      "name": "Bratislava",
+                      "type": "file",
+                      "size": 2301,
+                      "ext": "file"
+                    },
+                    {
+                      "name": "Brussels",
+                      "type": "file",
+                      "size": 2933,
+                      "ext": "file"
+                    },
+                    {
+                      "name": "Bucharest",
+                      "type": "file",
+                      "size": 2184,
+                      "ext": "file"
+                    },
+                    {
+                      "name": "Budapest",
+                      "type": "file",
+                      "size": 2368,
+                      "ext": "file"
+                    },
+                    {
+                      "name": "Busingen",
+                      "type": "file",
+                      "size": 1909,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0005\u0000\u0000\u0000\u0005\u0000\u0000\u0000\u0000\u0000\u0000\u0000w\u0000\u0000\u0000\u0005\u0000\u0000\u0000\r�\u0000\u0000\u0000�\u0017j\u0000��q\u0000��L\u0000��S\u0000\u0015#�\u0016\u0013ܐ\u0017\u0003͐\u0017�\u0018㯐\u0019Ӡ�\u001aÑ�\u001b��\u0010\u001c��\u0010\u001d��\u0010\u001e��\u0010\u001f..."
+                    },
+                    {
+                      "name": "Chisinau",
+                      "type": "file",
+                      "size": 2390,
+                      "ext": "file"
+                    },
+                    {
+                      "name": "Copenhagen",
+                      "type": "file",
+                      "size": 2298,
+                      "ext": "file"
+                    },
+                    {
+                      "name": "Dublin",
+                      "type": "file",
+                      "size": 3492,
+                      "ext": "file"
+                    },
+                    {
+                      "name": "Gibraltar",
+                      "type": "file",
+                      "size": 3068,
+                      "ext": "file"
+                    },
+                    {
+                      "name": "Guernsey",
+                      "type": "file",
+                      "size": 3664,
+                      "ext": "file"
+                    },
+                    {
+                      "name": "Helsinki",
+                      "type": "file",
+                      "size": 1900,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0006\u0000\u0000\u0000\u0006\u0000\u0000\u0000\u0000\u0000\u0000\u0000v\u0000\u0000\u0000\u0006\u0000\u0000\u0000\u0011�\u0000\u0000\u0000�so\u001b��Q`���`\u0015#݀\u0016\u0013΀\u0017\u0003��\u0017�\u0018㯐\u0019Ӡ�\u001aÑ�\u001b��\u0010\u001c��\u0010\u001d��\u0010\u001e��\u0010\u001f|�\u0010..."
+                    },
+                    {
+                      "name": "Isle_of_Man",
+                      "type": "file",
+                      "size": 3664,
+                      "ext": "file"
+                    },
+                    {
+                      "name": "Istanbul",
+                      "type": "file",
+                      "size": 1933,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u000b\u0000\u0000\u0000\u000b\u0000\u0000\u0000\u0000\u0000\u0000\u0000s\u0000\u0000\u0000\u000b\u0000\u0000\u0000\u0019�\u0000\u0000\u0000�����\f\u0017`�վТec�{�P�N�`�?�Ц%'�'Ъ((`���Ы����1Pȁ?��\u0001\u0013P�..."
+                    }
+                  ],
+                  "truncated": 44
+                },
+                {
+                  "name": "Indian",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "Antananarivo",
+                      "type": "file",
+                      "size": 265,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0005\u0000\u0000\u0000\u0005\u0000\u0000\u0000\u0014�������X�������X�lz�\u0001\u0002\u0001\u0003\u0002\u0000\u0000\"�\u0000\u0000\u0000\u0000#(\u0000\u0004\u0000\u0000*0\u0000\n\u0000\u0000&�\u0000\u000e\u0000\u0000*0\u0000\nL..."
+                    },
+                    {
+                      "name": "Chagos",
+                      "type": "file",
+                      "size": 185,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0002\u0000\u0000\u0000\u0003\u0000\u0000\u0000\f�~��0�ݰ\u0001\u0002\u0000\u0000C�\u0000\u0000\u0000\u0000FP\u0000\u0004\u0000\u0000T`\u0000\bLMT\u0000+05\u0000+06\u0000TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000..."
+                    },
+                    {
+                      "name": "Christmas",
+                      "type": "file",
+                      "size": 185,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0002\u0000\u0000\u0000\u0003\u0000\u0000\u0000\f�\u0000\u0000\u0000�jg�\u0001\u0002\u0000\u0000^<\u0000\u0000\u0000\u0000^<\u0000\u0004\u0000\u0000bp\u0000\bLMT\u0000BMT\u0000+07\u0000TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000..."
+                    },
+                    {
+                      "name": "Cocos",
+                      "type": "file",
+                      "size": 254,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0004\u0000\u0000\u0000\u0005\u0000\u0000\u0000\u0012�\u0000\u0000\u0000��sQ���\u0018њg�\u0001\u0002\u0003\u0002\u0000\u0000Z/\u0000\u0000\u0000\u0000Z/\u0000\u0004\u0000\u0000[h\u0000\b\u0000\u0000~�\u0000\u000e\u0000\u0000[h\u0000\bLMT\u0000RMT..."
+                    },
+                    {
+                      "name": "Comoro",
+                      "type": "file",
+                      "size": 265,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0005\u0000\u0000\u0000\u0005\u0000\u0000\u0000\u0014�������X�������X�lz�\u0001\u0002\u0001\u0003\u0002\u0000\u0000\"�\u0000\u0000\u0000\u0000#(\u0000\u0004\u0000\u0000*0\u0000\n\u0000\u0000&�\u0000\u000e\u0000\u0000*0\u0000\nL..."
+                    },
+                    {
+                      "name": "Kerguelen",
+                      "type": "file",
+                      "size": 185,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0002\u0000\u0000\u0000\u0003\u0000\u0000\u0000\f�\u0000\u0000\u0000�/Ø\u0001\u0002\u0000\u0000D�\u0000\u0000\u0000\u0000D�\u0000\u0004\u0000\u0000FP\u0000\bLMT\u0000MMT\u0000+05\u0000TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000..."
+                    },
+                    {
+                      "name": "Mahe",
+                      "type": "file",
+                      "size": 151,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0002\u0000\u0000\u0000\b��\u0001\u0000\u00003�\u0000\u0000\u0000\u00008@\u0000\u0004LMT\u0000+04\u0000TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000..."
+                    },
+                    {
+                      "name": "Maldives",
+                      "type": "file",
+                      "size": 185,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0002\u0000\u0000\u0000\u0003\u0000\u0000\u0000\f�\u0000\u0000\u0000�/Ø\u0001\u0002\u0000\u0000D�\u0000\u0000\u0000\u0000D�\u0000\u0004\u0000\u0000FP\u0000\bLMT\u0000MMT\u0000+05\u0000TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000..."
+                    },
+                    {
+                      "name": "Mauritius",
+                      "type": "file",
+                      "size": 227,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0005\u0000\u0000\u0000\u0003\u0000\u0000\u0000\f�\u0005�\u0018\u0005�@\u0018�r0I\u0003��IΏ�\u0002\u0001\u0002\u0001\u0002\u0000\u00005�\u0000\u0000\u0000\u0000FP\u0001\u0004\u0000\u00008@\u0000\bLMT\u0000+05\u0000+04\u0000TZ..."
+                    },
+                    {
+                      "name": "Mayotte",
+                      "type": "file",
+                      "size": 265,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0005\u0000\u0000\u0000\u0005\u0000\u0000\u0000\u0014�������X�������X�lz�\u0001\u0002\u0001\u0003\u0002\u0000\u0000\"�\u0000\u0000\u0000\u0000#(\u0000\u0004\u0000\u0000*0\u0000\n\u0000\u0000&�\u0000\u000e\u0000\u0000*0\u0000\nL..."
+                    },
+                    {
+                      "name": "Reunion",
+                      "type": "file",
+                      "size": 151,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0002\u0000\u0000\u0000\b��\u0001\u0000\u00003�\u0000\u0000\u0000\u00008@\u0000\u0004LMT\u0000+04\u0000TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000..."
+                    }
+                  ]
+                },
+                {
+                  "name": "Mexico",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "BajaNorte",
+                      "type": "file",
+                      "size": 2458,
+                      "ext": "file"
+                    },
+                    {
+                      "name": "BajaSur",
+                      "type": "file",
+                      "size": 1060,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0005\u0000\u0000\u0000\u0005\u0000\u0000\u0000\u0000\u0000\u0000\u0000=\u0000\u0000\u0000\u0005\u0000\u0000\u0000\u0010���p��+p�fV`�A=p�\f6`������q`1g�\u00102s\u0016�3Gf\u00104R��5'H\u001062ڀ7\u0007*\u00108..."
+                    },
+                    {
+                      "name": "General",
+                      "type": "file",
+                      "size": 1222,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\b\u0000\u0000\u0000\b\u0000\u0000\u0000\u0000\u0000\u0000\u0000D\u0000\u0000\u0000\b\u0000\u0000\u0000\u0018���p��+p�fV`�A=p�\f6`�����ް`Ɨ4P�U�����P�\u0002��ϷVPڙ\u0015��v��1gv\u0000..."
+                    }
+                  ]
+                },
+                {
+                  "name": "Pacific",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "Apia",
+                      "type": "file",
+                      "size": 598,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u001a\u0000\u0000\u0000\u0007\u0000\u0000\u0000\u001a�\u0000\u0000\u0000�\u0005�\u0000�b\u00048L�'�M�+�N}�`N���Ow\r�Pf��Q`*`RF��S@\f`T&��U\u001f�`..."
+                    },
+                    {
+                      "name": "Auckland",
+                      "type": "file",
+                      "size": 2437,
+                      "ext": "file"
+                    },
+                    {
+                      "name": "Bougainville",
+                      "type": "file",
+                      "size": 254,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0004\u0000\u0000\u0000\u0004\u0000\u0000\u0000\u0010�\u0000\u0000\u0000�C6`�+l�T�׀\u0001\u0002\u0001\u0003\u0000\u0000��\u0000\u0000\u0000\u0000��\u0000\u0004\u0000\u0000~�\u0000\b\u0000\u0000��\u0000\fLMT\u0000+10\u0000+09\u0000+..."
+                    },
+                    {
+                      "name": "Chatham",
+                      "type": "file",
+                      "size": 2054,
+                      "ext": "file"
+                    },
+                    {
+                      "name": "Chuuk",
+                      "type": "file",
+                      "size": 172,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0002\u0000\u0000\u0000\b�\u0000\u0000\u0000\u0001\u0000\u0000��\u0000\u0000\u0000\u0000��\u0000\u0004LMT\u0000+10\u0000TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000..."
+                    },
+                    {
+                      "name": "Easter",
+                      "type": "file",
+                      "size": 2219,
+                      "ext": "file"
+                    },
+                    {
+                      "name": "Efate",
+                      "type": "file",
+                      "size": 524,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0005\u0000\u0000\u0000\u0005\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0017\u0000\u0000\u0000\u0005\u0000\u0000\u0000\f��´\u0007y�@\u0007��@\u0019���\u001a���\u001b���\u001c���\u001d��P\u001e���\u001f{�P k�@![�P\"K�@#;�P$..."
+                    },
+                    {
+                      "name": "Enderbury",
+                      "type": "file",
+                      "size": 220,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0003\u0000\u0000\u0000\u0004\u0000\u0000\u0000\u0010�,ۀ\u0012V\u0004�/\u00059�\u0001\u0002\u0003\u0000\u0000\u0000\u0000\u0000\u0000��W@\u0000\u0004��eP\u0000\b\u0000\u0000��\u0000\f-00\u0000-12\u0000-11\u0000+13\u0000TZ..."
+                    },
+                    {
+                      "name": "Fakaofo",
+                      "type": "file",
+                      "size": 186,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0002\u0000\u0000\u0000\u0003\u0000\u0000\u0000\f�\u0000\u0000\u0000N���\u0001\u0002��_x\u0000\u0000��eP\u0000\u0004\u0000\u0000��\u0000\bLMT\u0000-11\u0000+13\u0000TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000..."
+                    },
+                    {
+                      "name": "Fiji",
+                      "type": "file",
+                      "size": 564,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u001d\u0000\u0000\u0000\u0003\u0000\u0000\u0000\f�\u0013��6;\u0017�6��`8$4`8��`K\u0011,�K�\u000f`L��`MrA�N��`O\u001a��P��`P���Rk��..."
+                    },
+                    {
+                      "name": "Funafuti",
+                      "type": "file",
+                      "size": 152,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0002\u0000\u0000\u0000\b�\u0000\u0000\u0000\u0001\u0000\u0000�4\u0000\u0000\u0000\u0000��\u0000\u0004LMT\u0000+12\u0000TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000..."
+                    },
+                    {
+                      "name": "Galapagos",
+                      "type": "file",
+                      "size": 224,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0004\u0000\u0000\u0000\u0004\u0000\u0000\u0000\f��L�\u001e\u0018�P+\u0017\n�+q�P\u0001\u0003\u0002\u0003���\u0000\u0000\u0000����\u0000\u0004����\u0001\u0004����\u0000\bLMT\u0000-05\u0000-06\u0000..."
+                    },
+                    {
+                      "name": "Gambier",
+                      "type": "file",
+                      "size": 150,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0002\u0000\u0000\u0000\b�PH\u0004\u0001���|\u0000\u0000���p\u0000\u0004LMT\u0000-09\u0000TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000..."
+                    },
+                    {
+                      "name": "Guadalcanal",
+                      "type": "file",
+                      "size": 152,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0002\u0000\u0000\u0000\b�O3�\u0001\u0000\u0000��\u0000\u0000\u0000\u0000��\u0000\u0004LMT\u0000+11\u0000TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000..."
+                    },
+                    {
+                      "name": "Guam",
+                      "type": "file",
+                      "size": 494,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0014\u0000\u0000\u0000\u0005\u0000\u0000\u0000\u0015�\u0000\u0000\u0000�7���.���7�\u0000�6����\u0000\u0000�?'��\u0001\u001e\u0000�]X�\u0000�,\u0000\u0001Fup\u0002w\u000e\u0000\u0003&Wp\u0007p�\u0000..."
+                    },
+                    {
+                      "name": "Honolulu",
+                      "type": "file",
+                      "size": 329,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0006\u0000\u0000\u0000\u0006\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0007\u0000\u0000\u0000\u0006\u0000\u0000\u0000\u0014�\u0000\u0000\u0000�\u0005CH�!qXˉ=��#�p�aI8ՍsH\u0001\u0002\u0001\u0003\u0004\u0001\u0005��l\u0002\u0000\u0000��lX\u0000\u0004��zh\u0001\b��zh\u0001..."
+                    },
+                    {
+                      "name": "Johnston",
+                      "type": "file",
+                      "size": 329,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0006\u0000\u0000\u0000\u0006\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0007\u0000\u0000\u0000\u0006\u0000\u0000\u0000\u0014�\u0000\u0000\u0000�\u0005CH�!qXˉ=��#�p�aI8ՍsH\u0001\u0002\u0001\u0003\u0004\u0001\u0005��l\u0002\u0000\u0000��lX\u0000\u0004��zh\u0001\b��zh\u0001..."
+                    },
+                    {
+                      "name": "Kanton",
+                      "type": "file",
+                      "size": 220,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0003\u0000\u0000\u0000\u0004\u0000\u0000\u0000\u0010�,ۀ\u0012V\u0004�/\u00059�\u0001\u0002\u0003\u0000\u0000\u0000\u0000\u0000\u0000��W@\u0000\u0004��eP\u0000\b\u0000\u0000��\u0000\f-00\u0000-12\u0000-11\u0000+13\u0000TZ..."
+                    },
+                    {
+                      "name": "Kiritimati",
+                      "type": "file",
+                      "size": 224,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0003\u0000\u0000\u0000\u0004\u0000\u0000\u0000\u0012�\u0000\u0000\u0000\u0012U�\u0000/\u0005+�\u0001\u0002\u0003��l�\u0000\u0000��j\u0000\u0000\u0004��s`\u0000\n\u0000\u0000��\u0000\u000eLMT\u0000-1040\u0000-10\u0000+14..."
+                    },
+                    {
+                      "name": "Kosrae",
+                      "type": "file",
+                      "size": 337,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\b\u0000\u0000\u0000\u0006\u0000\u0000\u0000\u0014�\u0000\u0000\u0000�\u0011�Р9����5���\n`�\u0011\u000e���\u001bP6�g@\u0001\u0002\u0001\u0003\u0002\u0001\u0004\u0001��GL\u0000\u0000\u0000\u0000��\u0000\u0004\u0000\u0000~�\u0000..."
+                    }
+                  ],
+                  "truncated": 24
+                },
+                {
+                  "name": "US",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "Alaska",
+                      "type": "file",
+                      "size": 2371,
+                      "ext": "file"
+                    },
+                    {
+                      "name": "Aleutian",
+                      "type": "file",
+                      "size": 2356,
+                      "ext": "file"
+                    },
+                    {
+                      "name": "Arizona",
+                      "type": "file",
+                      "size": 360,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0005\u0000\u0000\u0000\u0005\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u000b\u0000\u0000\u0000\u0005\u0000\u0000\u0000\u0010�\u0000\u0000\u0000��:���\u0007���\u001c����ˉ\f��\u0017�\u001cϏ�Ё\u001a\u001c��u\u0010��X\u0000\u0004\u0001\u0002\u0001\u0002\u0003\u0002\u0003\u0002\u0001\u0002����\u0000\u0000..."
+                    },
+                    {
+                      "name": "Central",
+                      "type": "file",
+                      "size": 3592,
+                      "ext": "file"
+                    },
+                    {
+                      "name": "East-Indiana",
+                      "type": "file",
+                      "size": 1682,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\b\u0000\u0000\u0000\b\u0000\u0000\u0000\u0000\u0000\u0000\u0000c\u0000\u0000\u0000\b\u0000\u0000\u0000\u001c�\u0000\u0000\u0000��,����p��\u000e����p�W\"���Gpˈ���#�p�a\t��u�\u0000�@���U�\u0000� ���..."
+                    },
+                    {
+                      "name": "Eastern",
+                      "type": "file",
+                      "size": 3552,
+                      "ext": "file"
+                    },
+                    {
+                      "name": "Hawaii",
+                      "type": "file",
+                      "size": 329,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0006\u0000\u0000\u0000\u0006\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0007\u0000\u0000\u0000\u0006\u0000\u0000\u0000\u0014�\u0000\u0000\u0000�\u0005CH�!qXˉ=��#�p�aI8ՍsH\u0001\u0002\u0001\u0003\u0004\u0001\u0005��l\u0002\u0000\u0000��lX\u0000\u0004��zh\u0001\b��zh\u0001..."
+                    },
+                    {
+                      "name": "Indiana-Starke",
+                      "type": "file",
+                      "size": 2444,
+                      "ext": "file"
+                    },
+                    {
+                      "name": "Michigan",
+                      "type": "file",
+                      "size": 2230,
+                      "ext": "file"
+                    },
+                    {
+                      "name": "Mountain",
+                      "type": "file",
+                      "size": 2460,
+                      "ext": "file"
+                    },
+                    {
+                      "name": "Pacific",
+                      "type": "file",
+                      "size": 2852,
+                      "ext": "file"
+                    },
+                    {
+                      "name": "Samoa",
+                      "type": "file",
+                      "size": 175,
+                      "ext": "file",
+                      "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0002\u0000\u0000\u0000\u0003\u0000\u0000\u0000\b�\u0000\u0000\u0000�\u0005�\b\u0001\u0002\u0000\u0000�x\u0000\u0000��_�\u0000\u0000��eP\u0000\u0004LMT\u0000SST\u0000TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000..."
+                    }
+                  ]
+                },
+                {
+                  "name": "CET",
+                  "type": "file",
+                  "size": 2933,
+                  "ext": "file"
+                },
+                {
+                  "name": "CST6CDT",
+                  "type": "file",
+                  "size": 3592,
+                  "ext": "file"
+                },
+                {
+                  "name": "Cuba",
+                  "type": "file",
+                  "size": 2416,
+                  "ext": "file"
+                },
+                {
+                  "name": "EET",
+                  "type": "file",
+                  "size": 2262,
+                  "ext": "file"
+                },
+                {
+                  "name": "Egypt",
+                  "type": "file",
+                  "size": 2399,
+                  "ext": "file"
+                },
+                {
+                  "name": "Eire",
+                  "type": "file",
+                  "size": 3492,
+                  "ext": "file"
+                },
+                {
+                  "name": "EST",
+                  "type": "file",
+                  "size": 182,
+                  "ext": "file",
+                  "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0002\u0000\u0000\u0000\u0003\u0000\u0000\u0000\f�\u0000\u0000\u0000��a�\u0001\u0002���p\u0000\u0000���\u0018\u0000\u0004����\u0000\bLMT\u0000CMT\u0000EST\u0000TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000..."
+                },
+                {
+                  "name": "EST5EDT",
+                  "type": "file",
+                  "size": 3552,
+                  "ext": "file"
+                },
+                {
+                  "name": "Factory",
+                  "type": "file",
+                  "size": 116,
+                  "ext": "file",
+                  "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0004\u0000\u0000\u0000\u0000\u0000\u0000-00\u0000TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0004\u0000\u0000..."
+                },
+                {
+                  "name": "GB",
+                  "type": "file",
+                  "size": 3664,
+                  "ext": "file"
+                },
+                {
+                  "name": "GB-Eire",
+                  "type": "file",
+                  "size": 3664,
+                  "ext": "file"
+                },
+                {
+                  "name": "GMT",
+                  "type": "file",
+                  "size": 114,
+                  "ext": "file",
+                  "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0004\u0000\u0000\u0000\u0000\u0000\u0000GMT\u0000TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0004\u0000\u0000..."
+                },
+                {
+                  "name": "GMT-0",
+                  "type": "file",
+                  "size": 114,
+                  "ext": "file",
+                  "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0004\u0000\u0000\u0000\u0000\u0000\u0000GMT\u0000TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0004\u0000\u0000..."
+                },
+                {
+                  "name": "GMT+0",
+                  "type": "file",
+                  "size": 114,
+                  "ext": "file",
+                  "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0004\u0000\u0000\u0000\u0000\u0000\u0000GMT\u0000TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0004\u0000\u0000..."
+                },
+                {
+                  "name": "GMT0",
+                  "type": "file",
+                  "size": 114,
+                  "ext": "file",
+                  "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0004\u0000\u0000\u0000\u0000\u0000\u0000GMT\u0000TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0004\u0000\u0000..."
+                },
+                {
+                  "name": "Greenwich",
+                  "type": "file",
+                  "size": 114,
+                  "ext": "file",
+                  "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0004\u0000\u0000\u0000\u0000\u0000\u0000GMT\u0000TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0004\u0000\u0000..."
+                },
+                {
+                  "name": "Hongkong",
+                  "type": "file",
+                  "size": 1233,
+                  "ext": "file",
+                  "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\b\u0000\u0000\u0000\b\u0000\u0000\u0000\u0000\u0000\u0000\u0000E\u0000\u0000\u0000\b\u0000\u0000\u0000\u0016�ic��M10�ۓ0�KqxҠސ�k׀ԓX��B�8�s:��>A��.2���9��\u000e\u0014���\u001b�����ܸ..."
+                },
+                {
+                  "name": "HST",
+                  "type": "file",
+                  "size": 329,
+                  "ext": "file",
+                  "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0006\u0000\u0000\u0000\u0006\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0007\u0000\u0000\u0000\u0006\u0000\u0000\u0000\u0014�\u0000\u0000\u0000�\u0005CH�!qXˉ=��#�p�aI8ՍsH\u0001\u0002\u0001\u0003\u0004\u0001\u0005��l\u0002\u0000\u0000��lX\u0000\u0004��zh\u0001\b��zh\u0001..."
+                },
+                {
+                  "name": "Iceland",
+                  "type": "file",
+                  "size": 148,
+                  "ext": "file",
+                  "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0002\u0000\u0000\u0000\b��H\u0001���8\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0004LMT\u0000GMT\u0000TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000..."
+                },
+                {
+                  "name": "Iran",
+                  "type": "file",
+                  "size": 1248,
+                  "ext": "file",
+                  "preview": "TZif2\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000G\u0000\u0000\u0000\b\u0000\u0000\u0000\u001c�l}ȿ\u0000�H\r�D8\u000e�\u0013�\u000fys@\u0010(��\u0010���\u0011��H\u0012EJ�\u00137��\u0014-\u0015�( v�(۝�)˜�*�\"..."
+                }
+              ],
+              "truncated": 31
+            },
+            {
+              "name": "__init__.py",
+              "type": "file",
+              "size": 35125,
+              "ext": "py"
+            },
+            {
+              "name": "exceptions.py",
+              "type": "file",
+              "size": 1571,
+              "ext": "py",
+              "preview": "'''\nCustom exceptions raised by pytz.\n'''\n\n__all__ = [\n    'UnknownTimeZoneError', 'InvalidTimeError..."
+            },
+            {
+              "name": "lazy.py",
+              "type": "file",
+              "size": 5404,
+              "ext": "py"
+            },
+            {
+              "name": "reference.py",
+              "type": "file",
+              "size": 3778,
+              "ext": "py"
+            },
+            {
+              "name": "tzfile.py",
+              "type": "file",
+              "size": 4723,
+              "ext": "py"
+            },
+            {
+              "name": "tzinfo.py",
+              "type": "file",
+              "size": 19340,
+              "ext": "py"
+            }
+          ]
+        },
+        {
+          "name": "pytz-2025.2.dist-info",
+          "type": "folder",
+          "children": [
+            {
+              "name": "INSTALLER",
+              "type": "file",
+              "size": 4,
+              "ext": "file"
+            },
+            {
+              "name": "LICENSE.txt",
+              "type": "file",
+              "size": 1088,
+              "ext": "txt",
+              "preview": "Copyright (c) 2003-2019 Stuart Bishop <stuart@stuartbishop.net>\n\nPermission is hereby granted, free ..."
+            },
+            {
+              "name": "METADATA",
+              "type": "file",
+              "size": 22374,
+              "ext": "file"
+            },
+            {
+              "name": "RECORD",
+              "type": "file",
+              "size": 53012,
+              "ext": "file"
+            },
+            {
+              "name": "top_level.txt",
+              "type": "file",
+              "size": 5,
+              "ext": "txt"
+            },
+            {
+              "name": "WHEEL",
+              "type": "file",
+              "size": 110,
+              "ext": "file",
+              "preview": "Wheel-Version: 1.0\nGenerator: bdist_wheel (0.42.0)\nRoot-Is-Purelib: true\nTag: py2-none-any\nTag: py3-..."
+            },
+            {
+              "name": "zip-safe",
+              "type": "file",
+              "size": 1,
+              "ext": "file"
+            }
+          ]
+        },
+        {
+          "name": "pyyaml-6.0.3.dist-info",
+          "type": "folder",
+          "children": [
+            {
+              "name": "licenses",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "LICENSE",
+                  "type": "file",
+                  "size": 1101,
+                  "ext": "file",
+                  "preview": "Copyright (c) 2017-2021 Ingy döt Net\nCopyright (c) 2006-2016 Kirill Simonov\n\nPermission is hereby gr..."
+                }
+              ]
+            },
+            {
+              "name": "INSTALLER",
+              "type": "file",
+              "size": 4,
+              "ext": "file"
+            },
+            {
+              "name": "METADATA",
+              "type": "file",
+              "size": 2351,
+              "ext": "file"
+            },
+            {
+              "name": "RECORD",
+              "type": "file",
+              "size": 2695,
+              "ext": "file"
+            },
+            {
+              "name": "top_level.txt",
+              "type": "file",
+              "size": 11,
+              "ext": "txt",
+              "preview": "_yaml\nyaml\n"
+            },
+            {
+              "name": "WHEEL",
+              "type": "file",
+              "size": 136,
+              "ext": "file",
+              "preview": "Wheel-Version: 1.0\nGenerator: setuptools (80.9.0)\nRoot-Is-Purelib: false\nTag: cp313-cp313-macosx_11_..."
+            }
+          ]
+        },
+        {
+          "name": "referencing",
+          "type": "folder",
+          "children": [
+            {
+              "name": "__pycache__",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "__init__.cpython-313.pyc",
+                  "type": "file",
+                  "size": 433,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_attrs.cpython-313.pyc",
+                  "type": "file",
+                  "size": 1533,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_core.cpython-313.pyc",
+                  "type": "file",
+                  "size": 29326,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "exceptions.cpython-313.pyc",
+                  "type": "file",
+                  "size": 7183,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "jsonschema.cpython-313.pyc",
+                  "type": "file",
+                  "size": 17627,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "retrieval.cpython-313.pyc",
+                  "type": "file",
+                  "size": 3372,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "typing.cpython-313.pyc",
+                  "type": "file",
+                  "size": 2267,
+                  "ext": "pyc"
+                }
+              ]
+            },
+            {
+              "name": "tests",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "__pycache__",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "__init__.cpython-313.pyc",
+                      "type": "file",
+                      "size": 214,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "test_core.cpython-313.pyc",
+                      "type": "file",
+                      "size": 59879,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "test_exceptions.cpython-313.pyc",
+                      "type": "file",
+                      "size": 2784,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "test_jsonschema.cpython-313.pyc",
+                      "type": "file",
+                      "size": 14216,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "test_referencing_suite.cpython-313.pyc",
+                      "type": "file",
+                      "size": 4495,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "test_retrieval.cpython-313.pyc",
+                      "type": "file",
+                      "size": 6159,
+                      "ext": "pyc"
+                    }
+                  ]
+                },
+                {
+                  "name": "__init__.py",
+                  "type": "file",
+                  "size": 0,
+                  "ext": "py"
+                },
+                {
+                  "name": "test_core.py",
+                  "type": "file",
+                  "size": 37854,
+                  "ext": "py"
+                },
+                {
+                  "name": "test_exceptions.py",
+                  "type": "file",
+                  "size": 934,
+                  "ext": "py",
+                  "preview": "import itertools\n\nimport pytest\n\nfrom referencing import Resource, exceptions\n\n\ndef pairs(choices):\n..."
+                },
+                {
+                  "name": "test_jsonschema.py",
+                  "type": "file",
+                  "size": 11687,
+                  "ext": "py"
+                },
+                {
+                  "name": "test_referencing_suite.py",
+                  "type": "file",
+                  "size": 2335,
+                  "ext": "py"
+                },
+                {
+                  "name": "test_retrieval.py",
+                  "type": "file",
+                  "size": 3719,
+                  "ext": "py"
+                }
+              ]
+            },
+            {
+              "name": "__init__.py",
+              "type": "file",
+              "size": 207,
+              "ext": "py",
+              "preview": "\"\"\"\nCross-specification, implementation-agnostic JSON referencing.\n\"\"\"\n\nfrom referencing._core impor..."
+            },
+            {
+              "name": "_attrs.py",
+              "type": "file",
+              "size": 791,
+              "ext": "py",
+              "preview": "from __future__ import annotations\n\nfrom typing import NoReturn, TypeVar\n\nfrom attrs import define a..."
+            },
+            {
+              "name": "_attrs.pyi",
+              "type": "file",
+              "size": 573,
+              "ext": "pyi"
+            },
+            {
+              "name": "_core.py",
+              "type": "file",
+              "size": 24732,
+              "ext": "py"
+            },
+            {
+              "name": "exceptions.py",
+              "type": "file",
+              "size": 4176,
+              "ext": "py"
+            },
+            {
+              "name": "jsonschema.py",
+              "type": "file",
+              "size": 18615,
+              "ext": "py"
+            },
+            {
+              "name": "py.typed",
+              "type": "file",
+              "size": 0,
+              "ext": "typed"
+            },
+            {
+              "name": "retrieval.py",
+              "type": "file",
+              "size": 2729,
+              "ext": "py"
+            },
+            {
+              "name": "typing.py",
+              "type": "file",
+              "size": 1445,
+              "ext": "py",
+              "preview": "\"\"\"\nType-annotation related support for the referencing library.\n\"\"\"\n\nfrom __future__ import annotat..."
+            }
+          ]
+        },
+        {
+          "name": "referencing-0.37.0.dist-info",
+          "type": "folder",
+          "children": [
+            {
+              "name": "licenses",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "COPYING",
+                  "type": "file",
+                  "size": 1057,
+                  "ext": "file",
+                  "preview": "Copyright (c) 2022 Julian Berman\n\nPermission is hereby granted, free of charge, to any person obtain..."
+                }
+              ]
+            },
+            {
+              "name": "INSTALLER",
+              "type": "file",
+              "size": 4,
+              "ext": "file"
+            },
+            {
+              "name": "METADATA",
+              "type": "file",
+              "size": 2845,
+              "ext": "file"
+            },
+            {
+              "name": "RECORD",
+              "type": "file",
+              "size": 2439,
+              "ext": "file"
+            },
+            {
+              "name": "WHEEL",
+              "type": "file",
+              "size": 87,
+              "ext": "file",
+              "preview": "Wheel-Version: 1.0\nGenerator: hatchling 1.27.0\nRoot-Is-Purelib: true\nTag: py3-none-any\n"
+            }
+          ]
+        },
+        {
+          "name": "regex",
+          "type": "folder",
+          "children": [
+            {
+              "name": "__pycache__",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "__init__.cpython-313.pyc",
+                  "type": "file",
+                  "size": 328,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_main.cpython-313.pyc",
+                  "type": "file",
+                  "size": 32724,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_regex_core.cpython-313.pyc",
+                  "type": "file",
+                  "size": 208226,
+                  "ext": "pyc"
+                }
+              ]
+            },
+            {
+              "name": "tests",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "__pycache__",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "test_regex.cpython-313.pyc",
+                      "type": "file",
+                      "size": 335205,
+                      "ext": "pyc"
+                    }
+                  ]
+                },
+                {
+                  "name": "test_regex.py",
+                  "type": "file",
+                  "size": 225809,
+                  "ext": "py"
+                }
+              ]
+            },
+            {
+              "name": "__init__.py",
+              "type": "file",
+              "size": 75,
+              "ext": "py",
+              "preview": "import regex._main\nfrom regex._main import *\n__all__ = regex._main.__all__\n"
+            },
+            {
+              "name": "_main.py",
+              "type": "file",
+              "size": 32680,
+              "ext": "py"
+            },
+            {
+              "name": "_regex_core.py",
+              "type": "file",
+              "size": 147350,
+              "ext": "py"
+            },
+            {
+              "name": "_regex.cpython-313-darwin.so",
+              "type": "file",
+              "size": 790720,
+              "ext": "so"
+            }
+          ]
+        },
+        {
+          "name": "regex-2026.1.15.dist-info",
+          "type": "folder",
+          "children": [
+            {
+              "name": "licenses",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "LICENSE.txt",
+                  "type": "file",
+                  "size": 11584,
+                  "ext": "txt"
+                }
+              ]
+            },
+            {
+              "name": "INSTALLER",
+              "type": "file",
+              "size": 4,
+              "ext": "file"
+            },
+            {
+              "name": "METADATA",
+              "type": "file",
+              "size": 40467,
+              "ext": "file"
+            },
+            {
+              "name": "RECORD",
+              "type": "file",
+              "size": 1103,
+              "ext": "file",
+              "preview": "regex-2026.1.15.dist-info/INSTALLER,sha256=zuuue4knoyJ-UwPPXg8fezS7VCrXJQrAP7zeNuwvFQg,4\r\nregex-2026..."
+            },
+            {
+              "name": "top_level.txt",
+              "type": "file",
+              "size": 6,
+              "ext": "txt"
+            },
+            {
+              "name": "WHEEL",
+              "type": "file",
+              "size": 136,
+              "ext": "file",
+              "preview": "Wheel-Version: 1.0\nGenerator: setuptools (80.9.0)\nRoot-Is-Purelib: false\nTag: cp313-cp313-macosx_11_..."
+            }
+          ]
+        },
+        {
+          "name": "requests",
+          "type": "folder",
+          "children": [
+            {
+              "name": "__pycache__",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "__init__.cpython-313.pyc",
+                  "type": "file",
+                  "size": 5447,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "__version__.cpython-313.pyc",
+                  "type": "file",
+                  "size": 598,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_internal_utils.cpython-313.pyc",
+                  "type": "file",
+                  "size": 2032,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "adapters.cpython-313.pyc",
+                  "type": "file",
+                  "size": 26848,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "api.cpython-313.pyc",
+                  "type": "file",
+                  "size": 6884,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "auth.cpython-313.pyc",
+                  "type": "file",
+                  "size": 14246,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "certs.cpython-313.pyc",
+                  "type": "file",
+                  "size": 682,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "compat.cpython-313.pyc",
+                  "type": "file",
+                  "size": 2414,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "cookies.cpython-313.pyc",
+                  "type": "file",
+                  "size": 25041,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "exceptions.cpython-313.pyc",
+                  "type": "file",
+                  "size": 8024,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "help.cpython-313.pyc",
+                  "type": "file",
+                  "size": 4378,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "hooks.cpython-313.pyc",
+                  "type": "file",
+                  "size": 1108,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "models.cpython-313.pyc",
+                  "type": "file",
+                  "size": 35883,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "packages.cpython-313.pyc",
+                  "type": "file",
+                  "size": 1180,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "sessions.cpython-313.pyc",
+                  "type": "file",
+                  "size": 27408,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "status_codes.cpython-313.pyc",
+                  "type": "file",
+                  "size": 6058,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "structures.cpython-313.pyc",
+                  "type": "file",
+                  "size": 5661,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "utils.cpython-313.pyc",
+                  "type": "file",
+                  "size": 36267,
+                  "ext": "pyc"
+                }
+              ]
+            },
+            {
+              "name": "__init__.py",
+              "type": "file",
+              "size": 5072,
+              "ext": "py"
+            },
+            {
+              "name": "__version__.py",
+              "type": "file",
+              "size": 435,
+              "ext": "py",
+              "preview": "# .-. .-. .-. . . .-. .-. .-. .-.\n# |(  |-  |.| | | |-  `-.  |  `-.\n# ' ' `-' `-`.`-' `-' `-'  '  `-..."
+            },
+            {
+              "name": "_internal_utils.py",
+              "type": "file",
+              "size": 1495,
+              "ext": "py",
+              "preview": "\"\"\"\nrequests._internal_utils\n~~~~~~~~~~~~~~\n\nProvides utility functions that are consumed internally..."
+            },
+            {
+              "name": "adapters.py",
+              "type": "file",
+              "size": 26285,
+              "ext": "py"
+            },
+            {
+              "name": "api.py",
+              "type": "file",
+              "size": 6449,
+              "ext": "py"
+            },
+            {
+              "name": "auth.py",
+              "type": "file",
+              "size": 10186,
+              "ext": "py"
+            },
+            {
+              "name": "certs.py",
+              "type": "file",
+              "size": 429,
+              "ext": "py",
+              "preview": "#!/usr/bin/env python\n\n\"\"\"\nrequests.certs\n~~~~~~~~~~~~~~\n\nThis module returns the preferred default ..."
+            },
+            {
+              "name": "compat.py",
+              "type": "file",
+              "size": 2142,
+              "ext": "py"
+            },
+            {
+              "name": "cookies.py",
+              "type": "file",
+              "size": 18590,
+              "ext": "py"
+            },
+            {
+              "name": "exceptions.py",
+              "type": "file",
+              "size": 4260,
+              "ext": "py"
+            },
+            {
+              "name": "help.py",
+              "type": "file",
+              "size": 3875,
+              "ext": "py"
+            },
+            {
+              "name": "hooks.py",
+              "type": "file",
+              "size": 733,
+              "ext": "py",
+              "preview": "\"\"\"\nrequests.hooks\n~~~~~~~~~~~~~~\n\nThis module provides the capabilities for the Requests hooks syst..."
+            },
+            {
+              "name": "models.py",
+              "type": "file",
+              "size": 35510,
+              "ext": "py"
+            },
+            {
+              "name": "packages.py",
+              "type": "file",
+              "size": 904,
+              "ext": "py",
+              "preview": "import sys\n\nfrom .compat import chardet\n\n# This code exists for backwards compatibility reasons.\n# I..."
+            },
+            {
+              "name": "sessions.py",
+              "type": "file",
+              "size": 30503,
+              "ext": "py"
+            },
+            {
+              "name": "status_codes.py",
+              "type": "file",
+              "size": 4322,
+              "ext": "py"
+            },
+            {
+              "name": "structures.py",
+              "type": "file",
+              "size": 2912,
+              "ext": "py"
+            },
+            {
+              "name": "utils.py",
+              "type": "file",
+              "size": 33213,
+              "ext": "py"
+            }
+          ]
+        },
+        {
+          "name": "requests-2.32.5.dist-info",
+          "type": "folder",
+          "children": [
+            {
+              "name": "licenses",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "LICENSE",
+                  "type": "file",
+                  "size": 10142,
+                  "ext": "file"
+                }
+              ]
+            },
+            {
+              "name": "INSTALLER",
+              "type": "file",
+              "size": 4,
+              "ext": "file"
+            },
+            {
+              "name": "METADATA",
+              "type": "file",
+              "size": 4945,
+              "ext": "file"
+            },
+            {
+              "name": "RECORD",
+              "type": "file",
+              "size": 2770,
+              "ext": "file"
+            },
+            {
+              "name": "top_level.txt",
+              "type": "file",
+              "size": 9,
+              "ext": "txt"
+            },
+            {
+              "name": "WHEEL",
+              "type": "file",
+              "size": 91,
+              "ext": "file",
+              "preview": "Wheel-Version: 1.0\nGenerator: setuptools (80.9.0)\nRoot-Is-Purelib: true\nTag: py3-none-any\n\n"
+            }
+          ]
+        },
+        {
+          "name": "rich",
+          "type": "folder",
+          "children": [
+            {
+              "name": "__pycache__",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "__init__.cpython-313.pyc",
+                  "type": "file",
+                  "size": 6864,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "__main__.cpython-313.pyc",
+                  "type": "file",
+                  "size": 9333,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_cell_widths.cpython-313.pyc",
+                  "type": "file",
+                  "size": 7886,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_emoji_codes.cpython-313.pyc",
+                  "type": "file",
+                  "size": 205990,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_emoji_replace.cpython-313.pyc",
+                  "type": "file",
+                  "size": 1758,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_export_format.cpython-313.pyc",
+                  "type": "file",
+                  "size": 2363,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_extension.cpython-313.pyc",
+                  "type": "file",
+                  "size": 529,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_fileno.cpython-313.pyc",
+                  "type": "file",
+                  "size": 855,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_inspect.cpython-313.pyc",
+                  "type": "file",
+                  "size": 12310,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_log_render.cpython-313.pyc",
+                  "type": "file",
+                  "size": 4327,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_loop.cpython-313.pyc",
+                  "type": "file",
+                  "size": 1914,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_null_file.cpython-313.pyc",
+                  "type": "file",
+                  "size": 3749,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_palettes.cpython-313.pyc",
+                  "type": "file",
+                  "size": 5174,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_pick.cpython-313.pyc",
+                  "type": "file",
+                  "size": 733,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_ratio.cpython-313.pyc",
+                  "type": "file",
+                  "size": 6465,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_spinners.cpython-313.pyc",
+                  "type": "file",
+                  "size": 13193,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_stack.cpython-313.pyc",
+                  "type": "file",
+                  "size": 1041,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_timer.cpython-313.pyc",
+                  "type": "file",
+                  "size": 882,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_win32_console.cpython-313.pyc",
+                  "type": "file",
+                  "size": 28317,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_windows_renderer.cpython-313.pyc",
+                  "type": "file",
+                  "size": 3603,
+                  "ext": "pyc"
+                }
+              ],
+              "truncated": 58
+            },
+            {
+              "name": "__init__.py",
+              "type": "file",
+              "size": 6066,
+              "ext": "py"
+            },
+            {
+              "name": "__main__.py",
+              "type": "file",
+              "size": 7752,
+              "ext": "py"
+            },
+            {
+              "name": "_cell_widths.py",
+              "type": "file",
+              "size": 10209,
+              "ext": "py"
+            },
+            {
+              "name": "_emoji_codes.py",
+              "type": "file",
+              "size": 140235,
+              "ext": "py"
+            },
+            {
+              "name": "_emoji_replace.py",
+              "type": "file",
+              "size": 1064,
+              "ext": "py",
+              "preview": "from typing import Callable, Match, Optional\nimport re\n\nfrom ._emoji_codes import EMOJI\n\n\n_ReStringM..."
+            },
+            {
+              "name": "_export_format.py",
+              "type": "file",
+              "size": 2128,
+              "ext": "py"
+            },
+            {
+              "name": "_extension.py",
+              "type": "file",
+              "size": 241,
+              "ext": "py",
+              "preview": "from typing import Any\n\n\ndef load_ipython_extension(ip: Any) -> None:  # pragma: no cover\n    # prev..."
+            },
+            {
+              "name": "_fileno.py",
+              "type": "file",
+              "size": 799,
+              "ext": "py",
+              "preview": "from __future__ import annotations\n\nfrom typing import IO, Callable\n\n\ndef get_fileno(file_like: IO[s..."
+            },
+            {
+              "name": "_inspect.py",
+              "type": "file",
+              "size": 9656,
+              "ext": "py"
+            },
+            {
+              "name": "_log_render.py",
+              "type": "file",
+              "size": 3213,
+              "ext": "py"
+            },
+            {
+              "name": "_loop.py",
+              "type": "file",
+              "size": 1236,
+              "ext": "py",
+              "preview": "from typing import Iterable, Tuple, TypeVar\n\nT = TypeVar(\"T\")\n\n\ndef loop_first(values: Iterable[T]) ..."
+            },
+            {
+              "name": "_null_file.py",
+              "type": "file",
+              "size": 1394,
+              "ext": "py",
+              "preview": "from types import TracebackType\nfrom typing import IO, Iterable, Iterator, List, Optional, Type\n\n\ncl..."
+            },
+            {
+              "name": "_palettes.py",
+              "type": "file",
+              "size": 7063,
+              "ext": "py"
+            },
+            {
+              "name": "_pick.py",
+              "type": "file",
+              "size": 423,
+              "ext": "py",
+              "preview": "from typing import Optional\n\n\ndef pick_bool(*values: Optional[bool]) -> bool:\n    \"\"\"Pick the first ..."
+            },
+            {
+              "name": "_ratio.py",
+              "type": "file",
+              "size": 5325,
+              "ext": "py"
+            },
+            {
+              "name": "_spinners.py",
+              "type": "file",
+              "size": 19919,
+              "ext": "py"
+            },
+            {
+              "name": "_stack.py",
+              "type": "file",
+              "size": 351,
+              "ext": "py",
+              "preview": "from typing import List, TypeVar\n\nT = TypeVar(\"T\")\n\n\nclass Stack(List[T]):\n    \"\"\"A small shim over ..."
+            },
+            {
+              "name": "_timer.py",
+              "type": "file",
+              "size": 417,
+              "ext": "py",
+              "preview": "\"\"\"\nTimer context manager, only used in debug.\n\n\"\"\"\n\nfrom time import time\n\nimport contextlib\nfrom t..."
+            },
+            {
+              "name": "_win32_console.py",
+              "type": "file",
+              "size": 22719,
+              "ext": "py"
+            },
+            {
+              "name": "_windows_renderer.py",
+              "type": "file",
+              "size": 2759,
+              "ext": "py"
+            }
+          ],
+          "truncated": 59
+        },
+        {
+          "name": "rich-14.2.0.dist-info",
+          "type": "folder",
+          "children": [
+            {
+              "name": "INSTALLER",
+              "type": "file",
+              "size": 4,
+              "ext": "file"
+            },
+            {
+              "name": "LICENSE",
+              "type": "file",
+              "size": 1056,
+              "ext": "file",
+              "preview": "Copyright (c) 2020 Will McGugan\n\nPermission is hereby granted, free of charge, to any person obtaini..."
+            },
+            {
+              "name": "METADATA",
+              "type": "file",
+              "size": 18257,
+              "ext": "file"
+            },
+            {
+              "name": "RECORD",
+              "type": "file",
+              "size": 9652,
+              "ext": "file"
+            },
+            {
+              "name": "WHEEL",
+              "type": "file",
+              "size": 88,
+              "ext": "file",
+              "preview": "Wheel-Version: 1.0\nGenerator: poetry-core 2.1.3\nRoot-Is-Purelib: true\nTag: py3-none-any\n"
+            }
+          ]
+        },
+        {
+          "name": "rpds",
+          "type": "folder",
+          "children": [
+            {
+              "name": "__pycache__",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "__init__.cpython-313.pyc",
+                  "type": "file",
+                  "size": 373,
+                  "ext": "pyc"
+                }
+              ]
+            },
+            {
+              "name": "__init__.py",
+              "type": "file",
+              "size": 99,
+              "ext": "py",
+              "preview": "from .rpds import *\n\n__doc__ = rpds.__doc__\nif hasattr(rpds, \"__all__\"):\n    __all__ = rpds.__all__"
+            },
+            {
+              "name": "__init__.pyi",
+              "type": "file",
+              "size": 2602,
+              "ext": "pyi"
+            },
+            {
+              "name": "py.typed",
+              "type": "file",
+              "size": 0,
+              "ext": "typed"
+            },
+            {
+              "name": "rpds.cpython-313-darwin.so",
+              "type": "file",
+              "size": 967648,
+              "ext": "so"
+            }
+          ]
+        },
+        {
+          "name": "rpds_py-0.30.0.dist-info",
+          "type": "folder",
+          "children": [
+            {
+              "name": "licenses",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "LICENSE",
+                  "type": "file",
+                  "size": 1057,
+                  "ext": "file",
+                  "preview": "Copyright (c) 2023 Julian Berman\n\nPermission is hereby granted, free of charge, to any person obtain..."
+                }
+              ]
+            },
+            {
+              "name": "INSTALLER",
+              "type": "file",
+              "size": 4,
+              "ext": "file"
+            },
+            {
+              "name": "METADATA",
+              "type": "file",
+              "size": 4145,
+              "ext": "file"
+            },
+            {
+              "name": "RECORD",
+              "type": "file",
+              "size": 752,
+              "ext": "file",
+              "preview": "rpds/__init__.py,sha256=w3MgXW7lpTCICw0KXbw20QX573_kbsEnWIeMsCAugvM,99\r\nrpds/__init__.pyi,sha256=am7..."
+            },
+            {
+              "name": "WHEEL",
+              "type": "file",
+              "size": 105,
+              "ext": "file",
+              "preview": "Wheel-Version: 1.0\nGenerator: maturin (1.10.2)\nRoot-Is-Purelib: false\nTag: cp313-cp313-macosx_11_0_a..."
+            }
+          ]
+        },
+        {
+          "name": "sentencepiece",
+          "type": "folder",
+          "children": [
+            {
+              "name": "__pycache__",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "__init__.cpython-313.pyc",
+                  "type": "file",
+                  "size": 72285,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_version.cpython-313.pyc",
+                  "type": "file",
+                  "size": 236,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "sentencepiece_model_pb2.cpython-313.pyc",
+                  "type": "file",
+                  "size": 4500,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "sentencepiece_pb2.cpython-313.pyc",
+                  "type": "file",
+                  "size": 1729,
+                  "ext": "pyc"
+                }
+              ]
+            },
+            {
+              "name": "package_data",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "nfkc_cf.bin",
+                  "type": "file",
+                  "size": 247028,
+                  "ext": "bin"
+                },
+                {
+                  "name": "nfkc.bin",
+                  "type": "file",
+                  "size": 240008,
+                  "ext": "bin"
+                },
+                {
+                  "name": "nmt_nfkc_cf.bin",
+                  "type": "file",
+                  "size": 247027,
+                  "ext": "bin"
+                },
+                {
+                  "name": "nmt_nfkc.bin",
+                  "type": "file",
+                  "size": 240007,
+                  "ext": "bin"
+                }
+              ]
+            },
+            {
+              "name": "__init__.py",
+              "type": "file",
+              "size": 49422,
+              "ext": "py"
+            },
+            {
+              "name": "_sentencepiece.cpython-313-darwin.so",
+              "type": "file",
+              "size": 2041144,
+              "ext": "so"
+            },
+            {
+              "name": "_version.py",
+              "type": "file",
+              "size": 22,
+              "ext": "py",
+              "preview": "__version__ = '0.2.1'\n"
+            },
+            {
+              "name": "sentencepiece_model_pb2.py",
+              "type": "file",
+              "size": 6257,
+              "ext": "py"
+            },
+            {
+              "name": "sentencepiece_pb2.py",
+              "type": "file",
+              "size": 1753,
+              "ext": "py",
+              "preview": "# -*- coding: utf-8 -*-\n# Generated by the protocol buffer compiler.  DO NOT EDIT!\n# source: sentenc..."
+            },
+            {
+              "name": "sentencepiece_wrap.cxx",
+              "type": "file",
+              "size": 381494,
+              "ext": "cxx"
+            },
+            {
+              "name": "sentencepiece.i",
+              "type": "file",
+              "size": 72647,
+              "ext": "i"
+            }
+          ]
+        },
+        {
+          "name": "sentencepiece-0.2.1.dist-info",
+          "type": "folder",
+          "children": [
+            {
+              "name": "INSTALLER",
+              "type": "file",
+              "size": 4,
+              "ext": "file"
+            },
+            {
+              "name": "METADATA",
+              "type": "file",
+              "size": 10003,
+              "ext": "file"
+            },
+            {
+              "name": "RECORD",
+              "type": "file",
+              "size": 1707,
+              "ext": "file",
+              "preview": "sentencepiece-0.2.1.dist-info/INSTALLER,sha256=zuuue4knoyJ-UwPPXg8fezS7VCrXJQrAP7zeNuwvFQg,4\r\nsenten..."
+            },
+            {
+              "name": "top_level.txt",
+              "type": "file",
+              "size": 130,
+              "ext": "txt",
+              "preview": "sentencepiece\nsentencepiece/__init__\nsentencepiece/_version\nsentencepiece/sentencepiece_model_pb2\nse..."
+            },
+            {
+              "name": "WHEEL",
+              "type": "file",
+              "size": 136,
+              "ext": "file",
+              "preview": "Wheel-Version: 1.0\nGenerator: setuptools (80.9.0)\nRoot-Is-Purelib: false\nTag: cp313-cp313-macosx_11_..."
+            }
+          ]
+        },
+        {
+          "name": "six-1.17.0.dist-info",
+          "type": "folder",
+          "children": [
+            {
+              "name": "INSTALLER",
+              "type": "file",
+              "size": 4,
+              "ext": "file"
+            },
+            {
+              "name": "LICENSE",
+              "type": "file",
+              "size": 1066,
+              "ext": "file",
+              "preview": "Copyright (c) 2010-2024 Benjamin Peterson\n\nPermission is hereby granted, free of charge, to any pers..."
+            },
+            {
+              "name": "METADATA",
+              "type": "file",
+              "size": 1658,
+              "ext": "file",
+              "preview": "Metadata-Version: 2.1\nName: six\nVersion: 1.17.0\nSummary: Python 2 and 3 compatibility utilities\nHome..."
+            },
+            {
+              "name": "RECORD",
+              "type": "file",
+              "size": 561,
+              "ext": "file",
+              "preview": "__pycache__/six.cpython-313.pyc,,\r\nsix-1.17.0.dist-info/INSTALLER,sha256=zuuue4knoyJ-UwPPXg8fezS7VCr..."
+            },
+            {
+              "name": "top_level.txt",
+              "type": "file",
+              "size": 4,
+              "ext": "txt"
+            },
+            {
+              "name": "WHEEL",
+              "type": "file",
+              "size": 109,
+              "ext": "file",
+              "preview": "Wheel-Version: 1.0\nGenerator: setuptools (75.6.0)\nRoot-Is-Purelib: true\nTag: py2-none-any\nTag: py3-n..."
+            }
+          ]
+        },
+        {
+          "name": "sse_starlette",
+          "type": "folder",
+          "children": [
+            {
+              "name": "__pycache__",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "__init__.cpython-313.pyc",
+                  "type": "file",
+                  "size": 432,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "event.cpython-313.pyc",
+                  "type": "file",
+                  "size": 4724,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "sse.cpython-313.pyc",
+                  "type": "file",
+                  "size": 18057,
+                  "ext": "pyc"
+                }
+              ]
+            },
+            {
+              "name": "__init__.py",
+              "type": "file",
+              "size": 218,
+              "ext": "py",
+              "preview": "from sse_starlette.event import ServerSentEvent, JSONServerSentEvent\nfrom sse_starlette.sse import E..."
+            },
+            {
+              "name": "event.py",
+              "type": "file",
+              "size": 2780,
+              "ext": "py"
+            },
+            {
+              "name": "py.typed",
+              "type": "file",
+              "size": 0,
+              "ext": "typed"
+            },
+            {
+              "name": "sse.py",
+              "type": "file",
+              "size": 13511,
+              "ext": "py"
+            }
+          ]
+        },
+        {
+          "name": "sse_starlette-3.2.0.dist-info",
+          "type": "folder",
+          "children": [
+            {
+              "name": "licenses",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "AUTHORS",
+                  "type": "file",
+                  "size": 395,
+                  "ext": "file",
+                  "preview": "sysid <sysid@gmx.de>\nsynodriver <diguohuangjiajinweijun@gmail.com>\nSkyler Lewis <sblnog@gmail.com>\nM..."
+                },
+                {
+                  "name": "LICENSE",
+                  "type": "file",
+                  "size": 1511,
+                  "ext": "file",
+                  "preview": "Copyright © 2020, [sysid](https://sysid.github.io/).\nAll rights reserved.\n\nRedistribution and use in..."
+                }
+              ]
+            },
+            {
+              "name": "INSTALLER",
+              "type": "file",
+              "size": 4,
+              "ext": "file"
+            },
+            {
+              "name": "METADATA",
+              "type": "file",
+              "size": 12291,
+              "ext": "file"
+            },
+            {
+              "name": "RECORD",
+              "type": "file",
+              "size": 1100,
+              "ext": "file",
+              "preview": "sse_starlette-3.2.0.dist-info/INSTALLER,sha256=zuuue4knoyJ-UwPPXg8fezS7VCrXJQrAP7zeNuwvFQg,4\r\nsse_st..."
+            },
+            {
+              "name": "top_level.txt",
+              "type": "file",
+              "size": 14,
+              "ext": "txt",
+              "preview": "sse_starlette\n"
+            },
+            {
+              "name": "WHEEL",
+              "type": "file",
+              "size": 91,
+              "ext": "file",
+              "preview": "Wheel-Version: 1.0\nGenerator: setuptools (80.9.0)\nRoot-Is-Purelib: true\nTag: py3-none-any\n\n"
+            }
+          ]
+        },
+        {
+          "name": "starlette",
+          "type": "folder",
+          "children": [
+            {
+              "name": "__pycache__",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "__init__.cpython-313.pyc",
+                  "type": "file",
+                  "size": 233,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_exception_handler.cpython-313.pyc",
+                  "type": "file",
+                  "size": 3147,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_utils.cpython-313.pyc",
+                  "type": "file",
+                  "size": 5374,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "applications.cpython-313.pyc",
+                  "type": "file",
+                  "size": 12644,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "authentication.cpython-313.pyc",
+                  "type": "file",
+                  "size": 8099,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "background.cpython-313.pyc",
+                  "type": "file",
+                  "size": 2676,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "concurrency.cpython-313.pyc",
+                  "type": "file",
+                  "size": 3280,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "config.cpython-313.pyc",
+                  "type": "file",
+                  "size": 7697,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "convertors.cpython-313.pyc",
+                  "type": "file",
+                  "size": 5019,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "datastructures.cpython-313.pyc",
+                  "type": "file",
+                  "size": 41149,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "endpoints.cpython-313.pyc",
+                  "type": "file",
+                  "size": 8110,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "exceptions.cpython-313.pyc",
+                  "type": "file",
+                  "size": 2527,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "formparsers.cpython-313.pyc",
+                  "type": "file",
+                  "size": 14582,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "requests.cpython-313.pyc",
+                  "type": "file",
+                  "size": 17139,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "responses.cpython-313.pyc",
+                  "type": "file",
+                  "size": 30687,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "routing.cpython-313.pyc",
+                  "type": "file",
+                  "size": 44764,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "schemas.cpython-313.pyc",
+                  "type": "file",
+                  "size": 7287,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "staticfiles.cpython-313.pyc",
+                  "type": "file",
+                  "size": 11741,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "status.cpython-313.pyc",
+                  "type": "file",
+                  "size": 5209,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "templating.cpython-313.pyc",
+                  "type": "file",
+                  "size": 10127,
+                  "ext": "pyc"
+                }
+              ],
+              "truncated": 3
+            },
+            {
+              "name": "middleware",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "__pycache__",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "__init__.cpython-313.pyc",
+                      "type": "file",
+                      "size": 2659,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "authentication.cpython-313.pyc",
+                      "type": "file",
+                      "size": 2975,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "base.cpython-313.pyc",
+                      "type": "file",
+                      "size": 12202,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "cors.cpython-313.pyc",
+                      "type": "file",
+                      "size": 8085,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "errors.cpython-313.pyc",
+                      "type": "file",
+                      "size": 10040,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "exceptions.cpython-313.pyc",
+                      "type": "file",
+                      "size": 4214,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "gzip.cpython-313.pyc",
+                      "type": "file",
+                      "size": 8965,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "httpsredirect.cpython-313.pyc",
+                      "type": "file",
+                      "size": 1830,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "sessions.cpython-313.pyc",
+                      "type": "file",
+                      "size": 4788,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "trustedhost.cpython-313.pyc",
+                      "type": "file",
+                      "size": 3306,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "wsgi.cpython-313.pyc",
+                      "type": "file",
+                      "size": 8776,
+                      "ext": "pyc"
+                    }
+                  ]
+                },
+                {
+                  "name": "__init__.py",
+                  "type": "file",
+                  "size": 1349,
+                  "ext": "py",
+                  "preview": "from __future__ import annotations\n\nfrom collections.abc import Awaitable, Callable, Iterator\nfrom t..."
+                },
+                {
+                  "name": "authentication.py",
+                  "type": "file",
+                  "size": 1800,
+                  "ext": "py",
+                  "preview": "from __future__ import annotations\n\nfrom collections.abc import Callable\n\nfrom starlette.authenticat..."
+                },
+                {
+                  "name": "base.py",
+                  "type": "file",
+                  "size": 10333,
+                  "ext": "py"
+                },
+                {
+                  "name": "cors.py",
+                  "type": "file",
+                  "size": 7527,
+                  "ext": "py"
+                },
+                {
+                  "name": "errors.py",
+                  "type": "file",
+                  "size": 8037,
+                  "ext": "py"
+                },
+                {
+                  "name": "exceptions.py",
+                  "type": "file",
+                  "size": 2784,
+                  "ext": "py"
+                },
+                {
+                  "name": "gzip.py",
+                  "type": "file",
+                  "size": 5899,
+                  "ext": "py"
+                },
+                {
+                  "name": "httpsredirect.py",
+                  "type": "file",
+                  "size": 848,
+                  "ext": "py",
+                  "preview": "from starlette.datastructures import URL\nfrom starlette.responses import RedirectResponse\nfrom starl..."
+                },
+                {
+                  "name": "sessions.py",
+                  "type": "file",
+                  "size": 3572,
+                  "ext": "py"
+                },
+                {
+                  "name": "trustedhost.py",
+                  "type": "file",
+                  "size": 2219,
+                  "ext": "py"
+                },
+                {
+                  "name": "wsgi.py",
+                  "type": "file",
+                  "size": 5368,
+                  "ext": "py"
+                }
+              ]
+            },
+            {
+              "name": "__init__.py",
+              "type": "file",
+              "size": 23,
+              "ext": "py",
+              "preview": "__version__ = \"0.52.1\"\n"
+            },
+            {
+              "name": "_exception_handler.py",
+              "type": "file",
+              "size": 2205,
+              "ext": "py"
+            },
+            {
+              "name": "_utils.py",
+              "type": "file",
+              "size": 2833,
+              "ext": "py"
+            },
+            {
+              "name": "applications.py",
+              "type": "file",
+              "size": 10347,
+              "ext": "py"
+            },
+            {
+              "name": "authentication.py",
+              "type": "file",
+              "size": 4750,
+              "ext": "py"
+            },
+            {
+              "name": "background.py",
+              "type": "file",
+              "size": 1122,
+              "ext": "py",
+              "preview": "from __future__ import annotations\n\nfrom collections.abc import Callable, Sequence\nfrom typing impor..."
+            },
+            {
+              "name": "concurrency.py",
+              "type": "file",
+              "size": 1630,
+              "ext": "py",
+              "preview": "from __future__ import annotations\n\nimport functools\nimport warnings\nfrom collections.abc import Asy..."
+            },
+            {
+              "name": "config.py",
+              "type": "file",
+              "size": 4426,
+              "ext": "py"
+            },
+            {
+              "name": "convertors.py",
+              "type": "file",
+              "size": 2304,
+              "ext": "py"
+            },
+            {
+              "name": "datastructures.py",
+              "type": "file",
+              "size": 22829,
+              "ext": "py"
+            },
+            {
+              "name": "endpoints.py",
+              "type": "file",
+              "size": 5099,
+              "ext": "py"
+            },
+            {
+              "name": "exceptions.py",
+              "type": "file",
+              "size": 1066,
+              "ext": "py",
+              "preview": "from __future__ import annotations\n\nimport http\nfrom collections.abc import Mapping\n\n\nclass HTTPExce..."
+            },
+            {
+              "name": "formparsers.py",
+              "type": "file",
+              "size": 11086,
+              "ext": "py"
+            },
+            {
+              "name": "py.typed",
+              "type": "file",
+              "size": 0,
+              "ext": "typed"
+            },
+            {
+              "name": "requests.py",
+              "type": "file",
+              "size": 11988,
+              "ext": "py"
+            },
+            {
+              "name": "responses.py",
+              "type": "file",
+              "size": 21431,
+              "ext": "py"
+            },
+            {
+              "name": "routing.py",
+              "type": "file",
+              "size": 34201,
+              "ext": "py"
+            },
+            {
+              "name": "schemas.py",
+              "type": "file",
+              "size": 5168,
+              "ext": "py"
+            },
+            {
+              "name": "staticfiles.py",
+              "type": "file",
+              "size": 8485,
+              "ext": "py"
+            },
+            {
+              "name": "status.py",
+              "type": "file",
+              "size": 6359,
+              "ext": "py"
+            }
+          ],
+          "truncated": 4
+        },
+        {
+          "name": "starlette-0.52.1.dist-info",
+          "type": "folder",
+          "children": [
+            {
+              "name": "licenses",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "LICENSE.md",
+                  "type": "file",
+                  "size": 1518,
+                  "ext": "md",
+                  "preview": "Copyright © 2018, [Encode OSS Ltd](https://www.encode.io/).\nAll rights reserved.\n\nRedistribution and..."
+                }
+              ]
+            },
+            {
+              "name": "INSTALLER",
+              "type": "file",
+              "size": 4,
+              "ext": "file"
+            },
+            {
+              "name": "METADATA",
+              "type": "file",
+              "size": 6318,
+              "ext": "file"
+            },
+            {
+              "name": "RECORD",
+              "type": "file",
+              "size": 5191,
+              "ext": "file"
+            },
+            {
+              "name": "WHEEL",
+              "type": "file",
+              "size": 87,
+              "ext": "file",
+              "preview": "Wheel-Version: 1.0\nGenerator: hatchling 1.28.0\nRoot-Is-Purelib: true\nTag: py3-none-any\n"
+            }
+          ]
+        },
+        {
+          "name": "tenacity",
+          "type": "folder",
+          "children": [
+            {
+              "name": "__pycache__",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "__init__.cpython-313.pyc",
+                  "type": "file",
+                  "size": 33894,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_utils.cpython-313.pyc",
+                  "type": "file",
+                  "size": 3888,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "after.cpython-313.pyc",
+                  "type": "file",
+                  "size": 1657,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "before_sleep.cpython-313.pyc",
+                  "type": "file",
+                  "size": 2346,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "before.cpython-313.pyc",
+                  "type": "file",
+                  "size": 1496,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "nap.cpython-313.pyc",
+                  "type": "file",
+                  "size": 1480,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "retry.cpython-313.pyc",
+                  "type": "file",
+                  "size": 15401,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "stop.cpython-313.pyc",
+                  "type": "file",
+                  "size": 7118,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "tornadoweb.cpython-313.pyc",
+                  "type": "file",
+                  "size": 2685,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "wait.cpython-313.pyc",
+                  "type": "file",
+                  "size": 12649,
+                  "ext": "pyc"
+                }
+              ]
+            },
+            {
+              "name": "asyncio",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "__pycache__",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "__init__.cpython-313.pyc",
+                      "type": "file",
+                      "size": 9842,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "retry.cpython-313.pyc",
+                      "type": "file",
+                      "size": 6074,
+                      "ext": "pyc"
+                    }
+                  ]
+                },
+                {
+                  "name": "__init__.py",
+                  "type": "file",
+                  "size": 7773,
+                  "ext": "py"
+                },
+                {
+                  "name": "retry.py",
+                  "type": "file",
+                  "size": 4244,
+                  "ext": "py"
+                }
+              ]
+            },
+            {
+              "name": "__init__.py",
+              "type": "file",
+              "size": 24060,
+              "ext": "py"
+            },
+            {
+              "name": "_utils.py",
+              "type": "file",
+              "size": 2916,
+              "ext": "py"
+            },
+            {
+              "name": "after.py",
+              "type": "file",
+              "size": 1658,
+              "ext": "py",
+              "preview": "# Copyright 2016 Julien Danjou\n# Copyright 2016 Joshua Harlow\n# Copyright 2013-2014 Ray Holder\n#\n# L..."
+            },
+            {
+              "name": "before_sleep.py",
+              "type": "file",
+              "size": 2362,
+              "ext": "py"
+            },
+            {
+              "name": "before.py",
+              "type": "file",
+              "size": 1544,
+              "ext": "py",
+              "preview": "# Copyright 2016 Julien Danjou\n# Copyright 2016 Joshua Harlow\n# Copyright 2013-2014 Ray Holder\n#\n# L..."
+            },
+            {
+              "name": "nap.py",
+              "type": "file",
+              "size": 1383,
+              "ext": "py",
+              "preview": "# Copyright 2016 Étienne Bersac\n# Copyright 2016 Julien Danjou\n# Copyright 2016 Joshua Harlow\n# Copy..."
+            },
+            {
+              "name": "py.typed",
+              "type": "file",
+              "size": 0,
+              "ext": "typed"
+            },
+            {
+              "name": "retry.py",
+              "type": "file",
+              "size": 9034,
+              "ext": "py"
+            },
+            {
+              "name": "stop.py",
+              "type": "file",
+              "size": 4113,
+              "ext": "py"
+            },
+            {
+              "name": "tornadoweb.py",
+              "type": "file",
+              "size": 2125,
+              "ext": "py"
+            },
+            {
+              "name": "wait.py",
+              "type": "file",
+              "size": 8049,
+              "ext": "py"
+            }
+          ]
+        },
+        {
+          "name": "tenacity-9.1.2.dist-info",
+          "type": "folder",
+          "children": [
+            {
+              "name": "licenses",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "LICENSE",
+                  "type": "file",
+                  "size": 11357,
+                  "ext": "file"
+                }
+              ]
+            },
+            {
+              "name": "INSTALLER",
+              "type": "file",
+              "size": 4,
+              "ext": "file"
+            },
+            {
+              "name": "METADATA",
+              "type": "file",
+              "size": 1172,
+              "ext": "file",
+              "preview": "Metadata-Version: 2.4\nName: tenacity\nVersion: 9.1.2\nSummary: Retry code until it succeeds\nHome-page:..."
+            },
+            {
+              "name": "RECORD",
+              "type": "file",
+              "size": 2083,
+              "ext": "file"
+            },
+            {
+              "name": "top_level.txt",
+              "type": "file",
+              "size": 9,
+              "ext": "txt"
+            },
+            {
+              "name": "WHEEL",
+              "type": "file",
+              "size": 91,
+              "ext": "file",
+              "preview": "Wheel-Version: 1.0\nGenerator: setuptools (78.1.0)\nRoot-Is-Purelib: true\nTag: py3-none-any\n\n"
+            }
+          ]
+        },
+        {
+          "name": "tiktoken",
+          "type": "folder",
+          "children": [
+            {
+              "name": "__pycache__",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "__init__.cpython-313.pyc",
+                  "type": "file",
+                  "size": 460,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_educational.cpython-313.pyc",
+                  "type": "file",
+                  "size": 10100,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "core.cpython-313.pyc",
+                  "type": "file",
+                  "size": 20942,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "load.cpython-313.pyc",
+                  "type": "file",
+                  "size": 8764,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "model.cpython-313.pyc",
+                  "type": "file",
+                  "size": 3614,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "registry.cpython-313.pyc",
+                  "type": "file",
+                  "size": 3834,
+                  "ext": "pyc"
+                }
+              ]
+            },
+            {
+              "name": "__init__.py",
+              "type": "file",
+              "size": 346,
+              "ext": "py",
+              "preview": "# This is the public API of tiktoken\nfrom .core import Encoding as Encoding\nfrom .model import encod..."
+            },
+            {
+              "name": "_educational.py",
+              "type": "file",
+              "size": 8229,
+              "ext": "py"
+            },
+            {
+              "name": "_tiktoken.cpython-313-darwin.so",
+              "type": "file",
+              "size": 2715360,
+              "ext": "so"
+            },
+            {
+              "name": "core.py",
+              "type": "file",
+              "size": 17458,
+              "ext": "py"
+            },
+            {
+              "name": "load.py",
+              "type": "file",
+              "size": 5919,
+              "ext": "py"
+            },
+            {
+              "name": "model.py",
+              "type": "file",
+              "size": 4061,
+              "ext": "py"
+            },
+            {
+              "name": "py.typed",
+              "type": "file",
+              "size": 0,
+              "ext": "typed"
+            },
+            {
+              "name": "registry.py",
+              "type": "file",
+              "size": 3256,
+              "ext": "py"
+            }
+          ]
+        },
+        {
+          "name": "tiktoken_ext",
+          "type": "folder",
+          "children": [
+            {
+              "name": "__pycache__",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "openai_public.cpython-313.pyc",
+                  "type": "file",
+                  "size": 4699,
+                  "ext": "pyc"
+                }
+              ]
+            },
+            {
+              "name": "openai_public.py",
+              "type": "file",
+              "size": 5613,
+              "ext": "py"
+            }
+          ]
+        },
+        {
+          "name": "tiktoken-0.12.0.dist-info",
+          "type": "folder",
+          "children": [
+            {
+              "name": "licenses",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "LICENSE",
+                  "type": "file",
+                  "size": 1078,
+                  "ext": "file",
+                  "preview": "MIT License\n\nCopyright (c) 2022 OpenAI, Shantanu Jain\n\nPermission is hereby granted, free of charge,..."
+                }
+              ]
+            },
+            {
+              "name": "INSTALLER",
+              "type": "file",
+              "size": 4,
+              "ext": "file"
+            },
+            {
+              "name": "METADATA",
+              "type": "file",
+              "size": 6688,
+              "ext": "file"
+            },
+            {
+              "name": "RECORD",
+              "type": "file",
+              "size": 1567,
+              "ext": "file",
+              "preview": "tiktoken-0.12.0.dist-info/INSTALLER,sha256=zuuue4knoyJ-UwPPXg8fezS7VCrXJQrAP7zeNuwvFQg,4\r\ntiktoken-0..."
+            },
+            {
+              "name": "top_level.txt",
+              "type": "file",
+              "size": 22,
+              "ext": "txt",
+              "preview": "tiktoken\ntiktoken_ext\n"
+            },
+            {
+              "name": "WHEEL",
+              "type": "file",
+              "size": 136,
+              "ext": "file",
+              "preview": "Wheel-Version: 1.0\nGenerator: setuptools (80.9.0)\nRoot-Is-Purelib: false\nTag: cp313-cp313-macosx_11_..."
+            }
+          ]
+        },
+        {
+          "name": "token_audit",
+          "type": "folder",
+          "children": [
+            {
+              "name": "__pycache__",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "__init__.cpython-313.pyc",
+                  "type": "file",
+                  "size": 6185,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "aggregation.cpython-313.pyc",
+                  "type": "file",
+                  "size": 37718,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "base_tracker.cpython-313.pyc",
+                  "type": "file",
+                  "size": 63185,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "bucket_config.cpython-313.pyc",
+                  "type": "file",
+                  "size": 15243,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "buckets.cpython-313.pyc",
+                  "type": "file",
+                  "size": 19826,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "claude_code_adapter.cpython-313.pyc",
+                  "type": "file",
+                  "size": 35706,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "cli.cpython-313.pyc",
+                  "type": "file",
+                  "size": 235300,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "codex_cli_adapter.cpython-313.pyc",
+                  "type": "file",
+                  "size": 48116,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "gemini_cli_adapter.cpython-313.pyc",
+                  "type": "file",
+                  "size": 52291,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "normalization.cpython-313.pyc",
+                  "type": "file",
+                  "size": 6602,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "pinned_config.cpython-313.pyc",
+                  "type": "file",
+                  "size": 21232,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "preferences.cpython-313.pyc",
+                  "type": "file",
+                  "size": 11607,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "pricing_api.cpython-313.pyc",
+                  "type": "file",
+                  "size": 21049,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "pricing_config.cpython-313.pyc",
+                  "type": "file",
+                  "size": 20697,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "privacy.cpython-313.pyc",
+                  "type": "file",
+                  "size": 14476,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "recommendations.cpython-313.pyc",
+                  "type": "file",
+                  "size": 20929,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "schema_analyzer.cpython-313.pyc",
+                  "type": "file",
+                  "size": 13887,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "session_manager.cpython-313.pyc",
+                  "type": "file",
+                  "size": 35684,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "smell_aggregator.cpython-313.pyc",
+                  "type": "file",
+                  "size": 16996,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "smells.cpython-313.pyc",
+                  "type": "file",
+                  "size": 36144,
+                  "ext": "pyc"
+                }
+              ],
+              "truncated": 4
+            },
+            {
+              "name": "config_analyzer",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "__pycache__",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "__init__.cpython-313.pyc",
+                      "type": "file",
+                      "size": 1247,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "analyzer.cpython-313.pyc",
+                      "type": "file",
+                      "size": 6605,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "credential_detector.cpython-313.pyc",
+                      "type": "file",
+                      "size": 7112,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "discovery.cpython-313.pyc",
+                      "type": "file",
+                      "size": 4972,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "parsers.cpython-313.pyc",
+                      "type": "file",
+                      "size": 8102,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "pinned_servers.cpython-313.pyc",
+                      "type": "file",
+                      "size": 21893,
+                      "ext": "pyc"
+                    }
+                  ]
+                },
+                {
+                  "name": "__init__.py",
+                  "type": "file",
+                  "size": 1309,
+                  "ext": "py",
+                  "preview": "\"\"\"\nConfig analyzer module for MCP configuration analysis.\n\nProvides multi-platform MCP config disco..."
+                },
+                {
+                  "name": "analyzer.py",
+                  "type": "file",
+                  "size": 6572,
+                  "ext": "py"
+                },
+                {
+                  "name": "credential_detector.py",
+                  "type": "file",
+                  "size": 5087,
+                  "ext": "py"
+                },
+                {
+                  "name": "discovery.py",
+                  "type": "file",
+                  "size": 4228,
+                  "ext": "py"
+                },
+                {
+                  "name": "parsers.py",
+                  "type": "file",
+                  "size": 5986,
+                  "ext": "py"
+                },
+                {
+                  "name": "pinned_servers.py",
+                  "type": "file",
+                  "size": 23699,
+                  "ext": "py"
+                }
+              ]
+            },
+            {
+              "name": "display",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "__pycache__",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "__init__.cpython-313.pyc",
+                      "type": "file",
+                      "size": 3399,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "ascii_mode.cpython-313.pyc",
+                      "type": "file",
+                      "size": 5680,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "base.cpython-313.pyc",
+                      "type": "file",
+                      "size": 3428,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "keyboard.cpython-313.pyc",
+                      "type": "file",
+                      "size": 4998,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "modals.cpython-313.pyc",
+                      "type": "file",
+                      "size": 22458,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "null_display.cpython-313.pyc",
+                      "type": "file",
+                      "size": 1652,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "plain_display.cpython-313.pyc",
+                      "type": "file",
+                      "size": 5107,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "rich_display.cpython-313.pyc",
+                      "type": "file",
+                      "size": 57227,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "session_browser.cpython-313.pyc",
+                      "type": "file",
+                      "size": 306624,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "snapshot.cpython-313.pyc",
+                      "type": "file",
+                      "size": 7940,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "theme_detect.cpython-313.pyc",
+                      "type": "file",
+                      "size": 4953,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "themes.cpython-313.pyc",
+                      "type": "file",
+                      "size": 18688,
+                      "ext": "pyc"
+                    }
+                  ]
+                },
+                {
+                  "name": "__init__.py",
+                  "type": "file",
+                  "size": 3244,
+                  "ext": "py"
+                },
+                {
+                  "name": "ascii_mode.py",
+                  "type": "file",
+                  "size": 4769,
+                  "ext": "py"
+                },
+                {
+                  "name": "base.py",
+                  "type": "file",
+                  "size": 2595,
+                  "ext": "py"
+                },
+                {
+                  "name": "keyboard.py",
+                  "type": "file",
+                  "size": 4414,
+                  "ext": "py"
+                },
+                {
+                  "name": "modals.py",
+                  "type": "file",
+                  "size": 17468,
+                  "ext": "py"
+                },
+                {
+                  "name": "null_display.py",
+                  "type": "file",
+                  "size": 853,
+                  "ext": "py",
+                  "preview": "\"\"\"\nNullDisplay - Silent display for --quiet mode and scripting.\n\nThis adapter produces no output, u..."
+                },
+                {
+                  "name": "plain_display.py",
+                  "type": "file",
+                  "size": 3384,
+                  "ext": "py"
+                },
+                {
+                  "name": "rich_display.py",
+                  "type": "file",
+                  "size": 52503,
+                  "ext": "py"
+                },
+                {
+                  "name": "session_browser.py",
+                  "type": "file",
+                  "size": 267277,
+                  "ext": "py"
+                },
+                {
+                  "name": "snapshot.py",
+                  "type": "file",
+                  "size": 12480,
+                  "ext": "py"
+                },
+                {
+                  "name": "theme_detect.py",
+                  "type": "file",
+                  "size": 4421,
+                  "ext": "py"
+                },
+                {
+                  "name": "themes.py",
+                  "type": "file",
+                  "size": 11399,
+                  "ext": "py"
+                }
+              ]
+            },
+            {
+              "name": "guidance",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "__pycache__",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "__init__.cpython-313.pyc",
+                      "type": "file",
+                      "size": 566,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "exporter.cpython-313.pyc",
+                      "type": "file",
+                      "size": 3991,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "loader.cpython-313.pyc",
+                      "type": "file",
+                      "size": 10804,
+                      "ext": "pyc"
+                    }
+                  ]
+                },
+                {
+                  "name": "best_practices",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "_index.yaml",
+                      "type": "file",
+                      "size": 993,
+                      "ext": "yaml",
+                      "preview": "version: \"1.0.0\"\npatterns:\n  - id: progressive_disclosure\n    file: progressive_disclosure.md\n    se..."
+                    },
+                    {
+                      "name": "async_operations.md",
+                      "type": "file",
+                      "size": 3985,
+                      "ext": "md"
+                    },
+                    {
+                      "name": "caching_strategy.md",
+                      "type": "file",
+                      "size": 2650,
+                      "ext": "md"
+                    },
+                    {
+                      "name": "error_handling.md",
+                      "type": "file",
+                      "size": 4043,
+                      "ext": "md"
+                    },
+                    {
+                      "name": "large_results.md",
+                      "type": "file",
+                      "size": 3033,
+                      "ext": "md"
+                    },
+                    {
+                      "name": "progressive_disclosure.md",
+                      "type": "file",
+                      "size": 2183,
+                      "ext": "md"
+                    },
+                    {
+                      "name": "schema_versioning.md",
+                      "type": "file",
+                      "size": 2562,
+                      "ext": "md"
+                    },
+                    {
+                      "name": "security.md",
+                      "type": "file",
+                      "size": 2271,
+                      "ext": "md"
+                    },
+                    {
+                      "name": "statelessness.md",
+                      "type": "file",
+                      "size": 3484,
+                      "ext": "md"
+                    },
+                    {
+                      "name": "tool_count_limits.md",
+                      "type": "file",
+                      "size": 3456,
+                      "ext": "md"
+                    },
+                    {
+                      "name": "tool_design.md",
+                      "type": "file",
+                      "size": 2960,
+                      "ext": "md"
+                    }
+                  ]
+                },
+                {
+                  "name": "__init__.py",
+                  "type": "file",
+                  "size": 339,
+                  "ext": "py",
+                  "preview": "\"\"\"\nGuidance module for MCP best practices.\n\nProvides structured access to best practice patterns wi..."
+                },
+                {
+                  "name": "exporter.py",
+                  "type": "file",
+                  "size": 2946,
+                  "ext": "py"
+                },
+                {
+                  "name": "loader.py",
+                  "type": "file",
+                  "size": 8127,
+                  "ext": "py"
+                }
+              ]
+            },
+            {
+              "name": "schema",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "session-v1.7.0.json",
+                  "type": "file",
+                  "size": 17262,
+                  "ext": "json"
+                }
+              ]
+            },
+            {
+              "name": "server",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "__pycache__",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "__init__.cpython-313.pyc",
+                      "type": "file",
+                      "size": 875,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "live_tracker.cpython-313.pyc",
+                      "type": "file",
+                      "size": 19776,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "main.cpython-313.pyc",
+                      "type": "file",
+                      "size": 47958,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "schemas.cpython-313.pyc",
+                      "type": "file",
+                      "size": 50407,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "security.cpython-313.pyc",
+                      "type": "file",
+                      "size": 7394,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "tools.cpython-313.pyc",
+                      "type": "file",
+                      "size": 89029,
+                      "ext": "pyc"
+                    }
+                  ]
+                },
+                {
+                  "name": "__init__.py",
+                  "type": "file",
+                  "size": 657,
+                  "ext": "py",
+                  "preview": "\"\"\"\nMCP Server mode for token-audit.\n\nThis module provides an MCP (Model Context Protocol) server th..."
+                },
+                {
+                  "name": "__main__.py",
+                  "type": "file",
+                  "size": 127,
+                  "ext": "py",
+                  "preview": "\"\"\"Entry point for python -m token_audit.server.\"\"\"\n\nfrom .main import run_server\n\nif __name__ == \"_..."
+                },
+                {
+                  "name": "live_tracker.py",
+                  "type": "file",
+                  "size": 18691,
+                  "ext": "py"
+                },
+                {
+                  "name": "main.py",
+                  "type": "file",
+                  "size": 40793,
+                  "ext": "py"
+                },
+                {
+                  "name": "schemas.py",
+                  "type": "file",
+                  "size": 40174,
+                  "ext": "py"
+                },
+                {
+                  "name": "security.py",
+                  "type": "file",
+                  "size": 6195,
+                  "ext": "py"
+                },
+                {
+                  "name": "tools.py",
+                  "type": "file",
+                  "size": 97072,
+                  "ext": "py"
+                }
+              ]
+            },
+            {
+              "name": "tokenizers",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "NOTICE",
+                  "type": "file",
+                  "size": 789,
+                  "ext": "file",
+                  "preview": "Gemma Tokenizer Notice\n======================\n\nThis directory contains the Gemma tokenizer model fil..."
+                }
+              ]
+            },
+            {
+              "name": "__init__.py",
+              "type": "file",
+              "size": 8768,
+              "ext": "py"
+            },
+            {
+              "name": "aggregation.py",
+              "type": "file",
+              "size": 35418,
+              "ext": "py"
+            },
+            {
+              "name": "base_tracker.py",
+              "type": "file",
+              "size": 63745,
+              "ext": "py"
+            },
+            {
+              "name": "bucket_config.py",
+              "type": "file",
+              "size": 14756,
+              "ext": "py"
+            },
+            {
+              "name": "buckets.py",
+              "type": "file",
+              "size": 20235,
+              "ext": "py"
+            },
+            {
+              "name": "claude_code_adapter.py",
+              "type": "file",
+              "size": 38824,
+              "ext": "py"
+            },
+            {
+              "name": "cli.py",
+              "type": "file",
+              "size": 221501,
+              "ext": "py"
+            },
+            {
+              "name": "codex_cli_adapter.py",
+              "type": "file",
+              "size": 50844,
+              "ext": "py"
+            },
+            {
+              "name": "gemini_cli_adapter.py",
+              "type": "file",
+              "size": 55972,
+              "ext": "py"
+            },
+            {
+              "name": "normalization.py",
+              "type": "file",
+              "size": 6308,
+              "ext": "py"
+            },
+            {
+              "name": "pinned_config.py",
+              "type": "file",
+              "size": 17925,
+              "ext": "py"
+            },
+            {
+              "name": "preferences.py",
+              "type": "file",
+              "size": 8026,
+              "ext": "py"
+            },
+            {
+              "name": "pricing_api.py",
+              "type": "file",
+              "size": 17041,
+              "ext": "py"
+            },
+            {
+              "name": "pricing_config.py",
+              "type": "file",
+              "size": 21386,
+              "ext": "py"
+            },
+            {
+              "name": "privacy.py",
+              "type": "file",
+              "size": 13266,
+              "ext": "py"
+            },
+            {
+              "name": "py.typed",
+              "type": "file",
+              "size": 0,
+              "ext": "typed"
+            },
+            {
+              "name": "recommendations.py",
+              "type": "file",
+              "size": 21471,
+              "ext": "py"
+            },
+            {
+              "name": "schema_analyzer.py",
+              "type": "file",
+              "size": 14457,
+              "ext": "py"
+            },
+            {
+              "name": "session_manager.py",
+              "type": "file",
+              "size": 35558,
+              "ext": "py"
+            },
+            {
+              "name": "smell_aggregator.py",
+              "type": "file",
+              "size": 16068,
+              "ext": "py"
+            }
+          ],
+          "truncated": 5
+        },
+        {
+          "name": "token_audit-1.0.7.dist-info",
+          "type": "folder",
+          "children": [
+            {
+              "name": "licenses",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "LICENSE",
+                  "type": "file",
+                  "size": 3318,
+                  "ext": "file"
+                }
+              ]
+            },
+            {
+              "name": "entry_points.txt",
+              "type": "file",
+              "size": 109,
+              "ext": "txt",
+              "preview": "[console_scripts]\ntoken-audit = token_audit.cli:main\ntoken-audit-server = token_audit.server.main:ru..."
+            },
+            {
+              "name": "INSTALLER",
+              "type": "file",
+              "size": 4,
+              "ext": "file"
+            },
+            {
+              "name": "METADATA",
+              "type": "file",
+              "size": 23095,
+              "ext": "file"
+            },
+            {
+              "name": "RECORD",
+              "type": "file",
+              "size": 9928,
+              "ext": "file"
+            },
+            {
+              "name": "REQUESTED",
+              "type": "file",
+              "size": 0,
+              "ext": "file"
+            },
+            {
+              "name": "top_level.txt",
+              "type": "file",
+              "size": 12,
+              "ext": "txt",
+              "preview": "token_audit\n"
+            },
+            {
+              "name": "WHEEL",
+              "type": "file",
+              "size": 91,
+              "ext": "file",
+              "preview": "Wheel-Version: 1.0\nGenerator: setuptools (80.9.0)\nRoot-Is-Purelib: true\nTag: py3-none-any\n\n"
+            }
+          ]
+        },
+        {
+          "name": "toml",
+          "type": "folder",
+          "children": [
+            {
+              "name": "__pycache__",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "__init__.cpython-313.pyc",
+                  "type": "file",
+                  "size": 1097,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "decoder.cpython-313.pyc",
+                  "type": "file",
+                  "size": 42253,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "encoder.cpython-313.pyc",
+                  "type": "file",
+                  "size": 15078,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "ordered.cpython-313.pyc",
+                  "type": "file",
+                  "size": 1206,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "tz.cpython-313.pyc",
+                  "type": "file",
+                  "size": 1820,
+                  "ext": "pyc"
+                }
+              ]
+            },
+            {
+              "name": "__init__.py",
+              "type": "file",
+              "size": 723,
+              "ext": "py",
+              "preview": "\"\"\"Python module which parses and emits TOML.\n\nReleased under the MIT license.\n\"\"\"\n\nfrom toml import..."
+            },
+            {
+              "name": "decoder.py",
+              "type": "file",
+              "size": 38942,
+              "ext": "py"
+            },
+            {
+              "name": "encoder.py",
+              "type": "file",
+              "size": 9940,
+              "ext": "py"
+            },
+            {
+              "name": "ordered.py",
+              "type": "file",
+              "size": 354,
+              "ext": "py",
+              "preview": "from collections import OrderedDict\nfrom toml import TomlEncoder\nfrom toml import TomlDecoder\n\n\nclas..."
+            },
+            {
+              "name": "tz.py",
+              "type": "file",
+              "size": 701,
+              "ext": "py",
+              "preview": "from datetime import tzinfo, timedelta\n\n\nclass TomlTz(tzinfo):\n    def __init__(self, toml_offset):\n..."
+            }
+          ]
+        },
+        {
+          "name": "toml-0.10.2.dist-info",
+          "type": "folder",
+          "children": [
+            {
+              "name": "INSTALLER",
+              "type": "file",
+              "size": 4,
+              "ext": "file"
+            },
+            {
+              "name": "LICENSE",
+              "type": "file",
+              "size": 1252,
+              "ext": "file",
+              "preview": "The MIT License\n\nCopyright 2013-2019 William Pearson\nCopyright 2015-2016 Julien Enselme\nCopyright 20..."
+            },
+            {
+              "name": "METADATA",
+              "type": "file",
+              "size": 7142,
+              "ext": "file"
+            },
+            {
+              "name": "RECORD",
+              "type": "file",
+              "size": 1042,
+              "ext": "file",
+              "preview": "toml-0.10.2.dist-info/INSTALLER,sha256=zuuue4knoyJ-UwPPXg8fezS7VCrXJQrAP7zeNuwvFQg,4\r\ntoml-0.10.2.di..."
+            },
+            {
+              "name": "top_level.txt",
+              "type": "file",
+              "size": 5,
+              "ext": "txt"
+            },
+            {
+              "name": "WHEEL",
+              "type": "file",
+              "size": 110,
+              "ext": "file",
+              "preview": "Wheel-Version: 1.0\nGenerator: bdist_wheel (0.35.1)\nRoot-Is-Purelib: true\nTag: py2-none-any\nTag: py3-..."
+            }
+          ]
+        },
+        {
+          "name": "types_pyyaml-6.0.12.20250915.dist-info",
+          "type": "folder",
+          "children": [
+            {
+              "name": "licenses",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "LICENSE",
+                  "type": "file",
+                  "size": 12657,
+                  "ext": "file"
+                }
+              ]
+            },
+            {
+              "name": "INSTALLER",
+              "type": "file",
+              "size": 4,
+              "ext": "file"
+            },
+            {
+              "name": "METADATA",
+              "type": "file",
+              "size": 1715,
+              "ext": "file",
+              "preview": "Metadata-Version: 2.4\nName: types-PyYAML\nVersion: 6.0.12.20250915\nSummary: Typing stubs for PyYAML\nL..."
+            },
+            {
+              "name": "RECORD",
+              "type": "file",
+              "size": 2170,
+              "ext": "file"
+            },
+            {
+              "name": "top_level.txt",
+              "type": "file",
+              "size": 11,
+              "ext": "txt",
+              "preview": "yaml-stubs\n"
+            },
+            {
+              "name": "WHEEL",
+              "type": "file",
+              "size": 91,
+              "ext": "file",
+              "preview": "Wheel-Version: 1.0\nGenerator: setuptools (80.9.0)\nRoot-Is-Purelib: true\nTag: py3-none-any\n\n"
+            }
+          ]
+        },
+        {
+          "name": "typing_extensions-4.15.0.dist-info",
+          "type": "folder",
+          "children": [
+            {
+              "name": "licenses",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "LICENSE",
+                  "type": "file",
+                  "size": 13936,
+                  "ext": "file"
+                }
+              ]
+            },
+            {
+              "name": "INSTALLER",
+              "type": "file",
+              "size": 4,
+              "ext": "file"
+            },
+            {
+              "name": "METADATA",
+              "type": "file",
+              "size": 3259,
+              "ext": "file"
+            },
+            {
+              "name": "RECORD",
+              "type": "file",
+              "size": 580,
+              "ext": "file",
+              "preview": "__pycache__/typing_extensions.cpython-313.pyc,,\r\ntyping_extensions-4.15.0.dist-info/INSTALLER,sha256..."
+            },
+            {
+              "name": "WHEEL",
+              "type": "file",
+              "size": 82,
+              "ext": "file",
+              "preview": "Wheel-Version: 1.0\nGenerator: flit 3.12.0\nRoot-Is-Purelib: true\nTag: py3-none-any\n"
+            }
+          ]
+        },
+        {
+          "name": "typing_inspection",
+          "type": "folder",
+          "children": [
+            {
+              "name": "__pycache__",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "__init__.cpython-313.pyc",
+                  "type": "file",
+                  "size": 214,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "introspection.cpython-313.pyc",
+                  "type": "file",
+                  "size": 17707,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "typing_objects.cpython-313.pyc",
+                  "type": "file",
+                  "size": 17438,
+                  "ext": "pyc"
+                }
+              ]
+            },
+            {
+              "name": "__init__.py",
+              "type": "file",
+              "size": 0,
+              "ext": "py"
+            },
+            {
+              "name": "introspection.py",
+              "type": "file",
+              "size": 22534,
+              "ext": "py"
+            },
+            {
+              "name": "py.typed",
+              "type": "file",
+              "size": 0,
+              "ext": "typed"
+            },
+            {
+              "name": "typing_objects.py",
+              "type": "file",
+              "size": 17166,
+              "ext": "py"
+            },
+            {
+              "name": "typing_objects.pyi",
+              "type": "file",
+              "size": 9401,
+              "ext": "pyi"
+            }
+          ]
+        },
+        {
+          "name": "typing_inspection-0.4.2.dist-info",
+          "type": "folder",
+          "children": [
+            {
+              "name": "licenses",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "LICENSE",
+                  "type": "file",
+                  "size": 1090,
+                  "ext": "file",
+                  "preview": "MIT License\n\nCopyright (c) Pydantic Services Inc. 2025 to present\n\nPermission is hereby granted, fre..."
+                }
+              ]
+            },
+            {
+              "name": "INSTALLER",
+              "type": "file",
+              "size": 4,
+              "ext": "file"
+            },
+            {
+              "name": "METADATA",
+              "type": "file",
+              "size": 2552,
+              "ext": "file"
+            },
+            {
+              "name": "RECORD",
+              "type": "file",
+              "size": 1076,
+              "ext": "file",
+              "preview": "typing_inspection-0.4.2.dist-info/INSTALLER,sha256=zuuue4knoyJ-UwPPXg8fezS7VCrXJQrAP7zeNuwvFQg,4\r\nty..."
+            },
+            {
+              "name": "WHEEL",
+              "type": "file",
+              "size": 87,
+              "ext": "file",
+              "preview": "Wheel-Version: 1.0\nGenerator: hatchling 1.27.0\nRoot-Is-Purelib: true\nTag: py3-none-any\n"
+            }
+          ]
+        },
+        {
+          "name": "urllib3",
+          "type": "folder",
+          "children": [
+            {
+              "name": "__pycache__",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "__init__.cpython-313.pyc",
+                  "type": "file",
+                  "size": 7145,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_base_connection.cpython-313.pyc",
+                  "type": "file",
+                  "size": 6988,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_collections.cpython-313.pyc",
+                  "type": "file",
+                  "size": 23164,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_request_methods.cpython-313.pyc",
+                  "type": "file",
+                  "size": 9982,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_version.cpython-313.pyc",
+                  "type": "file",
+                  "size": 822,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "connection.cpython-313.pyc",
+                  "type": "file",
+                  "size": 39332,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "connectionpool.cpython-313.pyc",
+                  "type": "file",
+                  "size": 39141,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "exceptions.cpython-313.pyc",
+                  "type": "file",
+                  "size": 17443,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "fields.cpython-313.pyc",
+                  "type": "file",
+                  "size": 11628,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "filepost.cpython-313.pyc",
+                  "type": "file",
+                  "size": 3517,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "poolmanager.cpython-313.pyc",
+                  "type": "file",
+                  "size": 23943,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "response.cpython-313.pyc",
+                  "type": "file",
+                  "size": 58644,
+                  "ext": "pyc"
+                }
+              ]
+            },
+            {
+              "name": "contrib",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "__pycache__",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "__init__.cpython-313.pyc",
+                      "type": "file",
+                      "size": 212,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "pyopenssl.cpython-313.pyc",
+                      "type": "file",
+                      "size": 28602,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "socks.cpython-313.pyc",
+                      "type": "file",
+                      "size": 8431,
+                      "ext": "pyc"
+                    }
+                  ]
+                },
+                {
+                  "name": "emscripten",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "__pycache__",
+                      "type": "folder",
+                      "children": [
+                        {
+                          "name": "__init__.cpython-313.pyc",
+                          "type": "file",
+                          "size": 1011,
+                          "ext": "pyc"
+                        },
+                        {
+                          "name": "connection.cpython-313.pyc",
+                          "type": "file",
+                          "size": 10679,
+                          "ext": "pyc"
+                        },
+                        {
+                          "name": "fetch.cpython-313.pyc",
+                          "type": "file",
+                          "size": 29190,
+                          "ext": "pyc"
+                        },
+                        {
+                          "name": "request.cpython-313.pyc",
+                          "type": "file",
+                          "size": 1488,
+                          "ext": "pyc"
+                        },
+                        {
+                          "name": "response.cpython-313.pyc",
+                          "type": "file",
+                          "size": 12390,
+                          "ext": "pyc"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "__init__.py",
+                      "type": "file",
+                      "size": 836,
+                      "ext": "py",
+                      "preview": "from __future__ import annotations\n\nimport urllib3.connection\n\nfrom ...connectionpool import HTTPCon..."
+                    },
+                    {
+                      "name": "connection.py",
+                      "type": "file",
+                      "size": 8960,
+                      "ext": "py"
+                    },
+                    {
+                      "name": "emscripten_fetch_worker.js",
+                      "type": "file",
+                      "size": 3677,
+                      "ext": "js"
+                    },
+                    {
+                      "name": "fetch.py",
+                      "type": "file",
+                      "size": 23520,
+                      "ext": "py"
+                    },
+                    {
+                      "name": "request.py",
+                      "type": "file",
+                      "size": 566,
+                      "ext": "py",
+                      "preview": "from __future__ import annotations\n\nfrom dataclasses import dataclass, field\n\nfrom ..._base_connecti..."
+                    },
+                    {
+                      "name": "response.py",
+                      "type": "file",
+                      "size": 9507,
+                      "ext": "py"
+                    }
+                  ]
+                },
+                {
+                  "name": "__init__.py",
+                  "type": "file",
+                  "size": 0,
+                  "ext": "py"
+                },
+                {
+                  "name": "pyopenssl.py",
+                  "type": "file",
+                  "size": 19724,
+                  "ext": "py"
+                },
+                {
+                  "name": "socks.py",
+                  "type": "file",
+                  "size": 7547,
+                  "ext": "py"
+                }
+              ]
+            },
+            {
+              "name": "http2",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "__pycache__",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "__init__.cpython-313.pyc",
+                      "type": "file",
+                      "size": 1774,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "connection.cpython-313.pyc",
+                      "type": "file",
+                      "size": 17451,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "probe.cpython-313.pyc",
+                      "type": "file",
+                      "size": 3809,
+                      "ext": "pyc"
+                    }
+                  ]
+                },
+                {
+                  "name": "__init__.py",
+                  "type": "file",
+                  "size": 1741,
+                  "ext": "py",
+                  "preview": "from __future__ import annotations\n\nfrom importlib.metadata import version\n\n__all__ = [\n    \"inject_..."
+                },
+                {
+                  "name": "connection.py",
+                  "type": "file",
+                  "size": 12578,
+                  "ext": "py"
+                },
+                {
+                  "name": "probe.py",
+                  "type": "file",
+                  "size": 3014,
+                  "ext": "py"
+                }
+              ]
+            },
+            {
+              "name": "util",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "__pycache__",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "__init__.cpython-313.pyc",
+                      "type": "file",
+                      "size": 1025,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "connection.cpython-313.pyc",
+                      "type": "file",
+                      "size": 4755,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "proxy.cpython-313.pyc",
+                      "type": "file",
+                      "size": 1245,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "request.cpython-313.pyc",
+                      "type": "file",
+                      "size": 8425,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "response.cpython-313.pyc",
+                      "type": "file",
+                      "size": 2924,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "retry.cpython-313.pyc",
+                      "type": "file",
+                      "size": 20815,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "ssl_.cpython-313.pyc",
+                      "type": "file",
+                      "size": 17393,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "ssl_match_hostname.cpython-313.pyc",
+                      "type": "file",
+                      "size": 5751,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "ssltransport.cpython-313.pyc",
+                      "type": "file",
+                      "size": 13466,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "timeout.cpython-313.pyc",
+                      "type": "file",
+                      "size": 11318,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "url.cpython-313.pyc",
+                      "type": "file",
+                      "size": 16310,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "util.cpython-313.pyc",
+                      "type": "file",
+                      "size": 2148,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "wait.cpython-313.pyc",
+                      "type": "file",
+                      "size": 3572,
+                      "ext": "pyc"
+                    }
+                  ]
+                },
+                {
+                  "name": "__init__.py",
+                  "type": "file",
+                  "size": 1001,
+                  "ext": "py",
+                  "preview": "# For backwards compatibility, provide imports that used to be here.\nfrom __future__ import annotati..."
+                },
+                {
+                  "name": "connection.py",
+                  "type": "file",
+                  "size": 4444,
+                  "ext": "py"
+                },
+                {
+                  "name": "proxy.py",
+                  "type": "file",
+                  "size": 1148,
+                  "ext": "py",
+                  "preview": "from __future__ import annotations\n\nimport typing\n\nfrom .url import Url\n\nif typing.TYPE_CHECKING:\n  ..."
+                },
+                {
+                  "name": "request.py",
+                  "type": "file",
+                  "size": 8363,
+                  "ext": "py"
+                },
+                {
+                  "name": "response.py",
+                  "type": "file",
+                  "size": 3374,
+                  "ext": "py"
+                },
+                {
+                  "name": "retry.py",
+                  "type": "file",
+                  "size": 19235,
+                  "ext": "py"
+                },
+                {
+                  "name": "ssl_.py",
+                  "type": "file",
+                  "size": 19929,
+                  "ext": "py"
+                },
+                {
+                  "name": "ssl_match_hostname.py",
+                  "type": "file",
+                  "size": 5845,
+                  "ext": "py"
+                },
+                {
+                  "name": "ssltransport.py",
+                  "type": "file",
+                  "size": 8847,
+                  "ext": "py"
+                },
+                {
+                  "name": "timeout.py",
+                  "type": "file",
+                  "size": 10346,
+                  "ext": "py"
+                },
+                {
+                  "name": "url.py",
+                  "type": "file",
+                  "size": 15205,
+                  "ext": "py"
+                },
+                {
+                  "name": "util.py",
+                  "type": "file",
+                  "size": 1146,
+                  "ext": "py",
+                  "preview": "from __future__ import annotations\n\nimport typing\nfrom types import TracebackType\n\n\ndef to_bytes(\n  ..."
+                },
+                {
+                  "name": "wait.py",
+                  "type": "file",
+                  "size": 4423,
+                  "ext": "py"
+                }
+              ]
+            },
+            {
+              "name": "__init__.py",
+              "type": "file",
+              "size": 6979,
+              "ext": "py"
+            },
+            {
+              "name": "_base_connection.py",
+              "type": "file",
+              "size": 5568,
+              "ext": "py"
+            },
+            {
+              "name": "_collections.py",
+              "type": "file",
+              "size": 17595,
+              "ext": "py"
+            },
+            {
+              "name": "_request_methods.py",
+              "type": "file",
+              "size": 9931,
+              "ext": "py"
+            },
+            {
+              "name": "_version.py",
+              "type": "file",
+              "size": 704,
+              "ext": "py",
+              "preview": "# file generated by setuptools-scm\n# don't change, don't track in version control\n\n__all__ = [\n    \"..."
+            },
+            {
+              "name": "connection.py",
+              "type": "file",
+              "size": 42800,
+              "ext": "py"
+            },
+            {
+              "name": "connectionpool.py",
+              "type": "file",
+              "size": 43371,
+              "ext": "py"
+            },
+            {
+              "name": "exceptions.py",
+              "type": "file",
+              "size": 9952,
+              "ext": "py"
+            },
+            {
+              "name": "fields.py",
+              "type": "file",
+              "size": 10829,
+              "ext": "py"
+            },
+            {
+              "name": "filepost.py",
+              "type": "file",
+              "size": 2388,
+              "ext": "py"
+            },
+            {
+              "name": "poolmanager.py",
+              "type": "file",
+              "size": 23811,
+              "ext": "py"
+            },
+            {
+              "name": "py.typed",
+              "type": "file",
+              "size": 93,
+              "ext": "typed"
+            },
+            {
+              "name": "response.py",
+              "type": "file",
+              "size": 52931,
+              "ext": "py"
+            }
+          ]
+        },
+        {
+          "name": "urllib3-2.6.3.dist-info",
+          "type": "folder",
+          "children": [
+            {
+              "name": "licenses",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "LICENSE.txt",
+                  "type": "file",
+                  "size": 1093,
+                  "ext": "txt",
+                  "preview": "MIT License\n\nCopyright (c) 2008-2020 Andrey Petrov and contributors.\n\nPermission is hereby granted, ..."
+                }
+              ]
+            },
+            {
+              "name": "INSTALLER",
+              "type": "file",
+              "size": 4,
+              "ext": "file"
+            },
+            {
+              "name": "METADATA",
+              "type": "file",
+              "size": 6901,
+              "ext": "file"
+            },
+            {
+              "name": "RECORD",
+              "type": "file",
+              "size": 5527,
+              "ext": "file"
+            },
+            {
+              "name": "WHEEL",
+              "type": "file",
+              "size": 87,
+              "ext": "file",
+              "preview": "Wheel-Version: 1.0\nGenerator: hatchling 1.28.0\nRoot-Is-Purelib: true\nTag: py3-none-any\n"
+            }
+          ]
+        },
+        {
+          "name": "uvicorn",
+          "type": "folder",
+          "children": [
+            {
+              "name": "__pycache__",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "__init__.cpython-313.pyc",
+                  "type": "file",
+                  "size": 402,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "__main__.cpython-313.pyc",
+                  "type": "file",
+                  "size": 322,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_compat.cpython-313.pyc",
+                  "type": "file",
+                  "size": 4126,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_subprocess.cpython-313.pyc",
+                  "type": "file",
+                  "size": 2891,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "_types.cpython-313.pyc",
+                  "type": "file",
+                  "size": 11992,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "config.cpython-313.pyc",
+                  "type": "file",
+                  "size": 26819,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "importer.cpython-313.pyc",
+                  "type": "file",
+                  "size": 1867,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "logging.cpython-313.pyc",
+                  "type": "file",
+                  "size": 7697,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "main.cpython-313.pyc",
+                  "type": "file",
+                  "size": 20796,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "server.cpython-313.pyc",
+                  "type": "file",
+                  "size": 17124,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "workers.cpython-313.pyc",
+                  "type": "file",
+                  "size": 6682,
+                  "ext": "pyc"
+                }
+              ]
+            },
+            {
+              "name": "lifespan",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "__pycache__",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "__init__.cpython-313.pyc",
+                      "type": "file",
+                      "size": 213,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "off.cpython-313.pyc",
+                      "type": "file",
+                      "size": 1065,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "on.cpython-313.pyc",
+                      "type": "file",
+                      "size": 8321,
+                      "ext": "pyc"
+                    }
+                  ]
+                },
+                {
+                  "name": "__init__.py",
+                  "type": "file",
+                  "size": 0,
+                  "ext": "py"
+                },
+                {
+                  "name": "off.py",
+                  "type": "file",
+                  "size": 332,
+                  "ext": "py",
+                  "preview": "from __future__ import annotations\n\nfrom typing import Any\n\nfrom uvicorn import Config\n\n\nclass Lifes..."
+                },
+                {
+                  "name": "on.py",
+                  "type": "file",
+                  "size": 5168,
+                  "ext": "py"
+                }
+              ]
+            },
+            {
+              "name": "loops",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "__pycache__",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "__init__.cpython-313.pyc",
+                      "type": "file",
+                      "size": 210,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "asyncio.cpython-313.pyc",
+                      "type": "file",
+                      "size": 758,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "auto.cpython-313.pyc",
+                      "type": "file",
+                      "size": 836,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "uvloop.cpython-313.pyc",
+                      "type": "file",
+                      "size": 603,
+                      "ext": "pyc"
+                    }
+                  ]
+                },
+                {
+                  "name": "__init__.py",
+                  "type": "file",
+                  "size": 0,
+                  "ext": "py"
+                },
+                {
+                  "name": "asyncio.py",
+                  "type": "file",
+                  "size": 333,
+                  "ext": "py",
+                  "preview": "from __future__ import annotations\n\nimport asyncio\nimport sys\nfrom collections.abc import Callable\n\n..."
+                },
+                {
+                  "name": "auto.py",
+                  "type": "file",
+                  "size": 566,
+                  "ext": "py",
+                  "preview": "from __future__ import annotations\n\nimport asyncio\nfrom collections.abc import Callable\n\n\ndef auto_l..."
+                },
+                {
+                  "name": "uvloop.py",
+                  "type": "file",
+                  "size": 236,
+                  "ext": "py",
+                  "preview": "from __future__ import annotations\n\nimport asyncio\nfrom collections.abc import Callable\n\nimport uvlo..."
+                }
+              ]
+            },
+            {
+              "name": "middleware",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "__pycache__",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "__init__.cpython-313.pyc",
+                      "type": "file",
+                      "size": 215,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "asgi2.cpython-313.pyc",
+                      "type": "file",
+                      "size": 1078,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "message_logger.cpython-313.pyc",
+                      "type": "file",
+                      "size": 4491,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "proxy_headers.cpython-313.pyc",
+                      "type": "file",
+                      "size": 6020,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "wsgi.cpython-313.pyc",
+                      "type": "file",
+                      "size": 10167,
+                      "ext": "pyc"
+                    }
+                  ]
+                },
+                {
+                  "name": "__init__.py",
+                  "type": "file",
+                  "size": 0,
+                  "ext": "py"
+                },
+                {
+                  "name": "asgi2.py",
+                  "type": "file",
+                  "size": 394,
+                  "ext": "py",
+                  "preview": "from uvicorn._types import (\n    ASGI2Application,\n    ASGIReceiveCallable,\n    ASGISendCallable,\n  ..."
+                },
+                {
+                  "name": "message_logger.py",
+                  "type": "file",
+                  "size": 2859,
+                  "ext": "py"
+                },
+                {
+                  "name": "proxy_headers.py",
+                  "type": "file",
+                  "size": 5790,
+                  "ext": "py"
+                },
+                {
+                  "name": "wsgi.py",
+                  "type": "file",
+                  "size": 7105,
+                  "ext": "py"
+                }
+              ]
+            },
+            {
+              "name": "protocols",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "__pycache__",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "__init__.cpython-313.pyc",
+                      "type": "file",
+                      "size": 214,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "utils.cpython-313.pyc",
+                      "type": "file",
+                      "size": 3138,
+                      "ext": "pyc"
+                    }
+                  ]
+                },
+                {
+                  "name": "http",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "__pycache__",
+                      "type": "folder",
+                      "children": [
+                        {
+                          "name": "__init__.cpython-313.pyc",
+                          "type": "file",
+                          "size": 219,
+                          "ext": "pyc"
+                        },
+                        {
+                          "name": "auto.cpython-313.pyc",
+                          "type": "file",
+                          "size": 632,
+                          "ext": "pyc"
+                        },
+                        {
+                          "name": "flow_control.cpython-313.pyc",
+                          "type": "file",
+                          "size": 3184,
+                          "ext": "pyc"
+                        },
+                        {
+                          "name": "h11_impl.cpython-313.pyc",
+                          "type": "file",
+                          "size": 27835,
+                          "ext": "pyc"
+                        },
+                        {
+                          "name": "httptools_impl.cpython-313.pyc",
+                          "type": "file",
+                          "size": 30031,
+                          "ext": "pyc"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "__init__.py",
+                      "type": "file",
+                      "size": 0,
+                      "ext": "py"
+                    },
+                    {
+                      "name": "auto.py",
+                      "type": "file",
+                      "size": 403,
+                      "ext": "py",
+                      "preview": "from __future__ import annotations\n\nimport asyncio\n\nAutoHTTPProtocol: type[asyncio.Protocol]\ntry:\n  ..."
+                    },
+                    {
+                      "name": "flow_control.py",
+                      "type": "file",
+                      "size": 1701,
+                      "ext": "py",
+                      "preview": "import asyncio\n\nfrom uvicorn._types import ASGIReceiveCallable, ASGISendCallable, Scope\n\nCLOSE_HEADE..."
+                    },
+                    {
+                      "name": "h11_impl.py",
+                      "type": "file",
+                      "size": 21195,
+                      "ext": "py"
+                    },
+                    {
+                      "name": "httptools_impl.py",
+                      "type": "file",
+                      "size": 22286,
+                      "ext": "py"
+                    }
+                  ]
+                },
+                {
+                  "name": "websockets",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "__pycache__",
+                      "type": "folder",
+                      "children": [
+                        {
+                          "name": "__init__.cpython-313.pyc",
+                          "type": "file",
+                          "size": 225,
+                          "ext": "pyc"
+                        },
+                        {
+                          "name": "auto.cpython-313.pyc",
+                          "type": "file",
+                          "size": 838,
+                          "ext": "pyc"
+                        },
+                        {
+                          "name": "websockets_impl.cpython-313.pyc",
+                          "type": "file",
+                          "size": 20717,
+                          "ext": "pyc"
+                        },
+                        {
+                          "name": "websockets_sansio_impl.cpython-313.pyc",
+                          "type": "file",
+                          "size": 24988,
+                          "ext": "pyc"
+                        },
+                        {
+                          "name": "wsproto_impl.cpython-313.pyc",
+                          "type": "file",
+                          "size": 21386,
+                          "ext": "pyc"
+                        }
+                      ]
+                    },
+                    {
+                      "name": "__init__.py",
+                      "type": "file",
+                      "size": 0,
+                      "ext": "py"
+                    },
+                    {
+                      "name": "auto.py",
+                      "type": "file",
+                      "size": 590,
+                      "ext": "py",
+                      "preview": "from __future__ import annotations\n\nimport asyncio\nfrom collections.abc import Callable\n\nAutoWebSock..."
+                    },
+                    {
+                      "name": "websockets_impl.py",
+                      "type": "file",
+                      "size": 15412,
+                      "ext": "py"
+                    },
+                    {
+                      "name": "websockets_sansio_impl.py",
+                      "type": "file",
+                      "size": 17050,
+                      "ext": "py"
+                    },
+                    {
+                      "name": "wsproto_impl.py",
+                      "type": "file",
+                      "size": 15266,
+                      "ext": "py"
+                    }
+                  ]
+                },
+                {
+                  "name": "__init__.py",
+                  "type": "file",
+                  "size": 0,
+                  "ext": "py"
+                },
+                {
+                  "name": "utils.py",
+                  "type": "file",
+                  "size": 1847,
+                  "ext": "py",
+                  "preview": "from __future__ import annotations\n\nimport asyncio\nimport urllib.parse\n\nfrom uvicorn._types import W..."
+                }
+              ]
+            },
+            {
+              "name": "supervisors",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "__pycache__",
+                  "type": "folder",
+                  "children": [
+                    {
+                      "name": "__init__.cpython-313.pyc",
+                      "type": "file",
+                      "size": 794,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "basereload.cpython-313.pyc",
+                      "type": "file",
+                      "size": 7167,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "multiprocess.cpython-313.pyc",
+                      "type": "file",
+                      "size": 13793,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "statreload.cpython-313.pyc",
+                      "type": "file",
+                      "size": 2954,
+                      "ext": "pyc"
+                    },
+                    {
+                      "name": "watchfilesreload.cpython-313.pyc",
+                      "type": "file",
+                      "size": 4510,
+                      "ext": "pyc"
+                    }
+                  ]
+                },
+                {
+                  "name": "__init__.py",
+                  "type": "file",
+                  "size": 507,
+                  "ext": "py",
+                  "preview": "from __future__ import annotations\n\nfrom typing import TYPE_CHECKING\n\nfrom uvicorn.supervisors.baser..."
+                },
+                {
+                  "name": "basereload.py",
+                  "type": "file",
+                  "size": 4018,
+                  "ext": "py"
+                },
+                {
+                  "name": "multiprocess.py",
+                  "type": "file",
+                  "size": 7580,
+                  "ext": "py"
+                },
+                {
+                  "name": "statreload.py",
+                  "type": "file",
+                  "size": 1548,
+                  "ext": "py",
+                  "preview": "from __future__ import annotations\n\nimport logging\nfrom collections.abc import Callable, Iterator\nfr..."
+                },
+                {
+                  "name": "watchfilesreload.py",
+                  "type": "file",
+                  "size": 2868,
+                  "ext": "py"
+                }
+              ]
+            },
+            {
+              "name": "__init__.py",
+              "type": "file",
+              "size": 147,
+              "ext": "py",
+              "preview": "from uvicorn.config import Config\nfrom uvicorn.main import Server, main, run\n\n__version__ = \"0.40.0\"..."
+            },
+            {
+              "name": "__main__.py",
+              "type": "file",
+              "size": 62,
+              "ext": "py",
+              "preview": "import uvicorn\n\nif __name__ == \"__main__\":\n    uvicorn.main()\n"
+            },
+            {
+              "name": "_compat.py",
+              "type": "file",
+              "size": 2916,
+              "ext": "py"
+            },
+            {
+              "name": "_subprocess.py",
+              "type": "file",
+              "size": 2775,
+              "ext": "py"
+            },
+            {
+              "name": "_types.py",
+              "type": "file",
+              "size": 7677,
+              "ext": "py"
+            },
+            {
+              "name": "config.py",
+              "type": "file",
+              "size": 21984,
+              "ext": "py"
+            },
+            {
+              "name": "importer.py",
+              "type": "file",
+              "size": 1128,
+              "ext": "py",
+              "preview": "import importlib\nfrom typing import Any\n\n\nclass ImportFromStringError(Exception):\n    pass\n\n\ndef imp..."
+            },
+            {
+              "name": "logging.py",
+              "type": "file",
+              "size": 4235,
+              "ext": "py"
+            },
+            {
+              "name": "main.py",
+              "type": "file",
+              "size": 17744,
+              "ext": "py"
+            },
+            {
+              "name": "py.typed",
+              "type": "file",
+              "size": 1,
+              "ext": "typed"
+            },
+            {
+              "name": "server.py",
+              "type": "file",
+              "size": 13056,
+              "ext": "py"
+            },
+            {
+              "name": "workers.py",
+              "type": "file",
+              "size": 3873,
+              "ext": "py"
+            }
+          ]
+        },
+        {
+          "name": "uvicorn-0.40.0.dist-info",
+          "type": "folder",
+          "children": [
+            {
+              "name": "licenses",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "LICENSE.md",
+                  "type": "file",
+                  "size": 1526,
+                  "ext": "md",
+                  "preview": "Copyright © 2017-present, [Encode OSS Ltd](https://www.encode.io/).\nAll rights reserved.\n\nRedistribu..."
+                }
+              ]
+            },
+            {
+              "name": "entry_points.txt",
+              "type": "file",
+              "size": 46,
+              "ext": "txt",
+              "preview": "[console_scripts]\nuvicorn = uvicorn.main:main\n"
+            },
+            {
+              "name": "INSTALLER",
+              "type": "file",
+              "size": 4,
+              "ext": "file"
+            },
+            {
+              "name": "METADATA",
+              "type": "file",
+              "size": 6738,
+              "ext": "file"
+            },
+            {
+              "name": "RECORD",
+              "type": "file",
+              "size": 6388,
+              "ext": "file"
+            },
+            {
+              "name": "WHEEL",
+              "type": "file",
+              "size": 87,
+              "ext": "file",
+              "preview": "Wheel-Version: 1.0\nGenerator: hatchling 1.28.0\nRoot-Is-Purelib: true\nTag: py3-none-any\n"
+            }
+          ]
+        },
+        {
+          "name": "yaml",
+          "type": "folder",
+          "children": [
+            {
+              "name": "__pycache__",
+              "type": "folder",
+              "children": [
+                {
+                  "name": "__init__.cpython-313.pyc",
+                  "type": "file",
+                  "size": 15295,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "composer.cpython-313.pyc",
+                  "type": "file",
+                  "size": 6771,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "constructor.cpython-313.pyc",
+                  "type": "file",
+                  "size": 35712,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "cyaml.cpython-313.pyc",
+                  "type": "file",
+                  "size": 4730,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "dumper.cpython-313.pyc",
+                  "type": "file",
+                  "size": 2450,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "emitter.cpython-313.pyc",
+                  "type": "file",
+                  "size": 52587,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "error.cpython-313.pyc",
+                  "type": "file",
+                  "size": 4457,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "events.cpython-313.pyc",
+                  "type": "file",
+                  "size": 5103,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "loader.cpython-313.pyc",
+                  "type": "file",
+                  "size": 3660,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "nodes.cpython-313.pyc",
+                  "type": "file",
+                  "size": 2406,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "parser.cpython-313.pyc",
+                  "type": "file",
+                  "size": 25434,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "reader.cpython-313.pyc",
+                  "type": "file",
+                  "size": 9207,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "representer.cpython-313.pyc",
+                  "type": "file",
+                  "size": 17401,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "resolver.cpython-313.pyc",
+                  "type": "file",
+                  "size": 9369,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "scanner.cpython-313.pyc",
+                  "type": "file",
+                  "size": 51326,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "serializer.cpython-313.pyc",
+                  "type": "file",
+                  "size": 6354,
+                  "ext": "pyc"
+                },
+                {
+                  "name": "tokens.cpython-313.pyc",
+                  "type": "file",
+                  "size": 6272,
+                  "ext": "pyc"
+                }
+              ]
+            },
+            {
+              "name": "__init__.py",
+              "type": "file",
+              "size": 12311,
+              "ext": "py"
+            },
+            {
+              "name": "_yaml.cpython-313-darwin.so",
+              "type": "file",
+              "size": 381208,
+              "ext": "so"
+            },
+            {
+              "name": "composer.py",
+              "type": "file",
+              "size": 4883,
+              "ext": "py"
+            },
+            {
+              "name": "constructor.py",
+              "type": "file",
+              "size": 28639,
+              "ext": "py"
+            },
+            {
+              "name": "cyaml.py",
+              "type": "file",
+              "size": 3851,
+              "ext": "py"
+            },
+            {
+              "name": "dumper.py",
+              "type": "file",
+              "size": 2837,
+              "ext": "py"
+            },
+            {
+              "name": "emitter.py",
+              "type": "file",
+              "size": 43006,
+              "ext": "py"
+            },
+            {
+              "name": "error.py",
+              "type": "file",
+              "size": 2533,
+              "ext": "py"
+            },
+            {
+              "name": "events.py",
+              "type": "file",
+              "size": 2445,
+              "ext": "py"
+            },
+            {
+              "name": "loader.py",
+              "type": "file",
+              "size": 2061,
+              "ext": "py"
+            },
+            {
+              "name": "nodes.py",
+              "type": "file",
+              "size": 1440,
+              "ext": "py",
+              "preview": "\nclass Node(object):\n    def __init__(self, tag, value, start_mark, end_mark):\n        self.tag = ta..."
+            },
+            {
+              "name": "parser.py",
+              "type": "file",
+              "size": 25495,
+              "ext": "py"
+            },
+            {
+              "name": "reader.py",
+              "type": "file",
+              "size": 6794,
+              "ext": "py"
+            },
+            {
+              "name": "representer.py",
+              "type": "file",
+              "size": 14190,
+              "ext": "py"
+            },
+            {
+              "name": "resolver.py",
+              "type": "file",
+              "size": 9004,
+              "ext": "py"
+            },
+            {
+              "name": "scanner.py",
+              "type": "file",
+              "size": 51279,
+              "ext": "py"
+            },
+            {
+              "name": "serializer.py",
+              "type": "file",
+              "size": 4165,
+              "ext": "py"
+            },
+            {
+              "name": "tokens.py",
+              "type": "file",
+              "size": 2573,
+              "ext": "py"
+            }
+          ]
+        },
+        {
+          "name": "yaml-stubs",
+          "type": "folder",
+          "children": [
+            {
+              "name": "__init__.pyi",
+              "type": "file",
+              "size": 13609,
+              "ext": "pyi"
+            },
+            {
+              "name": "_yaml.pyi",
+              "type": "file",
+              "size": 1921,
+              "ext": "pyi"
+            },
+            {
+              "name": "composer.pyi",
+              "type": "file",
+              "size": 798,
+              "ext": "pyi"
+            },
+            {
+              "name": "constructor.pyi",
+              "type": "file",
+              "size": 5182,
+              "ext": "pyi"
+            },
+            {
+              "name": "cyaml.pyi",
+              "type": "file",
+              "size": 2535,
+              "ext": "pyi"
+            },
+            {
+              "name": "dumper.pyi",
+              "type": "file",
+              "size": 2643,
+              "ext": "pyi"
+            },
+            {
+              "name": "emitter.pyi",
+              "type": "file",
+              "size": 5322,
+              "ext": "pyi"
+            },
+            {
+              "name": "error.pyi",
+              "type": "file",
+              "size": 801,
+              "ext": "pyi"
+            },
+            {
+              "name": "events.pyi",
+              "type": "file",
+              "size": 1683,
+              "ext": "pyi"
+            },
+            {
+              "name": "loader.pyi",
+              "type": "file",
+              "size": 1231,
+              "ext": "pyi"
+            },
+            {
+              "name": "METADATA.toml",
+              "type": "file",
+              "size": 73,
+              "ext": "toml",
+              "preview": "version = \"6.0.*\"\nupstream_repository = \"https://github.com/yaml/pyyaml\"\n"
+            },
+            {
+              "name": "nodes.pyi",
+              "type": "file",
+              "size": 1032,
+              "ext": "pyi"
+            },
+            {
+              "name": "parser.pyi",
+              "type": "file",
+              "size": 1709,
+              "ext": "pyi"
+            },
+            {
+              "name": "py.typed",
+              "type": "file",
+              "size": 0,
+              "ext": "typed"
+            },
+            {
+              "name": "reader.pyi",
+              "type": "file",
+              "size": 1075,
+              "ext": "pyi"
+            },
+            {
+              "name": "representer.pyi",
+              "type": "file",
+              "size": 3425,
+              "ext": "pyi"
+            },
+            {
+              "name": "resolver.pyi",
+              "type": "file",
+              "size": 827,
+              "ext": "pyi"
+            },
+            {
+              "name": "scanner.pyi",
+              "type": "file",
+              "size": 3612,
+              "ext": "pyi"
+            },
+            {
+              "name": "serializer.pyi",
+              "type": "file",
+              "size": 774,
+              "ext": "pyi"
+            },
+            {
+              "name": "tokens.pyi",
+              "type": "file",
+              "size": 1796,
+              "ext": "pyi"
+            }
+          ]
+        },
+        {
+          "name": "_cffi_backend.cpython-313-darwin.so",
+          "type": "file",
+          "size": 212944,
+          "ext": "so"
+        },
+        {
+          "name": "six.py",
+          "type": "file",
+          "size": 34703,
+          "ext": "py"
+        },
+        {
+          "name": "typing_extensions.py",
+          "type": "file",
+          "size": 160429,
+          "ext": "py"
         }
       ]
     },

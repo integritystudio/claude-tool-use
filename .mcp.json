@@ -1,0 +1,21 @@
+{
+  "mcpServers": {
+    "token-audit": {
+      "command": "python",
+      "args": ["-m", "token_audit.server"],
+      "env": {
+        "PYTHONPATH": "/Users/alyshialedlie/claude-tool-use/mcp-packages"
+      }
+    },
+    "log-analyzer": {
+      "command": "python",
+      "args": ["-m", "log_analyzer_mcp.log_analyzer_mcp_server"],
+      "env": {
+        "PYTHONPATH": "/Users/alyshialedlie/claude-tool-use/mcp-packages",
+        "PYTHONUNBUFFERED": "1",
+        "PYTHONIOENCODING": "utf-8",
+        "MCP_LOG_LEVEL": "INFO"
+      }
+    }
+  }
+}
